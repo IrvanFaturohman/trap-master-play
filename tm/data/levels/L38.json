@@ -1,0 +1,7958 @@
+{
+ "level": 38,
+ "sources": {
+  "asset": "Resources/levels/Level_38.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_38.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "City Center",
+ "trapClass": [
+  "BarGateTrap"
+ ],
+ "trapCount": 8,
+ "config_effective": {
+  "targetMoney": 4000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 7500,
+  "TrapOffset": 13,
+  "EnemiesOffset": 13,
+  "SpeedOffset": 12,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 20,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.02,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 9,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.0075,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 25000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 400,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 2
+  },
+  "source": "LevelSettings.txt[38] over asset",
+  "blobRewardsOfGoals": [
+   80000,
+   400000,
+   30000,
+   200000,
+   200000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_6.asset",
+  "targetMoney": 10000000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 2
+  },
+  "background": "Texture2D/Background_3.png",
+  "backgroundFogColor": {
+   "r": 0.373,
+   "g": 0.835,
+   "b": 0.075,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_38.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "bd7e0c094fd0341108e570ca48b977ff",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.02,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 9,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.0075,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 25000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 400,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_38#LevelView",
+  "trapViews": [
+   "Level_38/Traps/BarGateTrap_1#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_2#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_3#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_4#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_5#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_6#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_7#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_8#BarGateTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_38/Traps/BarGateTrap_7#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_4#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_3#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_8#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_2#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_1#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_5#BarGateTrap",
+   "Level_38/Traps/BarGateTrap_6#BarGateTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_38/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -2.03,
+      0.54,
+      -1.04
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -2.03,
+      0.54,
+      -1.04
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_38/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.922,
+      0.54,
+      -3.089
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.922,
+      0.54,
+      -3.089
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_38/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      -2.038,
+      0.54,
+      -2.227
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -2.038,
+      0.54,
+      -2.227
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_38/MysteryBoxPositions/Position_4",
+    "world": {
+     "pos": [
+      -0.56,
+      0.54,
+      -0.19
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.56,
+      0.54,
+      -0.19
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [],
+  "pipeParents": [
+   {
+    "path": "Level_38/PipePoint",
+    "world": {
+     "pos": [
+      -5.71,
+      0.61,
+      1.108
+     ],
+     "rot": [
+      0.0,
+      -0.707106,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      0.0,
+      270.0002,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -5.71,
+      0.61,
+      1.108
+     ],
+     "rot": [
+      0.0,
+      -0.707106,
+      0.0,
+      0.707108
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_38/DoubleGate",
+   "world": {
+    "pos": [
+     -4.38,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.38,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_38/Traps/BarGateTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_38/Traps/BarGateTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     1.15,
+     0.1831,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.15,
+     0.1831,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_38/Traps/BarGateTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -2.228,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.228,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_38/Traps/BarGateTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -2.97799,
+     0.1831,
+     2.347
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.97799,
+     0.1831,
+     2.347
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_38/Traps/BarGateTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     1.15,
+     0.1831,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.15,
+     0.1831,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "path": "Level_38/Traps/BarGateTrap_6",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_6#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "path": "Level_38/Traps/BarGateTrap_7",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_7#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -3.728,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.728,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 7,
+   "path": "Level_38/Traps/BarGateTrap_8",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_38/Traps/BarGateTrap_8#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.09,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "EnemyDirection": [
+   {
+    "path": "Level_38/Directions/Direction_1",
+    "world": {
+     "pos": [
+      -4.17,
+      0.0,
+      1.69
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136499726237547504,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       -1.0319
+      ],
+      "radius": 1.5,
+      "height": 5.6081347,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Directions/Direction_2",
+    "world": {
+     "pos": [
+      -0.04,
+      0.0,
+      -2.26
+     ],
+     "rot": [
+      0.0,
+      1.0,
+      0.0,
+      1e-06
+     ],
+     "euler": [
+      0.0,
+      179.9998,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136703931505913403,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       -1.0319
+      ],
+      "radius": 1.5,
+      "height": 5.6081347,
+      "direction": 2
+     }
+    ]
+   }
+  ],
+  "Finish": [
+   {
+    "path": "Level_38/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65415925016355036,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_38/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65085275382694935,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.65841
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.68317
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Ground_1",
+    "world": {
+     "pos": [
+      -5.5,
+      -0.321,
+      1.22
+     ],
+     "rot": [
+      0.0,
+      -0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65194081240383615,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -2.63857
+      ],
+      "size": [
+       2.74173,
+       17.0,
+       4.72286
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_38/Traps/BarGateTrap_1/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -1.09275,
+      0.77435,
+      -2.87365
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136533803739292891,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_2/Gate/Hitbox",
+    "world": {
+     "pos": [
+      1.09275,
+      0.77435,
+      -2.37635
+     ],
+     "rot": [
+      0.707107,
+      0.707107,
+      0.0,
+      0.0
+     ],
+     "euler": [
+      0.0,
+      180.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136295428814336086,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_3/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -2.35435,
+      0.77435,
+      0.10425
+     ],
+     "rot": [
+      -0.499999,
+      -0.499999,
+      0.500001,
+      0.500001
+     ],
+     "euler": [
+      0.0,
+      270.0002,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136056248600188076,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_4/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -2.85165,
+      0.77435,
+      2.28975
+     ],
+     "rot": [
+      0.500001,
+      0.500001,
+      0.499999,
+      0.499999
+     ],
+     "euler": [
+      0.0,
+      90.0002,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136092105871539913,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_5/Gate/Hitbox",
+    "world": {
+     "pos": [
+      1.09275,
+      0.77435,
+      -3.87635
+     ],
+     "rot": [
+      0.707107,
+      0.707107,
+      0.0,
+      0.0
+     ],
+     "euler": [
+      0.0,
+      180.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136955215445487071,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_6/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -1.09275,
+      0.77435,
+      -4.37365
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136258471659221418,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_7/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -3.85435,
+      0.77435,
+      0.10425
+     ],
+     "rot": [
+      -0.499999,
+      -0.499999,
+      0.500001,
+      0.500001
+     ],
+     "euler": [
+      0.0,
+      270.0002,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136195931274935818,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_38/Traps/BarGateTrap_8/Gate/Hitbox",
+    "world": {
+     "pos": [
+      -1.09275,
+      0.77435,
+      -1.37365
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136689224686120706,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0.2,
+      "height": 2.2,
+      "direction": 0
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10210
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/base.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_D.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_E.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_G.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_base_decorated_bushes.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_base_decorated_trees.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_straight_decorated.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/road_corner_curved.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_38",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114534704304255049,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_38/Traps/BarGateTrap_1#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_2#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_3#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_4#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_5#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_6#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_7#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_8#BarGateTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_38/Traps/BarGateTrap_7#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_4#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_3#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_8#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_2#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_1#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_5#BarGateTrap",
+         "Level_38/Traps/BarGateTrap_6#BarGateTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_38/MysteryBoxPositions/Position_1",
+        "Level_38/MysteryBoxPositions/Position_2",
+        "Level_38/MysteryBoxPositions/Position_3",
+        "Level_38/MysteryBoxPositions/Position_4"
+       ]
+      },
+      "spawnPoints": [],
+      "pipeParents": [
+       "Level_38/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_38/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041320612064254,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23228214996573471,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65641204913154593,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.5,
+     0.0,
+     15.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.5,
+     0.0,
+     15.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33989434536655964,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23329075794784248,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65422702022971346,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33401429660297866,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23000342987746139,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65545683990359770,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Boundaries/Cube_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.5,
+     0.0,
+     -12.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.5,
+     0.0,
+     -12.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33119337346424409,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23562080017223558,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65129116114662800,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/City/base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33105912343260855,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23350143044813081,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33951712121405908,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23851449666512103,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.0,
+     0.08,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.0,
+     -0.05,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33543584136297381,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23544837802452058,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.046,
+     0.08,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     1e-06
+    ],
+    "euler": [
+     0.0,
+     180.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.046,
+     -0.05,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     1e-06
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33777414246829702,
+     "mesh": {
+      "asset": "Mesh/building_G.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23463579974499585,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_13",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     7.174
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     7.174
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704877758540679,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23632179142322292,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_14",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.046,
+     0.08,
+     7.174
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.046,
+     -0.05,
+     7.174
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33364392939154294,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23696792502030561,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_15",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.046,
+     0.08,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.046,
+     -0.05,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33870947366518887,
+     "mesh": {
+      "asset": "Mesh/building_E.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23505682267929073,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_17",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.046,
+     0.08,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.046,
+     -0.05,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33559203567323380,
+     "mesh": {
+      "asset": "Mesh/park_base_decorated_trees.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23580109562975512,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_19",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.046,
+     0.08,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.046,
+     -0.05,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33766709239876273,
+     "mesh": {
+      "asset": "Mesh/park_base_decorated_bushes.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23260713349338959,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33825818419884204,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23403529848822963,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     -1.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     -1.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33573076885614623,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23681721672847880,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     -4.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     -4.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33382656168358062,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23117307842306080,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     -7.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     -7.823
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33085134620244786,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23044586276341600,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     1.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     1.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33350408777337066,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23016782227057731,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.954,
+     0.08,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     2.954,
+     -0.05,
+     4.177
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33231676679060417,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23934287144746640,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0,
+     0.08,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0,
+     -0.05,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33952320105404285,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23329446674688094,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/base_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0,
+     0.08,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0,
+     -0.05,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33246887588868771,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23510800835404288,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/building_D",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.01532,
+     0.08,
+     -4.73468
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.01532,
+     -0.05,
+     -4.73468
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33838352681112328,
+     "mesh": {
+      "asset": "Mesh/building_D.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23993076962757715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -7.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -7.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370485308309611,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23949593803130734,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -10.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -10.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041287186795109,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23290791091168379,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -1.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -1.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222568209840903,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23519819979147140,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -4.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -4.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33458735412797113,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23894225446638996,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.04,
+     0.08,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.04,
+     -0.05,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33322008579206753,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23083485975560739,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33869737159367836,
+     "mesh": {
+      "asset": "Mesh/road_corner_curved.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23071519224935516,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.04,
+     0.08,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.04,
+     -0.05,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33616352195932608,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23250083484182041,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/City/road_straight_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.04,
+     0.08,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.04,
+     -0.05,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33020314340478216,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23691570808825369,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Directions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/Directions/Direction_1",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.0,
+     1.69
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.17,
+     0.0,
+     1.69
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136499726237547504,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      -1.0319
+     ],
+     "radius": 1.5,
+     "height": 5.6081347,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Directions/Direction_2",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.0,
+     -2.26
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     1e-06
+    ],
+    "euler": [
+     0.0,
+     179.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     0.0,
+     -2.26
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     1e-06
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136703931505913403,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      -1.0319
+     ],
+     "radius": 1.5,
+     "height": 5.6081347,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_38/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.38,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.38,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65415925016355036,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65085275382694935,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.65841
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.68317
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Ground_1",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.5,
+     -0.321,
+     1.22
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.5,
+     -0.321,
+     1.22
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65194081240383615,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -2.63857
+     ],
+     "size": [
+      2.74173,
+      17.0,
+      4.72286
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.03,
+     0.54,
+     -1.04
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.03,
+     0.54,
+     -1.04
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.922,
+     0.54,
+     -3.089
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.922,
+     0.54,
+     -3.089
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.038,
+     0.54,
+     -2.227
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.038,
+     0.54,
+     -2.227
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/MysteryBoxPositions/Position_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.56,
+     0.54,
+     -0.19
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.56,
+     0.54,
+     -0.19
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.71,
+     0.61,
+     1.108
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.71,
+     0.61,
+     1.108
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/Plane",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33729442808604298,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23055535033279528,
+     "materials": [
+      {
+       "asset": "Material/Ground 14.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64094283985748868,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/RoadShadingDecal_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.189,
+     -5.91
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     18.0,
+     3.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.189,
+     -5.91
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     18.0,
+     3.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33964469411310401,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10210
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23208575754630950,
+     "materials": [
+      {
+       "asset": "Material/GroundGradientRoundedQuad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/RoadShadingDecal_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.22,
+     0.189,
+     1.13
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "euler": [
+     90.0,
+     180.0001,
+     0.0
+    ],
+    "lossyScale": [
+     15.0,
+     3.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.22,
+     0.189,
+     1.13
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "scale": [
+     15.0,
+     3.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33356319167443197,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10210
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23976365255789935,
+     "materials": [
+      {
+       "asset": "Material/GroundGradientRoundedQuad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0521,
+     0.34,
+     -4.6447
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0521,
+     0.34,
+     -4.6447
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212806657225351454,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.57254905
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95123703392571528,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114855482821919830,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_1/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.1499,
+     0.1831,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33785330607447594,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23007513189690300,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65690175861776792,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_1/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.164,
+     0.6551,
+     -2.9089
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33150646884989824,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23880619614767448,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65167524263268962,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_1/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.09275,
+     0.77435,
+     -2.87365
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136533803739292891,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1971,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212190181876552715,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.15,
+     0.1831,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.15,
+     0.1831,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95617365563186364,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114998874197659892,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_2/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.1499,
+     0.1831,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33386943702330414,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23066778049879928,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65824317463469755,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_2/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.164,
+     0.6551,
+     -2.3411
+    ],
+    "rot": [
+     0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33611579644537198,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23328299215684997,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65633296557590524,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_2/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.09275,
+     0.77435,
+     -2.37635
+    ],
+    "rot": [
+     0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136295428814336086,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.15,
+     0.1971,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212275549183895104,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.228,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.228,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95187454977326620,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114091882994760266,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_3/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.228,
+     0.1831,
+     0.0471
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33695600491528212,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23358105479016104,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65291632710222552,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_3/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.3191,
+     0.6551,
+     0.033
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     0.500001,
+     0.500001
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33592460329389196,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23771092198208730,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65570723408815475,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_3/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.35435,
+     0.77435,
+     0.10425
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     0.500001,
+     0.500001
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136056248600188076,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.228,
+     0.1971,
+     0.047
+    ],
+    "rot": [
+     -0.500001,
+     -0.499999,
+     -0.499999,
+     0.500001
+    ],
+    "euler": [
+     270.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212649986673806370,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.97799,
+     0.1831,
+     2.347
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.97799,
+     0.1831,
+     2.347
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95038333544927157,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114146109142143575,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_4/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.978,
+     0.1831,
+     2.3469
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33589652054545887,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23220697728379336,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65817325062191328,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_4/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.88689,
+     0.6551,
+     2.361
+    ],
+    "rot": [
+     0.500001,
+     0.500001,
+     0.499999,
+     0.499999
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33896002537488308,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23592664909728774,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65017892387517381,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_4/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.85165,
+     0.77435,
+     2.28975
+    ],
+    "rot": [
+     0.500001,
+     0.500001,
+     0.499999,
+     0.499999
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136092105871539913,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.97799,
+     0.1971,
+     2.347
+    ],
+    "rot": [
+     -0.499999,
+     0.500001,
+     0.500001,
+     0.499999
+    ],
+    "euler": [
+     270.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212177930474251431,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.15,
+     0.1831,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.15,
+     0.1831,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95271925019662038,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114499517081926786,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_5/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.1499,
+     0.1831,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33941304181978548,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23056905764334025,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65274303670636188,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_5/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.164,
+     0.6551,
+     -3.8411
+    ],
+    "rot": [
+     0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33320592835458227,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23911997548769506,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65689010887986514,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_5/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.09275,
+     0.77435,
+     -3.87635
+    ],
+    "rot": [
+     0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136955215445487071,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_5/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.15,
+     0.1971,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212024252914577434,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95156371104904051,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114083739296819378,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_6#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_6/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.1499,
+     0.1831,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33842968619709538,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23995682140751655,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65293198502218400,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_6/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.164,
+     0.6551,
+     -4.4089
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33181586030114204,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23321827775029018,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65012617856089587,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_6/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.09275,
+     0.77435,
+     -4.37365
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136258471659221418,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_6/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1971,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212784622213810434,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -3.728,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.728,
+     0.1831,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95325787665662832,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114066338149260220,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_7#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_7/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.728,
+     0.1831,
+     0.0471
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33112815651697755,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23201141531394087,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65416529295595857,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_7/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.8191,
+     0.6551,
+     0.033
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     0.500001,
+     0.500001
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33148353818683595,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23016852445014956,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65932862749439555,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_7/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.85435,
+     0.77435,
+     0.10425
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     0.500001,
+     0.500001
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136195931274935818,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_7/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.728,
+     0.1971,
+     0.047
+    ],
+    "rot": [
+     -0.500001,
+     -0.499999,
+     -0.499999,
+     0.500001
+    ],
+    "euler": [
+     270.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212904079258986964,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.1831,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95845025230388998,
+     "controller": {
+      "asset": "AnimatorController/BarGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BarGateTrap",
+     "fileID": 114527248355756736,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_38/Traps/BarGateTrap_8#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.09,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_8/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.1499,
+     0.1831,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0001,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.63413,
+     0.63413,
+     0.63413
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33965908813272002,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23429401810989285,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65450889307774998,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.00388,
+      0.46204,
+      -0.00634
+     ],
+     "size": [
+      0.33905,
+      0.92408,
+      0.31601
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_8/Gate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.164,
+     0.6551,
+     -1.4089
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.014,
+     0.472,
+     0.0911
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33484755779879834,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_boomgate_boom_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23697715728111791,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_boomgate_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65353891062718048,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.02245,
+      -0.00334,
+      0.07026
+     ],
+     "size": [
+      2.34072,
+      0.11143,
+      0.06185
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_8/Gate/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.09275,
+     0.77435,
+     -1.37365
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.159,
+     -0.095,
+     0.047
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136689224686120706,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0.2,
+     "height": 2.2,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_38/Traps/BarGateTrap_8/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.15,
+     0.1971,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.014,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212133854062310043,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.68235296
+     }
+    }
+   ]
+  }
+ ]
+}

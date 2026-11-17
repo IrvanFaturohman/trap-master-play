@@ -1,0 +1,5425 @@
+{
+ "level": 3,
+ "sources": {
+  "asset": "Resources/levels/Level_3.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_3.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "SpikeGateTrap"
+ ],
+ "trapCount": 3,
+ "config_effective": {
+  "targetMoney": 60000.0,
+  "goldReward": 10.0,
+  "bricksReward": 0,
+  "TrapOffset": 4,
+  "EnemiesOffset": 4,
+  "SpeedOffset": 6,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "goals": [],
+  "packRewards": {
+   "commonPacks": 1,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[3] over asset",
+  "blobRewardsOfGoals": []
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 200000.0,
+  "goldReward": 15.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 1,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_2.png",
+  "backgroundFogColor": {
+   "r": 0.706,
+   "g": 0.078,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 2,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 1,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_3.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "dc9690b5b3a355f4c8445f45d9bf1444",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_3#LevelView",
+  "trapViews": [
+   "Level_3/Traps/SpikeGateTrap_1#SpikeGateTrap",
+   "Level_3/Traps/SpikeGateTrap_2#SpikeGateTrap",
+   "Level_3/Traps/SpikeGateTrap_3#SpikeGateTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_3/Traps/SpikeGateTrap_3#SpikeGateTrap",
+   "Level_3/Traps/SpikeGateTrap_1#SpikeGateTrap",
+   "Level_3/Traps/SpikeGateTrap_2#SpikeGateTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_3/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.83,
+      0.54,
+      0.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.83,
+      0.54,
+      0.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_3/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      -0.78,
+      0.54,
+      -4.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.78,
+      0.54,
+      -4.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_3/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_3/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_3/Traps/SpikeGateTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_3/Traps/SpikeGateTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/GateTrap.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_3/Traps/SpikeGateTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_3/Traps/SpikeGateTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/GateTrap.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_3/Traps/SpikeGateTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_3/Traps/SpikeGateTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/GateTrap.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_3/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65181586030114204,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_3/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65924050743934937,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_1/Killbox",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -2.34239
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65264357844037074,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.000/Killbox_2",
+    "world": {
+     "pos": [
+      1.2623,
+      0.75,
+      -2.34239
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65630643969539439,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.002/Killbox_2",
+    "world": {
+     "pos": [
+      -1.8171,
+      0.75,
+      -2.34239
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65651560128206891,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_2/Killbox",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -1.178
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65561126880652180,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.000/Killbox_2",
+    "world": {
+     "pos": [
+      1.2623,
+      0.75,
+      -1.178
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65785330607447594,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.002/Killbox_2",
+    "world": {
+     "pos": [
+      -1.8171,
+      0.75,
+      -1.178
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65633296557590524,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_3/Killbox",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -3.504
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65901155395665742,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.000/Killbox_2",
+    "world": {
+     "pos": [
+      1.2623,
+      0.75,
+      -3.504
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65896002537488308,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.002/Killbox_2",
+    "world": {
+     "pos": [
+      -1.8171,
+      0.75,
+      -3.504
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65294885792020211,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.24638,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.35116,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   }
+  ],
+  "Kill": [
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_1/Killbox_3",
+    "world": {
+     "pos": [
+      1.7623,
+      0.75,
+      -2.34239
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65658330495870062,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.10097,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.64198,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_1/Killbox_3",
+    "world": {
+     "pos": [
+      -2.3171,
+      0.75,
+      -2.34239
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65121005239445321,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.42792,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.71424,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_2/Killbox_3",
+    "world": {
+     "pos": [
+      1.7623,
+      0.75,
+      -1.178
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65528911807818478,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.10097,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.64198,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_2/Killbox_3",
+    "world": {
+     "pos": [
+      -2.3171,
+      0.75,
+      -1.178
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65091882994760266,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.42792,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.71424,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_3/Killbox_3",
+    "world": {
+     "pos": [
+      1.7623,
+      0.75,
+      -3.504
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65738892719839630,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.10097,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.64198,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_3/Traps/SpikeGateTrap_3/Killbox_3",
+    "world": {
+     "pos": [
+      -2.3171,
+      0.75,
+      -3.504
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65056905764334025,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.42792,
+       0.0,
+       0.0
+      ],
+      "size": [
+       0.71424,
+       1.0,
+       0.83447
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle 9.006.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.000.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.002.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.003.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ground.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114000955326284023,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_3/Traps/SpikeGateTrap_1#SpikeGateTrap",
+         "Level_3/Traps/SpikeGateTrap_2#SpikeGateTrap",
+         "Level_3/Traps/SpikeGateTrap_3#SpikeGateTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_3/Traps/SpikeGateTrap_3#SpikeGateTrap",
+         "Level_3/Traps/SpikeGateTrap_1#SpikeGateTrap",
+         "Level_3/Traps/SpikeGateTrap_2#SpikeGateTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_3/MysteryBoxPositions/Position_1",
+        "Level_3/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_3/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_3/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Boundaries/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703247130969877,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23258471659221418,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65477794280538272,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      1.5,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Boundaries/Collider_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33995682140751655,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23293198502218400,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65603576887721950,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.5,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Boundaries/Collider_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33132299442727904,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23325787665662832,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65066338149260220,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65181586030114204,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33045458335737618,
+     "mesh": {
+      "asset": "Mesh/Ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23722951815217645,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65924050743934937,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.83,
+     0.54,
+     0.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.83,
+     0.54,
+     0.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.78,
+     0.54,
+     -4.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.78,
+     0.54,
+     -4.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95043919389829319,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114743393880019028,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_3/Traps/SpikeGateTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/GateTrap.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Killbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65264357844037074,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.7623,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.7623,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65658330495870062,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.10097,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.64198,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.3171,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.3171,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65121005239445321,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.42792,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.71424,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4879,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33026196548002408,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23572839542275309,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65279359913592680,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.32889,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.41578,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.000/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.2623,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.2256,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65630643969539439,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.000/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.8379,
+     0.26,
+     -2.34239
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212574304967836189,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.000/Obstacle 9.006",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.47227,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.01563,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33149520701623706,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle 9.006.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23292246286975720,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.001",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33393105877652414,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23799762105739359,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.4879,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33574190619683098,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23552309709192268,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65571878917323452,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.29978,
+      0.0,
+      0.00179
+     ],
+     "size": [
+      0.46413,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.002/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8171,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.3292,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65651560128206891,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.002/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8379,
+     0.26,
+     -2.34239
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212208575754630950,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Obstacle-5.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33356319167443197,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23976365255789935,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.34239
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.84,
+     0.26,
+     -2.34239
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212085275382694935,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_1/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84,
+     0.26,
+     -2.34239
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212194081240383615,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95770005084341472,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114123703392571528,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_3/Traps/SpikeGateTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/GateTrap.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Killbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65561126880652180,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.7623,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.7623,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65528911807818478,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.10097,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.64198,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.3171,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.3171,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65091882994760266,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.42792,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.71424,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4879,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33492842699383957,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23150646884989824,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65880619614767448,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.32889,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.41578,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.000/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.2623,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.2256,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65785330607447594,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.000/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.8379,
+     0.26,
+     -1.178
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212690175861776792,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.000/Obstacle 9.006",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.47227,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.01563,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33641631609468814,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle 9.006.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23533803739292891,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.001",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33190181876552715,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23240571728440943,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.4879,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33998874197659892,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23408345039935966,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65611579644537198,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.29978,
+      0.0,
+      0.00179
+     ],
+     "size": [
+      0.46413,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.002/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8171,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.3292,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65633296557590524,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.002/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8379,
+     0.26,
+     -1.178
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212295428814336086,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Obstacle-5.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33386943702330414,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23066778049879928,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.178
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.84,
+     0.26,
+     -1.178
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212771092198208730,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_2/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84,
+     0.26,
+     -1.178
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212011164340880974,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95992816746925483,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114695600491528212,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_3/Traps/SpikeGateTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/GateTrap.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Killbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65901155395665742,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.7623,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.7623,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65738892719839630,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.10097,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.64198,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.3171,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.3171,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65056905764334025,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.42792,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.71424,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4879,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33291632710222552,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23433013960508438,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65649986673806370,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.32889,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.41578,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.000/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.2623,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.2256,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65896002537488308,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.000/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.8379,
+     0.26,
+     -3.504
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32818,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212017892387517381,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.000/Obstacle 9.006",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.47227,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.01563,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33038333544927157,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle 9.006.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23146109142143575,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.001",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33092105871539913,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23708180620337799,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.4879,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.4879,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33220697728379336,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23817325062191328,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65831874417830518,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.29978,
+      0.0,
+      0.00179
+     ],
+     "size": [
+      0.46413,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.002/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8171,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.3292,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65294885792020211,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.24638,
+      0.0,
+      0.0
+     ],
+     "size": [
+      0.35116,
+      1.0,
+      0.83447
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.002/MoveShadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.8379,
+     0.26,
+     -3.504
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.35,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.27422,
+     0.32817,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212499517081926786,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.39607844
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Obstacle-5.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33320592835458227,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-5.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23911997548769506,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.504
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.84,
+     0.26,
+     -3.504
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212024252914577434,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_3/Traps/SpikeGateTrap_3/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84,
+     0.26,
+     -3.504
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212156371104904051,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  }
+ ]
+}

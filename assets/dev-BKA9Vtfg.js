@@ -1,0 +1,5 @@
+function e(e,t,n,r,i){let a=document.createElement(`div`);a.className=`dev`,a.innerHTML=`
+    <select id="dv-l">${Array.from({length:60},(e,t)=>`<option value="${t+1}">Stage ${t+1}</option>`).join(``)}</select>
+    <button id="dv-go">go</button>
+    <button id="dv-b">+blobs</button><button id="dv-g">+100 gold</button><button id="dv-c">complete</button>
+    <button id="dv-r">reset save</button>`,e.parentElement.appendChild(a);let o=a.querySelector(`#dv-l`);o.value=String(n.stage),a.querySelector(`#dv-go`).addEventListener(`click`,()=>{n.stage=+o.value,n.level=null,n.highest=Math.max(n.highest,Math.min(40,n.stage)),n.stage>1&&(n.tutorialDone=!0),r(),i()}),a.querySelector(`#dv-b`).addEventListener(`click`,()=>{let e=t();e.wallet+=Math.max(1e3,e.target/10)}),a.querySelector(`#dv-g`).addEventListener(`click`,()=>{n.gold+=100,r()}),a.querySelector(`#dv-c`).addEventListener(`click`,()=>{let e=t();e.addBlobs(Math.max(0,e.target-e.earned))}),a.querySelector(`#dv-r`).addEventListener(`click`,()=>{localStorage.removeItem(`tm_save_v1`),location.href=location.pathname+`?dev`})}export{e as devPanel};

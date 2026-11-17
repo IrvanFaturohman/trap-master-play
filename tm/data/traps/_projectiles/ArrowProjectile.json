@@ -1,0 +1,285 @@
+[
+ {
+  "name": "ArrowProjectile",
+  "tag": "Axe",
+  "layer": 0,
+  "active": 1,
+  "pos": [
+   0,
+   0,
+   0
+  ],
+  "rotQ": [
+   0,
+   0.7071068,
+   0,
+   0.7071068
+  ],
+  "euler": [
+   0.0,
+   90.0,
+   0.0
+  ],
+  "scale": [
+   0.5,
+   0.5,
+   0.2
+  ],
+  "components": [
+   {
+    "type": "Rigidbody",
+    "Mass": 1,
+    "UseGravity": 0,
+    "IsKinematic": 0,
+    "Interpolate": 1,
+    "Constraints": 0,
+    "CollisionDetection": 0
+   },
+   {
+    "type": "BoxCollider",
+    "IsTrigger": 1,
+    "Enabled": 1,
+    "Size": {
+     "x": 1.3755379,
+     "y": 0.5317919,
+     "z": 1
+    },
+    "Center": {
+     "x": 0,
+     "y": -0.029106155,
+     "z": 0
+    }
+   },
+   {
+    "type": "ArrowProjectile",
+    "enabled": 1,
+    "fields": {
+     "rb": "ArrowProjectile:Rigidbody",
+     "speed": 10
+    }
+   }
+  ],
+  "children": [
+   {
+    "name": "Arrow",
+    "tag": "Axe",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     -0.32399988,
+     0.10700011,
+     -0.6200005
+    ],
+    "rotQ": [
+     -5.6843412e-14,
+     1,
+     -3.2584137e-07,
+     2.0861623e-07
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     -0.0
+    ],
+    "scale": [
+     1,
+     1,
+     2
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-16.009.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat#2100000",
+       "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "Arrow",
+    "tag": "Axe",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0.323,
+     0.10700011,
+     -0.6200003
+    ],
+    "rotQ": [
+     -5.6843412e-14,
+     1,
+     -3.2584137e-07,
+     2.0861623e-07
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     -0.0
+    ],
+    "scale": [
+     1,
+     1,
+     2
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-16.010.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat#2100000",
+       "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "Arrow",
+    "tag": "Axe",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0.001999885,
+     -0.181,
+     -0.6200004
+    ],
+    "rotQ": [
+     -5.6843412e-14,
+     1,
+     -3.2584137e-07,
+     2.0861623e-07
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     -0.0
+    ],
+    "scale": [
+     1,
+     1,
+     2
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-16.011.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat#2100000",
+       "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "Arrow",
+    "tag": "Axe",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0.594,
+     -0.181,
+     -0.62000024
+    ],
+    "rotQ": [
+     -5.6843412e-14,
+     1,
+     -3.2584137e-07,
+     2.0861623e-07
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     -0.0
+    ],
+    "scale": [
+     1,
+     1,
+     2
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-16.012.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat#2100000",
+       "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "Arrow",
+    "tag": "Axe",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     -0.572,
+     -0.181,
+     -0.6200006
+    ],
+    "rotQ": [
+     -5.6843412e-14,
+     1,
+     -3.2584137e-07,
+     2.0861623e-07
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     -0.0
+    ],
+    "scale": [
+     1,
+     1,
+     2
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-16.013.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat#2100000",
+       "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   }
+  ]
+ }
+]

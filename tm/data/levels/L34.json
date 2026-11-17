@@ -1,0 +1,5913 @@
+{
+ "level": 34,
+ "sources": {
+  "asset": "Resources/levels/Level_34.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_34.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Frozen Reach",
+ "trapClass": [
+  "IceThrowerTrap"
+ ],
+ "trapCount": 6,
+ "config_effective": {
+  "targetMoney": 2500000.0,
+  "goldReward": 300.0,
+  "bricksReward": 4000,
+  "TrapOffset": 13,
+  "EnemiesOffset": 14,
+  "SpeedOffset": 11,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.01,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 1
+  },
+  "source": "LevelSettings.txt[34] over asset",
+  "blobRewardsOfGoals": [
+   62500,
+   100000,
+   100000,
+   100000,
+   25000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_7.asset",
+  "targetMoney": 5000000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 1
+  },
+  "background": "Texture2D/Background_6.png",
+  "backgroundFogColor": {
+   "r": 0.016,
+   "g": 0.129,
+   "b": 0.243,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_34.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "1f350b4d976404c848efd6f9aa413b01",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.01,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_34#LevelView",
+  "trapViews": [
+   "Level_34/Traps/IceThrower_1#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_2#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_3#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_4#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_5#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_6#IceThrowerTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_34/Traps/IceThrower_6#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_5#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_4#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_1#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_2#IceThrowerTrap",
+   "Level_34/Traps/IceThrower_3#IceThrowerTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_34/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.901,
+      0.54,
+      -2.545
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.901,
+      0.54,
+      -2.545
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_34/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.884,
+      0.54,
+      -2.559
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.884,
+      0.54,
+      -2.559
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_34/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_34/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_34/Traps/IceThrower_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_1/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_1/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_34/Traps/IceThrower_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_2/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_2/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_34/Traps/IceThrower_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_3/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_3/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_34/Traps/IceThrower_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_4/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_4/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_34/Traps/IceThrower_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_5/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_5/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "path": "Level_34/Traps/IceThrower_6",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_34/Traps/IceThrower_6#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "burstParticle": "Level_34/Traps/IceThrower_6/FrostMuzzle#ParticleSystem",
+    "hitCollider": "Level_34/Traps/IceThrower_6/Hitbox#CapsuleCollider",
+    "audioClip": {
+     "asset": "AudioClip/FrostExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_34/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65401429660297866,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_34/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65571878917323452,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_34/Traps/IceThrower_1/Hitbox",
+    "world": {
+     "pos": [
+      0.0,
+      0.2,
+      -2.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136167524263268962,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_34/Traps/IceThrower_2/Hitbox",
+    "world": {
+     "pos": [
+      -0.5,
+      0.2,
+      -1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136187454977326620,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_34/Traps/IceThrower_3/Hitbox",
+    "world": {
+     "pos": [
+      0.5,
+      0.2,
+      -1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136220697728379336,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_34/Traps/IceThrower_4/Hitbox",
+    "world": {
+     "pos": [
+      -0.5,
+      0.2,
+      -3.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136012617856089587,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_34/Traps/IceThrower_5/Hitbox",
+    "world": {
+     "pos": [
+      0.5,
+      0.2,
+      -3.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136845025230388998,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_34/Traps/IceThrower_6/Hitbox",
+    "world": {
+     "pos": [
+      0.0,
+      0.2,
+      -4.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136562080017223558,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       1.00813,
+       0.0
+      ],
+      "radius": 0.25,
+      "height": 3,
+      "direction": 1
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/crystal mountain.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/snow_map_2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Stones/Crystal stones/Crystal stones large/crystal stone lagre 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Stones/Crystal stones/Crystal stones large/crystal stone lagre.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "StylizedWater2/Models/LowPoly_Plane.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_34",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114572839542275309,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_34/Traps/IceThrower_1#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_2#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_3#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_4#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_5#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_6#IceThrowerTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_34/Traps/IceThrower_6#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_5#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_4#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_1#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_2#IceThrowerTrap",
+         "Level_34/Traps/IceThrower_3#IceThrowerTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_34/MysteryBoxPositions/Position_1",
+        "Level_34/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_34/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_34/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/Boundaries/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33149520701623706,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23292246286975720,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65693062532245359,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Boundaries/Collider_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370222726513266,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23574304967836189,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65009931292380359,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Boundaries/Collider_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33799762105739359,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23829625606037309,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65574190619683098,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_34/City",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/City/Water_Iced",
+   "tag": "Untagged",
+   "layer": 4,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.059,
+     0.48
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     1.0,
+     0.22198
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.189,
+     0.48
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.3,
+     1.0,
+     0.22198
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33998495239010246,
+     "mesh": {
+      "asset": "StylizedWater2/Models/LowPoly_Plane.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23960577952585462,
+     "materials": [
+      {
+       "asset": "Material/StylizedWater2_Mobile_Iced.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Plugins/sc.stylizedwater2.runtime.dll",
+     "fileID": 114415925016355036,
+     "enabled": 1,
+     "fields": {
+      "material": {
+       "asset": "Material/StylizedWater2_Mobile_Iced.mat",
+       "fileID": 2100000
+      },
+      "meshFilter": "Level_34/City/Water_Iced#MeshFilter",
+      "meshRenderer": "Level_34/City/Water_Iced#MeshRenderer"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/City/crystal mountain",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.47,
+     -2.23,
+     5.21014
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     3e-06
+    ],
+    "euler": [
+     0.0,
+     179.9997,
+     0.0
+    ],
+    "lossyScale": [
+     0.225,
+     0.18316,
+     0.225
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.47,
+     -2.36,
+     5.21014
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     3e-06
+    ],
+    "scale": [
+     0.225,
+     0.18316,
+     0.225
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33993076962757715,
+     "mesh": {
+      "asset": "Mesh/crystal mountain.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23911451331743778,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/City/crystal stone lagre (1)_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.84998,
+     -1.633,
+     1.28015
+    ],
+    "rot": [
+     -0.027021,
+     0.862262,
+     0.023632,
+     -0.50519
+    ],
+    "euler": [
+     359.2292,
+     240.7583,
+     355.9583
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.84998,
+     -1.763,
+     1.28015
+    ],
+    "rot": [
+     -0.027021,
+     0.862262,
+     0.023632,
+     -0.50519
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33878983242975409,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Stones/Crystal stones/Crystal stones large/crystal stone lagre.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23433881075115309,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/City/crystal stone lagre 2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.30007,
+     -0.91,
+     -6.8198
+    ],
+    "rot": [
+     0.169319,
+     0.983125,
+     0.011753,
+     -0.068244
+    ],
+    "euler": [
+     357.3508,
+     187.4895,
+     19.3704
+    ],
+    "lossyScale": [
+     0.19477,
+     0.19477,
+     0.19477
+    ]
+   },
+   "local": {
+    "pos": [
+     3.30007,
+     -1.04,
+     -6.8198
+    ],
+    "rot": [
+     0.169319,
+     0.983125,
+     0.011753,
+     -0.068244
+    ],
+    "scale": [
+     0.19477,
+     0.19477,
+     0.19477
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33729442808604298,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Stones/Crystal stones/Crystal stones large/crystal stone lagre 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23055535033279528,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/City/snow_map_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.55,
+     0.0,
+     1.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.80543,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     -0.13,
+     1.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.80543,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33350143044813081,
+     "mesh": {
+      "asset": "Mesh/snow_map_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23952854571839949,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65401429660297866,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65571878917323452,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_34/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.901,
+     0.54,
+     -2.545
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.901,
+     0.54,
+     -2.545
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.884,
+     0.54,
+     -2.559
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.884,
+     0.54,
+     -2.559
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/SnowStorm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.06,
+     6.77,
+     -2.13
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.06,
+     6.77,
+     -2.13
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198681721672847880
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199964675957374274
+    }
+   ]
+  },
+  {
+   "path": "Level_34/SnowStorm/Clouds",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.06,
+     6.77,
+     -2.13
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198016782227057731
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199126508818681447
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114964469411310401,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_1/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_1/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95208575754630950,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198699617135816954
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199264357844037074
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198806657225351454
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199704330047573733
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198231814100211528
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199194081240383615
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198770005084341472
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199123703392571528
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198658330495870062
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199703931505913403
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136167524263268962,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23492842699383957,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33150646884989824,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.18,
+     -2.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212356319167443197,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114533803739292891,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_2/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_2/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95601984538237284,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198969505138979683
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199190181876552715
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198611579644537198
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199328299215684997
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198132862189046193
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199295428814336086
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198386943702330414
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199066778049879928
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198617365563186364
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199998874197659892
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136187454977326620,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23561126880652180,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33275549183895104,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.18,
+     -1.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212007513189690300,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114232094423628703,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_3/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_3/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95592460329389196,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198056248600188076
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199992816746925483
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198649986673806370
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199168105826085154
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198146109142143575
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199168775426067361
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198592664909728774
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199017892387517381
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198358105479016104
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199291632710222552
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136220697728379336,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23092105871539913,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33708180620337799,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.18,
+     -1.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212570723408815475,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114831874417830518,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_4/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_4/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95177930474251431,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198948132087033897
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199320592835458227
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198738892719839630
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199941304181978548
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198274303670636188
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199887312969816373
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198295926465608920
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199156371104904051
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198689010887986514
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199901155395665742
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136012617856089587,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23095816830470745,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33181586030114204,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     0.18,
+     -3.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212271925019662038,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114258471659221418,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_5/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_5/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95477794280538272,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198603576887721950
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199784622213810434
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198148353818683595
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199016852445014956
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198832474124979885
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199195931274935818
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198112815651697755
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199201141531394087
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.456,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198325787665662832
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199066338149260220
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136845025230388998,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.2,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23446691751160785,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33904079258986964,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_5/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.5,
+     0.18,
+     -3.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212995682140751655,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.IceThrowerTrap",
+     "fileID": 114657558218238974,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_34/Traps/IceThrower_6#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "burstParticle": "Level_34/Traps/IceThrower_6/FrostMuzzle#ParticleSystem",
+      "hitCollider": "Level_34/Traps/IceThrower_6/Hitbox#CapsuleCollider",
+      "audioClip": {
+       "asset": "AudioClip/FrostExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95484755779879834,
+     "controller": {
+      "asset": "AnimatorController/IceThrower_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/FrostMuzzle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.256,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198689224686120706
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199696919880513765
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/FrostMuzzle/Cloud",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198133854062310043
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199947810564538834
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/FrostMuzzle/Cloud_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198041320612064254
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199228214996573471
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/FrostMuzzle/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198521597976012101
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199989434536655964
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/FrostMuzzle/Snowflakes",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.456,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198429401810989285
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199450889307774998
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136562080017223558,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      1.00813,
+      0.0
+     ],
+     "radius": 0.25,
+     "height": 3,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23422702022971346,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/IceThrower.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33067212629291419,
+     "mesh": {
+      "asset": "JMO Assets/Toony Colors Pro/Smoothed Meshes/IceThrower.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_34/Traps/IceThrower_6/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.18,
+     -4.5
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "euler": [
+     90.0,
+     1.9046,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.02,
+     0.0
+    ],
+    "rot": [
+     0.707009,
+     0.011752,
+     -0.011752,
+     0.707009
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212353891062718048,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.11213957,
+      "g": 0.30702177,
+      "b": 0.5283019,
+      "a": 1
+     }
+    }
+   ]
+  }
+ ]
+}

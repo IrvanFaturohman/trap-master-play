@@ -1,0 +1,8685 @@
+{
+ "level": 23,
+ "sources": {
+  "asset": "Resources/levels/Level_23.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_23.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Molten Peak",
+ "trapClass": [
+  "SpikeGateTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 600000.0,
+  "goldReward": 200.0,
+  "bricksReward": 1500,
+  "TrapOffset": 12,
+  "EnemiesOffset": 10,
+  "SpeedOffset": 7,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 15,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 300,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[23] over asset",
+  "blobRewardsOfGoals": [
+   15000,
+   15000,
+   60000,
+   30000,
+   30000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_4.asset",
+  "targetMoney": 400000000.0,
+  "goldReward": 400.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_4.png",
+  "backgroundFogColor": {
+   "r": 0.828,
+   "g": 0.059,
+   "b": 0.024,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 3,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_23.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "51d6b84783d534bb18aee0d684d223ed",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 60,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 300,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_23#LevelView",
+  "trapViews": [
+   "Level_23/Traps/FieryGateTrap_1#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_2#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_3#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_4#SpikeGateTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_23/Traps/FieryGateTrap_3#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_1#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_2#SpikeGateTrap",
+   "Level_23/Traps/FieryGateTrap_4#SpikeGateTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_23/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.49,
+      0.54,
+      -5.25
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.49,
+      0.54,
+      -5.25
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_23/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.27,
+      0.54,
+      -5.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.27,
+      0.54,
+      -5.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_23/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_23/DoubleGate",
+   "world": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_23/Traps/FieryGateTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_23/Traps/FieryGateTrap_1/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": null
+   },
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_23/Traps/FieryGateTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_23/Traps/FieryGateTrap_2/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": null
+   },
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_23/Traps/FieryGateTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_23/Traps/FieryGateTrap_3/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": null
+   },
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_23/Traps/FieryGateTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_23/Traps/FieryGateTrap_4/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": null
+   },
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_23/FinishLine",
+    "world": {
+     "pos": [
+      -0.25,
+      0.0,
+      -10.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65583788928901705,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_23/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65167524263268962,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionKillbox",
+    "world": {
+     "pos": [
+      0.01,
+      0.75,
+      -2.72
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65499517081926786,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       1.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.01,
+      0.75,
+      -2.72
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65220697728379336,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionKillbox",
+    "world": {
+     "pos": [
+      0.116,
+      0.75,
+      -1.496
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65450889307774998,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       1.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.116,
+      0.75,
+      -1.496
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65353891062718048,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionKillbox",
+    "world": {
+     "pos": [
+      0.21,
+      0.75,
+      -3.87
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65349979204078785,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       1.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.21,
+      0.75,
+      -3.87
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65036828218548272,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionKillbox",
+    "world": {
+     "pos": [
+      0.243,
+      0.75,
+      -0.427
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65372353275341440,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       1.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.243,
+      0.75,
+      -0.427
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65020314340478216,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   }
+  ],
+  "Kill": [
+   {
+    "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.51,
+      0.75,
+      -2.72
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65831874417830518,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.49,
+      0.75,
+      -2.72
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65294885792020211,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.616,
+      0.75,
+      -1.496
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65689224686120706,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.384,
+      0.75,
+      -1.496
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65965908813272002,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.71,
+      0.75,
+      -3.87
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65463579974499585,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.29,
+      0.75,
+      -3.87
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65766709239876273,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.743,
+      0.75,
+      -0.427
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65688331903957256,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.257,
+      0.75,
+      -0.427
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65365773988297632,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_002.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/CaveColums_A_003.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/magma_floor_2.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_23",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114150646884989824,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_23/Traps/FieryGateTrap_1#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_2#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_3#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_4#SpikeGateTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_23/Traps/FieryGateTrap_3#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_1#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_2#SpikeGateTrap",
+         "Level_23/Traps/FieryGateTrap_4#SpikeGateTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_23/MysteryBoxPositions/Position_1",
+        "Level_23/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_23/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_23/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33405989028062321,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23202048797312955,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65722550256369544,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33751888446361502,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23894352506636257,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65817105377731967,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232720755092366,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23401109917237556,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65384784573714692,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.25,
+     0.0,
+     -10.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.25,
+     0.0,
+     -10.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65583788928901705,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65167524263268962,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.49,
+     0.54,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.49,
+     0.54,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.27,
+     0.54,
+     -5.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.27,
+     0.54,
+     -5.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114601984538237284,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_23/Traps/FieryGateTrap_1/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.242,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95007513189690300,
+     "controller": {
+      "asset": "AnimatorController/FieryGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114690175861776792,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/FieryGateImpact.wav",
+        "fileID": 8300000
+       },
+       {
+        "asset": "AudioClip/FieryGateExplosion.wav",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.01,
+     0.242,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33066778049879928,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23824317463469755,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65561126880652180,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.25621,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.51243,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.825,
+     0.239,
+     -2.78
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198528911807818478
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199187454977326620
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.01025,
+     0.35075,
+     -2.8025
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198570723408815475
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199011164340880974
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.82489,
+     0.27826,
+     -2.78
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198232094423628703
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199592460329389196
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.59175,
+     0.242,
+     -2.72
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212992816746925483,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.99,
+     0.242,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33358105479016104,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291632710222552,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65433013960508438,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.24784,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.49567,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.82,
+     0.239,
+     -2.7125
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198168105826085154
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199038333544927157
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.00525,
+     0.35075,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.689787,
+     -0.724013
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     272.7735
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     -0.649958,
+     0.278485,
+     0.278485,
+     0.649958
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198017892387517381
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199709890794832471
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.81989,
+     0.27826,
+     -2.7125
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198168775426067361
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199896002537488308
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.57175,
+     0.242,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212708180620337799,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionKillbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65499517081926786,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      1.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionVFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198190181876552715
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199240571728440943
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionVFX/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198295428814336086
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199450391854282655
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionVFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198328299215684997
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199633296557590524
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/ExplosionVFX/Sparks",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198998874197659892
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199408345039935966
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.01,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65220697728379336,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_2",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.51,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65831874417830518,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_1/Door_Spike/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.49,
+     0.75,
+     -2.72
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65294885792020211,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114320592835458227,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_23/Traps/FieryGateTrap_2/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.242,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95689010887986514,
+     "controller": {
+      "asset": "AnimatorController/FieryGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114901155395665742,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/FieryGateImpact.wav",
+        "fileID": 8300000
+       },
+       {
+        "asset": "AudioClip/FieryGateExplosion.wav",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.116,
+     0.242,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33012617856089587,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23703247130969877,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65258471659221418,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.25621,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.51243,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.931,
+     0.239,
+     -1.556
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198842968619709538
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199995682140751655
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.11625,
+     0.35075,
+     -1.5785
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198325787665662832
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199066338149260220
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.93089,
+     0.27826,
+     -1.556
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198603576887721950
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199784622213810434
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.69775,
+     0.242,
+     -1.496
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212148353818683595,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.884,
+     0.242,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33932862749439555,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23832474124979885,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65195931274935818,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.24784,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.49567,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.714,
+     0.239,
+     -1.4885
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198112815651697755
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199201141531394087
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.89925,
+     0.35075,
+     -1.466
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.689787,
+     -0.724013
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     272.7735
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     -0.649958,
+     0.278485,
+     0.278485,
+     0.649958
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198845025230388998
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199527248355756736
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.71389,
+     0.27826,
+     -1.4885
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198446691751160785
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199904079258986964
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.46575,
+     0.242,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212484755779879834,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionKillbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65450889307774998,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      1.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionVFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198738892719839630
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199941304181978548
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionVFX/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198095816830470745
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199181586030114204
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionVFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198295926465608920
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199156371104904051
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/ExplosionVFX/Sparks",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198274303670636188
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199887312969816373
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.116,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65353891062718048,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_2",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.616,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65689224686120706,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_2/Door_Spike/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.384,
+     0.75,
+     -1.496
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65965908813272002,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114133854062310043,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_23/Traps/FieryGateTrap_3/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.242,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95729821067651183,
+     "controller": {
+      "asset": "AnimatorController/FieryGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114041320612064254,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/FieryGateImpact.wav",
+        "fileID": 8300000
+       },
+       {
+        "asset": "AudioClip/FieryGateExplosion.wav",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.21,
+     0.242,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33545683990359770,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23998495239010246,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65960577952585462,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.25621,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.51243,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.025,
+     0.239,
+     -3.93
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198346445019804701
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199729442808604298
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.21025,
+     0.35075,
+     -3.9525
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198838352681112328
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199993076962757715
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.02489,
+     0.27826,
+     -3.93
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198094283985748868
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199878983242975409
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.79175,
+     0.242,
+     -3.87
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212105912343260855,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.79,
+     0.242,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33952854571839949,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23573076885614623,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65681721672847880,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.24784,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.49567,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.62,
+     0.239,
+     -3.8625
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198350408777337066
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199016782227057731
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80525,
+     0.35075,
+     -3.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.689787,
+     -0.724013
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     272.7735
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     -0.649958,
+     0.278485,
+     0.278485,
+     0.649958
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198870947366518887
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199505682267929073
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.61989,
+     0.27826,
+     -3.8625
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198231676679060417
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199934287144746640
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37175,
+     0.242,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212704877758540679,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionKillbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65349979204078785,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      1.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionVFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198641204913154593
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199521597976012101
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionVFX/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198208269818966246
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199401429660297866
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionVFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198119337346424409
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199562080017223558
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/ExplosionVFX/Sparks",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198329075794784248
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199422702022971346
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65036828218548272,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_2",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.71,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65463579974499585,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_3/Door_Spike/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.29,
+     0.75,
+     -3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65766709239876273,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114580109562975512,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_23/Traps/FieryGateTrap_4/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.242,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95364392939154294,
+     "controller": {
+      "asset": "AnimatorController/FieryGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114696792502030561,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/FieryGateImpact.wav",
+        "fileID": 8300000
+       },
+       {
+        "asset": "AudioClip/FieryGateExplosion.wav",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.243,
+     0.242,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33246887588868771,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23510800835404288,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65173644300073267,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.25621,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.51243,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.058,
+     0.239,
+     -0.487
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198544837802452058
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199964822413698908
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.24325,
+     0.35075,
+     -0.5095
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198519819979147140
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199644357204029367
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.05789,
+     0.27826,
+     -0.487
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198329446674688094
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199958492976087124
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.82475,
+     0.242,
+     -0.427
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212071519224935516,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.757,
+     0.242,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33458735412797113,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Fiery_Spike_Gate.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23894225446638996,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material_RedTint.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65041608817324026,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -1.24784,
+      0.99052,
+      0.0
+     ],
+     "size": [
+      2.49567,
+      1.98105,
+      0.75073
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.587,
+     0.239,
+     -0.4195
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198949593803130734
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199785416887765914
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.77225,
+     0.35075,
+     -0.397
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.689787,
+     -0.724013
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     272.7735
+    ],
+    "lossyScale": [
+     1.05,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     -0.649958,
+     0.278485,
+     0.278485,
+     0.649958
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198083485975560739
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199543023241981873
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.58689,
+     0.27826,
+     -0.4195
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198290791091168379
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199996317296757491
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.33875,
+     0.242,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212250083484182041,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionKillbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65372353275341440,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      1.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionVFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198382656168358062
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199117307842306080
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionVFX/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198951712121405908
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199851449666512103
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionVFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198825818419884204
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199403529848822963
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/ExplosionVFX/Sparks",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198085134620244786
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199044586276341600
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.243,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65020314340478216,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_2",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.743,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65688331903957256,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/Traps/FieryGateTrap_4/Door_Spike/Killbox_3",
+   "tag": "Kill",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.257,
+     0.75,
+     -0.427
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65365773988297632,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_23/VolcanoBackground/CaveColums_A_001",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.871,
+     -0.472,
+     -5.832
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.871,
+     -1.082,
+     -5.832
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33869070488215218,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23907165584567512,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Red.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/CaveColums_A_002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.39,
+     -0.77,
+     7.12
+    ],
+    "rot": [
+     -0.767964,
+     0.113109,
+     0.198588,
+     0.598332
+    ],
+    "euler": [
+     285.4381,
+     219.5949,
+     166.1073
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.39,
+     -1.38,
+     7.12
+    ],
+    "rot": [
+     -0.767964,
+     0.113109,
+     0.198588,
+     0.598332
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33670321012828500,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23031343952073922,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Red.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/CaveColums_A_003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.94,
+     -0.66,
+     -0.75
+    ],
+    "rot": [
+     -0.446428,
+     -0.548363,
+     -0.548363,
+     0.446428
+    ],
+    "euler": [
+     270.0,
+     258.2989,
+     0.0
+    ],
+    "lossyScale": [
+     1.2,
+     1.2,
+     1.2
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.94,
+     -1.27,
+     -0.75
+    ],
+    "rot": [
+     -0.446428,
+     -0.548363,
+     -0.548363,
+     0.446428
+    ],
+    "scale": [
+     1.2,
+     1.2,
+     1.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33630063386271700,
+     "mesh": {
+      "asset": "Mesh/CaveColums_A_003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23703850765261885,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Red.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/CaveColums_A_004",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.16,
+     -0.47,
+     3.14
+    ],
+    "rot": [
+     -0.57643,
+     0.409546,
+     0.409546,
+     0.57643
+    ],
+    "euler": [
+     270.0,
+     70.7866,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.16,
+     -1.08,
+     3.14
+    ],
+    "rot": [
+     -0.57643,
+     0.409546,
+     0.409546,
+     0.57643
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33299931057912216,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23075864462779534,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Red.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.7,
+     -0.19,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.7,
+     -0.8,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33239265225482239,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23386568470988373,
+     "materials": [
+      {
+       "asset": "Material/StylisedLava2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64494345407022765,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.1,
+     -1.5,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114360591974699550,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 12
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198249237965167194
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199739268104783211
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198517377532936435
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199782439640980787
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198134286944189183
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199045646810609841
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198518639523470932
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199033903555039309
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.322,
+     -0.89,
+     -1.984
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198844361126439134
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199663898806329775
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198102543447223915
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199493949256727870
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.11,
+     -1.5,
+     3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114910201747455131,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 10
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198023566878023198
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199124577934639600
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198760480127920944
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199510073901028830
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198171308771648913
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199505490946690937
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198891995844532801
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199330820015962899
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.888,
+     -0.89,
+     3.016
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198432271528610696
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199003750186790624
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.11,
+     -0.89,
+     3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198566389953100910
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199536148047902537
+    }
+   ]
+  },
+  {
+   "path": "Level_23/VolcanoBackground/magma_floor_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.64,
+     -1.3,
+     -0.1378
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.61702,
+     0.52624,
+     0.68405
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.64,
+     -1.91,
+     -0.1378
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.61702,
+     0.52624,
+     0.68405
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33321515599905260,
+     "mesh": {
+      "asset": "Mesh/magma_floor_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23151117949762783,
+     "materials": [
+      {
+       "asset": "Material/Ground 18.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "Material/Ground 19.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

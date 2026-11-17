@@ -1,0 +1,3807 @@
+{
+ "level": 20,
+ "sources": {
+  "asset": "Resources/levels/Level_20.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_20.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Green Grove",
+ "trapClass": [
+  "SwingingLogTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 500000.0,
+  "goldReward": 200.0,
+  "bricksReward": 1000,
+  "TrapOffset": 12,
+  "EnemiesOffset": 9,
+  "SpeedOffset": 8,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 15,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 40,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[20] over asset",
+  "blobRewardsOfGoals": [
+   25000,
+   25000,
+   37500,
+   50000,
+   50000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_3.asset",
+  "targetMoney": 100000000.0,
+  "goldReward": 400.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 1,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_20.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "df8be39da9dee4d468db5ce4b371a888",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 40,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_20#LevelView",
+  "trapViews": [
+   "Level_20/Traps/TreeLogTrap_1#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_2#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_3#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_4#SwingingLogTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_20/Traps/TreeLogTrap_2#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_4#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_3#SwingingLogTrap",
+   "Level_20/Traps/TreeLogTrap_1#SwingingLogTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_20/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -0.48
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -0.48
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_20/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      -1.247,
+      0.54,
+      -2.449
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.247,
+      0.54,
+      -2.449
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_20/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      1.021,
+      0.54,
+      -2.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      1.021,
+      0.54,
+      -2.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_20/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_20/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_20/Traps/TreeLogTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "angle": 25,
+    "speed": 1
+   },
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_20/Traps/TreeLogTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "angle": 25,
+    "speed": 1
+   },
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_20/Traps/TreeLogTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "angle": 25,
+    "speed": 1
+   },
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_20/Traps/TreeLogTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "angle": 25,
+    "speed": 1
+   },
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_20/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65601984538237284,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_20/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65291844617409189,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_20/Traps/TreeLogTrap_1/TreeTrunk",
+    "world": {
+     "pos": [
+      0.0,
+      0.87,
+      -5.25
+     ],
+     "rot": [
+      -0.707106,
+      0.0,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      270.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.29385,
+      0.29385,
+      0.29385
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136436073260064126,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.6191773,
+      "height": 6.3838487,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_20/Traps/TreeLogTrap_2/TreeTrunk",
+    "world": {
+     "pos": [
+      0.0,
+      0.87,
+      -1.5
+     ],
+     "rot": [
+      -0.707106,
+      0.0,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      270.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.29385,
+      0.29385,
+      0.29385
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136043919389829319,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.6191773,
+      "height": 6.3838487,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_20/Traps/TreeLogTrap_3/TreeTrunk",
+    "world": {
+     "pos": [
+      0.0,
+      0.87,
+      -4.0
+     ],
+     "rot": [
+      -0.707106,
+      0.0,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      270.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.29385,
+      0.29385,
+      0.29385
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136009931292380359,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.6191773,
+      "height": 6.3838487,
+      "direction": 0
+     }
+    ]
+   },
+   {
+    "path": "Level_20/Traps/TreeLogTrap_4/TreeTrunk",
+    "world": {
+     "pos": [
+      0.0,
+      0.87,
+      -2.75
+     ],
+     "rot": [
+      -0.707106,
+      0.0,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      270.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.29385,
+      0.29385,
+      0.29385
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136976365255789935,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.6191773,
+      "height": 6.3838487,
+      "direction": 0
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "App/Art/Models/ForestRoad.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Nature/ChainRight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Nature/Cone.003.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Nature/TreeTrunk.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/Object001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/Object003.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_20",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114472185465350827,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_20/Traps/TreeLogTrap_1#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_2#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_3#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_4#SwingingLogTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_20/Traps/TreeLogTrap_2#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_4#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_3#SwingingLogTrap",
+         "Level_20/Traps/TreeLogTrap_1#SwingingLogTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_20/MysteryBoxPositions/Position_1",
+        "Level_20/MysteryBoxPositions/Position_2",
+        "Level_20/MysteryBoxPositions/Position_3"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_20/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_20/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33085275382694935,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23231814100211528,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65194081240383615,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33770005084341472,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23123703392571528,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65855482821919830,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33150646884989824,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23880619614767448,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65167524263268962,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_20/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65601984538237284,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_20/ForestRoad",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.23,
+     -0.9,
+     -0.14
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.3586,
+     1.0,
+     1.2219
+    ]
+   },
+   "local": {
+    "pos": [
+     0.23,
+     -0.9,
+     -0.14
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.3586,
+     1.0,
+     1.2219
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33220653531496868,
+     "mesh": {
+      "asset": "App/Art/Models/ForestRoad.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23841364053301648,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/ForestRoad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65291844617409189,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_20/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.48
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.48
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.247,
+     0.54,
+     -2.449
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.247,
+     0.54,
+     -2.449
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.021,
+     0.54,
+     -2.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.021,
+     0.54,
+     -2.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/NatureBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.11,
+     0.08
+    ],
+    "rot": [
+     0.0,
+     0.999753,
+     0.0,
+     -0.022248
+    ],
+    "euler": [
+     0.0,
+     182.5497,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.14,
+     0.11,
+     0.08
+    ],
+    "rot": [
+     0.0,
+     0.999753,
+     0.0,
+     -0.022248
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33007513189690300,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23690175861776792,
+     "materials": [
+      {
+       "asset": "Material/Ground 9.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeLarge",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.37401,
+     0.11,
+     1.63541
+    ],
+    "rot": [
+     0.0,
+     0.207908,
+     0.0,
+     0.978149
+    ],
+    "euler": [
+     0.0,
+     23.9995,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     1.1,
+     0.0,
+     -0.47
+    ],
+    "rot": [
+     0.0,
+     -0.982532,
+     0.0,
+     0.186094
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeLarge/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.44309,
+     0.11075,
+     1.61855
+    ],
+    "rot": [
+     0.691655,
+     0.147013,
+     -0.147013,
+     0.691655
+    ],
+    "euler": [
+     90.0,
+     23.9995,
+     0.0
+    ],
+    "lossyScale": [
+     0.45,
+     0.45,
+     0.45
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.075,
+     0.001,
+     -0.058
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212408345039935966,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.015681537,
+      "g": 0.2264151,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeLarge/tree12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.34874,
+     0.11,
+     1.69215
+    ],
+    "rot": [
+     0.0,
+     0.207908,
+     0.0,
+     0.978149
+    ],
+    "euler": [
+     0.0,
+     23.9995,
+     0.0
+    ],
+    "lossyScale": [
+     0.98946,
+     0.98946,
+     0.98946
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.08282
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.31927,
+     1.31927,
+     1.31927
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33240571728440943,
+     "mesh": {
+      "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/Object001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23617365563186364,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Cartoon low poly tree/Materials/tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.12502,
+     0.11,
+     0.75243
+    ],
+    "rot": [
+     0.0,
+     0.022248,
+     0.0,
+     0.999753
+    ],
+    "euler": [
+     0.0,
+     2.5496,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.67,
+     0.0,
+     -0.15
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.12502,
+     0.1108,
+     0.75243
+    ],
+    "rot": [
+     0.706932,
+     0.015732,
+     -0.015732,
+     0.706932
+    ],
+    "euler": [
+     90.0,
+     2.5496,
+     0.0
+    ],
+    "lossyScale": [
+     0.36,
+     0.36,
+     0.36
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.00133,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212386943702330414,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.015681537,
+      "g": 0.2264151,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium/tree10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.12502,
+     0.11,
+     0.75243
+    ],
+    "rot": [
+     0.0,
+     0.022248,
+     0.0,
+     0.999753
+    ],
+    "euler": [
+     0.0,
+     2.5496,
+     360.0
+    ],
+    "lossyScale": [
+     0.79157,
+     0.79157,
+     0.79157
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.31927,
+     1.31927,
+     1.31927
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33633296557590524,
+     "mesh": {
+      "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/Object003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23132862189046193,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Cartoon low poly tree/Materials/tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Animator",
+     "fileID": 95295428814336086,
+     "controller": null,
+     "avatar": {
+      "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/tree10Avatar.asset",
+      "fileID": 9000000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.49249,
+     0.11,
+     -6.82343
+    ],
+    "rot": [
+     0.0,
+     0.538309,
+     0.0,
+     0.842747
+    ],
+    "euler": [
+     0.0,
+     65.1372,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.312,
+     0.0,
+     2.245
+    ],
+    "rot": [
+     0.0,
+     -0.854515,
+     0.0,
+     0.519426
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.49249,
+     0.1108,
+     -6.82343
+    ],
+    "rot": [
+     0.595912,
+     0.380642,
+     -0.380642,
+     0.595912
+    ],
+    "euler": [
+     90.0,
+     65.1372,
+     0.0
+    ],
+    "lossyScale": [
+     0.36,
+     0.36,
+     0.36
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.00133,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212091882994760266,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.015681537,
+      "g": 0.2264151,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/NatureBackground/TreeMedium_1/tree10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.49249,
+     0.11,
+     -6.82343
+    ],
+    "rot": [
+     0.0,
+     0.538309,
+     0.0,
+     0.842747
+    ],
+    "euler": [
+     0.0,
+     65.1372,
+     360.0
+    ],
+    "lossyScale": [
+     0.79157,
+     0.79157,
+     0.79157
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.31927,
+     1.31927,
+     1.31927
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33561126880652180,
+     "mesh": {
+      "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/Object003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23275549183895104,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Cartoon low poly tree/Materials/tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Animator",
+     "fileID": 95528911807818478,
+     "controller": null,
+     "avatar": {
+      "asset": "AssetStore/3D/Cartoon low poly tree/Meshes/tree10Avatar.asset",
+      "fileID": 9000000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+     "fileID": 114107629493147155,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "angle": 25,
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_1/ChainRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     5.40519,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.35402,
+     0.35402,
+     0.35402
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.08272,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.83206,
+     0.83206,
+     0.83206
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33632746491512912,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/ChainRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23719342369648492,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeChain.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_1/TreeTrunk",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -5.25
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -10.57629,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.69064,
+     0.69064,
+     0.69064
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136436073260064126,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.6191773,
+     "height": 6.3838487,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_1/TreeTrunk/Cone.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.22711,
+     0.87838,
+     -5.25
+    ],
+    "rot": [
+     2e-06,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0002,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.77287,
+     0.0,
+     0.02851
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33801075752484240,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/Cone.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23000955326284023,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeSpikes.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_1/TreeTrunk/TreeTrunk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -5.25
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     -0.500001,
+     0.500001
+    ],
+    "euler": [
+     270.0152,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33571718729274231,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/TreeTrunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23581786255902400,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+     "fileID": 114045458335737618,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "angle": 25,
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_2/ChainRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     5.40519,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.35402,
+     0.35402,
+     0.35402
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.08272,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.83206,
+     0.83206,
+     0.83206
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33924050743934937,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/ChainRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23215879266689626,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeChain.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_2/TreeTrunk",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -1.5
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -10.57629,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.69064,
+     0.69064,
+     0.69064
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136043919389829319,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.6191773,
+     "height": 6.3838487,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_2/TreeTrunk/Cone.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.22711,
+     0.87838,
+     -1.5
+    ],
+    "rot": [
+     2e-06,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0002,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.77287,
+     0.0,
+     0.02851
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33094320201520353,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/Cone.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23026196548002408,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeSpikes.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_2/TreeTrunk/TreeTrunk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -1.5
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     -0.500001,
+     0.500001
+    ],
+    "euler": [
+     270.0152,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33279359913592680,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/TreeTrunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23384403120170545,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+     "fileID": 114292246286975720,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "angle": 25,
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_3/ChainRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     5.40519,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.35402,
+     0.35402,
+     0.35402
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.08272,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.83206,
+     0.83206,
+     0.83206
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33630643969539439,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/ChainRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370222726513266,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeChain.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_3/TreeTrunk",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -4.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -10.57629,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.69064,
+     0.69064,
+     0.69064
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136009931292380359,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.6191773,
+     "height": 6.3838487,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_3/TreeTrunk/Cone.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.22711,
+     0.87838,
+     -4.0
+    ],
+    "rot": [
+     2e-06,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0002,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.77287,
+     0.0,
+     0.02851
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33799762105739359,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/Cone.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23829625606037309,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeSpikes.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_3/TreeTrunk/TreeTrunk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -4.0
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     -0.500001,
+     0.500001
+    ],
+    "euler": [
+     270.0152,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33552309709192268,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/TreeTrunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23571878917323452,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     5.37,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     5.37,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.42548,
+     0.42548,
+     0.42548
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SwingingLogTrap",
+     "fileID": 114651560128206891,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "angle": 25,
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_4/ChainRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     5.40519,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.35402,
+     0.35402,
+     0.35402
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.08272,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.83206,
+     0.83206,
+     0.83206
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33208575754630950,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/ChainRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23431740505123533,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeChain.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_4/TreeTrunk",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -2.75
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -10.57629,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.69064,
+     0.69064,
+     0.69064
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136976365255789935,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.6191773,
+     "height": 6.3838487,
+     "direction": 0
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_4/TreeTrunk/Cone.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.22711,
+     0.87838,
+     -2.75
+    ],
+    "rot": [
+     2e-06,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0002,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.77287,
+     0.0,
+     0.02851
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33264357844037074,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/Cone.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23499726237547504,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/TreeSpikes.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_20/Traps/TreeLogTrap_4/TreeTrunk/TreeTrunk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.87,
+     -2.75
+    ],
+    "rot": [
+     -0.499999,
+     -0.499999,
+     -0.500001,
+     0.500001
+    ],
+    "euler": [
+     270.0152,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.29385,
+     0.29385,
+     0.29385
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703931505913403,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Nature/TreeTrunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23121005239445321,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Tree.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

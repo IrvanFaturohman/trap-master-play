@@ -1,0 +1,11384 @@
+{
+ "level": 14,
+ "sources": {
+  "asset": "Resources/levels/Level_14.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_14.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Sand Canyon",
+ "trapClass": [
+  "SpikeGateTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 250000.0,
+  "goldReward": 40.0,
+  "bricksReward": 500,
+  "TrapOffset": 10,
+  "EnemiesOffset": 8,
+  "SpeedOffset": 6,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 40,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.15,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[14] over asset",
+  "blobRewardsOfGoals": [
+   12500,
+   12500,
+   25000,
+   37500,
+   25000,
+   25000
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_2.asset",
+  "targetMoney": 40000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_5.png",
+  "backgroundFogColor": {
+   "r": 0.941,
+   "g": 0.533,
+   "b": 0,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_14.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "11823c588cd51424585fbda0eaa3d0b1",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 25,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 40,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.15,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_14#LevelView",
+  "trapViews": [
+   "Level_14/Traps/DesertGateTrap_1#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_2#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_3#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_4#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_5#SpikeGateTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_14/Traps/DesertGateTrap_5#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_3#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_1#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_2#SpikeGateTrap",
+   "Level_14/Traps/DesertGateTrap_4#SpikeGateTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_14/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.7,
+      0.54,
+      -0.05
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.7,
+      0.54,
+      -0.05
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_14/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -4.27
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -4.27
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_14/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_14/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_14/Traps/DesertGateTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 6,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_14/Traps/DesertGateTrap_1/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.3,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/DesertGate.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_14/Traps/DesertGateTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 6,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_14/Traps/DesertGateTrap_2/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.3,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/DesertGate.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_14/Traps/DesertGateTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 6,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_14/Traps/DesertGateTrap_3/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.3,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/DesertGate.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_14/Traps/DesertGateTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 6,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_14/Traps/DesertGateTrap_4/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.3,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/DesertGate.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_14/Traps/DesertGateTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 6,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_14/Traps/DesertGateTrap_5/Door_Spike#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.3,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.075,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/DesertGate.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_14/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65749950996922467,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_14/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65246380077148219,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -2.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65066338149260220,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.125,
+      0.75,
+      -2.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65148353818683595,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.125,
+      0.75,
+      -2.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65932862749439555,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -2.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65838352681112328,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.125,
+      0.75,
+      -2.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65911451331743778,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.125,
+      0.75,
+      -2.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65350143044813081,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -3.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65222568209840903,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.125,
+      0.75,
+      -3.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65644357204029367,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.125,
+      0.75,
+      -3.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65071519224935516,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65391225667286877,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.125,
+      0.75,
+      -1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65782439640980787,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.125,
+      0.75,
+      -1.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65102543447223915,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.75,
+      -3.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65201897449910191,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       3.0,
+       1.0,
+       0.5
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_2",
+    "world": {
+     "pos": [
+      1.125,
+      0.75,
+      -3.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65829507331467374,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_3",
+    "world": {
+     "pos": [
+      -1.125,
+      0.75,
+      -3.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.75,
+      0.75,
+      0.75
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65781547038788540,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.0,
+       1.0,
+       0.33
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Aloe..001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Models/new_models/desert/big_rock__1_.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Models/new_models/desert/tree_dead.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_14",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114358105479016104,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_14/Traps/DesertGateTrap_1#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_2#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_3#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_4#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_5#SpikeGateTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_14/Traps/DesertGateTrap_5#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_3#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_1#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_2#SpikeGateTrap",
+         "Level_14/Traps/DesertGateTrap_4#SpikeGateTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_14/MysteryBoxPositions/Position_1",
+        "Level_14/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_14/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_14/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33385730263066598,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23161079637499176,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65031355914570132,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33417625065123525,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23459598911568433,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65667785438668446,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33714397710475260,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23539572024531195,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65587083680832752,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Desert_Env_1/Desert",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33809288501262078,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23733197508254210,
+     "materials": [
+      {
+       "asset": "Material/Ground 12.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64290410981445608,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/aloe",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.69,
+     0.256,
+     -2.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75898,
+     0.75898,
+     0.75898
+    ]
+   },
+   "local": {
+    "pos": [
+     3.69,
+     0.256,
+     -2.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75898,
+     0.75898,
+     0.75898
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33151797847433907,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Aloe..001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23335036306139620,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/aloe/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.69,
+     0.256,
+     -2.7
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1518,
+     0.1518,
+     0.1518
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212728442554800362,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.66608,
+     0.274,
+     -6.6852
+    ],
+    "rot": [
+     0.0,
+     -0.523582,
+     0.0,
+     0.851975
+    ],
+    "euler": [
+     0.0,
+     296.8543,
+     0.0
+    ],
+    "lossyScale": [
+     0.34946,
+     0.34946,
+     0.34946
+    ]
+   },
+   "local": {
+    "pos": [
+     2.66608,
+     0.274,
+     -6.6852
+    ],
+    "rot": [
+     0.0,
+     -0.523582,
+     0.0,
+     0.851975
+    ],
+    "scale": [
+     0.34946,
+     0.34946,
+     0.34946
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33660454898600107,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23079961849258352,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.66608,
+     0.27323,
+     -6.6852
+    ],
+    "rot": [
+     0.656588,
+     -0.262472,
+     0.262472,
+     0.656588
+    ],
+    "euler": [
+     89.9829,
+     316.4217,
+     0.0
+    ],
+    "lossyScale": [
+     0.06919,
+     0.06919,
+     0.06919
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00222,
+     0.0
+    ],
+    "rot": [
+     0.696823,
+     0.120158,
+     -0.120158,
+     0.696823
+    ],
+    "scale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212295988352646080,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus2_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.93,
+     0.253,
+     -1.86
+    ],
+    "rot": [
+     0.0,
+     -0.169929,
+     0.0,
+     0.985456
+    ],
+    "euler": [
+     0.0,
+     340.4326,
+     0.0
+    ],
+    "lossyScale": [
+     0.34946,
+     0.34946,
+     0.34946
+    ]
+   },
+   "local": {
+    "pos": [
+     2.93,
+     0.253,
+     -1.86
+    ],
+    "rot": [
+     0.0,
+     -0.169929,
+     0.0,
+     0.985456
+    ],
+    "scale": [
+     0.34946,
+     0.34946,
+     0.34946
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33652476007473644,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23045549052472940,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus2_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.93,
+     0.25223,
+     -1.86
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.06919,
+     0.06919,
+     0.06919
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00222,
+     0.0
+    ],
+    "rot": [
+     0.696823,
+     0.120158,
+     -0.120158,
+     0.696823
+    ],
+    "scale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212891103352497787,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.85,
+     0.25885,
+     4.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75251,
+     0.75251,
+     0.75251
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.85,
+     0.25885,
+     4.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75251,
+     0.75251,
+     0.75251
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33283415492601351,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23693528703414765,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/cactus3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.85,
+     0.25469,
+     4.32
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.22575,
+     0.22575,
+     0.22575
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00553,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212222115391670268,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.22105,
+     -2.33196,
+     2.24005
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.22105,
+     -2.33196,
+     2.24005
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.00315,
+     0.25204,
+     -2.02665
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.2179,
+     2.584,
+     -4.2667
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212161523128174384,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.93785,
+     0.25204,
+     2.95995
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.2832,
+     2.584,
+     0.7199
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212368669867904354,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_13",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.38105,
+     0.25204,
+     6.83005
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "euler": [
+     90.0,
+     28.6628,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.84,
+     2.584,
+     4.59
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212752314372542589,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_14",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.82105,
+     0.25204,
+     5.72005
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "euler": [
+     90.0,
+     28.6628,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4,
+     2.584,
+     3.48
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212858286384160668,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_15",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.08245,
+     0.25204,
+     8.58365
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "euler": [
+     90.0,
+     28.6628,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.1386,
+     2.584,
+     6.3436
+    ],
+    "rot": [
+     0.685102,
+     0.17503,
+     -0.17503,
+     0.685102
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212412746682036199,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/Shadow_16",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.84105,
+     0.25204,
+     2.47005
+    ],
+    "rot": [
+     0.67923,
+     -0.196586,
+     0.196585,
+     0.679231
+    ],
+    "euler": [
+     90.0,
+     327.7166,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.38,
+     2.584,
+     0.23
+    ],
+    "rot": [
+     0.67923,
+     -0.196586,
+     0.196585,
+     0.679231
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212716408055262162,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.23899364,
+      "g": 0.09396332,
+      "b": 0,
+      "a": 0.99215686
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/big_rock (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.19,
+     0.0,
+     9.75
+    ],
+    "rot": [
+     0.0,
+     0.371304,
+     0.0,
+     0.928511
+    ],
+    "euler": [
+     0.0,
+     43.5921,
+     0.0
+    ],
+    "lossyScale": [
+     3.48329,
+     3.48329,
+     3.48329
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.96895,
+     2.33196,
+     7.50995
+    ],
+    "rot": [
+     0.0,
+     0.371304,
+     0.0,
+     0.928511
+    ],
+    "scale": [
+     3.48329,
+     3.48329,
+     3.48329
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33866108357657329,
+     "mesh": {
+      "asset": "Models/new_models/desert/big_rock__1_.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23426252596376205,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/rock_mat_.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/big_rock (1)_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.91,
+     0.0,
+     2.06
+    ],
+    "rot": [
+     0.0,
+     -0.242641,
+     0.0,
+     0.970116
+    ],
+    "euler": [
+     0.0,
+     331.9151,
+     0.0
+    ],
+    "lossyScale": [
+     4.04967,
+     4.04967,
+     4.04967
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.68895,
+     2.33196,
+     -0.18005
+    ],
+    "rot": [
+     0.0,
+     -0.242641,
+     0.0,
+     0.970116
+    ],
+    "scale": [
+     4.04967,
+     4.04967,
+     4.04967
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33308208021606205,
+     "mesh": {
+      "asset": "Models/new_models/desert/big_rock__1_.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23798711753984921,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/rock_mat_.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/big_rock (1)_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.06,
+     0.0,
+     15.25
+    ],
+    "rot": [
+     0.0,
+     0.686151,
+     0.0,
+     0.727459
+    ],
+    "euler": [
+     0.0,
+     86.6525,
+     0.0
+    ],
+    "lossyScale": [
+     4.04967,
+     4.04967,
+     4.04967
+    ]
+   },
+   "local": {
+    "pos": [
+     0.16105,
+     2.33196,
+     13.00995
+    ],
+    "rot": [
+     0.0,
+     0.686151,
+     0.0,
+     0.727459
+    ],
+    "scale": [
+     4.04967,
+     4.04967,
+     4.04967
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33176931266004030,
+     "mesh": {
+      "asset": "Models/new_models/desert/big_rock__1_.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23966426351977976,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/rock_mat_.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.7,
+     0.25,
+     0.99
+    ],
+    "rot": [
+     0.0,
+     0.525337,
+     0.0,
+     0.850894
+    ],
+    "euler": [
+     0.0,
+     63.3819,
+     0.0
+    ],
+    "lossyScale": [
+     2.14471,
+     2.14471,
+     2.14471
+    ]
+   },
+   "local": {
+    "pos": [
+     1.52105,
+     2.58196,
+     -1.25005
+    ],
+    "rot": [
+     0.0,
+     0.525337,
+     0.0,
+     0.850894
+    ],
+    "scale": [
+     2.14471,
+     2.14471,
+     2.14471
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33596793934052148,
+     "mesh": {
+      "asset": "Models/new_models/desert/tree_dead.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23381869093814388,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/desert-3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.68949,
+     0.26287,
+     1.03125
+    ],
+    "rot": [
+     0.601673,
+     0.371469,
+     -0.371469,
+     0.601673
+    ],
+    "euler": [
+     90.0,
+     63.3819,
+     0.0
+    ],
+    "lossyScale": [
+     0.12868,
+     0.12868,
+     0.12868
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.015,
+     0.006,
+     0.013
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.06,
+     0.06,
+     0.06
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212857328259384655,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.32704395,
+      "g": 0.12858139,
+      "b": 0,
+      "a": 0.56078434
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.55,
+     0.25,
+     0.99
+    ],
+    "rot": [
+     0.0,
+     -0.617983,
+     0.0,
+     0.786191
+    ],
+    "euler": [
+     0.0,
+     283.662,
+     0.0
+    ],
+    "lossyScale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "local": {
+    "pos": [
+     0.67105,
+     2.58196,
+     -1.25005
+    ],
+    "rot": [
+     0.0,
+     -0.617983,
+     0.0,
+     0.786191
+    ],
+    "scale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33702431833138108,
+     "mesh": {
+      "asset": "Models/new_models/desert/tree_dead.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23060176988151448,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/desert-3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.57905,
+     0.26078,
+     0.96934
+    ],
+    "rot": [
+     0.555921,
+     -0.43698,
+     0.43698,
+     0.555921
+    ],
+    "euler": [
+     90.0,
+     283.662,
+     0.0
+    ],
+    "lossyScale": [
+     0.10775,
+     0.10775,
+     0.10775
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.015,
+     0.006,
+     0.013
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.06,
+     0.06,
+     0.06
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212359435272656907,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.32704395,
+      "g": 0.12858139,
+      "b": 0,
+      "a": 0.56078434
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.31,
+     0.25,
+     2.5
+    ],
+    "rot": [
+     0.0,
+     -0.617983,
+     0.0,
+     0.786191
+    ],
+    "euler": [
+     0.0,
+     283.662,
+     0.0
+    ],
+    "lossyScale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.08895,
+     2.58196,
+     0.25995
+    ],
+    "rot": [
+     0.0,
+     -0.617983,
+     0.0,
+     0.786191
+    ],
+    "scale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33126042694364515,
+     "mesh": {
+      "asset": "Models/new_models/desert/tree_dead.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23108722078165427,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/desert-3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.33905,
+     0.26078,
+     2.47934
+    ],
+    "rot": [
+     0.555921,
+     -0.43698,
+     0.43698,
+     0.555921
+    ],
+    "euler": [
+     90.0,
+     283.662,
+     0.0
+    ],
+    "lossyScale": [
+     0.10775,
+     0.10775,
+     0.10775
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.015,
+     0.006,
+     0.013
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.06,
+     0.06,
+     0.06
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212540037929436357,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.32704395,
+      "g": 0.12858139,
+      "b": 0,
+      "a": 0.56078434
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.23,
+     0.25504,
+     1.81
+    ],
+    "rot": [
+     0.0,
+     -0.930976,
+     0.0,
+     0.36508
+    ],
+    "euler": [
+     0.0,
+     222.825,
+     0.0
+    ],
+    "lossyScale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.00895,
+     2.587,
+     -0.43005
+    ],
+    "rot": [
+     0.0,
+     -0.930976,
+     0.0,
+     0.36508
+    ],
+    "scale": [
+     1.79591,
+     1.79591,
+     1.79591
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33999734183242044,
+     "mesh": {
+      "asset": "Models/new_models/desert/tree_dead.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23486456068359781,
+     "materials": [
+      {
+       "asset": "Materials/new_materials/desert_/desert-3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Desert_Env_1/environment/tree_dead_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.22611,
+     0.26582,
+     1.77456
+    ],
+    "rot": [
+     0.25815,
+     -0.6583,
+     0.6583,
+     0.25815
+    ],
+    "euler": [
+     90.0,
+     222.825,
+     0.0
+    ],
+    "lossyScale": [
+     0.10775,
+     0.10775,
+     0.10775
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.015,
+     0.006,
+     0.013
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.06,
+     0.06,
+     0.06
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212022536984984998,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.32704395,
+      "g": 0.12858139,
+      "b": 0,
+      "a": 0.56078434
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65749950996922467,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65246380077148219,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.7,
+     0.54,
+     -0.05
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.7,
+     0.54,
+     -0.05
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -4.27
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -4.27
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114649986673806370,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 6,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_14/Traps/DesertGateTrap_1/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.3,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/DesertGate.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.369,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95017892387517381,
+     "controller": {
+      "asset": "AnimatorController/DesertGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114709890794832471,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/DesertGate.ogg",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.369,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33708180620337799,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23589652054545887,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136220697728379336,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.82812,
+     0.369,
+     -2.22438
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "euler": [
+     0.0,
+     340.931,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65738892719839630,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80563,
+     0.369,
+     -2.0725
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     0.76
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65056905764334025,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36125,
+     0.36675,
+     -2.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198831874417830518
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199177930474251431
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.50019,
+     0.45056,
+     -2.56188
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198320592835458227
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199911997548769506
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36117,
+     0.39619,
+     -2.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198271925019662038
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199499517081926786
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.18631,
+     0.369,
+     -2.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212901155395665742,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.369,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33887312969816373,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23024252914577434,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136295926465608920,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.82812,
+     0.369,
+     -2.22438
+    ],
+    "rot": [
+     0.0,
+     0.986186,
+     0.0,
+     -0.165642
+    ],
+    "euler": [
+     0.0,
+     199.069,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -0.49
+    ],
+    "rot": [
+     0.0,
+     0.165642,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65603576887721950,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80563,
+     0.369,
+     -2.0725
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     -0.258819
+    ],
+    "euler": [
+     0.0,
+     210.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     -0.76
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65132299442727904,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3725,
+     0.36675,
+     -2.49437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198083739296819378
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199095816830470745
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.51144,
+     0.45056,
+     -2.4775
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198258471659221418
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199477794280538272
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37242,
+     0.39619,
+     -2.49437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198321827775029018
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199012617856089587
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18631,
+     0.369,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212995682140751655,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65066338149260220,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.125,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65148353818683595,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Door_Spike/Killbox_3",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.125,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65932862749439555,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.3825,
+     -2.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212146109142143575,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_1/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.3825,
+     -2.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212896002537488308,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114195931274935818,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 6,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_14/Traps/DesertGateTrap_2/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.3,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/DesertGate.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.369,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95578716238308850,
+     "controller": {
+      "asset": "AnimatorController/DesertGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114845025230388998,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/DesertGate.ogg",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.369,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33657558218238974,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23484755779879834,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136697715728111791,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.82812,
+     0.369,
+     -1.72437
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "euler": [
+     0.0,
+     340.931,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65228214996573471,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80563,
+     0.369,
+     -1.5725
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     0.76
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65521597976012101,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36125,
+     0.36675,
+     -2.045
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198719897623072781
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199689224686120706
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.50019,
+     0.45056,
+     -2.06188
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198007271993718322
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199133854062310043
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36117,
+     0.39619,
+     -2.045
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198965908813272002
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199429401810989285
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.18631,
+     0.369,
+     -2.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212729821067651183,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.369,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33329075794784248,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23422702022971346,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136067212629291419,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.82812,
+     0.369,
+     -1.72437
+    ],
+    "rot": [
+     0.0,
+     0.986186,
+     0.0,
+     -0.165642
+    ],
+    "euler": [
+     0.0,
+     199.069,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -0.49
+    ],
+    "rot": [
+     0.0,
+     0.165642,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65055535033279528,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80563,
+     0.369,
+     -1.5725
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     -0.258819
+    ],
+    "euler": [
+     0.0,
+     210.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     -0.76
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65878983242975409,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3725,
+     0.36675,
+     -1.99438
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198562080017223558
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199129116114662800
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.51144,
+     0.45056,
+     -1.9775
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198998495239010246
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199960577952585462
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37242,
+     0.39619,
+     -1.99438
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198401429660297866
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199000342987746139
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18631,
+     0.369,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212346445019804701,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65838352681112328,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.125,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65911451331743778,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Door_Spike/Killbox_3",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.125,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65350143044813081,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.3825,
+     -2.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212201141531394087,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_2/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.3825,
+     -2.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212446691751160785,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114573076885614623,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 6,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_14/Traps/DesertGateTrap_3/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.3,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/DesertGate.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.369,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95934287144746640,
+     "controller": {
+      "asset": "AnimatorController/DesertGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114616761771223058,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/DesertGate.ogg",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.369,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33505682267929073,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291547872775986,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136704877758540679,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.82812,
+     0.369,
+     -2.72438
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "euler": [
+     0.0,
+     340.931,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65696792502030561,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80563,
+     0.369,
+     -2.5725
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     0.76
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65382656168358062,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36125,
+     0.36675,
+     -3.045
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198036828218548272
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199777414246829702
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.50019,
+     0.45056,
+     -3.06188
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198349979204078785
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199559203567323380
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36117,
+     0.39619,
+     -3.045
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198387228018655110
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199766709239876273
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.18631,
+     0.369,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212173334745350128,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.369,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33344618938641724,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085134620244786,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136044586276341600,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.82812,
+     0.369,
+     -2.72438
+    ],
+    "rot": [
+     0.0,
+     0.986186,
+     0.0,
+     -0.165642
+    ],
+    "euler": [
+     0.0,
+     199.069,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -0.49
+    ],
+    "rot": [
+     0.0,
+     0.165642,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65964822413698908,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80563,
+     0.369,
+     -2.5725
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     -0.258819
+    ],
+    "euler": [
+     0.0,
+     210.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     -0.76
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65329446674688094,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3725,
+     0.36675,
+     -2.99437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198825818419884204
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199403529848822963
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.51144,
+     0.45056,
+     -2.9775
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198246887588868771
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199510800835404288
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37242,
+     0.39619,
+     -2.99437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198951712121405908
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199851449666512103
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18631,
+     0.369,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212543584136297381,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65222568209840903,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.125,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65644357204029367,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Door_Spike/Killbox_3",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.125,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65071519224935516,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.3825,
+     -3.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212350408777337066,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_3/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.3825,
+     -3.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212126508818681447,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114458735412797113,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 6,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_14/Traps/DesertGateTrap_4/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.3,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/DesertGate.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.369,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95290791091168379,
+     "controller": {
+      "asset": "AnimatorController/DesertGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114996317296757491,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/DesertGate.ogg",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.369,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33083485975560739,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23543023241981873,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136616352195932608,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.82812,
+     0.369,
+     -1.22437
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "euler": [
+     0.0,
+     340.931,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65799881864385010,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80563,
+     0.369,
+     -1.0725
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     0.76
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65405989028062321,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36125,
+     0.36675,
+     -1.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198754026925822528
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199020314340478216
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.50019,
+     0.45056,
+     -1.56188
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198975779338151784
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199372353275341440
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36117,
+     0.39619,
+     -1.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198688331903957256
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199502609866597578
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.18631,
+     0.369,
+     -1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212096597530611644,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.369,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33722550256369544,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370081907136253,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136751888446361502,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.82812,
+     0.369,
+     -1.22437
+    ],
+    "rot": [
+     0.0,
+     0.986186,
+     0.0,
+     -0.165642
+    ],
+    "euler": [
+     0.0,
+     199.069,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -0.49
+    ],
+    "rot": [
+     0.0,
+     0.165642,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65360591974699550,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80563,
+     0.369,
+     -1.0725
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     -0.258819
+    ],
+    "euler": [
+     0.0,
+     210.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     -0.76
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65249237965167194,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3725,
+     0.36675,
+     -1.49438
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198817105377731967
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199077469347768860
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.51144,
+     0.45056,
+     -1.4775
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198962713294667487
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199239265225482239
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37242,
+     0.39619,
+     -1.49438
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198401109917237556
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199384784573714692
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18631,
+     0.369,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212494345407022765,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65391225667286877,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.125,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65782439640980787,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Door_Spike/Killbox_3",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.125,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65102543447223915,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.3825,
+     -1.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212370485308309611,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_4/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.3825,
+     -1.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212785416887765914,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SpikeGateTrap",
+     "fileID": 114081524457781149,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 6,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_14/Traps/DesertGateTrap_5/Door_Spike#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.3,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.075,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/DesertGate.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.369,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.508,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95844361126439134,
+     "controller": {
+      "asset": "AnimatorController/DesertGateTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrapAudioPlayer",
+     "fileID": 114663898806329775,
+     "enabled": 1,
+     "fields": {
+      "audioClips": [
+       {
+        "asset": "AudioClip/DesertGate.ogg",
+        "fileID": 8300000
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.25,
+     0.369,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33910201747455131,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23985908891298522,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136023566878023198,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.82812,
+     0.369,
+     -3.22438
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "euler": [
+     0.0,
+     340.931,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -0.165641,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65330820015962899,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80563,
+     0.369,
+     -3.0725
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     0.76
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65432271528610696,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36125,
+     0.36675,
+     -3.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.58,
+     -0.004,
+     -0.08
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198081920422494107
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199760480127920944
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.50019,
+     0.45056,
+     -3.56188
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198504506843557392
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199171308771648913
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.36117,
+     0.39619,
+     -3.545
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "euler": [
+     316.3865,
+     90.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198548862692844868
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199566389953100910
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.18631,
+     0.369,
+     -3.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212547349145286502,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.369,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33805829819301007,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Door_Spike.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23321515599905260,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/Main_Material.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136151117949762783,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -2.02,
+      0.99052,
+      0.0
+     ],
+     "radius": 0.375,
+     "height": 2.27,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Collider",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.82812,
+     0.369,
+     -3.22438
+    ],
+    "rot": [
+     0.0,
+     0.986186,
+     0.0,
+     -0.165642
+    ],
+    "euler": [
+     0.0,
+     199.069,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -0.49
+    ],
+    "rot": [
+     0.0,
+     0.165642,
+     0.0,
+     0.986186
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65692131138185966,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.80563,
+     0.369,
+     -3.0725
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     -0.258819
+    ],
+    "euler": [
+     0.0,
+     210.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.79,
+     0.0,
+     -0.76
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65931825979905961,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      4.0,
+      0.75
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Door_Spike_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3725,
+     0.36675,
+     -3.49437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.56,
+     -0.004,
+     -0.01
+    ],
+    "rot": [
+     -0.64996,
+     0.278483,
+     -0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198299931057912216
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199075864462779534
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Door_Spike_FX/Flash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.51144,
+     0.45056,
+     -3.4775
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.7875,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0625,
+     0.03,
+     0.28161
+    ],
+    "rot": [
+     0.64996,
+     -0.278483,
+     0.278483,
+     0.64996
+    ],
+    "scale": [
+     1.4,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198869070488215218
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199907165584567512
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Door_Spike_FX/Trail_FX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37242,
+     0.39619,
+     -3.49437
+    ],
+    "rot": [
+     -0.278483,
+     0.64996,
+     0.64996,
+     -0.278483
+    ],
+    "euler": [
+     316.3865,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.5625,
+     0.5625,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.038,
+     0.0,
+     0.036
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198670321012828500
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199031343952073922
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Door_Spike_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18631,
+     0.369,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.707107,
+     0.0
+    ],
+    "euler": [
+     270.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.17969,
+     0.17652,
+     0.5625
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.891,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.31945,
+     0.31381,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212630063386271700,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.90588236
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65201897449910191,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      3.0,
+      1.0,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.125,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65829507331467374,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Door_Spike/Killbox_3",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.125,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.67733,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.33333,
+     1.33333,
+     1.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65781547038788540,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      0.33
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.75,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.3825,
+     -3.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212337165658744233,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_14/Traps/DesertGateTrap_5/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.3825,
+     -3.5
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.375,
+     0.375
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     -0.49,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212033903555039309,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7169812,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  }
+ ]
+}

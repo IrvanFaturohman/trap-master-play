@@ -1,0 +1,123 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/IcicleTrap.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Icicle",
+     "states": [
+      {
+       "name": "Icicle",
+       "speed": 1,
+       "motion": "AnimationClip/Icicle.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/Icicle.anim",
+   "name": "Icicle",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 4,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 2,
+     "function": "DropIcicle",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": null,
+     "property": "localScale",
+     "pre": 2,
+     "post": 2,
+     "keys": [
+      [
+       0,
+       [
+        1,
+        1,
+        1
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       4,
+       [
+        1,
+        1,
+        1
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

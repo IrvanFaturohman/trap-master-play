@@ -1,0 +1,4966 @@
+{
+ "level": 26,
+ "sources": {
+  "asset": "Resources/levels/Level_26.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_26.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Twilight Grove",
+ "trapClass": [
+  "MagicMushroomTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 800000.0,
+  "goldReward": 250.0,
+  "bricksReward": 2000,
+  "TrapOffset": 12,
+  "EnemiesOffset": 11,
+  "SpeedOffset": 8,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 5000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 9,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "GoldenEnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[26] over asset",
+  "blobRewardsOfGoals": [
+   20000,
+   20000,
+   80000,
+   20000,
+   40000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_5.asset",
+  "targetMoney": 1000000000.0,
+  "goldReward": 600.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_2.png",
+  "backgroundFogColor": {
+   "r": 0.706,
+   "g": 0.078,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_26.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "634bf0b66803d40bdae6836b14eeb409",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 5000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 9,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "GoldenEnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_26#LevelView",
+  "trapViews": [
+   "Level_26/Traps/Pool/MagicMushroom_1#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_2#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_3#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_4#MagicMushroomTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [
+   "Level_26/Traps/Pool/MagicMushroom_1#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_2#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_3#MagicMushroomTrap",
+   "Level_26/Traps/Pool/MagicMushroom_4#MagicMushroomTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_26/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -2.62,
+      0.54,
+      0.55
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -2.62,
+      0.54,
+      0.55
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_26/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      -1.4,
+      0.54,
+      -0.77
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.4,
+      0.54,
+      -0.77
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_26/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      -2.21,
+      0.54,
+      -2.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -2.21,
+      0.54,
+      -2.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_26/PipePoint",
+    "world": {
+     "pos": [
+      -1.18,
+      0.61,
+      3.93
+     ],
+     "rot": [
+      0.0,
+      0.081764,
+      0.0,
+      0.996652
+     ],
+     "euler": [
+      0.0,
+      9.38,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.18,
+      0.61,
+      3.93
+     ],
+     "rot": [
+      0.0,
+      0.081764,
+      0.0,
+      0.996652
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_26/DoubleGate",
+   "world": {
+    "pos": [
+     -1.6,
+     0.2,
+     2.61
+    ],
+    "rot": [
+     0.0,
+     0.092888,
+     0.0,
+     0.995677
+    ],
+    "euler": [
+     0.0,
+     10.6595,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     0.2,
+     2.61
+    ],
+    "rot": [
+     0.0,
+     0.092888,
+     0.0,
+     0.995677
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_26/Traps/Pool/MagicMushroom_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_26/Traps/Pool/MagicMushroom_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/MagicMushroom_0.ogg",
+     "fileID": 8300000
+    },
+    "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_1/MushroomA_1#SkinnedMeshRenderer",
+    "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_1/ProjectileSpawnPoint"
+   },
+   "world": {
+    "pos": [
+     -3.65,
+     0.125,
+     0.26
+    ],
+    "rot": [
+     0.0,
+     -0.96528,
+     0.0,
+     -0.261216
+    ],
+    "euler": [
+     0.0,
+     149.7156,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.65,
+     0.125,
+     0.26
+    ],
+    "rot": [
+     0.0,
+     -0.96528,
+     0.0,
+     -0.261216
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_26/Traps/Pool/MagicMushroom_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_26/Traps/Pool/MagicMushroom_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/MagicMushroom_0.ogg",
+     "fileID": 8300000
+    },
+    "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_2/MushroomA_1#SkinnedMeshRenderer",
+    "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_2/ProjectileSpawnPoint"
+   },
+   "world": {
+    "pos": [
+     -0.34,
+     0.125,
+     -0.08
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "euler": [
+     0.0,
+     320.7649,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.34,
+     0.125,
+     -0.08
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_26/Traps/Pool/MagicMushroom_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_26/Traps/Pool/MagicMushroom_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/MagicMushroom_0.ogg",
+     "fileID": 8300000
+    },
+    "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_3/MushroomA_1#SkinnedMeshRenderer",
+    "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_3/ProjectileSpawnPoint"
+   },
+   "world": {
+    "pos": [
+     0.28,
+     0.125,
+     -2.51
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "euler": [
+     0.0,
+     282.3814,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.28,
+     0.125,
+     -2.51
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_26/Traps/Pool/MagicMushroom_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_26/Traps/Pool/MagicMushroom_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/MagicMushroom_0.ogg",
+     "fileID": 8300000
+    },
+    "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_4/MushroomA_1#SkinnedMeshRenderer",
+    "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_4/ProjectileSpawnPoint"
+   },
+   "world": {
+    "pos": [
+     -3.5,
+     0.125,
+     -1.74
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "euler": [
+     0.0,
+     105.6716,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.5,
+     0.125,
+     -1.74
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "EnemyDirection": [
+   {
+    "path": "Level_26/Directions/Direction_1",
+    "world": {
+     "pos": [
+      -1.85822,
+      0.0,
+      3.02165
+     ],
+     "rot": [
+      0.0,
+      0.995043,
+      0.0,
+      -0.099442
+     ],
+     "euler": [
+      0.0,
+      191.4141,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136801075752484240,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 3.544331,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_2",
+    "world": {
+     "pos": [
+      -2.3,
+      0.0,
+      0.89
+     ],
+     "rot": [
+      0.0,
+      0.999708,
+      0.0,
+      -0.024156
+     ],
+     "euler": [
+      0.0,
+      182.7683,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136397768327470545,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 3.544331,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_3",
+    "world": {
+     "pos": [
+      -1.95,
+      0.0,
+      -1.27
+     ],
+     "rot": [
+      0.0,
+      0.996275,
+      0.0,
+      0.086227
+     ],
+     "euler": [
+      0.0,
+      170.1068,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136581786255902400,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 3.8050454,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_4",
+    "world": {
+     "pos": [
+      -1.37,
+      0.0,
+      -3.13
+     ],
+     "rot": [
+      0.0,
+      0.98685,
+      0.0,
+      0.16164
+     ],
+     "euler": [
+      0.0,
+      161.3958,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136045458335737618,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 4.110245,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_5",
+    "world": {
+     "pos": [
+      -0.39,
+      0.0,
+      -5.24
+     ],
+     "rot": [
+      0.0,
+      0.971428,
+      0.0,
+      0.237334
+     ],
+     "euler": [
+      0.0,
+      152.5415,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136924050743934937,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 4.3158555,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_6",
+    "world": {
+     "pos": [
+      0.92,
+      0.0,
+      -7.28
+     ],
+     "rot": [
+      0.0,
+      0.95392,
+      0.0,
+      0.300062
+     ],
+     "euler": [
+      0.0,
+      145.0774,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136689364072382846,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 4,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_7",
+    "world": {
+     "pos": [
+      2.49429,
+      0.0,
+      -9.5348
+     ],
+     "rot": [
+      0.0,
+      0.942425,
+      0.0,
+      0.334418
+     ],
+     "euler": [
+      0.0,
+      140.9257,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136743393880019028,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 4.2168784,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Directions/Direction_8",
+    "world": {
+     "pos": [
+      3.59737,
+      0.0,
+      -10.89337
+     ],
+     "rot": [
+      0.0,
+      0.938366,
+      0.0,
+      0.345643
+     ],
+     "euler": [
+      0.0,
+      139.5579,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136026196548002408,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 4.099752,
+      "direction": 2
+     }
+    ]
+   }
+  ],
+  "Finish": [
+   {
+    "path": "Level_26/FinishLine",
+    "world": {
+     "pos": [
+      2.92,
+      0.0,
+      -10.85
+     ],
+     "rot": [
+      0.0,
+      -0.139723,
+      0.0,
+      0.990191
+     ],
+     "euler": [
+      0.0,
+      343.9363,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65132862189046193,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       12.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_26/Ground",
+    "world": {
+     "pos": [
+      -2.06,
+      -0.321,
+      0.66
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65279359913592680,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       -0.11758,
+       -7.5,
+       0.0
+      ],
+      "size": [
+       3.43517,
+       17.0,
+       5.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Ground_1",
+    "world": {
+     "pos": [
+      -1.21,
+      -0.321,
+      4.2
+     ],
+     "rot": [
+      0.0,
+      0.258819,
+      0.0,
+      0.965926
+     ],
+     "euler": [
+      0.0,
+      29.9999,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65693062532245359,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -1.77959
+      ],
+      "size": [
+       3.2,
+       17.0,
+       1.44082
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_26/Ground_2",
+    "world": {
+     "pos": [
+      -1.4,
+      -0.321,
+      -3.38
+     ],
+     "rot": [
+      0.0,
+      -0.201845,
+      0.0,
+      0.979417
+     ],
+     "euler": [
+      0.0,
+      336.7102,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65149520701623706,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.29183,
+       -7.5,
+       0.0
+      ],
+      "size": [
+       3.52964,
+       17.0,
+       7.71549
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomA_1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/MushroomF_1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/floor_mushroom_0.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_26",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114726790013014859,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_26/Traps/Pool/MagicMushroom_1#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_2#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_3#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_4#MagicMushroomTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": [
+         "Level_26/Traps/Pool/MagicMushroom_1#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_2#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_3#MagicMushroomTrap",
+         "Level_26/Traps/Pool/MagicMushroom_4#MagicMushroomTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_26/MysteryBoxPositions/Position_1",
+        "Level_26/MysteryBoxPositions/Position_2",
+        "Level_26/MysteryBoxPositions/Position_3"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_26/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_26/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33601984538237284,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23785330607447594,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65007513189690300,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33969505138979683,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23190181876552715,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65240571728440943,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33998874197659892,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23408345039935966,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65611579644537198,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Directions/Direction_1",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.85822,
+     0.0,
+     3.02165
+    ],
+    "rot": [
+     0.0,
+     0.995043,
+     0.0,
+     -0.099442
+    ],
+    "euler": [
+     0.0,
+     191.4141,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.85822,
+     0.0,
+     3.02165
+    ],
+    "rot": [
+     0.0,
+     0.995043,
+     0.0,
+     -0.099442
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136801075752484240,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 3.544331,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_2",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.3,
+     0.0,
+     0.89
+    ],
+    "rot": [
+     0.0,
+     0.999708,
+     0.0,
+     -0.024156
+    ],
+    "euler": [
+     0.0,
+     182.7683,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.3,
+     0.0,
+     0.89
+    ],
+    "rot": [
+     0.0,
+     0.999708,
+     0.0,
+     -0.024156
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136397768327470545,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 3.544331,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_3",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.95,
+     0.0,
+     -1.27
+    ],
+    "rot": [
+     0.0,
+     0.996275,
+     0.0,
+     0.086227
+    ],
+    "euler": [
+     0.0,
+     170.1068,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.95,
+     0.0,
+     -1.27
+    ],
+    "rot": [
+     0.0,
+     0.996275,
+     0.0,
+     0.086227
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136581786255902400,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 3.8050454,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_4",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.37,
+     0.0,
+     -3.13
+    ],
+    "rot": [
+     0.0,
+     0.98685,
+     0.0,
+     0.16164
+    ],
+    "euler": [
+     0.0,
+     161.3958,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.37,
+     0.0,
+     -3.13
+    ],
+    "rot": [
+     0.0,
+     0.98685,
+     0.0,
+     0.16164
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136045458335737618,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 4.110245,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_5",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.39,
+     0.0,
+     -5.24
+    ],
+    "rot": [
+     0.0,
+     0.971428,
+     0.0,
+     0.237334
+    ],
+    "euler": [
+     0.0,
+     152.5415,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.39,
+     0.0,
+     -5.24
+    ],
+    "rot": [
+     0.0,
+     0.971428,
+     0.0,
+     0.237334
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136924050743934937,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 4.3158555,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_6",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.92,
+     0.0,
+     -7.28
+    ],
+    "rot": [
+     0.0,
+     0.95392,
+     0.0,
+     0.300062
+    ],
+    "euler": [
+     0.0,
+     145.0774,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.92,
+     0.0,
+     -7.28
+    ],
+    "rot": [
+     0.0,
+     0.95392,
+     0.0,
+     0.300062
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136689364072382846,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 4,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_7",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.49429,
+     0.0,
+     -9.5348
+    ],
+    "rot": [
+     0.0,
+     0.942425,
+     0.0,
+     0.334418
+    ],
+    "euler": [
+     0.0,
+     140.9257,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.49429,
+     0.0,
+     -9.5348
+    ],
+    "rot": [
+     0.0,
+     0.942425,
+     0.0,
+     0.334418
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136743393880019028,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 4.2168784,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Directions/Direction_8",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.59737,
+     0.0,
+     -10.89337
+    ],
+    "rot": [
+     0.0,
+     0.938366,
+     0.0,
+     0.345643
+    ],
+    "euler": [
+     0.0,
+     139.5579,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.59737,
+     0.0,
+     -10.89337
+    ],
+    "rot": [
+     0.0,
+     0.938366,
+     0.0,
+     0.345643
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136026196548002408,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 4.099752,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_26/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.6,
+     0.2,
+     2.61
+    ],
+    "rot": [
+     0.0,
+     0.092888,
+     0.0,
+     0.995677
+    ],
+    "euler": [
+     0.0,
+     10.6595,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     0.2,
+     2.61
+    ],
+    "rot": [
+     0.0,
+     0.092888,
+     0.0,
+     0.995677
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.92,
+     0.0,
+     -10.85
+    ],
+    "rot": [
+     0.0,
+     -0.139723,
+     0.0,
+     0.990191
+    ],
+    "euler": [
+     0.0,
+     343.9363,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.92,
+     0.0,
+     -10.85
+    ],
+    "rot": [
+     0.0,
+     -0.139723,
+     0.0,
+     0.990191
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65132862189046193,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      12.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.06,
+     -0.321,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.06,
+     -0.321,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65279359913592680,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.11758,
+      -7.5,
+      0.0
+     ],
+     "size": [
+      3.43517,
+      17.0,
+      5.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Ground_1",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.21,
+     -0.321,
+     4.2
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.21,
+     -0.321,
+     4.2
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65693062532245359,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -1.77959
+     ],
+     "size": [
+      3.2,
+      17.0,
+      1.44082
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Ground_2",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.4,
+     -0.321,
+     -3.38
+    ],
+    "rot": [
+     0.0,
+     -0.201845,
+     0.0,
+     0.979417
+    ],
+    "euler": [
+     0.0,
+     336.7102,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.4,
+     -0.321,
+     -3.38
+    ],
+    "rot": [
+     0.0,
+     -0.201845,
+     0.0,
+     0.979417
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65149520701623706,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.29183,
+      -7.5,
+      0.0
+     ],
+     "size": [
+      3.52964,
+      17.0,
+      7.71549
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.6,
+     0.047,
+     3.16
+    ],
+    "rot": [
+     0.0,
+     -0.506776,
+     0.0,
+     0.862078
+    ],
+    "euler": [
+     0.0,
+     299.1013,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.6,
+     0.047,
+     3.16
+    ],
+    "rot": [
+     0.0,
+     -0.506776,
+     0.0,
+     0.862078
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33092105871539913,
+     "mesh": {
+      "asset": "Mesh/MushroomF_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23708180620337799,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.57435,
+     0.1136,
+     3.09628
+    ],
+    "rot": [
+     -0.609581,
+     -0.358345,
+     -0.358345,
+     0.609581
+    ],
+    "euler": [
+     270.0,
+     299.1013,
+     0.0
+    ],
+    "lossyScale": [
+     0.075,
+     0.075,
+     0.075
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.072,
+     0.111,
+     -0.089
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.125,
+     0.125,
+     0.125
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212220697728379336,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.66,
+     0.097,
+     -0.657
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.66,
+     0.097,
+     -0.657
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33168775426067361,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23896002537488308,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.70425,
+     0.1195,
+     -0.69225
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.13125,
+     0.13125,
+     0.13125
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.059,
+     0.03,
+     -0.047
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212017892387517381,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.27,
+     0.08,
+     4.14
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.27,
+     0.08,
+     4.14
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33561126880652180,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23275549183895104,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.329,
+     0.115,
+     4.093
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.059,
+     0.035,
+     -0.047
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212187454977326620,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.001,
+     0.08,
+     1.509
+    ],
+    "rot": [
+     0.0,
+     0.66107,
+     0.0,
+     0.750324
+    ],
+    "euler": [
+     0.0,
+     82.7631,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.001,
+     0.08,
+     1.509
+    ],
+    "rot": [
+     0.0,
+     0.66107,
+     0.0,
+     0.750324
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33056248600188076,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23992816746925483,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.05506,
+     0.115,
+     1.56161
+    ],
+    "rot": [
+     -0.530559,
+     0.467447,
+     0.467447,
+     0.530559
+    ],
+    "euler": [
+     270.0146,
+     82.7631,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.059,
+     0.035,
+     -0.047
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212358105479016104,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.082,
+     0.047,
+     0.692
+    ],
+    "rot": [
+     0.0,
+     0.039524,
+     0.0,
+     0.999219
+    ],
+    "euler": [
+     0.0,
+     4.5303,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.082,
+     0.047,
+     0.692
+    ],
+    "rot": [
+     0.0,
+     0.039524,
+     0.0,
+     0.999219
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33831874417830518,
+     "mesh": {
+      "asset": "Mesh/MushroomF_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23177930474251431,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_5/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.12928,
+     0.1136,
+     0.64218
+    ],
+    "rot": [
+     -0.706554,
+     0.027948,
+     0.027948,
+     0.706554
+    ],
+    "euler": [
+     270.0,
+     4.5303,
+     0.0
+    ],
+    "lossyScale": [
+     0.075,
+     0.075,
+     0.075
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.072,
+     0.111,
+     -0.089
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.125,
+     0.125,
+     0.125
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212271925019662038,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.134,
+     -0.738,
+     1.091
+    ],
+    "rot": [
+     0.113618,
+     -0.855039,
+     0.066647,
+     0.501556
+    ],
+    "euler": [
+     13.176,
+     239.9209,
+     352.4791
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.134,
+     -0.738,
+     1.091
+    ],
+    "rot": [
+     0.113618,
+     -0.855039,
+     0.066647,
+     0.501556
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232094423628703,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23592460329389196,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_6/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.04662,
+     -0.65997,
+     1.04816
+    ],
+    "rot": [
+     -0.274313,
+     -0.65173,
+     -0.557477,
+     0.434994
+    ],
+    "euler": [
+     285.1384,
+     270.0,
+     330.7908
+    ],
+    "lossyScale": [
+     0.2625,
+     0.2625,
+     0.2625
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.059,
+     0.035,
+     -0.047
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212570723408815475,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.03,
+     0.08,
+     4.64
+    ],
+    "rot": [
+     0.0,
+     0.900319,
+     0.0,
+     0.435231
+    ],
+    "euler": [
+     0.0,
+     128.4001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.03,
+     0.08,
+     4.64
+    ],
+    "rot": [
+     0.0,
+     0.900319,
+     0.0,
+     0.435231
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33433013960508438,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomF_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23649986673806370,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack13.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MushroomF_7/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.03019,
+     0.115,
+     4.71543
+    ],
+    "rot": [
+     -0.307755,
+     0.636622,
+     0.636622,
+     0.307755
+    ],
+    "euler": [
+     270.0,
+     128.4001,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.059,
+     0.035,
+     -0.047
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212038333544927157,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.6862745
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.62,
+     0.54,
+     0.55
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.62,
+     0.54,
+     0.55
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.4,
+     0.54,
+     -0.77
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.4,
+     0.54,
+     -0.77
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.21,
+     0.54,
+     -2.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.21,
+     0.54,
+     -2.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.18,
+     0.61,
+     3.93
+    ],
+    "rot": [
+     0.0,
+     0.081764,
+     0.0,
+     0.996652
+    ],
+    "euler": [
+     0.0,
+     9.38,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.18,
+     0.61,
+     3.93
+    ],
+    "rot": [
+     0.0,
+     0.081764,
+     0.0,
+     0.996652
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Traps/Pool",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.MagicMushroomProjectileInstaller",
+     "fileID": 114574304967836189,
+     "enabled": 1,
+     "fields": {
+      "projectilePrefab": {
+       "asset": "GameObject/MagicMushroomProjectile.prefab",
+       "fileID": 114061268324235159
+      },
+      "initialSize": 10
+     }
+    },
+    {
+     "type": "Plugins/Zenject.dll",
+     "fileID": 114009931292380359,
+     "enabled": 1,
+     "fields": {
+      "_scriptableObjectInstallers": [],
+      "_monoInstallers": [
+       "Level_26/Traps/Pool#MagicMushroomProjectileInstaller"
+      ],
+      "_installerPrefabs": [],
+      "_autoRun": 1,
+      "_kernel": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.65,
+     0.125,
+     0.26
+    ],
+    "rot": [
+     0.0,
+     -0.96528,
+     0.0,
+     -0.261216
+    ],
+    "euler": [
+     0.0,
+     149.7156,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.65,
+     0.125,
+     0.26
+    ],
+    "rot": [
+     0.0,
+     -0.96528,
+     0.0,
+     -0.261216
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+     "fileID": 114799762105739359,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_26/Traps/Pool/MagicMushroom_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/MagicMushroom_0.ogg",
+       "fileID": 8300000
+      },
+      "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_1/MushroomA_1#SkinnedMeshRenderer",
+      "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_1/ProjectileSpawnPoint"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95829625606037309,
+     "controller": {
+      "asset": "AnimatorController/MagicMushroom_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_1/MushroomA_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.65,
+     0.125,
+     0.26
+    ],
+    "rot": [
+     0.0,
+     -0.96528,
+     0.0,
+     -0.261216
+    ],
+    "euler": [
+     0.0,
+     149.7156,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137552309709192268,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomA_1.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_1/MushroomA_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.64707,
+     0.12275,
+     0.23565
+    ],
+    "rot": [
+     0.184707,
+     -0.682556,
+     -0.682556,
+     -0.184707
+    ],
+    "euler": [
+     270.0,
+     149.7156,
+     0.0
+    ],
+    "lossyScale": [
+     0.1875,
+     0.1875,
+     0.1875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.013,
+     -0.003,
+     0.03
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212534704304255049,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8352941
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_1/ProjectileSpawnPoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.5835,
+     1.69475,
+     0.16248
+    ],
+    "rot": [
+     0.0,
+     -0.576381,
+     0.0,
+     -0.817181
+    ],
+    "euler": [
+     0.0,
+     70.3928,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.011,
+     2.093,
+     0.157
+    ],
+    "rot": [
+     0.0,
+     -0.638249,
+     0.0,
+     0.76983
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.34,
+     0.125,
+     -0.08
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "euler": [
+     0.0,
+     320.7649,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.34,
+     0.125,
+     -0.08
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+     "fileID": 114208575754630950,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_26/Traps/Pool/MagicMushroom_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/MagicMushroom_0.ogg",
+       "fileID": 8300000
+      },
+      "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_2/MushroomA_1#SkinnedMeshRenderer",
+      "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_2/ProjectileSpawnPoint"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95431740505123533,
+     "controller": {
+      "asset": "AnimatorController/MagicMushroom_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_2/MushroomA_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.34,
+     0.125,
+     -0.08
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "euler": [
+     0.0,
+     320.7649,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137976365255789935,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomA_1.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_2/MushroomA_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.34668,
+     0.12275,
+     -0.05641
+    ],
+    "rot": [
+     -0.666063,
+     -0.237404,
+     -0.237404,
+     0.666063
+    ],
+    "euler": [
+     270.0,
+     320.7649,
+     0.0
+    ],
+    "lossyScale": [
+     0.1875,
+     0.1875,
+     0.1875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.013,
+     -0.003,
+     0.03
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212264357844037074,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8352941
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_2/ProjectileSpawnPoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.42087,
+     1.69475,
+     0.00599
+    ],
+    "rot": [
+     0.0,
+     -0.33574,
+     0.0,
+     0.941955
+    ],
+    "euler": [
+     0.0,
+     320.7649,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.011,
+     2.093,
+     0.157
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.28,
+     0.125,
+     -2.51
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "euler": [
+     0.0,
+     282.3814,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.28,
+     0.125,
+     -2.51
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+     "fileID": 114703931505913403,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_26/Traps/Pool/MagicMushroom_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/MagicMushroom_0.ogg",
+       "fileID": 8300000
+      },
+      "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_3/MushroomA_1#SkinnedMeshRenderer",
+      "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_3/ProjectileSpawnPoint"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95121005239445321,
+     "controller": {
+      "asset": "AnimatorController/MagicMushroom_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_3/MushroomA_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.28,
+     0.125,
+     -2.51
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "euler": [
+     0.0,
+     282.3814,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137704330047573733,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomA_1.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_3/MushroomA_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.26011,
+     0.12275,
+     -2.49565
+    ],
+    "rot": [
+     -0.551003,
+     -0.443165,
+     -0.443165,
+     0.551003
+    ],
+    "euler": [
+     270.0,
+     282.3814,
+     0.0
+    ],
+    "lossyScale": [
+     0.1875,
+     0.1875,
+     0.1875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.013,
+     -0.003,
+     0.03
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212231814100211528,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8352941
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_3/ProjectileSpawnPoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.16322,
+     1.69475,
+     -2.49281
+    ],
+    "rot": [
+     0.0,
+     -0.62673,
+     0.0,
+     0.779236
+    ],
+    "euler": [
+     0.0,
+     282.3814,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.011,
+     2.093,
+     0.157
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -3.5,
+     0.125,
+     -1.74
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "euler": [
+     0.0,
+     105.6716,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.5,
+     0.125,
+     -1.74
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.MagicMushroomTrap",
+     "fileID": 114770005084341472,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_26/Traps/Pool/MagicMushroom_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/MagicMushroom_0.ogg",
+       "fileID": 8300000
+      },
+      "meshRenderer": "Level_26/Traps/Pool/MagicMushroom_4/MushroomA_1#SkinnedMeshRenderer",
+      "projectileSpawnRoot": "Level_26/Traps/Pool/MagicMushroom_4/ProjectileSpawnPoint"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95123703392571528,
+     "controller": {
+      "asset": "AnimatorController/MagicMushroom_1.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_4/MushroomA_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.5,
+     0.125,
+     -1.74
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "euler": [
+     0.0,
+     105.6716,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137492842699383957,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomA_1.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_4/MushroomA_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.48097,
+     0.12275,
+     -1.75547
+    ],
+    "rot": [
+     -0.427164,
+     0.563499,
+     0.563499,
+     0.427164
+    ],
+    "euler": [
+     270.0,
+     105.6716,
+     0.0
+    ],
+    "lossyScale": [
+     0.1875,
+     0.1875,
+     0.1875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.013,
+     -0.003,
+     0.03
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212880619614767448,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8352941
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_26/Traps/Pool/MagicMushroom_4/ProjectileSpawnPoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.3844,
+     1.69475,
+     -1.76386
+    ],
+    "rot": [
+     0.0,
+     0.796907,
+     0.0,
+     0.604102
+    ],
+    "euler": [
+     0.0,
+     105.6716,
+     0.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.011,
+     2.093,
+     0.157
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_26/floor_mushroom",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.26,
+     0.6,
+     -0.3
+    ],
+    "rot": [
+     0.0,
+     -0.048278,
+     0.0,
+     0.998834
+    ],
+    "euler": [
+     0.0,
+     354.4656,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.16405
+    ]
+   },
+   "local": {
+    "pos": [
+     3.26,
+     0.6,
+     -0.3
+    ],
+    "rot": [
+     0.0,
+     -0.048278,
+     0.0,
+     0.998834
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.16405
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33386943702330414,
+     "mesh": {
+      "asset": "Mesh/floor_mushroom_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23066778049879928,
+     "materials": [
+      {
+       "asset": "Material/Ground 20.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

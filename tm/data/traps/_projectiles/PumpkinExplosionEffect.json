@@ -1,0 +1,323 @@
+[
+ {
+  "name": "PumpkinExplosionEffect",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": 1,
+  "pos": [
+   0,
+   0.43,
+   0
+  ],
+  "rotQ": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "euler": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1,
+   1,
+   1
+  ],
+  "components": [],
+  "children": [
+   {
+    "name": "EndGlow",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 1,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 1,
+      "startSpeed": 0,
+      "startSize": 5,
+      "startColor": {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "AssetStore/VFX/Epic Toon FX/Materials/Basics/glow2_ADD.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": null,
+      "m_RenderMode": 0
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "EndShell",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 2,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 0.7,
+      "startSpeed": 0,
+      "startSize": 3,
+      "startColor": {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "Material/gradient_circle_ADD.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": "builtin:10207",
+      "m_RenderMode": 4
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "EndNova",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 1,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 1,
+      "startSpeed": 0,
+      "startSize": 5,
+      "startColor": {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "Material/aura_soft01_ADD.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": "builtin:10210",
+      "m_RenderMode": 0
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "EndSparks",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 1,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 1.8,
+      "startSpeed": 15,
+      "startSize": 0.12,
+      "startColor": {
+       "r": 1,
+       "g": 1,
+       "b": 1,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "AssetStore/VFX/Epic Toon FX/Materials/Misc/Magic/magic_orb2_ADD.mat#2100000",
+       "Material/gradient_horizontal_ADD.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": null,
+      "m_RenderMode": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "EndSpikes",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 1,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 0.55,
+      "startSpeed": 0.1,
+      "startSize": 0.2,
+      "startColor": {
+       "r": 1,
+       "g": 0.8718091,
+       "b": 0.504717,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "Material/line_sharp_AB.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": null,
+      "m_RenderMode": 1
+     }
+    ],
+    "children": []
+   }
+  ]
+ }
+]

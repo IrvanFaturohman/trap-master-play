@@ -1,0 +1,4305 @@
+{
+ "level": 13,
+ "sources": {
+  "asset": "Resources/levels/Level_13.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_13.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Sand Canyon",
+ "trapClass": [
+  "RotatingGrinderTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 200000.0,
+  "goldReward": 40.0,
+  "bricksReward": 500,
+  "TrapOffset": 9,
+  "EnemiesOffset": 7,
+  "SpeedOffset": 7,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 40,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[13] over asset",
+  "blobRewardsOfGoals": [
+   10000,
+   10000,
+   20000,
+   20000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_2.asset",
+  "targetMoney": 30000000.0,
+  "goldReward": 250.0,
+  "bricksReward": 1000,
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 1,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_13.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "0892b99b1436d5943b406c53319acbad",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 40,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_13#LevelView",
+  "trapViews": [
+   "Level_13/Traps/RotatingGrinderTrap_1#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_2#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_3#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_4#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_5#RotatingGrinderTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_13/Traps/RotatingGrinderTrap_5#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_4#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_1#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_3#RotatingGrinderTrap",
+   "Level_13/Traps/RotatingGrinderTrap_2#RotatingGrinderTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_13/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -1.217,
+      0.54,
+      -0.592
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.217,
+      0.54,
+      -0.592
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_13/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.047,
+      0.54,
+      -2.807
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.047,
+      0.54,
+      -2.807
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_13/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_13/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_13/Traps/RotatingGrinderTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_13/Traps/RotatingGrinderTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0.5,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_13/Traps/RotatingGrinderTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_13/Traps/RotatingGrinderTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0.1,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_13/Traps/RotatingGrinderTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_13/Traps/RotatingGrinderTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0.1,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_13/Traps/RotatingGrinderTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_13/Traps/RotatingGrinderTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0.575,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_13/Traps/RotatingGrinderTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_13/Traps/RotatingGrinderTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Ground": [
+   {
+    "path": "Level_13",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": []
+   },
+   {
+    "path": "Level_13/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65896002537488308,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Finish": [
+   {
+    "path": "Level_13/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -10.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65969505138979683,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_13/Traps/RotatingGrinderTrap_1/moving grinder",
+    "world": {
+     "pos": [
+      -0.03114,
+      0.25,
+      -3.96402
+     ],
+     "rot": [
+      0.0,
+      0.012933,
+      0.0,
+      0.999916
+     ],
+     "euler": [
+      0.0,
+      1.4821,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136833703512093738,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.5025,
+       0.0
+      ],
+      "radius": 0.456642,
+      "height": 1.005,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_13/Traps/RotatingGrinderTrap_2/moving grinder",
+    "world": {
+     "pos": [
+      -1.33114,
+      0.25,
+      -1.71402
+     ],
+     "rot": [
+      0.0,
+      0.012933,
+      0.0,
+      0.999916
+     ],
+     "euler": [
+      0.0,
+      1.4821,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136045458335737618,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.5025,
+       0.0
+      ],
+      "radius": 0.456642,
+      "height": 1.005,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_13/Traps/RotatingGrinderTrap_3/moving grinder",
+    "world": {
+     "pos": [
+      1.26886,
+      0.25,
+      -1.71402
+     ],
+     "rot": [
+      0.0,
+      0.012933,
+      0.0,
+      0.999916
+     ],
+     "euler": [
+      0.0,
+      1.4821,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136149520701623706,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.5025,
+       0.0
+      ],
+      "radius": 0.456642,
+      "height": 1.005,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_13/Traps/RotatingGrinderTrap_4/moving grinder",
+    "world": {
+     "pos": [
+      -1.33114,
+      0.25,
+      -6.21402
+     ],
+     "rot": [
+      0.0,
+      0.012933,
+      0.0,
+      0.999916
+     ],
+     "euler": [
+      0.0,
+      1.4821,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136571878917323452,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.5025,
+       0.0
+      ],
+      "radius": 0.456642,
+      "height": 1.005,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_13/Traps/RotatingGrinderTrap_5/moving grinder",
+    "world": {
+     "pos": [
+      1.26886,
+      0.25,
+      -6.21402
+     ],
+     "rot": [
+      0.0,
+      0.012933,
+      0.0,
+      0.999916
+     ],
+     "euler": [
+      0.0,
+      1.4821,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136703931505913403,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.5025,
+       0.0
+      ],
+      "radius": 0.456642,
+      "height": 1.005,
+      "direction": 1
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/PyramidStepsUpperHalf.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Pyramid_Thin_Base.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Pyramid_Thin_Tip.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ram_Sharp.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_13",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114518489005915545,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_13/Traps/RotatingGrinderTrap_1#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_2#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_3#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_4#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_5#RotatingGrinderTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_13/Traps/RotatingGrinderTrap_5#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_4#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_1#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_3#RotatingGrinderTrap",
+         "Level_13/Traps/RotatingGrinderTrap_2#RotatingGrinderTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_13/MysteryBoxPositions/Position_1",
+        "Level_13/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_13/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_13/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Colliders",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/Colliders/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33770005084341472,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23123703392571528,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65855482821919830,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Colliders/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33150646884989824,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23880619614767448,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65167524263268962,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Colliders/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33533803739292891,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23601984538237284,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65785330607447594,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33240571728440943,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23617365563186364,
+     "materials": [
+      {
+       "asset": "Material/Ground 12.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64998874197659892,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/PyramidStepsUpperHalf",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.81,
+     0.25,
+     -3.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.27,
+     0.0,
+     -1.11
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33611579644537198,
+     "mesh": {
+      "asset": "Mesh/PyramidStepsUpperHalf.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23328299215684997,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample512.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/PyramidStepsUpperHalf/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.81,
+     0.253,
+     -3.33
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.01,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212132862189046193,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/PyramidStepsUpperHalf_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.09,
+     0.25,
+     -2.751
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     1.03,
+     0.0,
+     -0.917
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33450391854282655,
+     "mesh": {
+      "asset": "Mesh/PyramidStepsUpperHalf.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23386943702330414,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample512.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/PyramidStepsUpperHalf_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.09,
+     0.253,
+     -2.751
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.01,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212824317463469755,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.07,
+     0.28,
+     6.06
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.45,
+     0.45,
+     0.45
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.69,
+     0.01,
+     2.02
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33275549183895104,
+     "mesh": {
+      "asset": "Mesh/Pyramid_Thin_Base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23528911807818478,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample512.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.07,
+     0.262,
+     6.06
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.125,
+     1.125,
+     1.125
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.04,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     2.5,
+     2.5,
+     2.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212091882994760266,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Tip",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.918,
+     0.316,
+     -0.936
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5205,
+     0.5205,
+     0.5205
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.306,
+     0.022,
+     -0.312
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.1735,
+     0.1735,
+     0.1735
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33592460329389196,
+     "mesh": {
+      "asset": "Mesh/Pyramid_Thin_Tip.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23771092198208730,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample512.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Tip/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.918,
+     0.316,
+     -0.936
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.64933,
+     0.64933,
+     0.64933
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1.2475,
+     1.2475,
+     1.2475
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212011164340880974,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Tip_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.033,
+     0.316,
+     -7.272
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5205,
+     0.5205,
+     0.5205
+    ]
+   },
+   "local": {
+    "pos": [
+     1.011,
+     0.022,
+     -2.424
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.1735,
+     0.1735,
+     0.1735
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33992816746925483,
+     "mesh": {
+      "asset": "Mesh/Pyramid_Thin_Tip.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23695600491528212,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample512.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Pyramid_Thin_Tip_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.033,
+     0.316,
+     -7.272
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.64933,
+     0.64933,
+     0.64933
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     1.2475,
+     1.2475,
+     1.2475
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212291632710222552,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Ram_Sharp",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.491,
+     0.334,
+     1.914
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     360.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.25,
+     2.25,
+     2.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.497,
+     0.028,
+     0.638
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33649986673806370,
+     "mesh": {
+      "asset": "Mesh/Ram_Sharp.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23168105826085154,
+     "materials": [
+      {
+       "asset": "Material/DesertKitsAtlas_Sample513.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Desert_3/Ram_Sharp/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.491,
+     0.334,
+     1.914
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.675,
+     1.125,
+     2.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.5,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212146109142143575,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.18867922,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -10.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -10.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65969505138979683,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65896002537488308,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_13/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.217,
+     0.54,
+     -0.592
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.217,
+     0.54,
+     -0.592
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.047,
+     0.54,
+     -2.807
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.047,
+     0.54,
+     -2.807
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95967328832014496,
+     "controller": {
+      "asset": "AnimatorController/RotatingGrinder.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+     "fileID": 114291844617409189,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_13/Traps/RotatingGrinderTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0.5,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_1/moving grinder",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.03114,
+     0.25,
+     -3.96402
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "euler": [
+     0.0,
+     1.4821,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.0346,
+     0.0,
+     -1.34891
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33919942235722503,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23107629493147155,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136833703512093738,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.5025,
+      0.0
+     ],
+     "radius": 0.456642,
+     "height": 1.005,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_1/moving grinder ground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33436073260064126,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23693329660128220,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_1/moving grinder/Square",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.03114,
+     0.2851,
+     -3.96402
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.243,
+     0.243,
+     0.243
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.039,
+     0.0
+    ],
+    "rot": [
+     0.707048,
+     -0.009145,
+     0.009145,
+     0.707047
+    ],
+    "scale": [
+     0.27,
+     0.27,
+     0.27
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212719342369648492,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95000955326284023,
+     "controller": {
+      "asset": "AnimatorController/RotatingGrinder.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+     "fileID": 114397768327470545,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_13/Traps/RotatingGrinderTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0.1,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_2/moving grinder",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.33114,
+     0.25,
+     -1.71402
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "euler": [
+     0.0,
+     1.4821,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.0346,
+     0.0,
+     -1.34891
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33581786255902400,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23477046003934300,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136045458335737618,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.5025,
+      0.0
+     ],
+     "radius": 0.456642,
+     "height": 1.005,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_2/moving grinder ground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33689364072382846,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23043919389829319,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_2/moving grinder/Square",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.33114,
+     0.2851,
+     -1.71402
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.243,
+     0.243,
+     0.243
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.039,
+     0.0
+    ],
+    "rot": [
+     0.707048,
+     -0.009145,
+     0.009145,
+     0.707047
+    ],
+    "scale": [
+     0.27,
+     0.27,
+     0.27
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212924050743934937,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95094320201520353,
+     "controller": {
+      "asset": "AnimatorController/RotatingGrinder.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+     "fileID": 114026196548002408,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_13/Traps/RotatingGrinderTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0.1,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_3/moving grinder",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.26886,
+     0.25,
+     -1.71402
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "euler": [
+     0.0,
+     1.4821,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.0346,
+     0.0,
+     -1.34891
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33279359913592680,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23384403120170545,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136149520701623706,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.5025,
+      0.0
+     ],
+     "radius": 0.456642,
+     "height": 1.005,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_3/moving grinder ground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370222726513266,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23574304967836189,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_3/moving grinder/Square",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.26886,
+     0.2851,
+     -1.71402
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.243,
+     0.243,
+     0.243
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.039,
+     0.0
+    ],
+    "rot": [
+     0.707048,
+     -0.009145,
+     0.009145,
+     0.707047
+    ],
+    "scale": [
+     0.27,
+     0.27,
+     0.27
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212693062532245359,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95393105877652414,
+     "controller": {
+      "asset": "AnimatorController/RotatingGrinder.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+     "fileID": 114799762105739359,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_13/Traps/RotatingGrinderTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0.575,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_4/moving grinder",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.33114,
+     0.25,
+     -6.21402
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "euler": [
+     0.0,
+     1.4821,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.0346,
+     0.0,
+     -1.34891
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33574190619683098,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23552309709192268,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136571878917323452,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.5025,
+      0.0
+     ],
+     "radius": 0.456642,
+     "height": 1.005,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_4/moving grinder ground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33208575754630950,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23431740505123533,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_4/moving grinder/Square",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.33114,
+     0.2851,
+     -6.21402
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.243,
+     0.243,
+     0.243
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.039,
+     0.0
+    ],
+    "rot": [
+     0.707048,
+     -0.009145,
+     0.009145,
+     0.707047
+    ],
+    "scale": [
+     0.27,
+     0.27,
+     0.27
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212651560128206891,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95976365255789935,
+     "controller": {
+      "asset": "AnimatorController/RotatingGrinder.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingGrinderTrap",
+     "fileID": 114699617135816954,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_13/Traps/RotatingGrinderTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_5/moving grinder",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.26886,
+     0.25,
+     -6.21402
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "euler": [
+     0.0,
+     1.4821,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.0346,
+     0.0,
+     -1.34891
+    ],
+    "rot": [
+     0.0,
+     0.012933,
+     0.0,
+     0.999916
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33499726237547504,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23658330495870062,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136703931505913403,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.5025,
+      0.0
+     ],
+     "radius": 0.456642,
+     "height": 1.005,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_5/moving grinder ground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.25,
+     -5.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33085275382694935,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/moving grinder ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23231814100211528,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color_Desert_3.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_13/Traps/RotatingGrinderTrap_5/moving grinder/Square",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.26886,
+     0.2851,
+     -6.21402
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.243,
+     0.243,
+     0.243
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.039,
+     0.0
+    ],
+    "rot": [
+     0.707048,
+     -0.009145,
+     0.009145,
+     0.707047
+    ],
+    "scale": [
+     0.27,
+     0.27,
+     0.27
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212806657225351454,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5294118
+     }
+    }
+   ]
+  }
+ ]
+}

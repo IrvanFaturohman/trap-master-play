@@ -1,0 +1,3456 @@
+{
+ "level": 11,
+ "sources": {
+  "asset": "Resources/levels/Level_11.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_11.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "BoxingGloveTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 150000.0,
+  "goldReward": 40.0,
+  "bricksReward": 0,
+  "TrapOffset": 8,
+  "EnemiesOffset": 11,
+  "SpeedOffset": 6,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.08,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 160,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 25,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[11] over asset",
+  "blobRewardsOfGoals": [
+   7500,
+   12000,
+   7500,
+   15000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 10000000.0,
+  "goldReward": 250.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 0,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 3,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_11.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "8d2aa30590493e743b2661032198d7f0",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 25,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.08,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 160,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.2,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 25,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_11#LevelView",
+  "trapViews": [
+   "Level_11/Traps/BoxingGloveTrap_1#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_2#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_3#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_4#BoxingGloveTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_11/Traps/BoxingGloveTrap_3#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_1#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_2#BoxingGloveTrap",
+   "Level_11/Traps/BoxingGloveTrap_4#BoxingGloveTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_11/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.65,
+      0.54,
+      0.46
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.65,
+      0.54,
+      0.46
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_11/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.52,
+      0.54,
+      -4.27
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.52,
+      0.54,
+      -4.27
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_11/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_11/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_11/Traps/BoxingGloveTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_11/Traps/BoxingGloveTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.075,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/BoxingGlove.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_11/Traps/BoxingGloveTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_11/Traps/BoxingGloveTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.075,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/BoxingGlove.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_11/Traps/BoxingGloveTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_11/Traps/BoxingGloveTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.075,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/BoxingGlove.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_11/Traps/BoxingGloveTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_11/Traps/BoxingGloveTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.075,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/BoxingGlove.ogg",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_11/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65240571728440943,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_11/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65900271049623953,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.09324,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.01351,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_11/Traps/BoxingGloveTrap_1/Box_Glove/Hand/Hitbox",
+    "world": {
+     "pos": [
+      -0.4695,
+      0.5914,
+      -2.41
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.55,
+      0.55,
+      0.62442
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65693329660128220,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.45327,
+       2.0,
+       2.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_11/Traps/BoxingGloveTrap_2/Box_Glove/Hand/Hitbox",
+    "world": {
+     "pos": [
+      -0.4695,
+      0.5914,
+      -1.41
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.55,
+      0.55,
+      0.62442
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65572839542275309,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.45327,
+       2.0,
+       2.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_11/Traps/BoxingGloveTrap_3/Box_Glove/Hand/Hitbox",
+    "world": {
+     "pos": [
+      -0.4695,
+      0.5914,
+      -3.41
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.55,
+      0.55,
+      0.62442
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65534704304255049,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.45327,
+       2.0,
+       2.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_11/Traps/BoxingGloveTrap_4/Box_Glove/Hand/Hitbox",
+    "world": {
+     "pos": [
+      -0.4695,
+      0.5914,
+      -0.41
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.55,
+      0.55,
+      0.62442
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65231814100211528,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       1.45327,
+       2.0,
+       2.0
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove_Hand.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Level_7.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114017697238300914,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_11/Traps/BoxingGloveTrap_1#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_2#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_3#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_4#BoxingGloveTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_11/Traps/BoxingGloveTrap_3#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_1#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_2#BoxingGloveTrap",
+         "Level_11/Traps/BoxingGloveTrap_4#BoxingGloveTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_11/MysteryBoxPositions/Position_1",
+        "Level_11/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_11/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_11/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33855482821919830,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23492842699383957,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65150646884989824,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.25,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33167524263268962,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23641631609468814,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65533803739292891,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.23539,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.47078,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33785330607447594,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23007513189690300,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65690175861776792,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65240571728440943,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33808113985169905,
+     "mesh": {
+      "asset": "Mesh/Level_7.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23060945828524476,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65900271049623953,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.09324,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.01351,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.65,
+     0.54,
+     0.46
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.65,
+     0.54,
+     0.46
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.52,
+     0.54,
+     -4.27
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.52,
+     0.54,
+     -4.27
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95220653531496868,
+     "controller": {
+      "asset": "AnimatorController/Box_Glove_Controller.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+     "fileID": 114841364053301648,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_11/Traps/BoxingGloveTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.075,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/BoxingGlove.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1/Block",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291844617409189,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33344419225485095,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135919942235722503,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.78009,
+      0.46721
+     ],
+     "radius": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1/Box_Glove",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.576,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1/Box_Glove/Hand",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.2295,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.63,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33632746491512912,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove_Hand.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23719342369648492,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65726790013014859,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.80622,
+      -0.36716
+     ],
+     "size": [
+      1.21986,
+      1.22222,
+      6.51603
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1/Box_Glove/Hand/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4695,
+     0.5914,
+     -2.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.62442
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.658,
+     3.45
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.1353
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65693329660128220,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.45327,
+      2.0,
+      2.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_1/Box_Glove/Hand/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.26265,
+     0.25645,
+     -2.41
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.11,
+     0.11,
+     0.11
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.049,
+     2.0079
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212000955326284023,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Particles-Multiply.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.17475079,
+      "g": 0.22967549,
+      "b": 0.4811321,
+      "a": 0.48235294
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95571718729274231,
+     "controller": {
+      "asset": "AnimatorController/Box_Glove_Controller.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+     "fileID": 114581786255902400,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_11/Traps/BoxingGloveTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.075,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/BoxingGlove.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2/Block",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23045458335737618,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33722951815217645,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135924050743934937,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.78009,
+      0.46721
+     ],
+     "radius": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2/Box_Glove",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.576,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2/Box_Glove/Hand",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.2295,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.63,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33043919389829319,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove_Hand.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23743393880019028,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65094320201520353,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.80622,
+      -0.36716
+     ],
+     "size": [
+      1.21986,
+      1.22222,
+      6.51603
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2/Box_Glove/Hand/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4695,
+     0.5914,
+     -1.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.62442
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.658,
+     3.45
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.1353
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65572839542275309,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.45327,
+      2.0,
+      2.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_2/Box_Glove/Hand/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.17086,
+     0.25645,
+     -1.41
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.11,
+     0.11,
+     0.11
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.049,
+     2.1748
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212384403120170545,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Particles-Multiply.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.17475079,
+      "g": 0.22967549,
+      "b": 0.4811321,
+      "a": 0.48235294
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95292246286975720,
+     "controller": {
+      "asset": "AnimatorController/Box_Glove_Controller.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+     "fileID": 114693062532245359,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_11/Traps/BoxingGloveTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.075,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/BoxingGlove.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3/Block",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370222726513266,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33574304967836189,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135009931292380359,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.78009,
+      0.46721
+     ],
+     "radius": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3/Box_Glove",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.576,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3/Box_Glove/Hand",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.2295,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.63,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33829625606037309,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove_Hand.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23574190619683098,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65552309709192268,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.80622,
+      -0.36716
+     ],
+     "size": [
+      1.21986,
+      1.22222,
+      6.51603
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3/Box_Glove/Hand/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4695,
+     0.5914,
+     -3.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.62442
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.658,
+     3.45
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.1353
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65534704304255049,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.45327,
+      2.0,
+      2.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_3/Box_Glove/Hand/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.17086,
+     0.25645,
+     -3.41
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.11,
+     0.11,
+     0.11
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.049,
+     2.1748
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212964469411310401,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Particles-Multiply.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.17475079,
+      "g": 0.22967549,
+      "b": 0.4811321,
+      "a": 0.48235294
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.092,
+     0.279,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95431740505123533,
+     "controller": {
+      "asset": "AnimatorController/Box_Glove_Controller.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoxingGloveTrap",
+     "fileID": 114356319167443197,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_11/Traps/BoxingGloveTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.075,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/BoxingGlove.ogg",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4/Block",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.092,
+     0.279,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshRenderer",
+     "fileID": 23699617135816954,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshFilter",
+     "fileID": 33264357844037074,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135499726237547504,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.78009,
+      0.46721
+     ],
+     "radius": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4/Box_Glove",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.576,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4/Box_Glove/Hand",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.367,
+     0.2295,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.63,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33121005239445321,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized_Trap_02/3D Objects/Box_Glove_Hand.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23806657225351454,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized_Trap_02/Materials/BoxingGloves.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65704330047573733,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.80622,
+      -0.36716
+     ],
+     "size": [
+      1.21986,
+      1.22222,
+      6.51603
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4/Box_Glove/Hand/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4695,
+     0.5914,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.62442
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.658,
+     3.45
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.1353
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65231814100211528,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.45327,
+      2.0,
+      2.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_11/Traps/BoxingGloveTrap_4/Box_Glove/Hand/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.17086,
+     0.25645,
+     -0.41
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     270.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.11,
+     0.11,
+     0.11
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.049,
+     2.1748
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212354824845356902,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Particles-Multiply.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.17475079,
+      "g": 0.22967549,
+      "b": 0.4811321,
+      "a": 0.48235294
+     }
+    }
+   ]
+  }
+ ]
+}

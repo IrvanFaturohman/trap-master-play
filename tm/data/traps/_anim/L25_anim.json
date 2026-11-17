@@ -1,0 +1,135 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/CrystalTrap.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "CrystalTrap",
+     "states": [
+      {
+       "name": "CrystalTrap",
+       "speed": 1,
+       "motion": "AnimationClip/CrystalTrap.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/CrystalTrap.anim",
+   "name": "CrystalTrap",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 5.5,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 1.166667,
+     "function": "ShowBeam",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": "Crystal",
+     "property": "blendShape.Grow",
+     "classID": 137,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       0,
+       0,
+       "-inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       1,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       1.333333,
+       100,
+       62.473938,
+       62.473976,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       2.166667,
+       118.22157,
+       5e-06,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       3,
+       100,
+       -54.66473,
+       -54.664722,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       3.5,
+       6e-06,
+       1.1e-05,
+       "-inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       5.5,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

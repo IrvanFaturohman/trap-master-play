@@ -1,0 +1,3279 @@
+{
+ "level": 16,
+ "sources": {
+  "asset": "Resources/levels/Level_16.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_16.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Sand Canyon",
+ "trapClass": [
+  "BoulderTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 500000.0,
+  "goldReward": 150.0,
+  "bricksReward": 750,
+  "TrapOffset": 9,
+  "EnemiesOffset": 8,
+  "SpeedOffset": 7,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 30,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 2,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[16] over asset",
+  "blobRewardsOfGoals": [
+   25000,
+   25000,
+   50000,
+   37500,
+   37500,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_2.asset",
+  "targetMoney": 60000000.0,
+  "goldReward": 350.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 3,
+   "epicPacks": 2,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 1,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_16.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "44bc09fce61238f44a7dca02f4840cb7",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 20,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 30,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_16#LevelView",
+  "trapViews": [
+   "Level_16/Traps/Pool/BoulderTrap_1#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_2#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_3#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_4#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_5#BoulderTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_16/Traps/Pool/BoulderTrap_5#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_3#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_1#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_2#BoulderTrap",
+   "Level_16/Traps/Pool/BoulderTrap_4#BoulderTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_16/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      0.46
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      0.46
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_16/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -3.42
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -3.42
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_16/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_16/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_16/Traps/Pool/BoulderTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_16/Traps/Pool/BoulderTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    }
+   },
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_16/Traps/Pool/BoulderTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_16/Traps/Pool/BoulderTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    }
+   },
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -2.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -2.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_16/Traps/Pool/BoulderTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_16/Traps/Pool/BoulderTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    }
+   },
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -4.9
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -4.9
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_16/Traps/Pool/BoulderTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_16/Traps/Pool/BoulderTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    }
+   },
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_16/Traps/Pool/BoulderTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_16/Traps/Pool/BoulderTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    }
+   },
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -6.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -6.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_16/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65384403120170545,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_16/FinishLine_1",
+    "world": {
+     "pos": [
+      8.74999,
+      0.0,
+      -1.24999
+     ],
+     "rot": [
+      0.0,
+      -0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65770005084341472,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       25.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_16/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65855482821919830,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Aloe..001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/RockFormation_1.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_16",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114017697238300914,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_16/Traps/Pool/BoulderTrap_1#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_2#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_3#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_4#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_5#BoulderTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_16/Traps/Pool/BoulderTrap_5#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_3#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_1#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_2#BoulderTrap",
+         "Level_16/Traps/Pool/BoulderTrap_4#BoulderTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_16/MysteryBoxPositions/Position_1",
+        "Level_16/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_16/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_16/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33581786255902400,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23477046003934300,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65045458335737618,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33924050743934937,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23215879266689626,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65689364072382846,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33743393880019028,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23094320201520353,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65026196548002408,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33292246286975720,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23693062532245359,
+     "materials": [
+      {
+       "asset": "Material/Ground 12.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64630643969539439,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/aloe",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.468,
+     0.25332,
+     1.599
+    ],
+    "rot": [
+     0.0,
+     -0.304145,
+     0.0,
+     0.952626
+    ],
+    "euler": [
+     0.0,
+     324.5865,
+     0.0
+    ],
+    "lossyScale": [
+     0.99,
+     0.99,
+     0.99
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.156,
+     0.00111,
+     0.533
+    ],
+    "rot": [
+     0.0,
+     -0.304145,
+     0.0,
+     0.952626
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704330047573733,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Aloe..001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085275382694935,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/aloe/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.468,
+     0.25332,
+     1.599
+    ],
+    "rot": [
+     0.673608,
+     -0.215063,
+     0.215063,
+     0.673608
+    ],
+    "euler": [
+     90.0,
+     324.5865,
+     0.0
+    ],
+    "lossyScale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212194081240383615,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.831,
+     0.25554,
+     6.225
+    ],
+    "rot": [
+     0.0,
+     -0.169929,
+     0.0,
+     0.985456
+    ],
+    "euler": [
+     0.0,
+     340.4326,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.277,
+     0.00185,
+     2.075
+    ],
+    "rot": [
+     0.0,
+     -0.169929,
+     0.0,
+     0.985456
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33571878917323452,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23534704304255049,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.831,
+     0.25332,
+     6.225
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     89.9717,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00222,
+     0.0
+    ],
+    "rot": [
+     0.696823,
+     0.120158,
+     -0.120158,
+     0.696823
+    ],
+    "scale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212964469411310401,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus2_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.697,
+     0.25554,
+     4.122
+    ],
+    "rot": [
+     0.0,
+     0.576555,
+     0.0,
+     0.817059
+    ],
+    "euler": [
+     0.0,
+     70.4172,
+     0.0
+    ],
+    "lossyScale": [
+     0.80555,
+     0.80555,
+     0.80555
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.899,
+     0.00185,
+     1.374
+    ],
+    "rot": [
+     0.0,
+     0.576555,
+     0.0,
+     0.817059
+    ],
+    "scale": [
+     0.26852,
+     0.26852,
+     0.26852
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33431740505123533,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23356319167443197,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus2_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.697,
+     0.25375,
+     4.122
+    ],
+    "rot": [
+     0.500067,
+     0.499933,
+     -0.499933,
+     0.500067
+    ],
+    "euler": [
+     90.0,
+     89.9846,
+     0.0
+    ],
+    "lossyScale": [
+     0.1595,
+     0.1595,
+     0.1595
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00222,
+     0.0
+    ],
+    "rot": [
+     0.696823,
+     0.120158,
+     -0.120158,
+     0.696823
+    ],
+    "scale": [
+     0.198,
+     0.198,
+     0.198
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212699617135816954,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.826,
+     0.25885,
+     4.881
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.942,
+     0.00295,
+     1.627
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33499726237547504,
+     "mesh": {
+      "asset": "AssetStore/3D/Runemark Studio/Freebies/Polygon Desert Pack/Meshes/Cactus3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23658330495870062,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/cactus3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.826,
+     0.25332,
+     4.881
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.00553,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212121005239445321,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.8
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/rock_formation",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.59,
+     0.73,
+     2.94
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.99,
+     0.99,
+     0.99
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.53,
+     0.16,
+     0.98
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33574304967836189,
+     "mesh": {
+      "asset": "Mesh/RockFormation_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23009931292380359,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Runemark Studio/Freebies/PolyDesert Mobile/Materials/polydesert_atlas.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/rock_formation/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.4711,
+     0.2944,
+     2.6529
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.495,
+     0.495,
+     0.495
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.89,
+     -0.44,
+     -0.29
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212799762105739359,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Desert/rock_formation/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.43605,
+     0.2944,
+     3.4248
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.41189,
+     0.66924,
+     0.495
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1555,
+     -0.44,
+     0.4897
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.41605,
+     0.676,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212574190619683098,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.4627451,
+      "g": 0.18286641,
+      "b": 0.0039215744,
+      "a": 0.7294118
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65384403120170545,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/FinishLine_1",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     8.74999,
+     0.0,
+     -1.24999
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     8.74999,
+     0.0,
+     -1.24999
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65770005084341472,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      25.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65855482821919830,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_16/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     0.46
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     0.46
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -3.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -3.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps/Pool",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.BoulderProjectileInstaller",
+     "fileID": 114089843903986396,
+     "enabled": 1,
+     "fields": {
+      "projectilePrefab": {
+       "asset": "GameObject/BoulderObject.prefab",
+       "fileID": 114243736805655561
+      },
+      "initialSize": 10
+     }
+    },
+    {
+     "type": "Plugins/Zenject.dll",
+     "fileID": 114672306508523268,
+     "enabled": 1,
+     "fields": {
+      "_scriptableObjectInstallers": [],
+      "_monoInstallers": [
+       "Level_16/Traps/Pool#BoulderProjectileInstaller"
+      ],
+      "_installerPrefabs": [],
+      "_autoRun": 1,
+      "_kernel": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95060945828524476,
+     "controller": {
+      "asset": "AnimatorController/BoulderTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+     "fileID": 114900271049623953,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_16/Traps/Pool/BoulderTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_1/Empty",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -3.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -2.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -2.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95220653531496868,
+     "controller": {
+      "asset": "AnimatorController/BoulderTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+     "fileID": 114841364053301648,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_16/Traps/Pool/BoulderTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_2/Empty",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -2.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -4.9
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -4.9
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95344419225485095,
+     "controller": {
+      "asset": "AnimatorController/BoulderTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+     "fileID": 114919942235722503,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_16/Traps/Pool/BoulderTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_3/Empty",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -4.9
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95632746491512912,
+     "controller": {
+      "asset": "AnimatorController/BoulderTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+     "fileID": 114719342369648492,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_16/Traps/Pool/BoulderTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_4/Empty",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -6.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.5,
+     1.0,
+     -6.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95693329660128220,
+     "controller": {
+      "asset": "AnimatorController/BoulderTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.BoulderTrap",
+     "fileID": 114801075752484240,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_16/Traps/Pool/BoulderTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_16/Traps/Pool/BoulderTrap_5/Empty",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.5,
+     1.0,
+     -6.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  }
+ ]
+}

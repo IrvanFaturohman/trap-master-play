@@ -1,0 +1,455 @@
+[
+ {
+  "name": "EggProjectile",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": 1,
+  "pos": [
+   0,
+   2.576,
+   0
+  ],
+  "rotQ": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "euler": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.25,
+   1.25,
+   1.25
+  ],
+  "components": [
+   {
+    "type": "SphereCollider",
+    "IsTrigger": 1,
+    "Enabled": 1,
+    "Center": {
+     "x": 0,
+     "y": 0.064659,
+     "z": 0
+    },
+    "Radius": 0.21584094
+   },
+   {
+    "type": "Rigidbody",
+    "Mass": 1,
+    "UseGravity": 1,
+    "IsKinematic": 0,
+    "Interpolate": 1,
+    "Constraints": 112,
+    "CollisionDetection": 0
+   },
+   {
+    "type": "EggProjectile",
+    "enabled": 1,
+    "fields": {
+     "rb": "EggProjectile:Rigidbody",
+     "eggRenderer": "Egg:MeshRenderer",
+     "explosionObj": "GO:EggSplash",
+     "eggSplashSpriteRenderer": "EggSplash:SpriteRenderer",
+     "eggSplashSprites": [
+      "Sprite/EggSplashTex.asset#21300000",
+      "Sprite/EggSplashTex_2.asset#21300000"
+     ],
+     "hitAudioClip": "AudioClip/Egg.wav#8300000"
+    }
+   }
+  ],
+  "children": [
+   {
+    "name": "Egg",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "MeshFilter",
+      "mesh": "Mesh/Egg.asset#4300000"
+     },
+     {
+      "type": "MeshRenderer",
+      "m_Materials": [
+       "Material/Egg.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1
+     }
+    ],
+    "children": []
+   },
+   {
+    "name": "EggSplash",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 0,
+    "pos": [
+     0,
+     0,
+     0
+    ],
+    "rotQ": [
+     -0.7071068,
+     0,
+     0,
+     0.7071068
+    ],
+    "euler": [
+     -90.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 2,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 0.4,
+      "startSpeed": 0,
+      "startSize": 1.9,
+      "startColor": {
+       "r": 1,
+       "g": 0.84751457,
+       "b": 0,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 0
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "Material/water_3x3_AB.mat#2100000"
+      ],
+      "m_CastShadows": 0,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": null,
+      "m_RenderMode": 2
+     },
+     {
+      "type": "AutoDestroy",
+      "enabled": 1,
+      "fields": {
+       "destroyTime": 3
+      }
+     }
+    ],
+    "children": [
+     {
+      "name": "DropsSide",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       0
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1,
+       1,
+       1
+      ],
+      "components": [
+       {
+        "type": "ParticleSystem",
+        "duration": 2,
+        "looping": 0,
+        "playOnAwake": 1,
+        "startLifetime": 0.7,
+        "startSpeed": 6,
+        "startSize": 0.08,
+        "startColor": {
+         "r": 1,
+         "g": 1,
+         "b": 1,
+         "a": 1
+        },
+        "emissionEnabled": 1,
+        "rateOverTime": 0
+       },
+       {
+        "type": "ParticleSystemRenderer",
+        "m_Materials": [
+         "Material/water_3x3_AB.mat#2100000"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 1,
+        "m_Enabled": 1,
+        "m_Mesh": null,
+        "m_RenderMode": 1
+       }
+      ],
+      "children": []
+     },
+     {
+      "name": "DropsVertical",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       0.281
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1,
+       1,
+       1
+      ],
+      "components": [
+       {
+        "type": "ParticleSystem",
+        "duration": 2,
+        "looping": 0,
+        "playOnAwake": 1,
+        "startLifetime": 1,
+        "startSpeed": 12,
+        "startSize": 0.08,
+        "startColor": {
+         "r": 1,
+         "g": 0.7858338,
+         "b": 0,
+         "a": 1
+        },
+        "emissionEnabled": 1,
+        "rateOverTime": 0
+       },
+       {
+        "type": "ParticleSystemRenderer",
+        "m_Materials": [
+         "Material/water_3x3_AB.mat#2100000"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 1,
+        "m_Enabled": 1,
+        "m_Mesh": null,
+        "m_RenderMode": 0
+       }
+      ],
+      "children": []
+     },
+     {
+      "name": "VerticalWave",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       0
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1,
+       1,
+       1
+      ],
+      "components": [
+       {
+        "type": "ParticleSystem",
+        "duration": 2,
+        "looping": 0,
+        "playOnAwake": 1,
+        "startLifetime": 0.4,
+        "startSpeed": 0.2,
+        "startSize": 2,
+        "startColor": {
+         "r": 1,
+         "g": 0.84050083,
+         "b": 0,
+         "a": 1
+        },
+        "emissionEnabled": 1,
+        "rateOverTime": 0
+       },
+       {
+        "type": "ParticleSystemRenderer",
+        "m_Materials": [
+         "Material/water_3x3_AB.mat#2100000"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 1,
+        "m_Enabled": 1,
+        "m_Mesh": "AssetStore/VFX/Epic Toon FX/Models/ETFX_PlaneWeighted.asset#4300000",
+        "m_RenderMode": 4
+       }
+      ],
+      "children": []
+     },
+     {
+      "name": "EggShells",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       0.26
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1,
+       1,
+       1
+      ],
+      "components": [
+       {
+        "type": "ParticleSystem",
+        "duration": 2,
+        "looping": 0,
+        "playOnAwake": 1,
+        "startLifetime": 3,
+        "startSpeed": 4,
+        "startSize": 0.4,
+        "startColor": {
+         "r": 1,
+         "g": 1,
+         "b": 1,
+         "a": 1
+        },
+        "emissionEnabled": 1,
+        "rateOverTime": 0
+       },
+       {
+        "type": "ParticleSystemRenderer",
+        "m_Materials": [
+         "Material/EggShellParticle.mat#2100000"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 0,
+        "m_Enabled": 1,
+        "m_Mesh": null,
+        "m_RenderMode": 0
+       }
+      ],
+      "children": []
+     },
+     {
+      "name": "EggSplash",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       -0.066
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       0,
+       0,
+       0
+      ],
+      "components": [
+       {
+        "type": "SpriteRenderer",
+        "m_Materials": [
+         "builtin:10754"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 0,
+        "m_Enabled": 1,
+        "m_Sprite": "Sprite/EggSplashTex.asset#21300000",
+        "m_Color": {
+         "r": 1,
+         "g": 1,
+         "b": 1,
+         "a": 1
+        }
+       }
+      ],
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+]

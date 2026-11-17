@@ -1,0 +1,6776 @@
+{
+ "level": 9,
+ "sources": {
+  "asset": "Resources/levels/Level_9.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_9.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "LaserTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 100000.0,
+  "goldReward": 25.0,
+  "bricksReward": 0,
+  "TrapOffset": 6,
+  "EnemiesOffset": 9,
+  "SpeedOffset": 5,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.08,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 10,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[9] over asset",
+  "blobRewardsOfGoals": [
+   8000,
+   10000,
+   4000,
+   10000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 5000000.0,
+  "goldReward": 600.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_6.png",
+  "backgroundFogColor": {
+   "r": 0.016,
+   "g": 0.129,
+   "b": 0.243,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_9.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "0cfe51f490b86d84cad73db7acc9fde0",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 15,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.08,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 10,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_9#LevelView",
+  "trapViews": [
+   "Level_9/Traps/Laser_1#LaserTrap",
+   "Level_9/Traps/Laser_2#LaserTrap",
+   "Level_9/Traps/Laser_3#LaserTrap",
+   "Level_9/Traps/Laser_4#LaserTrap",
+   "Level_9/Traps/Laser_5#LaserTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_9/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -0.17
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -0.17
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_9/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      -0.854,
+      0.54,
+      -0.765
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.854,
+      0.54,
+      -0.765
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_9/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_9/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_9/Traps/Laser_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 5,
+    "maxTime": 6,
+    "laser": "Level_9/Traps/Laser_1#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_9/Traps/Laser_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 5,
+    "maxTime": 6,
+    "laser": "Level_9/Traps/Laser_2#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_9/Traps/Laser_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 5,
+    "maxTime": 6,
+    "laser": "Level_9/Traps/Laser_3#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_9/Traps/Laser_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 5,
+    "maxTime": 6,
+    "laser": "Level_9/Traps/Laser_4#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_9/Traps/Laser_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 5,
+    "maxTime": 6,
+    "laser": "Level_9/Traps/Laser_5#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_9/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65616761771223058,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_9/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65292246286975720,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_9/Traps/Laser_1/Laser",
+    "world": {
+     "pos": [
+      0.0,
+      1.35112,
+      -2.25
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.24976,
+      0.12789,
+      0.55379
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65651560128206891,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       10.24,
+       2.1606,
+       0.56683
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_9/Traps/Laser_2/Laser",
+    "world": {
+     "pos": [
+      0.0,
+      1.35112,
+      -3.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.24976,
+      0.12789,
+      0.55379
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65617365563186364,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       10.24,
+       2.1606,
+       0.56683
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_9/Traps/Laser_3/Laser",
+    "world": {
+     "pos": [
+      0.0,
+      1.35112,
+      -3.75
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.24976,
+      0.12789,
+      0.55379
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65592664909728774,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       10.24,
+       2.1606,
+       0.56683
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_9/Traps/Laser_4/Laser",
+    "world": {
+     "pos": [
+      0.0,
+      1.35112,
+      -4.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.24976,
+      0.12789,
+      0.55379
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65477794280538272,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       10.24,
+       2.1606,
+       0.56683
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_9/Traps/Laser_5/Laser",
+    "world": {
+     "pos": [
+      0.0,
+      1.35112,
+      -5.25
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.707107,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      90.0
+     ],
+     "lossyScale": [
+      0.24976,
+      0.12789,
+      0.55379
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65007271993718322,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       10.24,
+       2.1606,
+       0.56683
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ground.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114572839542275309,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_9/Traps/Laser_1#LaserTrap",
+         "Level_9/Traps/Laser_2#LaserTrap",
+         "Level_9/Traps/Laser_3#LaserTrap",
+         "Level_9/Traps/Laser_4#LaserTrap",
+         "Level_9/Traps/Laser_5#LaserTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_9/MysteryBoxPositions/Position_1",
+        "Level_9/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_9/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_9/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33993076962757715,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23911451331743778,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65105912343260855,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.75,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33952854571839949,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23573076885614623,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65681721672847880,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33350408777337066,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23016782227057731,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65126508818681447,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65616761771223058,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33384403120170545,
+     "mesh": {
+      "asset": "Mesh/Ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23149520701623706,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65292246286975720,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.17
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -0.17
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.854,
+     0.54,
+     -0.765
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.854,
+     0.54,
+     -0.765
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_9/Traps/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370222726513266,
+     "mesh": {
+      "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23574304967836189,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54009931292380359,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114393105877652414,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_9/Traps/Laser_1#Rigidbody",
+      "moveRange": 1.25,
+      "moveTime": 4,
+      "startInvert": 1,
+      "moveOnCurve": 1,
+      "pathSystem": "Level_9/Traps/Laser_1/GameObject#dll"
+     }
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+     "fileID": 114799762105739359,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 5,
+      "maxTime": 6,
+      "laser": "Level_9/Traps/Laser_1#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114855482821919830,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114150646884989824,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -2.29776,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.49952,
+     0.25577,
+     1.10758
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212534704304255049,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65651560128206891,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      10.24,
+      2.1606,
+      0.56683
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/Laser",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.00003,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212699617135816954,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/LaserMuzzleRed",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -2.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.84,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     7.81946,
+     1.80574,
+     4.00385
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198499726237547504
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199658330495870062
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/LaserMuzzleRed/Black",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39426,
+     -2.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.001
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198354824845356902
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199770005084341472
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/LaserMuzzleRed/Cone",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -2.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198121005239445321
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199806657225351454
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/LaserMuzzleRed/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -2.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198085275382694935
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199231814100211528
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.0165,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12901,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212208575754630950,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.22745098
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/Laser/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -2.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.01624,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12701,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212356319167443197,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_1/ShieldSoftPurple",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -2.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198574190619683098
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199552309709192268
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33167524263268962,
+     "mesh": {
+      "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23641631609468814,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54533803739292891,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114601984538237284,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_9/Traps/Laser_2#Rigidbody",
+      "moveRange": 1.25,
+      "moveTime": 4,
+      "startInvert": 1,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+     "fileID": 114785330607447594,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 5,
+      "maxTime": 6,
+      "laser": "Level_9/Traps/Laser_2#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114570723408815475,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114056248600188076,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -2.29776,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.49952,
+     0.25577,
+     1.10758
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212240571728440943,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65617365563186364,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      10.24,
+      2.1606,
+      0.56683
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/Laser",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.00003,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212132862189046193,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/LaserMuzzleRed",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.84,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     7.81946,
+     1.80574,
+     4.00385
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198450391854282655
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199386943702330414
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/LaserMuzzleRed/Black",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39426,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.001
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198232094423628703
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199592460329389196
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/LaserMuzzleRed/Cone",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198824317463469755
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199561126880652180
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/LaserMuzzleRed/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198528911807818478
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199187454977326620
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.0165,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12901,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212408345039935966,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.22745098
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/Laser/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.01624,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12701,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212328299215684997,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_2/ShieldSoftPurple",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198690175861776792
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199969505138979683
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33695600491528212,
+     "mesh": {
+      "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23358105479016104,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54291632710222552,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114433013960508438,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_9/Traps/Laser_3#Rigidbody",
+      "moveRange": 1.25,
+      "moveTime": 4,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+     "fileID": 114649986673806370,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 5,
+      "maxTime": 6,
+      "laser": "Level_9/Traps/Laser_3#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114941304181978548,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114274303670636188,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -2.29776,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.49952,
+     0.25577,
+     1.10758
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212896002537488308,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65592664909728774,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      10.24,
+      2.1606,
+      0.56683
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/Laser",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.00003,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212220697728379336,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/LaserMuzzleRed",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.84,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     7.81946,
+     1.80574,
+     4.00385
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198831874417830518
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199177930474251431
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/LaserMuzzleRed/Black",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39426,
+     -3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.001
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198901155395665742
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199955215445487071
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/LaserMuzzleRed/Cone",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198271925019662038
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199499517081926786
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/LaserMuzzleRed/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198320592835458227
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199911997548769506
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.0165,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12901,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212709890794832471,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.22745098
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/Laser/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.01624,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12701,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212708180620337799,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_3/ShieldSoftPurple",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -3.75
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198038333544927157
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199146109142143575
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33024252914577434,
+     "mesh": {
+      "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23295926465608920,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54156371104904051,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114083739296819378,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_9/Traps/Laser_4#Rigidbody",
+      "moveRange": 1.25,
+      "moveTime": 4,
+      "startInvert": 1,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+     "fileID": 114095816830470745,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 5,
+      "maxTime": 6,
+      "laser": "Level_9/Traps/Laser_4#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114904079258986964,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114845025230388998,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -2.29776,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.49952,
+     0.25577,
+     1.10758
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212258471659221418,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65477794280538272,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      10.24,
+      2.1606,
+      0.56683
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/Laser",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.00003,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212132299442727904,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/LaserMuzzleRed",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.84,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     7.81946,
+     1.80574,
+     4.00385
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198066338149260220
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199407886329842316
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/LaserMuzzleRed/Black",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39426,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.001
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198201141531394087
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199416529295595857
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/LaserMuzzleRed/Cone",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198016852445014956
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199932862749439555
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/LaserMuzzleRed/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198195931274935818
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199197515695889172
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.0165,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12901,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212995682140751655,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.22745098
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/Laser/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -4.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.01624,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12701,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212603576887721950,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_4/ShieldSoftPurple",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -4.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198321827775029018
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199012617856089587
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33657558218238974,
+     "mesh": {
+      "asset": "AssetStore/3D/Sci_fi_Drones/Models/Robot_Scout_Rockie.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23484755779879834,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54697715728111791,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114353891062718048,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_9/Traps/Laser_5#Rigidbody",
+      "moveRange": 1.25,
+      "moveTime": 4,
+      "startInvert": 1,
+      "moveOnCurve": 1,
+      "pathSystem": "Level_9/Traps/Laser_5/GameObject#dll"
+     }
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LaserTrap",
+     "fileID": 114719897623072781,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 5,
+      "maxTime": 6,
+      "laser": "Level_9/Traps/Laser_5#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114960577952585462,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/GameObject",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.991445,
+     0.0,
+     0.130529
+    ],
+    "euler": [
+     0.0,
+     164.9997,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.991445,
+     0.0,
+     0.130529
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114055535033279528,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": 2,
+          "y": 0,
+          "z": 0
+         },
+         {
+          "x": 2.570528,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.9457657,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": 0,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -1.4646983,
+          "y": 0,
+          "z": 2.5299997
+         },
+         {
+          "x": -2.429472,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": -2,
+          "y": 0,
+          "z": 0
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 1,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114346445019804701,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/GameObject_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Plugins/PathCreator.dll",
+     "fileID": 114878983242975409,
+     "enabled": 1,
+     "fields": {
+      "editorData": {
+       "_bezierPath": {
+        "points": [
+         {
+          "x": -2,
+          "y": 0,
+          "z": 1
+         },
+         {
+          "x": 1.5016489,
+          "y": 0,
+          "z": 1.5
+         },
+         {
+          "x": -1.0329542,
+          "y": -0.00390625,
+          "z": -2.7240124
+         },
+         {
+          "x": 1.967046,
+          "y": -0.00390625,
+          "z": -2.2240124
+         }
+        ],
+        "isClosed": 0,
+        "space": 0,
+        "controlMode": 0,
+        "autoControlLength": 0.3,
+        "boundsUpToDate": 0,
+        "bounds": {
+         "m_Center": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+         },
+         "m_Extent": {
+          "x": 2,
+          "y": 0.14433756,
+          "z": 0
+         }
+        },
+        "perAnchorNormalsAngle": [
+         0,
+         0
+        ],
+        "globalNormalsAngle": 0,
+        "flipNormals": 0
+       },
+       "vertexPathUpToDate": 0,
+       "vertexPathMaxAngleError": 0.3,
+       "vertexPathMinVertexSpacing": 0.01,
+       "showTransformTool": 1,
+       "showPathBounds": 0,
+       "showPerSegmentBounds": 0,
+       "displayAnchorPoints": 1,
+       "displayControlPoints": 1,
+       "bezierHandleScale": 1,
+       "globalDisplaySettingsFoldout": 0,
+       "keepConstantHandleSize": 0,
+       "showNormalsInVertexMode": 0,
+       "showBezierPathInVertexMode": 0,
+       "showDisplayOptions": 0,
+       "showPathOptions": 1,
+       "showVertexPathDisplayOptions": 0,
+       "showVertexPathOptions": 1,
+       "showNormals": 0,
+       "showNormalsHelpInfo": 0,
+       "tabIndex": 0
+      },
+      "initialized": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -2.29776,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     0.49952,
+     0.25577,
+     1.10758
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212450889307774998,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65007271993718322,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      10.24,
+      2.1606,
+      0.56683
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/Laser",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.12789,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.00003,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212641204913154593,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/LaserMuzzleRed",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -5.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.84,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.5,
+     0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     7.81946,
+     1.80574,
+     4.00385
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198989434536655964
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199329075794784248
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/LaserMuzzleRed/Black",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39426,
+     -5.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.001
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198000342987746139
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199545683990359770
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/LaserMuzzleRed/Cone",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -5.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198067212629291419
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199119337346424409
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/LaserMuzzleRed/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.39204,
+     -5.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.95299,
+     0.23093,
+     2.21729
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198129116114662800
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199208269818966246
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/Laser_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.0165,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12901,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212947810564538834,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 0.22745098
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/Laser/Laser_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     1.35112,
+     -5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.24976,
+     0.01624,
+     0.55379
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.12701,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212041320612064254,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Lightning2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Laser1.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 1,
+      "g": 1,
+      "b": 1,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_9/Traps/Laser_5/ShieldSoftPurple",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     2.5,
+     -5.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198696919880513765
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199965908813272002
+    }
+   ]
+  }
+ ]
+}

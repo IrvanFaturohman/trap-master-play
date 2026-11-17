@@ -1,0 +1,123 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/IceThrower_1.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Run",
+     "states": [
+      {
+       "name": "Run",
+       "speed": 1,
+       "motion": "AnimationClip/Run.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/Run.anim",
+   "name": "Run",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 5,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 1,
+     "function": "Fire",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": "Shadow",
+     "property": "localScale",
+     "pre": 2,
+     "post": 2,
+     "keys": [
+      [
+       0,
+       [
+        0.15,
+        0.15,
+        0.15
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       5,
+       [
+        0.15,
+        0.15,
+        0.15
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

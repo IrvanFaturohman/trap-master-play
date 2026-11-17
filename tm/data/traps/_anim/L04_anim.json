@@ -1,0 +1,123 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/Flamethrower.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Flamethrower",
+     "states": [
+      {
+       "name": "Flamethrower",
+       "speed": 1,
+       "motion": "AnimationClip/Flamethrower.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/Flamethrower.anim",
+   "name": "Flamethrower",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 4,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 2,
+     "function": "Fire",
+     "data": null,
+     "float": 0,
+     "int": 1
+    }
+   ],
+   "curves": [
+    {
+     "path": "FlameFx_10",
+     "property": "localPosition",
+     "pre": 2,
+     "post": 2,
+     "keys": [
+      [
+       0,
+       [
+        0.3623,
+        0.186,
+        -0.0334
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       4,
+       [
+        0.3623,
+        0.186,
+        -0.0334
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

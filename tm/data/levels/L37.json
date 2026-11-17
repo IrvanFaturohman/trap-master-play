@@ -1,0 +1,7658 @@
+{
+ "level": 37,
+ "sources": {
+  "asset": "Resources/levels/Level_37.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_37.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "City Center",
+ "trapClass": [
+  "RoadBarrierTrap"
+ ],
+ "trapCount": 7,
+ "config_effective": {
+  "targetMoney": 3000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 5000,
+  "TrapOffset": 13,
+  "EnemiesOffset": 13,
+  "SpeedOffset": 12,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 7,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 60,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 30000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.01,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 2
+  },
+  "source": "LevelSettings.txt[37] over asset",
+  "blobRewardsOfGoals": [
+   300000,
+   150000,
+   75000,
+   150000,
+   30000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_6.asset",
+  "targetMoney": 10000000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 2
+  },
+  "background": "Texture2D/Background_6.png",
+  "backgroundFogColor": {
+   "r": 0.016,
+   "g": 0.129,
+   "b": 0.243,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_37.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "39af8f56c53a04e75bf1c7646b5c425a",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 7,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 60,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 30000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 2,
+    "blobRewardPercentage": 0.01,
+    "goldReward": 0,
+    "goalName": "EliteKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_37#LevelView",
+  "trapViews": [
+   "Level_37/Traps/RoadBarrierTrap_1#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_2#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_3#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_4#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_5#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_6#RoadBarrierTrap",
+   "Level_37/Traps/RoadBarrierTrap_7#RoadBarrierTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_37/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.66,
+      0.54,
+      -1.222
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.66,
+      0.54,
+      -1.222
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_37/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.84,
+      0.54,
+      -2.96
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.84,
+      0.54,
+      -2.96
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_37/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      1.9,
+      0.54,
+      -3.75
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      1.9,
+      0.54,
+      -3.75
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_37/MysteryBoxPositions/Position_4",
+    "world": {
+     "pos": [
+      -1.9,
+      0.54,
+      -2.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.9,
+      0.54,
+      -2.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null,
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_37/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_37/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_37/Traps/RoadBarrierTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_37/Traps/RoadBarrierTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_37/Traps/RoadBarrierTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_37/Traps/RoadBarrierTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_37/Traps/RoadBarrierTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "path": "Level_37/Traps/RoadBarrierTrap_6",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_6#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  },
+  {
+   "index": 6,
+   "path": "Level_37/Traps/RoadBarrierTrap_7",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_37/Traps/RoadBarrierTrap_7#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "EnemyDirection": [
+   {
+    "path": "Level_37/Directions/Direction_1",
+    "world": {
+     "pos": [
+      -4.17,
+      0.0,
+      1.69
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136976365255789935,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       -1.0319
+      ],
+      "radius": 1.5,
+      "height": 5.6081347,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Directions/Direction_2",
+    "world": {
+     "pos": [
+      -0.21,
+      0.0,
+      -0.99
+     ],
+     "rot": [
+      0.0,
+      1.0,
+      0.0,
+      1e-06
+     ],
+     "euler": [
+      0.0,
+      179.9998,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136264357844037074,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       -1.0319
+      ],
+      "radius": 1.5,
+      "height": 5.6081347,
+      "direction": 2
+     }
+    ]
+   }
+  ],
+  "Finish": [
+   {
+    "path": "Level_37/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65719897623072781,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_37/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65121005239445321,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_1/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      0.0,
+      -2.0585,
+      -1.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136167524263268962,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_2/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      0.4,
+      -2.0585,
+      -2.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136328299215684997,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_3/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      -0.4,
+      -2.0585,
+      -2.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136592460329389196,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_4/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      0.0,
+      -2.0585,
+      -3.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136168775426067361,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_5/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      0.0,
+      -2.0585,
+      -4.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136499517081926786,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_6/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      0.75,
+      -2.0585,
+      -4.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136156371104904051,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_37/Traps/RoadBarrierTrap_7/Base/Barrier/Hitbox",
+    "world": {
+     "pos": [
+      -0.75,
+      -2.0585,
+      -4.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.3,
+      2.3,
+      2.3
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136132299442727904,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.7,
+       0.0
+      ],
+      "radius": 0.175,
+      "height": 1,
+      "direction": 1
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10210
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/base.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_D.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_road_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_road_straight_decorated_B.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_entry_decorated.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_outerCorner_decorated.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/park_wall_straight_decorated.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_37",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114534704304255049,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_37/Traps/RoadBarrierTrap_1#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_2#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_3#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_4#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_5#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_6#RoadBarrierTrap",
+         "Level_37/Traps/RoadBarrierTrap_7#RoadBarrierTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_37/MysteryBoxPositions/Position_1",
+        "Level_37/MysteryBoxPositions/Position_2",
+        "Level_37/MysteryBoxPositions/Position_3",
+        "Level_37/MysteryBoxPositions/Position_4"
+       ]
+      },
+      "spawnPoints": [
+       null,
+       null
+      ],
+      "pipeParents": [
+       "Level_37/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_37/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33016852445014956,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23932862749439555,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65832474124979885,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.5,
+     0.0,
+     15.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.5,
+     0.0,
+     15.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33197515695889172,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23112815651697755,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65201141531394087,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33527248355756736,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23657558218238974,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65484755779879834,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Boundaries/Cube_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.5,
+     0.0,
+     -12.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.5,
+     0.0,
+     -12.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     10.0,
+     5.0,
+     25.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33446691751160785,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904079258986964,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65578716238308850,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/City/base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33231676679060417,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23934287144746640,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     6.0,
+     0.08,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     6.0,
+     -0.05,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33559203567323380,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23580109562975512,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     6.0,
+     0.08,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     6.0,
+     -0.05,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33382656168358062,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23117307842306080,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33085134620244786,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23044586276341600,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.0,
+     0.08,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.0,
+     -0.05,
+     -1.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33870947366518887,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23505682267929073,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.0,
+     0.08,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.0,
+     -0.05,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33766709239876273,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23260713349338959,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.0,
+     0.08,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.0,
+     -0.05,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33364392939154294,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23696792502030561,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.0,
+     0.08,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.0,
+     -0.05,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704877758540679,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23632179142322292,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.0,
+     0.08,
+     4.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     3.0,
+     -0.05,
+     4.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33777414246829702,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23463579974499585,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0,
+     0.08,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0,
+     -0.05,
+     -7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33951712121405908,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23851449666512103,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/base_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0,
+     0.08,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0,
+     -0.05,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33825818419884204,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23403529848822963,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/building_D",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.01532,
+     0.08,
+     -4.73468
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.01532,
+     -0.05,
+     -4.73468
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33350408777337066,
+     "mesh": {
+      "asset": "Mesh/building_D.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23016782227057731,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_corner",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.99999,
+     0.08,
+     7.21423
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.99999,
+     -0.05,
+     7.21423
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33838352681112328,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23993076962757715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_corner_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.99999,
+     0.08,
+     7.21423
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.99999,
+     -0.05,
+     7.21423
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33105912343260855,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23350143044813081,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_corner_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.99999,
+     0.08,
+     7.21424
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -11.99999,
+     -0.05,
+     7.21424
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33573076885614623,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23681721672847880,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0,
+     0.08,
+     4.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0,
+     -0.05,
+     4.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33422702022971346,
+     "mesh": {
+      "asset": "Mesh/park_road_straight_decorated_B.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23067212629291419,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.0,
+     0.08,
+     4.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.0,
+     -0.05,
+     4.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33562080017223558,
+     "mesh": {
+      "asset": "Mesh/park_road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23129116114662800,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.99,
+     0.08,
+     1.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "euler": [
+     0.0,
+     270.0003,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.99,
+     -0.05,
+     1.21423
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33998495239010246,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23960577952585462,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.99,
+     0.08,
+     1.21424
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "euler": [
+     0.0,
+     270.0003,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.99,
+     -0.05,
+     1.21424
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33346445019804701,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23729442808604298,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.0,
+     0.08,
+     4.21424
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -12.0,
+     -0.05,
+     4.21424
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33401429660297866,
+     "mesh": {
+      "asset": "Mesh/park_road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23000342987746139,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_road_junction_decorated_C_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.99,
+     0.08,
+     1.21425
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "euler": [
+     0.0,
+     270.0003,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -11.99,
+     -0.05,
+     1.21425
+    ],
+    "rot": [
+     0.0,
+     -0.707105,
+     0.0,
+     0.707109
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33094283985748868,
+     "mesh": {
+      "asset": "Mesh/park_wall_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23878983242975409,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_wall_entry",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.99422,
+     0.08,
+     4.21422
+    ],
+    "rot": [
+     0.0,
+     -0.70711,
+     0.0,
+     -0.707104
+    ],
+    "euler": [
+     0.0,
+     90.0005,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.99422,
+     -0.05,
+     4.21422
+    ],
+    "rot": [
+     0.0,
+     -0.70711,
+     0.0,
+     -0.707104
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33521597976012101,
+     "mesh": {
+      "asset": "Mesh/park_wall_entry_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23989434536655964,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_wall_outerCorner_decorated",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.99423,
+     0.08,
+     1.21422
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     3e-06
+    ],
+    "euler": [
+     0.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.99423,
+     -0.05,
+     1.21422
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     3e-06
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041320612064254,
+     "mesh": {
+      "asset": "Mesh/park_wall_outerCorner_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23228214996573471,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/park_wall_straight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.99998,
+     0.08,
+     7.22
+    ],
+    "rot": [
+     0.0,
+     -0.70711,
+     0.0,
+     -0.707104
+    ],
+    "euler": [
+     0.0,
+     90.0005,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.99998,
+     -0.05,
+     7.22
+    ],
+    "rot": [
+     0.0,
+     -0.70711,
+     0.0,
+     -0.707104
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33133854062310043,
+     "mesh": {
+      "asset": "Mesh/park_wall_outerCorner_decorated.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23947810564538834,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     13.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     13.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33322008579206753,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23083485975560739,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -7.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -7.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222568209840903,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23519819979147140,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -10.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -10.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33869737159367836,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23071519224935516,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -1.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -1.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33246887588868771,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23510800835404288,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     -4.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     -4.82
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33952320105404285,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23329446674688094,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     4.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     4.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33458735412797113,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23894225446638996,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     7.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     7.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370485308309611,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23949593803130734,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     10.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     10.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041287186795109,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23290791091168379,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/City/road_straight_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.04,
+     0.08,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04,
+     -0.05,
+     1.18
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33543584136297381,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23544837802452058,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Directions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/Directions/Direction_1",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.0,
+     1.69
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.17,
+     0.0,
+     1.69
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136976365255789935,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      -1.0319
+     ],
+     "radius": 1.5,
+     "height": 5.6081347,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Directions/Direction_2",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.21,
+     0.0,
+     -0.99
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     1e-06
+    ],
+    "euler": [
+     0.0,
+     179.9998,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.21,
+     0.0,
+     -0.99
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     1e-06
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136264357844037074,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      -1.0319
+     ],
+     "radius": 1.5,
+     "height": 5.6081347,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_37/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65719897623072781,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65121005239445321,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_37/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.66,
+     0.54,
+     -1.222
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.66,
+     0.54,
+     -1.222
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.84,
+     0.54,
+     -2.96
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.84,
+     0.54,
+     -2.96
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.9,
+     0.54,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.9,
+     0.54,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/MysteryBoxPositions/Position_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.9,
+     0.54,
+     -2.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.9,
+     0.54,
+     -2.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/Plane",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33696919880513765,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23965908813272002,
+     "materials": [
+      {
+       "asset": "Material/Ground 14.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64429401810989285,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/RoadShadingDecal_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.189,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     30.0,
+     2.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.189,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     30.0,
+     2.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33964469411310401,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10210
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23208575754630950,
+     "materials": [
+      {
+       "asset": "Material/GroundGradientQuad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.0521,
+     0.34,
+     -4.6447
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0521,
+     0.34,
+     -4.6447
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212658330495870062,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.57254905
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95085275382694935,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114231814100211528,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_1/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2162,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33354824845356902,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23770005084341472,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_1/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33855482821919830,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23492842699383957,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136150646884989824,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_1/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136167524263268962,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_1/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2346,
+     -1.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212533803739292891,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95785330607447594,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114007513189690300,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_2/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.4,
+     0.2162,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33969505138979683,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23190181876552715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_2/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.4,
+     -2.0585,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33617365563186364,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23998874197659892,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136408345039935966,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_2/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.4,
+     -2.0585,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136328299215684997,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_2/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.4,
+     0.2346,
+     -2.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212132862189046193,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.4,
+     0.0,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95450391854282655,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114386943702330414,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_3/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4,
+     0.2162,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33824317463469755,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23561126880652180,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_3/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4,
+     -2.0585,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33528911807818478,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23187454977326620,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136091882994760266,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_3/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4,
+     -2.0585,
+     -2.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136592460329389196,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_3/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.4,
+     0.2346,
+     -2.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212570723408815475,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95056248600188076,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114992816746925483,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_4/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2162,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33358105479016104,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291632710222552,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_4/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33649986673806370,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23168105826085154,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136038333544927157,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_4/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136168775426067361,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_4/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2346,
+     -3.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212592664909728774,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95709890794832471,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114092105871539913,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_5/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2162,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33589652054545887,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23220697728379336,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_5/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33831874417830518,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23177930474251431,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136294885792020211,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_5/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136499517081926786,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_5/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2346,
+     -4.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212320592835458227,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95689010887986514,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114901155395665742,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_6#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_6/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.75,
+     0.2162,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33738892719839630,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23941304181978548,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_6/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.75,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33274303670636188,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23887312969816373,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136024252914577434,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_6/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.75,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136156371104904051,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_6/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.75,
+     0.2346,
+     -4.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212095816830470745,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.75,
+     0.0,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     1.15,
+     1.15
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95321827775029018,
+     "controller": {
+      "asset": "AnimatorController/RoadBarrierTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RoadBarrierTrap",
+     "fileID": 114012617856089587,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_37/Traps/RoadBarrierTrap_7#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_7/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.75,
+     0.2162,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.188,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33258471659221418,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23477794280538272,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_7/Base/Barrier",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.75,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.989,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33995682140751655,
+     "mesh": {
+      "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Meshes/sm_extending_barrier_bool_a1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23293198502218400,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_a1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Urban_Construction_Barrier_Pack/Art/Materials/m_extending_barrier_light_a1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136603576887721950,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.51696,
+      0.0
+     ],
+     "radius": 0.09016736,
+     "height": 1.0333352,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_7/Base/Barrier/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.75,
+     -2.0585,
+     -4.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.3,
+     2.3,
+     2.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136132299442727904,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.7,
+      0.0
+     ],
+     "radius": 0.175,
+     "height": 1,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_37/Traps/RoadBarrierTrap_7/Base/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.75,
+     0.2346,
+     -4.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.1955,
+     0.1955,
+     0.1955
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.085,
+     0.085,
+     0.085
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212066338149260220,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.9647059
+     }
+    }
+   ]
+  }
+ ]
+}

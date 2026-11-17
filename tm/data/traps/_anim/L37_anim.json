@@ -1,0 +1,265 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/RoadBarrierTrap.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "RoadBarrier",
+     "states": [
+      {
+       "name": "RoadBarrier",
+       "speed": 1,
+       "motion": "AnimationClip/RoadBarrier.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/RoadBarrier.anim",
+   "name": "RoadBarrier",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 6,
+   "loopTime": 1,
+   "events": [],
+   "curves": [
+    {
+     "path": "Base/Barrier",
+     "property": "localPosition",
+     "pre": 2,
+     "post": 2,
+     "keys": [
+      [
+       0,
+       [
+        0,
+        -0.989,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        "-inf",
+        0,
+        "-inf"
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       1,
+       [
+        0,
+        -0.594,
+        0
+       ],
+       [
+        0,
+        0.0,
+        0
+       ],
+       [
+        "-inf",
+        "-inf",
+        "-inf"
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       2,
+       [
+        0,
+        -0.594,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        "-inf",
+        "-inf",
+        "-inf"
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       3,
+       [
+        0,
+        -0.594,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        "-inf",
+        0,
+        "-inf"
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       4,
+       [
+        0,
+        -0.989,
+        0
+       ],
+       [
+        0,
+        -0.0,
+        0
+       ],
+       [
+        "-inf",
+        "-inf",
+        "-inf"
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ],
+      [
+       6,
+       [
+        0,
+        -0.989,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       [
+        0,
+        0,
+        0
+       ],
+       1,
+       0,
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ],
+       [
+        0.333333,
+        0.333333,
+        0.333333
+       ]
+      ]
+     ]
+    },
+    {
+     "path": "Base/Barrier/Hitbox",
+     "property": "m_Enabled",
+     "classID": 136,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       1,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.866667,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

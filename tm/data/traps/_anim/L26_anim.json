@@ -1,0 +1,155 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/MagicMushroom_1.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "MagicMushroom",
+     "states": [
+      {
+       "name": "MagicMushroom",
+       "speed": 1,
+       "motion": "AnimationClip/MagicMushroom.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/MagicMushroom.anim",
+   "name": "MagicMushroom",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 6.933333,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 4.566667,
+     "function": "FireMagic",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": "MushroomA_1",
+     "property": "blendShape.Inflate",
+     "classID": 137,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       10,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       1,
+       15,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       2,
+       10,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       3,
+       15,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       4,
+       10,
+       -8.964803,
+       -8.964803,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       4.5,
+       1.552795,
+       30.22121,
+       30.22122,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       4.716667,
+       103.726715,
+       131.61012,
+       131.61078,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       6.3,
+       10,
+       98.461044,
+       43.824238,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       6.933333,
+       10.020171,
+       -1.6e-05,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

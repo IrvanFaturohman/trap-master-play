@@ -1,0 +1,10691 @@
+{
+ "level": 40,
+ "sources": {
+  "asset": "Resources/levels/Level_40.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_40.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Trainyard",
+ "trapClass": [
+  "TrainTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 5000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 7500,
+  "TrapOffset": 14,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 13,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 12,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 80,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 25000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 3
+  },
+  "source": "LevelSettings.txt[40] over asset",
+  "blobRewardsOfGoals": [
+   250000,
+   200000,
+   250000,
+   500000,
+   250000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_8.asset",
+  "targetMoney": 10000000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 3
+  },
+  "background": "Texture2D/Background_3.png",
+  "backgroundFogColor": {
+   "r": 0.373,
+   "g": 0.835,
+   "b": 0.075,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_40.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "a8aac1e157dc0694186602f268736f4b",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 12,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 80,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 25000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_40#LevelView",
+  "trapViews": [
+   "Level_40/Traps/TrainTrap_1#TrainTrap",
+   "Level_40/Traps/TrainTrap_2#TrainTrap",
+   "Level_40/Traps/TrainTrapCurved_3#TrainTrap",
+   "Level_40/Traps/TrainTrapCurved_4#TrainTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_40/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -1.38,
+      0.54,
+      2.05
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.38,
+      0.54,
+      2.05
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_40/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      1.38,
+      0.54,
+      -3.43
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      1.38,
+      0.54,
+      -3.43
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null,
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_40/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_40/DoubleGate",
+   "world": {
+    "pos": [
+     -0.15,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_40/Traps/TrainTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_40/Traps/TrainTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.125,
+     "speedPerLevel": 0.04,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -5.3,
+     0.3,
+     3.09
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.3,
+     0.3,
+     3.09
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_40/Traps/TrainTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_40/Traps/TrainTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.125,
+     "speedPerLevel": 0.04,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -5.925,
+     0.3,
+     2.00747
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.925,
+     0.3,
+     2.00747
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_40/Traps/TrainTrapCurved_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_40/Traps/TrainTrapCurved_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -6.55,
+     0.3,
+     0.92494
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.55,
+     0.3,
+     0.92494
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_40/Traps/TrainTrapCurved_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_40/Traps/TrainTrapCurved_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.2,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -8.09602,
+     0.3,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.09602,
+     0.3,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_40/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65280369416922100,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_40/Ground",
+    "world": {
+     "pos": [
+      -0.5,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65413603344295461,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       4.0,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_40/Traps/TrainTrapCurved_3/Train",
+    "world": {
+     "pos": [
+      -12.64182,
+      0.313,
+      4.44551
+     ],
+     "rot": [
+      0.0,
+      0.866025,
+      0.0,
+      0.500002
+     ],
+     "euler": [
+      0.0,
+      119.9998,
+      0.0
+     ],
+     "lossyScale": [
+      0.25,
+      0.25,
+      0.25
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65781547038788540,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       2.5,
+       0.0
+      ],
+      "size": [
+       3.5,
+       5.0,
+       11.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_40/Traps/TrainTrapCurved_4/Train",
+    "world": {
+     "pos": [
+      -14.18785,
+      0.313,
+      3.77057
+     ],
+     "rot": [
+      0.0,
+      0.866025,
+      0.0,
+      0.500002
+     ],
+     "euler": [
+      0.0,
+      119.9998,
+      0.0
+     ],
+     "lossyScale": [
+      0.25,
+      0.25,
+      0.25
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65752314372542589,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       2.5,
+       0.0
+      ],
+      "size": [
+       3.5,
+       5.0,
+       11.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_40/Traps/TrainTrap_1/Train",
+    "world": {
+     "pos": [
+      -11.39183,
+      0.313,
+      6.61057
+     ],
+     "rot": [
+      0.0,
+      0.866025,
+      0.0,
+      0.500002
+     ],
+     "euler": [
+      0.0,
+      119.9998,
+      0.0
+     ],
+     "lossyScale": [
+      0.25,
+      0.25,
+      0.25
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65827586244175853,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       2.5,
+       0.0
+      ],
+      "size": [
+       3.5,
+       5.0,
+       11.0
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_40/Traps/TrainTrap_2/Train",
+    "world": {
+     "pos": [
+      -12.01683,
+      0.313,
+      5.52804
+     ],
+     "rot": [
+      0.0,
+      0.866025,
+      0.0,
+      0.500002
+     ],
+     "euler": [
+      0.0,
+      119.9998,
+      0.0
+     ],
+     "lossyScale": [
+      0.25,
+      0.25,
+      0.25
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65232415838589296,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       2.5,
+       0.0
+      ],
+      "size": [
+       3.5,
+       5.0,
+       11.0
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "Mesh/railway 3 turn.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/railway 4_0.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/tree trunk 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/tree trunk 3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/tree trunk.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/water tank 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Environment/Railway stops/railway stop 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1_0.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2_0.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1_0.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2_0.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body_0.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_40",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114992816746925483,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_40/Traps/TrainTrap_1#TrainTrap",
+         "Level_40/Traps/TrainTrap_2#TrainTrap",
+         "Level_40/Traps/TrainTrapCurved_3#TrainTrap",
+         "Level_40/Traps/TrainTrapCurved_4#TrainTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_40/MysteryBoxPositions/Position_1",
+        "Level_40/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null,
+       null
+      ],
+      "pipeParents": [
+       "Level_40/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_40/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33758405882409070,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23434512891515560,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65622690832225648,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33153987626271592,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23251666133023005,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65419535952149204,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33749364211270325,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23840984386464735,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65495838826320329,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/City",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.15,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Environment",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Environment/Plane",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2175,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2175,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33117307842306080,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23344618938641724,
+     "materials": [
+      {
+       "asset": "Material/Ground 17.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64085134620244786,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.4701,
+     0.219,
+     5.0505
+    ],
+    "rot": [
+     0.183013,
+     -0.683013,
+     0.683013,
+     0.183013
+    ],
+    "euler": [
+     90.0,
+     210.0001,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.4701,
+     0.219,
+     5.0505
+    ],
+    "rot": [
+     0.183013,
+     -0.683013,
+     0.683013,
+     0.183013
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212325787665662832,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3018868,
+      "g": 0,
+      "b": 0,
+      "a": 0.57254905
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.8749,
+     0.219,
+     3.9393
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -13.8749,
+     0.219,
+     3.9393
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212012617856089587,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.2599,
+     0.219,
+     3.2725
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -14.2599,
+     0.219,
+     3.2725
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212784622213810434,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_12",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.08,
+     0.219,
+     -2.67
+    ],
+    "rot": [
+     -0.654481,
+     0.267685,
+     -0.267685,
+     -0.654481
+    ],
+    "euler": [
+     89.9749,
+     315.5105,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.08,
+     0.219,
+     -2.67
+    ],
+    "rot": [
+     -0.654481,
+     0.267685,
+     -0.267685,
+     -0.654481
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212056905764334025,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_13",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.62929,
+     0.219,
+     -3.20956
+    ],
+    "rot": [
+     -0.654481,
+     0.267685,
+     -0.267685,
+     -0.654481
+    ],
+    "euler": [
+     89.9749,
+     315.5105,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.62929,
+     0.219,
+     -3.20956
+    ],
+    "rot": [
+     -0.654481,
+     0.267685,
+     -0.267685,
+     -0.654481
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212589652054545887,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_14",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.11,
+     0.22,
+     -4.17
+    ],
+    "rot": [
+     -0.677772,
+     0.201555,
+     -0.201555,
+     -0.677772
+    ],
+    "euler": [
+     90.0,
+     326.8773,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     1.11,
+     0.22,
+     -4.17
+    ],
+    "rot": [
+     -0.677772,
+     0.201555,
+     -0.201555,
+     -0.677772
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212901155395665742,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_15",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.46514,
+     0.22,
+     -4.59072
+    ],
+    "rot": [
+     -0.677772,
+     0.201555,
+     -0.201555,
+     -0.677772
+    ],
+    "euler": [
+     90.0,
+     326.8773,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.46514,
+     0.22,
+     -4.59072
+    ],
+    "rot": [
+     -0.677772,
+     0.201555,
+     -0.201555,
+     -0.677772
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212017892387517381,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_16",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.89105,
+     0.22,
+     -5.84237
+    ],
+    "rot": [
+     -0.698347,
+     0.110959,
+     -0.110959,
+     -0.698347
+    ],
+    "euler": [
+     90.0,
+     341.9438,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     1.89105,
+     0.22,
+     -5.84237
+    ],
+    "rot": [
+     -0.698347,
+     0.110959,
+     -0.110959,
+     -0.698347
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212948132087033897,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_17",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.159,
+     0.22,
+     -6.081
+    ],
+    "rot": [
+     -0.698347,
+     0.110959,
+     -0.110959,
+     -0.698347
+    ],
+    "euler": [
+     90.0,
+     341.9438,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     1.159,
+     0.22,
+     -6.081
+    ],
+    "rot": [
+     -0.698347,
+     0.110959,
+     -0.110959,
+     -0.698347
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212146109142143575,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_18",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.23036,
+     0.22,
+     -7.80125
+    ],
+    "rot": [
+     -0.706737,
+     0.022865,
+     -0.022865,
+     -0.706737
+    ],
+    "euler": [
+     90.0,
+     356.2939,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     2.23036,
+     0.22,
+     -7.80125
+    ],
+    "rot": [
+     -0.706737,
+     0.022865,
+     -0.022865,
+     -0.706737
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212177930474251431,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_19",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.462,
+     0.22,
+     -7.851
+    ],
+    "rot": [
+     -0.706737,
+     0.022865,
+     -0.022865,
+     -0.706737
+    ],
+    "euler": [
+     90.0,
+     356.2939,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     1.462,
+     0.22,
+     -7.851
+    ],
+    "rot": [
+     -0.706737,
+     0.022865,
+     -0.022865,
+     -0.706737
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212433013960508438,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.23,
+     0.22,
+     5.62
+    ],
+    "rot": [
+     0.183013,
+     -0.683013,
+     0.683013,
+     0.183013
+    ],
+    "euler": [
+     90.0,
+     210.0001,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.23,
+     0.22,
+     5.62
+    ],
+    "rot": [
+     0.183013,
+     -0.683013,
+     0.683013,
+     0.183013
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212407886329842316,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3018868,
+      "g": 0,
+      "b": 0,
+      "a": 0.57254905
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_20",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.13,
+     0.22,
+     -9.43
+    ],
+    "rot": [
+     0.706615,
+     0.02637,
+     -0.02637,
+     0.706615
+    ],
+    "euler": [
+     90.0,
+     4.2745,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13,
+     0.22,
+     -9.43
+    ],
+    "rot": [
+     0.706615,
+     0.02637,
+     -0.02637,
+     0.706615
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212168105826085154,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_21",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.18433,
+     0.22,
+     -7.63507
+    ],
+    "rot": [
+     0.704375,
+     -0.062094,
+     0.062094,
+     0.704375
+    ],
+    "euler": [
+     90.0,
+     349.9243,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.18433,
+     0.22,
+     -7.63507
+    ],
+    "rot": [
+     0.704375,
+     -0.062094,
+     0.062094,
+     0.704375
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212896002537488308,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_22",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.66456,
+     0.22,
+     -6.06289
+    ],
+    "rot": [
+     0.690155,
+     -0.153902,
+     0.153902,
+     0.690155
+    ],
+    "euler": [
+     89.9946,
+     334.8578,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.66456,
+     0.22,
+     -6.06289
+    ],
+    "rot": [
+     0.690155,
+     -0.153902,
+     0.153902,
+     0.690155
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212092105871539913,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_23",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.55664,
+     0.219,
+     -4.54317
+    ],
+    "rot": [
+     0.671521,
+     -0.221493,
+     0.221493,
+     0.671522
+    ],
+    "euler": [
+     90.0,
+     323.4911,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.55664,
+     0.219,
+     -4.54317
+    ],
+    "rot": [
+     0.671521,
+     -0.221493,
+     0.221493,
+     0.671522
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212817325062191328,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_24",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.63782,
+     0.22,
+     -9.48741
+    ],
+    "rot": [
+     0.706615,
+     0.02637,
+     -0.02637,
+     0.706615
+    ],
+    "euler": [
+     90.0,
+     4.2745,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.63782,
+     0.22,
+     -9.48741
+    ],
+    "rot": [
+     0.706615,
+     0.02637,
+     -0.02637,
+     0.706615
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212271925019662038,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_25",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.57377,
+     0.22,
+     -7.50039
+    ],
+    "rot": [
+     0.704375,
+     -0.062094,
+     0.062094,
+     0.704375
+    ],
+    "euler": [
+     90.0,
+     349.9243,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.57377,
+     0.22,
+     -7.50039
+    ],
+    "rot": [
+     0.704375,
+     -0.062094,
+     0.062094,
+     0.704375
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212911997548769506,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_26",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.03247,
+     0.22,
+     -5.73578
+    ],
+    "rot": [
+     0.690155,
+     -0.153902,
+     0.153902,
+     0.690155
+    ],
+    "euler": [
+     89.9946,
+     334.8578,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     0.03247,
+     0.22,
+     -5.73578
+    ],
+    "rot": [
+     0.690155,
+     -0.153902,
+     0.153902,
+     0.690155
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212738892719839630,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_27",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.93776,
+     0.219,
+     -4.08509
+    ],
+    "rot": [
+     0.671521,
+     -0.221493,
+     0.221493,
+     0.671522
+    ],
+    "euler": [
+     90.0,
+     323.4911,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.93776,
+     0.219,
+     -4.08509
+    ],
+    "rot": [
+     0.671521,
+     -0.221493,
+     0.221493,
+     0.671522
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212887312969816373,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.19,
+     0.22,
+     3.61
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.19,
+     0.22,
+     3.61
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212016852445014956,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3018868,
+      "g": 0,
+      "b": 0,
+      "a": 0.77254903
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.0655,
+     0.219,
+     3.3781
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.0655,
+     0.219,
+     3.3781
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212295926465608920,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.4506,
+     0.219,
+     2.7113
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.4506,
+     0.219,
+     2.7113
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212258471659221418,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.6906,
+     0.219,
+     2.2956
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.6906,
+     0.219,
+     2.2956
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212083739296819378,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.0756,
+     0.219,
+     1.6288
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.0756,
+     0.219,
+     1.6288
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212842968619709538,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.1656,
+     0.219,
+     5.1679
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -13.1656,
+     0.219,
+     5.1679
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212181586030114204,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/Shadows/Shadow_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.5506,
+     0.219,
+     4.5011
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "euler": [
+     90.0,
+     300.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -13.5506,
+     0.219,
+     4.5011
+    ],
+    "rot": [
+     0.612372,
+     -0.353554,
+     0.353554,
+     0.612372
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212293198502218400,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.3773585,
+      "g": 0,
+      "b": 0,
+      "a": 0.5803922
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.21,
+     0.0,
+     -0.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.21,
+     0.0,
+     -0.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07275,
+     0.211,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.28275,
+     0.211,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33346445019804701,
+     "mesh": {
+      "asset": "Mesh/tree trunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23729442808604298,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65055535033279528,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.19362,
+      0.0
+     ],
+     "size": [
+      0.38724,
+      0.38724,
+      2.72801
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.157,
+     0.5135,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.367,
+     0.5135,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33364392939154294,
+     "mesh": {
+      "asset": "Mesh/tree trunk.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23696792502030561,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65500050402096248,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.19362,
+      0.0
+     ],
+     "size": [
+      0.38724,
+      0.38724,
+      2.72801
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.24,
+     0.211,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.45,
+     0.211,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33878983242975409,
+     "mesh": {
+      "asset": "Mesh/tree trunk 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23433881075115309,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65838352681112328,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.19362,
+      0.0
+     ],
+     "size": [
+      0.4356,
+      0.38724,
+      3.04165
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 2 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.9905,
+     0.31175,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.2005,
+     0.31175,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33616761771223058,
+     "mesh": {
+      "asset": "Mesh/tree trunk 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23870947366518887,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65505682267929073,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.19362,
+      0.0
+     ],
+     "size": [
+      0.4356,
+      0.38724,
+      3.04165
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 2 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.349,
+     0.32175,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.559,
+     0.32175,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704877758540679,
+     "mesh": {
+      "asset": "Mesh/tree trunk 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23632179142322292,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65036828218548272,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.19362,
+      0.0
+     ],
+     "size": [
+      0.4356,
+      0.38724,
+      3.04165
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.4335,
+     0.211,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.6435,
+     0.211,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33911451331743778,
+     "mesh": {
+      "asset": "Mesh/tree trunk 3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23105912343260855,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65350143044813081,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.16713,
+      0.0
+     ],
+     "size": [
+      0.37156,
+      0.33426,
+      2.54599
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 3 (1)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.898,
+     0.211,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.108,
+     0.211,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33573076885614623,
+     "mesh": {
+      "asset": "Mesh/tree trunk 3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23681721672847880,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65964675957374274,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.16713,
+      0.0
+     ],
+     "size": [
+      0.37156,
+      0.33426,
+      2.54599
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 3 (2)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.1675,
+     0.33175,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.3775,
+     0.33175,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33016782227057731,
+     "mesh": {
+      "asset": "Mesh/tree trunk 3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23126508818681447,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65231676679060417,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.16713,
+      0.0
+     ],
+     "size": [
+      0.37156,
+      0.33426,
+      2.54599
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 3 (3)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.2665,
+     0.44425,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.4765,
+     0.44425,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33463579974499585,
+     "mesh": {
+      "asset": "Mesh/tree trunk 3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23387228018655110,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65766709239876273,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.16713,
+      0.0
+     ],
+     "size": [
+      0.37156,
+      0.33426,
+      2.54599
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/TreeTrunkGroup/tree trunk 3 (4)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07475,
+     0.4245,
+     3.63
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.28475,
+     0.4245,
+     3.87
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.36876,
+     0.36876,
+     0.49908
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33349979204078785,
+     "mesh": {
+      "asset": "Mesh/tree trunk 3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23559203567323380,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65580109562975512,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.16713,
+      0.0
+     ],
+     "size": [
+      0.37156,
+      0.33426,
+      2.54599
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 3 turn_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.05,
+     0.19,
+     -6.69
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.001,
+     0.0
+    ],
+    "lossyScale": [
+     0.715,
+     0.715,
+     0.715
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05,
+     0.19,
+     -6.69
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.715,
+     0.715,
+     0.715
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33832474124979885,
+     "mesh": {
+      "asset": "Mesh/railway 3 turn.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23195931274935818,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 3 turn_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.6548,
+     0.19,
+     -7.34453
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.001,
+     0.0
+    ],
+    "lossyScale": [
+     0.715,
+     0.715,
+     0.715
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6548,
+     0.19,
+     -7.34453
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.715,
+     0.715,
+     0.715
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33112815651697755,
+     "mesh": {
+      "asset": "Mesh/railway 3 turn.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23201141531394087,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -16.26786,
+     0.21,
+     6.53974
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -16.26786,
+     0.21,
+     6.53974
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33845025230388998,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23527248355756736,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_11",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -17.87266,
+     0.21,
+     5.88521
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -17.87266,
+     0.21,
+     5.88521
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33719897623072781,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23689224686120706,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.52518,
+     0.21,
+     0.91456
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.52518,
+     0.21,
+     0.91456
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33446691751160785,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904079258986964,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.27516,
+     0.21,
+     3.07961
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.27516,
+     0.21,
+     3.07961
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33965908813272002,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23429401810989285,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.46757,
+     0.21,
+     -2.5455
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     4.46757,
+     0.21,
+     -2.5455
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33329075794784248,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23422702022971346,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.01784,
+     0.21,
+     8.70479
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -15.01784,
+     0.21,
+     8.70479
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33007271993718322,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23133854062310043,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.90017,
+     0.21,
+     1.99708
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.90017,
+     0.21,
+     1.99708
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33641204913154593,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23521597976012101,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.84256,
+     0.21,
+     -3.62803
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     3.84256,
+     0.21,
+     -3.62803
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33119337346424409,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23562080017223558,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.64286,
+     0.21,
+     7.62227
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -15.64286,
+     0.21,
+     7.62227
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33729821067651183,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23041320612064254,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway 4_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.12998,
+     0.21,
+     0.26003
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "euler": [
+     0.0,
+     120.0011,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.12998,
+     0.21,
+     0.26003
+    ],
+    "rot": [
+     0.0,
+     0.86603,
+     0.0,
+     0.499992
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33484755779879834,
+     "mesh": {
+      "asset": "Mesh/railway 4_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23697715728111791,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/railway stop 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.5,
+     0.208,
+     5.03
+    ],
+    "rot": [
+     0.0,
+     -0.965926,
+     0.0,
+     0.258818
+    ],
+    "euler": [
+     0.0,
+     209.9999,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.5,
+     0.208,
+     5.03
+    ],
+    "rot": [
+     0.0,
+     -0.965926,
+     0.0,
+     0.258818
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33545683990359770,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Environment/Railway stops/railway stop 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23998495239010246,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Environment/water tank 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.17,
+     0.22,
+     5.47
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     30.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.17,
+     0.22,
+     5.47
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33208269818966246,
+     "mesh": {
+      "asset": "Mesh/water tank 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23401429660297866,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65280369416922100,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65413603344295461,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      4.0,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.38,
+     0.54,
+     2.05
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.38,
+     0.54,
+     2.05
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.38,
+     0.54,
+     -3.43
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.38,
+     0.54,
+     -3.43
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -6.55,
+     0.3,
+     0.92494
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.55,
+     0.3,
+     0.92494
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95659395017433157,
+     "controller": {
+      "asset": "AnimatorController/TrainTrap_Curved2.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+     "fileID": 114829507331467374,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_40/Traps/TrainTrapCurved_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.03596,
+     0.013,
+     0.003
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65781547038788540,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      2.5,
+      0.0
+     ],
+     "size": [
+      3.5,
+      5.0,
+      11.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/front wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33919715546813240,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23385730263066598,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/front wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33031355914570132,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23056435115414594,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/rear wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33459598911568433,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23667785438668446,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/rear wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33714397710475260,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23539572024531195,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33534964404139401,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23356700911858394,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SmokeBurstDark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.93818,
+     2.028,
+     4.03926
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     6.86,
+     3.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198988340220343945
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199246380077148219
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SmokeBurstDark/Clouds",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.93818,
+     2.028,
+     4.03926
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198293769854670634
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199712091639049384
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.64182,
+     0.313,
+     4.44551
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.93186,
+     0.313,
+     4.7111
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198384533402719018
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199308208021606205
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.93186,
+     0.313,
+     4.7111
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198163425435797775
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199857328259384655
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -25.76639,
+     -2.36518,
+     2.84883
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198702431833138108
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199060176988151448
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.93186,
+     0.313,
+     4.7111
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198537582596312083
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199176931266004030
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.93186,
+     0.313,
+     4.7111
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198508096660059924
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199596793934052148
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.51686,
+     0.313,
+     5.42991
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198359435272656907
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199986746396254636
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow_1/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.51686,
+     0.313,
+     5.42991
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198514281252195623
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199022536984984998
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow_1/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -25.35139,
+     -2.36518,
+     3.56764
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198161523128174384
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199654237306987836
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow_1/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.51686,
+     0.313,
+     5.42991
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198108722078165427
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199689876809886907
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_3/Train/train body/SparkParticles/SparkLoopYellow_1/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.51686,
+     0.313,
+     5.42991
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198238187980253294
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199999734183242044
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -8.09602,
+     0.3,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.09602,
+     0.3,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95472485487776518,
+     "controller": {
+      "asset": "AnimatorController/TrainTrap_Curved2.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+     "fileID": 114716408055262162,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_40/Traps/TrainTrapCurved_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.2,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.03596,
+     0.013,
+     0.003
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65752314372542589,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      2.5,
+      0.0
+     ],
+     "size": [
+      3.5,
+      5.0,
+      11.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/front wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33858286384160668,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23967258453572104,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/front wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33432223214076560,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23151797847433907,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/rear wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33408501777709171,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23728442554800362,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/rear wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33283415492601351,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23693528703414765,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222115391670268,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23236825115137097,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SmokeBurstDark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.4842,
+     2.028,
+     3.36433
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     6.86,
+     3.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198079961849258352
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199238834308295387
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SmokeBurstDark/Clouds",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.4842,
+     2.028,
+     3.36433
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198008770253507523
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199652476007473644
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -14.18785,
+     0.313,
+     3.77057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.47788,
+     0.313,
+     4.03617
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198891103352497787
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199797698078144085
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.47788,
+     0.313,
+     4.03617
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198710268039719040
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199070205081729383
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -27.31242,
+     -2.36518,
+     2.1739
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198135074601103973
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199701834863348643
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.47788,
+     0.313,
+     4.03617
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198733197508254210
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199290410981445608
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.47788,
+     0.313,
+     4.03617
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198327995293081625
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199653717033421991
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.06289,
+     0.313,
+     4.75497
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198536873717977885
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199038464535041785
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow_1/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.06289,
+     0.313,
+     4.75497
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198856321325849650
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199416982030819627
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow_1/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -26.89742,
+     -2.36518,
+     2.8927
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198703169052324433
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199290433801961070
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow_1/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.06289,
+     0.313,
+     4.75497
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198942066236133985
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199182963961976222
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrapCurved_4/Train/train body/SparkParticles/SparkLoopYellow_1/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -15.06289,
+     0.313,
+     4.75497
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198469561979407964
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199163714622165790
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -5.3,
+     0.3,
+     3.09
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.3,
+     0.3,
+     3.09
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95507522976744791,
+     "controller": {
+      "asset": "AnimatorController/TrainTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+     "fileID": 114951712121405908,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_40/Traps/TrainTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.125,
+       "speedPerLevel": 0.04,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.39183,
+     0.313,
+     6.61057
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.03596,
+     0.013,
+     0.003
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65827586244175853,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      2.5,
+      0.0
+     ],
+     "size": [
+      3.5,
+      5.0,
+      11.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/front wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -10.52588,
+     0.42995,
+     6.11075
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00043,
+     0.46779,
+     3.99939
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33510800835404288,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23173644300073267,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114543584136297381,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/front wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.0941,
+     0.42995,
+     6.43881
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00043,
+     0.46779,
+     1.37489
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33964822413698908,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23952320105404285,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114329446674688094,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/rear wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.94732,
+     0.53366,
+     6.931
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.00098,
+     0.88264,
+     -2.56514
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222568209840903,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23519819979147140,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114644357204029367,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/rear wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.40093,
+     0.53366,
+     7.19289
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.00098,
+     0.88264,
+     -4.66029
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33071519224935516,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23410049401584812,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114458735412797113,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.39101,
+     0.32239,
+     6.61018
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00027,
+     0.03756,
+     0.00359
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041608817324026,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370485308309611,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SmokeBurstDark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -10.56872,
+     1.83664,
+     6.13544
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     6.057,
+     3.798
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198785416887765914
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199041287186795109
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SmokeBurstDark/Clouds",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -10.56872,
+     1.83664,
+     6.13544
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198996317296757491
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199322008579206753
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.39101,
+     0.32239,
+     6.61018
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.68105,
+     0.32239,
+     6.87578
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198616352195932608
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199250083484182041
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.68105,
+     0.32239,
+     6.87578
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198372353275341440
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199556043395114336
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -24.51558,
+     -2.35579,
+     5.01351
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198583788928901705
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199799881864385010
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.68105,
+     0.32239,
+     6.87578
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198020314340478216
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199691570808825369
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.68105,
+     0.32239,
+     6.87578
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198502609866597578
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199365773988297632
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.26605,
+     0.32239,
+     7.59458
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198405989028062321
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199202048797312955
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow_1/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.26605,
+     0.32239,
+     7.59458
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198401109917237556
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199384784573714692
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow_1/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -24.10058,
+     -2.35579,
+     5.73231
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198962713294667487
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199239265225482239
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow_1/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.26605,
+     0.32239,
+     7.59458
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198370081907136253
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199751888446361502
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_1/Train/train body/SparkParticles/SparkLoopYellow_1/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.26605,
+     0.32239,
+     7.59458
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198817105377731967
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199077469347768860
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -5.925,
+     0.3,
+     2.00747
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     29.9999,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.925,
+     0.3,
+     2.00747
+    ],
+    "rot": [
+     0.0,
+     0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95494345407022765,
+     "controller": {
+      "asset": "AnimatorController/TrainTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.TrainTrap",
+     "fileID": 114743905223825669,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_40/Traps/TrainTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.125,
+       "speedPerLevel": 0.04,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.01683,
+     0.313,
+     5.52804
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.03596,
+     0.013,
+     0.003
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65232415838589296,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      2.5,
+      0.0
+     ],
+     "size": [
+      3.5,
+      5.0,
+      11.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/front wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.15088,
+     0.42995,
+     5.02821
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00043,
+     0.46779,
+     3.99939
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33739268104783211,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23391225667286877,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114517377532936435,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/front wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.7191,
+     0.42995,
+     5.35627
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00043,
+     0.46779,
+     1.37489
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33578880696632637,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/front wheels 2_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23102543447223915,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114493949256727870,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/rear wheels 1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.57232,
+     0.53366,
+     5.84847
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.00098,
+     0.88264,
+     -2.56514
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33134286944189183,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 1_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23045646810609841,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114337165658744233,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/rear wheels 2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.02593,
+     0.53366,
+     6.11036
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.00098,
+     0.88264,
+     -4.66029
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33033903555039309,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/rear wheels 2_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23731059169969419,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114844361126439134,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": 1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 15
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.01601,
+     0.32239,
+     5.52765
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00027,
+     0.03756,
+     0.00359
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33428560594236482,
+     "mesh": {
+      "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Models/Vehicles/Trains/train body_0.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23910201747455131,
+     "materials": [
+      {
+       "asset": "Palmov Island/Low Poly Locations Ultimate Pack/Materials/mat main1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SmokeBurstDark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.19372,
+     1.83664,
+     5.05291
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     6.057,
+     3.798
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198023566878023198
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199124577934639600
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SmokeBurstDark/Clouds",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -11.19372,
+     1.83664,
+     5.05291
+    ],
+    "rot": [
+     -0.353555,
+     0.612372,
+     0.612372,
+     0.353555
+    ],
+    "euler": [
+     270.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198760480127920944
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199510073901028830
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.01601,
+     0.32239,
+     5.52765
+    ],
+    "rot": [
+     0.0,
+     0.866025,
+     0.0,
+     0.500002
+    ],
+    "euler": [
+     0.0,
+     119.9998,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.30605,
+     0.32239,
+     5.79325
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198536148047902537
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199504506843557392
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.30605,
+     0.32239,
+     5.79325
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198003750186790624
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199805829819301007
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -25.14058,
+     -2.35579,
+     3.93098
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198151117949762783
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199147706149845817
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.30605,
+     0.32239,
+     5.79325
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198505490946690937
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199547349145286502
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -13.30605,
+     0.32239,
+     5.79325
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198330820015962899
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199450063812975771
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.89105,
+     0.32239,
+     6.51205
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.66,
+     0.0,
+     -5.0
+    ],
+    "rot": [
+     -0.92388,
+     0.0,
+     0.0,
+     0.382683
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198075864462779534
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199729152026894248
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow_1/SparkGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.89105,
+     0.32239,
+     6.51205
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198703850765261885
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199692131138185966
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow_1/SparkImpactGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -24.72558,
+     -2.35579,
+     4.64978
+    ],
+    "rot": [
+     -0.461942,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0001,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     10.04,
+     11.31,
+     6.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198931825979905961
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199734143864522482
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow_1/StartGlow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.89105,
+     0.32239,
+     6.51205
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198031343952073922
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199634112529866277
+    }
+   ]
+  },
+  {
+   "path": "Level_40/Traps/TrainTrap_2/Train/train body/SparkParticles/SparkLoopYellow_1/SubSpark",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -12.89105,
+     0.32239,
+     6.51205
+    ],
+    "rot": [
+     -0.461941,
+     0.331413,
+     0.800103,
+     0.191342
+    ],
+    "euler": [
+     315.0,
+     299.9998,
+     180.0
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198907165584567512
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199855622808019284
+    }
+   ]
+  }
+ ]
+}

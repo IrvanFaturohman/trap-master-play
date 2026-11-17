@@ -1,0 +1,12773 @@
+{
+ "level": 27,
+ "sources": {
+  "asset": "Resources/levels/Level_27.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_27.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Twilight Grove",
+ "trapClass": [
+  "FairyTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 800000.0,
+  "goldReward": 250.0,
+  "bricksReward": 2000,
+  "TrapOffset": 12,
+  "EnemiesOffset": 12,
+  "SpeedOffset": 8,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 18,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[27] over asset",
+  "blobRewardsOfGoals": [
+   20000,
+   20000,
+   80000,
+   40000,
+   40000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_5.asset",
+  "targetMoney": 1000000000.0,
+  "goldReward": 700.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_2.png",
+  "backgroundFogColor": {
+   "r": 0.706,
+   "g": 0.078,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_27.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "711b2e235d2df43a9b60fcdc0391e02e",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_27#LevelView",
+  "trapViews": [
+   "Level_27/Traps/FairyTrap_1#FairyTrap",
+   "Level_27/Traps/FairyTrap_2#FairyTrap",
+   "Level_27/Traps/FairyTrap_3#FairyTrap",
+   "Level_27/Traps/FairyTrap_4#FairyTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_27/floor_mushroom/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      0.3
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      0.3
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_27/floor_mushroom/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -1.97
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -1.97
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_27/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_27/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_27/Traps/FairyTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "fairyTransform": "Level_27/Traps/FairyTrap_1/Fairy",
+    "targetPoints": [
+     "Level_27/Traps/FairyTrap_1/Targets/Point_1",
+     "Level_27/Traps/FairyTrap_1/Targets/Point_2",
+     "Level_27/Traps/FairyTrap_1/Targets/Point_3"
+    ],
+    "hitCollider": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/Hitbox#SphereCollider"
+   },
+   "world": {
+    "pos": [
+     -4.17,
+     0.0,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.17,
+     0.0,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_27/Traps/FairyTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "fairyTransform": "Level_27/Traps/FairyTrap_2/Fairy",
+    "targetPoints": [
+     "Level_27/Traps/FairyTrap_2/Targets/Point_1",
+     "Level_27/Traps/FairyTrap_2/Targets/Point_2",
+     "Level_27/Traps/FairyTrap_2/Targets/Point_3"
+    ],
+    "hitCollider": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/Hitbox#SphereCollider"
+   },
+   "world": {
+    "pos": [
+     1.49,
+     0.0,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.49,
+     0.0,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_27/Traps/FairyTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "fairyTransform": "Level_27/Traps/FairyTrap_3/Fairy",
+    "targetPoints": [
+     "Level_27/Traps/FairyTrap_3/Targets/Point_1",
+     "Level_27/Traps/FairyTrap_3/Targets/Point_2",
+     "Level_27/Traps/FairyTrap_3/Targets/Point_3"
+    ],
+    "hitCollider": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/Hitbox#SphereCollider"
+   },
+   "world": {
+    "pos": [
+     -4.05,
+     0.0,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.05,
+     0.0,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_27/Traps/FairyTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "fairyTransform": "Level_27/Traps/FairyTrap_4/Fairy",
+    "targetPoints": [
+     "Level_27/Traps/FairyTrap_4/Targets/Point_1",
+     "Level_27/Traps/FairyTrap_4/Targets/Point_2",
+     "Level_27/Traps/FairyTrap_4/Targets/Point_3"
+    ],
+    "hitCollider": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/Hitbox#SphereCollider"
+   },
+   "world": {
+    "pos": [
+     1.81,
+     0.0,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.81,
+     0.0,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_27/FinishLine",
+    "world": {
+     "pos": [
+      0.31,
+      0.0,
+      -10.85
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65540037929436357,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       12.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_27/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65965908813272002,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/Hitbox",
+    "world": {
+     "pos": [
+      -4.17,
+      0.592,
+      0.70866
+     ],
+     "rot": [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      270.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135016782227057731,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       -0.1,
+       0.0,
+       0.0
+      ],
+      "radius": 0.33
+     }
+    ]
+   },
+   {
+    "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/Hitbox",
+    "world": {
+     "pos": [
+      1.49,
+      0.592,
+      -1.07134
+     ],
+     "rot": [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      270.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135041287186795109,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       -0.1,
+       0.0,
+       0.0
+      ],
+      "radius": 0.33
+     }
+    ]
+   },
+   {
+    "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/Hitbox",
+    "world": {
+     "pos": [
+      -4.05,
+      0.592,
+      -2.89134
+     ],
+     "rot": [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      270.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135663898806329775,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       -0.1,
+       0.0,
+       0.0
+      ],
+      "radius": 0.33
+     }
+    ]
+   },
+   {
+    "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/Hitbox",
+    "world": {
+     "pos": [
+      1.81,
+      0.592,
+      -4.82134
+     ],
+     "rot": [
+      0.5,
+      -0.5,
+      -0.5,
+      0.5
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      270.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135539572024531195,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       -0.1,
+       0.0,
+       0.0
+      ],
+      "radius": 0.33
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_005.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Butterfly Fairy Cute Series/FBX/Butterfly Fairy.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/floor_mushroom.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_27",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114689224686120706,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_27/Traps/FairyTrap_1#FairyTrap",
+         "Level_27/Traps/FairyTrap_2#FairyTrap",
+         "Level_27/Traps/FairyTrap_3#FairyTrap",
+         "Level_27/Traps/FairyTrap_4#FairyTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_27/floor_mushroom/MysteryBoxPositions/Position_1",
+        "Level_27/floor_mushroom/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_27/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_27/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33596793934052148,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23381869093814388,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65163425435797775,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33604619800802695,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23702431833138108,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65060176988151448,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33359435272656907,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23986746396254636,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65126042694364515,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_27/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.31,
+     0.0,
+     -10.85
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.31,
+     0.0,
+     -10.85
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65540037929436357,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      12.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65965908813272002,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_27/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -4.17,
+     0.0,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.17,
+     0.0,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+     "fileID": 114007271993718322,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "fairyTransform": "Level_27/Traps/FairyTrap_1/Fairy",
+      "targetPoints": [
+       "Level_27/Traps/FairyTrap_1/Targets/Point_1",
+       "Level_27/Traps/FairyTrap_1/Targets/Point_2",
+       "Level_27/Traps/FairyTrap_1/Targets/Point_3"
+      ],
+      "hitCollider": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/Hitbox#SphereCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     -0.731,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.731,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95947810564538834,
+     "controller": {
+      "asset": "AnimatorController/FairyTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/Butterfly Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     -0.731,
+     0.69
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137041320612064254,
+     "materials": [
+      {
+       "asset": "Butterfly Fairy Cute Series/Materials/Butterfly Fairy.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "Butterfly Fairy Cute Series/FBX/Butterfly Fairy.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/MagicMissileSoftPink",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.481,
+     0.69
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.212,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198934287144746640
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199616761771223058
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/MagicMissileSoftPink/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.481,
+     0.69
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198505682267929073
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199291547872775986
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/MagicMissileSoftPink/SparkleTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.481,
+     0.69
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198632179142322292
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199036828218548272
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/Rig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     -0.731,
+     0.69
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigLLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.20277,
+     -0.731,
+     0.70502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.592,
+     0.70866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.323,
+     0.01866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.592,
+     0.70866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135016782227057731,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      -0.1,
+      0.0,
+      0.0
+     ],
+     "radius": 0.33
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigLLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.21376,
+     0.56401,
+     0.70866
+    ],
+    "rot": [
+     0.480338,
+     0.522017,
+     0.491476,
+     0.505199
+    ],
+    "euler": [
+     358.4078,
+     90.3698,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     -0.00284,
+     -0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigLLeg1/RigLLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.20986,
+     0.42565,
+     0.71632
+    ],
+    "rot": [
+     0.507991,
+     0.487907,
+     0.543795,
+     0.456267
+    ],
+    "euler": [
+     356.1535,
+     89.553,
+     96.1873
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.006601,
+     0.019851,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigLLeg1/RigLLeg2/RigLLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.20277,
+     0.3215,
+     0.70506
+    ],
+    "rot": [
+     0.500276,
+     0.499724,
+     0.500322,
+     0.499678
+    ],
+    "euler": [
+     359.9947,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.002064,
+     -0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigRLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.12624,
+     0.56401,
+     0.70866
+    ],
+    "rot": [
+     0.491476,
+     0.505199,
+     0.480338,
+     0.522017
+    ],
+    "euler": [
+     1.5922,
+     89.6302,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     -0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     0.00284,
+     0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigRLeg1/RigRLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.13014,
+     0.42565,
+     0.71632
+    ],
+    "rot": [
+     0.543794,
+     0.456267,
+     0.507991,
+     0.487907
+    ],
+    "euler": [
+     3.8465,
+     90.447,
+     96.1872
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.006601,
+     -0.01985,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigRLeg1/RigRLeg2/RigRLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.13723,
+     0.3215,
+     0.70506
+    ],
+    "rot": [
+     0.500322,
+     0.499678,
+     0.500276,
+     0.499724
+    ],
+    "euler": [
+     0.0053,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.002064,
+     0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.63265,
+     0.70866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04065,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.66202,
+     0.70866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02937,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.70287,
+     0.70866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04085,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.19057,
+     0.70658,
+     0.71098
+    ],
+    "rot": [
+     0.70969,
+     0.249669,
+     0.223599,
+     0.619685
+    ],
+    "euler": [
+     50.1672,
+     101.8913,
+     99.6443
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.901321,
+     -0.058037,
+     0.428054
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.24214,
+     0.66458,
+     0.71045
+    ],
+    "rot": [
+     0.612547,
+     0.242062,
+     0.243226,
+     0.712063
+    ],
+    "euler": [
+     48.9898,
+     78.3609,
+     78.4616
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.132359,
+     0.007872,
+     -0.027348,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.28601,
+     0.62768,
+     0.71314
+    ],
+    "rot": [
+     0.001618,
+     0.002742,
+     0.340377,
+     0.940284
+    ],
+    "euler": [
+     0.0673,
+     0.3586,
+     39.8001
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.656541,
+     -0.017551,
+     0.01238,
+     0.753984
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm/RigLArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.31358,
+     0.60471,
+     0.71328
+    ],
+    "rot": [
+     0.001619,
+     0.002742,
+     0.340374,
+     0.940285
+    ],
+    "euler": [
+     0.0676,
+     0.3586,
+     39.7998
+    ],
+    "lossyScale": [
+     1.0,
+     1.00001,
+     0.99999
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     -3e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.72483,
+     0.70866
+    ],
+    "rot": [
+     0.467713,
+     -0.530325,
+     -0.467712,
+     0.530325
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     277.1796
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02196,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.062613,
+     0.998038
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.74542,
+     0.70606
+    ],
+    "rot": [
+     0.434407,
+     -0.557934,
+     -0.434407,
+     0.557934
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     284.1913
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02075,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.061151,
+     0.998129
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17987,
+     0.90064,
+     0.68877
+    ],
+    "rot": [
+     0.586983,
+     -0.399571,
+     -0.40927,
+     0.572967
+    ],
+    "euler": [
+     20.2171,
+     269.4863,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     0.00987
+    ],
+    "rot": [
+     0.023827,
+     0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.20238,
+     0.96174,
+     0.69024
+    ],
+    "rot": [
+     0.673843,
+     -0.228305,
+     -0.484157,
+     0.509318
+    ],
+    "euler": [
+     27.7316,
+     269.1989,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.012888,
+     0.06429,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.22675,
+     1.00746,
+     0.71421
+    ],
+    "rot": [
+     0.843251,
+     -0.134429,
+     -0.457743,
+     0.247644
+    ],
+    "euler": [
+     17.1326,
+     241.3428,
+     208.3258
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.22319,
+     0.08789,
+     -0.215173,
+     0.946658
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3/RigFeelerL4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.26986,
+     1.04334,
+     0.77003
+    ],
+    "rot": [
+     0.832586,
+     0.053452,
+     -0.530043,
+     -0.151649
+    ],
+    "euler": [
+     348.7051,
+     246.4307,
+     165.2441
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.238343,
+     -0.072998,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.16013,
+     0.90064,
+     0.68877
+    ],
+    "rot": [
+     0.409271,
+     -0.572967,
+     -0.586983,
+     0.399571
+    ],
+    "euler": [
+     339.7829,
+     270.5137,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     -0.00987
+    ],
+    "rot": [
+     -0.023828,
+     -0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.13762,
+     0.96174,
+     0.69024
+    ],
+    "rot": [
+     0.484157,
+     -0.509318,
+     -0.673843,
+     0.228305
+    ],
+    "euler": [
+     332.2684,
+     270.801,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.012888,
+     -0.064289,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.11325,
+     1.00746,
+     0.71421
+    ],
+    "rot": [
+     0.457743,
+     -0.247644,
+     -0.843251,
+     0.134429
+    ],
+    "euler": [
+     342.8674,
+     298.6571,
+     208.3259
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.223189,
+     -0.08789,
+     -0.215173,
+     0.946659
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3/RigFeelerR4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.07014,
+     1.04334,
+     0.77003
+    ],
+    "rot": [
+     0.530046,
+     0.151649,
+     -0.832584,
+     -0.053452
+    ],
+    "euler": [
+     11.2948,
+     293.5689,
+     165.2442
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.238342,
+     0.073001,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.14943,
+     0.70658,
+     0.71098
+    ],
+    "rot": [
+     0.223598,
+     0.619685,
+     0.709691,
+     0.249667
+    ],
+    "euler": [
+     309.8326,
+     78.1086,
+     99.6445
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     -0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.90132,
+     0.058038,
+     -0.428055
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.09786,
+     0.66458,
+     0.71045
+    ],
+    "rot": [
+     0.243224,
+     0.712061,
+     0.612549,
+     0.242064
+    ],
+    "euler": [
+     311.0101,
+     101.6386,
+     78.4618
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.132356,
+     -0.007874,
+     -0.02735,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05399,
+     0.62768,
+     0.71314
+    ],
+    "rot": [
+     0.340381,
+     0.940282,
+     0.001623,
+     0.00275
+    ],
+    "euler": [
+     359.9324,
+     179.6404,
+     39.8007
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.656538,
+     0.017544,
+     0.012382,
+     0.753987
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm/RigRArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.02642,
+     0.60471,
+     0.71328
+    ],
+    "rot": [
+     0.340384,
+     0.940281,
+     0.001621,
+     0.002751
+    ],
+    "euler": [
+     359.9326,
+     179.6404,
+     39.8009
+    ],
+    "lossyScale": [
+     1.0,
+     0.99999,
+     1.00001
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     2e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingL",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.19385,
+     0.67783,
+     0.66206
+    ],
+    "rot": [
+     -0.003426,
+     -0.30909,
+     0.212236,
+     0.927042
+    ],
+    "euler": [
+     7.172,
+     324.6153,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     0.02385
+    ],
+    "rot": [
+     -0.204571,
+     0.413382,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.14615,
+     0.67783,
+     0.66206
+    ],
+    "rot": [
+     -0.212236,
+     -0.927042,
+     0.003426,
+     0.30909
+    ],
+    "euler": [
+     352.828,
+     215.3847,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     -0.02385
+    ],
+    "rot": [
+     0.204571,
+     -0.413381,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/RigRLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.13723,
+     -0.731,
+     0.70502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Fairy/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     0.515,
+     0.69
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.246,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96463579974499585
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Targets",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.17,
+     -0.6,
+     0.69
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Targets/Point_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.68,
+     -0.6,
+     0.97
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.49,
+     0.0,
+     0.28
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Targets/Point_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.49,
+     -0.6,
+     1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.68,
+     0.0,
+     0.98
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_1/Targets/Point_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.79,
+     -0.6,
+     0.55
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     4.96,
+     0.0,
+     -0.14
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.49,
+     0.0,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.49,
+     0.0,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+     "fileID": 114580109562975512,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "fairyTransform": "Level_27/Traps/FairyTrap_2/Fairy",
+      "targetPoints": [
+       "Level_27/Traps/FairyTrap_2/Targets/Point_1",
+       "Level_27/Traps/FairyTrap_2/Targets/Point_2",
+       "Level_27/Traps/FairyTrap_2/Targets/Point_3"
+      ],
+      "hitCollider": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/Hitbox#SphereCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     -0.731,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.731,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95364392939154294,
+     "controller": {
+      "asset": "AnimatorController/FairyTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/Butterfly Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     -0.731,
+     -1.09
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137500050402096248,
+     "materials": [
+      {
+       "asset": "Butterfly Fairy Cute Series/Materials/Butterfly Fairy.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "Butterfly Fairy Cute Series/FBX/Butterfly Fairy.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/MagicMissileSoftPink",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.481,
+     -1.09
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.212,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198322008579206753
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199083485975560739
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/MagicMissileSoftPink/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.481,
+     -1.09
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198616352195932608
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199250083484182041
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/MagicMissileSoftPink/SparkleTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.481,
+     -1.09
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198020314340478216
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199691570808825369
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/Rig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     -0.731,
+     -1.09
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigLLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.45723,
+     -0.731,
+     -1.07498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.592,
+     -1.07134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.323,
+     0.01866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.592,
+     -1.07134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135041287186795109,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      -0.1,
+      0.0,
+      0.0
+     ],
+     "radius": 0.33
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigLLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.44624,
+     0.56401,
+     -1.07134
+    ],
+    "rot": [
+     0.480338,
+     0.522017,
+     0.491476,
+     0.505199
+    ],
+    "euler": [
+     358.4078,
+     90.3698,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     -0.00284,
+     -0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigLLeg1/RigLLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.45014,
+     0.42565,
+     -1.06368
+    ],
+    "rot": [
+     0.507991,
+     0.487907,
+     0.543795,
+     0.456267
+    ],
+    "euler": [
+     356.1535,
+     89.553,
+     96.1873
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.006601,
+     0.019851,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigLLeg1/RigLLeg2/RigLLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.45723,
+     0.3215,
+     -1.07494
+    ],
+    "rot": [
+     0.500276,
+     0.499724,
+     0.500322,
+     0.499678
+    ],
+    "euler": [
+     359.9947,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.002064,
+     -0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigRLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.53376,
+     0.56401,
+     -1.07134
+    ],
+    "rot": [
+     0.491476,
+     0.505199,
+     0.480338,
+     0.522017
+    ],
+    "euler": [
+     1.5922,
+     89.6302,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     -0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     0.00284,
+     0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigRLeg1/RigRLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.52986,
+     0.42565,
+     -1.06368
+    ],
+    "rot": [
+     0.543794,
+     0.456267,
+     0.507991,
+     0.487907
+    ],
+    "euler": [
+     3.8465,
+     90.447,
+     96.1872
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.006601,
+     -0.01985,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigRLeg1/RigRLeg2/RigRLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.52277,
+     0.3215,
+     -1.07494
+    ],
+    "rot": [
+     0.500322,
+     0.499678,
+     0.500276,
+     0.499724
+    ],
+    "euler": [
+     0.0053,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.002064,
+     0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.63265,
+     -1.07134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04065,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.66202,
+     -1.07134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02937,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.70287,
+     -1.07134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04085,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.46943,
+     0.70658,
+     -1.06902
+    ],
+    "rot": [
+     0.70969,
+     0.249669,
+     0.223599,
+     0.619685
+    ],
+    "euler": [
+     50.1672,
+     101.8913,
+     99.6443
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.901321,
+     -0.058037,
+     0.428054
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.41786,
+     0.66458,
+     -1.06955
+    ],
+    "rot": [
+     0.612547,
+     0.242062,
+     0.243226,
+     0.712063
+    ],
+    "euler": [
+     48.9898,
+     78.3609,
+     78.4616
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.132359,
+     0.007872,
+     -0.027348,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.37399,
+     0.62768,
+     -1.06686
+    ],
+    "rot": [
+     0.001618,
+     0.002742,
+     0.340377,
+     0.940284
+    ],
+    "euler": [
+     0.0673,
+     0.3586,
+     39.8001
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.656541,
+     -0.017551,
+     0.01238,
+     0.753984
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm/RigLArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.34642,
+     0.60471,
+     -1.06672
+    ],
+    "rot": [
+     0.001619,
+     0.002742,
+     0.340374,
+     0.940285
+    ],
+    "euler": [
+     0.0676,
+     0.3586,
+     39.7998
+    ],
+    "lossyScale": [
+     1.0,
+     1.00001,
+     0.99999
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     -3e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.72483,
+     -1.07134
+    ],
+    "rot": [
+     0.467713,
+     -0.530325,
+     -0.467712,
+     0.530325
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     277.1796
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02196,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.062613,
+     0.998038
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.74542,
+     -1.07394
+    ],
+    "rot": [
+     0.434407,
+     -0.557934,
+     -0.434407,
+     0.557934
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     284.1913
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02075,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.061151,
+     0.998129
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.48013,
+     0.90064,
+     -1.09123
+    ],
+    "rot": [
+     0.586983,
+     -0.399571,
+     -0.40927,
+     0.572967
+    ],
+    "euler": [
+     20.2171,
+     269.4863,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     0.00987
+    ],
+    "rot": [
+     0.023827,
+     0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.45762,
+     0.96174,
+     -1.08976
+    ],
+    "rot": [
+     0.673843,
+     -0.228305,
+     -0.484157,
+     0.509318
+    ],
+    "euler": [
+     27.7316,
+     269.1989,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.012888,
+     0.06429,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.43325,
+     1.00746,
+     -1.06579
+    ],
+    "rot": [
+     0.843251,
+     -0.134429,
+     -0.457743,
+     0.247644
+    ],
+    "euler": [
+     17.1326,
+     241.3428,
+     208.3258
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.22319,
+     0.08789,
+     -0.215173,
+     0.946658
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3/RigFeelerL4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.39014,
+     1.04334,
+     -1.00997
+    ],
+    "rot": [
+     0.832586,
+     0.053452,
+     -0.530043,
+     -0.151649
+    ],
+    "euler": [
+     348.7051,
+     246.4307,
+     165.2441
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.238343,
+     -0.072998,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49987,
+     0.90064,
+     -1.09123
+    ],
+    "rot": [
+     0.409271,
+     -0.572967,
+     -0.586983,
+     0.399571
+    ],
+    "euler": [
+     339.7829,
+     270.5137,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     -0.00987
+    ],
+    "rot": [
+     -0.023828,
+     -0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.52238,
+     0.96174,
+     -1.08976
+    ],
+    "rot": [
+     0.484157,
+     -0.509318,
+     -0.673843,
+     0.228305
+    ],
+    "euler": [
+     332.2684,
+     270.801,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.012888,
+     -0.064289,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.54675,
+     1.00746,
+     -1.06579
+    ],
+    "rot": [
+     0.457743,
+     -0.247644,
+     -0.843251,
+     0.134429
+    ],
+    "euler": [
+     342.8674,
+     298.6571,
+     208.3259
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.223189,
+     -0.08789,
+     -0.215173,
+     0.946659
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3/RigFeelerR4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.58986,
+     1.04334,
+     -1.00997
+    ],
+    "rot": [
+     0.530046,
+     0.151649,
+     -0.832584,
+     -0.053452
+    ],
+    "euler": [
+     11.2948,
+     293.5689,
+     165.2442
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.238342,
+     0.073001,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.51057,
+     0.70658,
+     -1.06902
+    ],
+    "rot": [
+     0.223598,
+     0.619685,
+     0.709691,
+     0.249667
+    ],
+    "euler": [
+     309.8326,
+     78.1086,
+     99.6445
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     -0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.90132,
+     0.058038,
+     -0.428055
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.56214,
+     0.66458,
+     -1.06955
+    ],
+    "rot": [
+     0.243224,
+     0.712061,
+     0.612549,
+     0.242064
+    ],
+    "euler": [
+     311.0101,
+     101.6386,
+     78.4618
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.132356,
+     -0.007874,
+     -0.02735,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.60601,
+     0.62768,
+     -1.06686
+    ],
+    "rot": [
+     0.340381,
+     0.940282,
+     0.001623,
+     0.00275
+    ],
+    "euler": [
+     359.9324,
+     179.6404,
+     39.8007
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.656538,
+     0.017544,
+     0.012382,
+     0.753987
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm/RigRArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.63358,
+     0.60471,
+     -1.06672
+    ],
+    "rot": [
+     0.340384,
+     0.940281,
+     0.001621,
+     0.002751
+    ],
+    "euler": [
+     359.9326,
+     179.6404,
+     39.8009
+    ],
+    "lossyScale": [
+     1.0,
+     0.99999,
+     1.00001
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     2e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingL",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.46615,
+     0.67783,
+     -1.11794
+    ],
+    "rot": [
+     -0.003426,
+     -0.30909,
+     0.212236,
+     0.927042
+    ],
+    "euler": [
+     7.172,
+     324.6153,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     0.02385
+    ],
+    "rot": [
+     -0.204571,
+     0.413382,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.51385,
+     0.67783,
+     -1.11794
+    ],
+    "rot": [
+     -0.212236,
+     -0.927042,
+     0.003426,
+     0.30909
+    ],
+    "euler": [
+     352.828,
+     215.3847,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     -0.02385
+    ],
+    "rot": [
+     0.204571,
+     -0.413381,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/RigRLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.52277,
+     -0.731,
+     -1.07498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Fairy/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     0.515,
+     -1.09
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.246,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96502609866597578
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Targets",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.49,
+     -0.6,
+     -1.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Targets/Point_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.25,
+     -0.6,
+     -1.23
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.24,
+     0.0,
+     -0.14
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Targets/Point_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.78,
+     -0.6,
+     -0.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.27,
+     0.0,
+     0.79
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_2/Targets/Point_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.09,
+     -0.6,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.58,
+     0.0,
+     -0.41
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -4.05,
+     0.0,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.05,
+     0.0,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+     "fileID": 114583788928901705,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "fairyTransform": "Level_27/Traps/FairyTrap_3/Fairy",
+      "targetPoints": [
+       "Level_27/Traps/FairyTrap_3/Targets/Point_1",
+       "Level_27/Traps/FairyTrap_3/Targets/Point_2",
+       "Level_27/Traps/FairyTrap_3/Targets/Point_3"
+      ],
+      "hitCollider": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/Hitbox#SphereCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     -0.731,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.731,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95904400124545405,
+     "controller": {
+      "asset": "AnimatorController/FairyTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/Butterfly Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     -0.731,
+     -2.91
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137202048797312955,
+     "materials": [
+      {
+       "asset": "Butterfly Fairy Cute Series/Materials/Butterfly Fairy.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "Butterfly Fairy Cute Series/FBX/Butterfly Fairy.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/MagicMissileSoftPink",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.481,
+     -2.91
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.212,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198985908891298522
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199023566878023198
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/MagicMissileSoftPink/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.481,
+     -2.91
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198081920422494107
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199760480127920944
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/MagicMissileSoftPink/SparkleTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.481,
+     -2.91
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198548862692844868
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199566389953100910
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/Rig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     -0.731,
+     -2.91
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigLLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.08277,
+     -0.731,
+     -2.89498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.592,
+     -2.89134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.323,
+     0.01866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.592,
+     -2.89134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135663898806329775,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      -0.1,
+      0.0,
+      0.0
+     ],
+     "radius": 0.33
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigLLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.09376,
+     0.56401,
+     -2.89134
+    ],
+    "rot": [
+     0.480338,
+     0.522017,
+     0.491476,
+     0.505199
+    ],
+    "euler": [
+     358.4078,
+     90.3698,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     -0.00284,
+     -0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigLLeg1/RigLLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.08986,
+     0.42565,
+     -2.88368
+    ],
+    "rot": [
+     0.507991,
+     0.487907,
+     0.543795,
+     0.456267
+    ],
+    "euler": [
+     356.1535,
+     89.553,
+     96.1873
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.006601,
+     0.019851,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigLLeg1/RigLLeg2/RigLLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.08277,
+     0.3215,
+     -2.89494
+    ],
+    "rot": [
+     0.500276,
+     0.499724,
+     0.500322,
+     0.499678
+    ],
+    "euler": [
+     359.9947,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.002064,
+     -0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigRLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.00624,
+     0.56401,
+     -2.89134
+    ],
+    "rot": [
+     0.491476,
+     0.505199,
+     0.480338,
+     0.522017
+    ],
+    "euler": [
+     1.5922,
+     89.6302,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     -0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     0.00284,
+     0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigRLeg1/RigRLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.01014,
+     0.42565,
+     -2.88368
+    ],
+    "rot": [
+     0.543794,
+     0.456267,
+     0.507991,
+     0.487907
+    ],
+    "euler": [
+     3.8465,
+     90.447,
+     96.1872
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.006601,
+     -0.01985,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigRLeg1/RigRLeg2/RigRLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.01723,
+     0.3215,
+     -2.89494
+    ],
+    "rot": [
+     0.500322,
+     0.499678,
+     0.500276,
+     0.499724
+    ],
+    "euler": [
+     0.0053,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.002064,
+     0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.63265,
+     -2.89134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04065,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.66202,
+     -2.89134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02937,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.70287,
+     -2.89134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04085,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.07057,
+     0.70658,
+     -2.88902
+    ],
+    "rot": [
+     0.70969,
+     0.249669,
+     0.223599,
+     0.619685
+    ],
+    "euler": [
+     50.1672,
+     101.8913,
+     99.6443
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.901321,
+     -0.058037,
+     0.428054
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.12214,
+     0.66458,
+     -2.88955
+    ],
+    "rot": [
+     0.612547,
+     0.242062,
+     0.243226,
+     0.712063
+    ],
+    "euler": [
+     48.9898,
+     78.3609,
+     78.4616
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.132359,
+     0.007872,
+     -0.027348,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.16601,
+     0.62768,
+     -2.88686
+    ],
+    "rot": [
+     0.001618,
+     0.002742,
+     0.340377,
+     0.940284
+    ],
+    "euler": [
+     0.0673,
+     0.3586,
+     39.8001
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.656541,
+     -0.017551,
+     0.01238,
+     0.753984
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm/RigLArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.19358,
+     0.60471,
+     -2.88672
+    ],
+    "rot": [
+     0.001619,
+     0.002742,
+     0.340374,
+     0.940285
+    ],
+    "euler": [
+     0.0676,
+     0.3586,
+     39.7998
+    ],
+    "lossyScale": [
+     1.0,
+     1.00001,
+     0.99999
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     -3e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.72483,
+     -2.89134
+    ],
+    "rot": [
+     0.467713,
+     -0.530325,
+     -0.467712,
+     0.530325
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     277.1796
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02196,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.062613,
+     0.998038
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.74542,
+     -2.89394
+    ],
+    "rot": [
+     0.434407,
+     -0.557934,
+     -0.434407,
+     0.557934
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     284.1913
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02075,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.061151,
+     0.998129
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05987,
+     0.90064,
+     -2.91123
+    ],
+    "rot": [
+     0.586983,
+     -0.399571,
+     -0.40927,
+     0.572967
+    ],
+    "euler": [
+     20.2171,
+     269.4863,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     0.00987
+    ],
+    "rot": [
+     0.023827,
+     0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.08238,
+     0.96174,
+     -2.90976
+    ],
+    "rot": [
+     0.673843,
+     -0.228305,
+     -0.484157,
+     0.509318
+    ],
+    "euler": [
+     27.7316,
+     269.1989,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.012888,
+     0.06429,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.10675,
+     1.00746,
+     -2.88579
+    ],
+    "rot": [
+     0.843251,
+     -0.134429,
+     -0.457743,
+     0.247644
+    ],
+    "euler": [
+     17.1326,
+     241.3428,
+     208.3258
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.22319,
+     0.08789,
+     -0.215173,
+     0.946658
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3/RigFeelerL4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.14986,
+     1.04334,
+     -2.82997
+    ],
+    "rot": [
+     0.832586,
+     0.053452,
+     -0.530043,
+     -0.151649
+    ],
+    "euler": [
+     348.7051,
+     246.4307,
+     165.2441
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.238343,
+     -0.072998,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.04013,
+     0.90064,
+     -2.91123
+    ],
+    "rot": [
+     0.409271,
+     -0.572967,
+     -0.586983,
+     0.399571
+    ],
+    "euler": [
+     339.7829,
+     270.5137,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     -0.00987
+    ],
+    "rot": [
+     -0.023828,
+     -0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.01762,
+     0.96174,
+     -2.90976
+    ],
+    "rot": [
+     0.484157,
+     -0.509318,
+     -0.673843,
+     0.228305
+    ],
+    "euler": [
+     332.2684,
+     270.801,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.012888,
+     -0.064289,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.99325,
+     1.00746,
+     -2.88579
+    ],
+    "rot": [
+     0.457743,
+     -0.247644,
+     -0.843251,
+     0.134429
+    ],
+    "euler": [
+     342.8674,
+     298.6571,
+     208.3259
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.223189,
+     -0.08789,
+     -0.215173,
+     0.946659
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3/RigFeelerR4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.95014,
+     1.04334,
+     -2.82997
+    ],
+    "rot": [
+     0.530046,
+     0.151649,
+     -0.832584,
+     -0.053452
+    ],
+    "euler": [
+     11.2948,
+     293.5689,
+     165.2442
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.238342,
+     0.073001,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.02943,
+     0.70658,
+     -2.88902
+    ],
+    "rot": [
+     0.223598,
+     0.619685,
+     0.709691,
+     0.249667
+    ],
+    "euler": [
+     309.8326,
+     78.1086,
+     99.6445
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     -0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.90132,
+     0.058038,
+     -0.428055
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.97786,
+     0.66458,
+     -2.88955
+    ],
+    "rot": [
+     0.243224,
+     0.712061,
+     0.612549,
+     0.242064
+    ],
+    "euler": [
+     311.0101,
+     101.6386,
+     78.4618
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.132356,
+     -0.007874,
+     -0.02735,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.93399,
+     0.62768,
+     -2.88686
+    ],
+    "rot": [
+     0.340381,
+     0.940282,
+     0.001623,
+     0.00275
+    ],
+    "euler": [
+     359.9324,
+     179.6404,
+     39.8007
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.656538,
+     0.017544,
+     0.012382,
+     0.753987
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm/RigRArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.90642,
+     0.60471,
+     -2.88672
+    ],
+    "rot": [
+     0.340384,
+     0.940281,
+     0.001621,
+     0.002751
+    ],
+    "euler": [
+     359.9326,
+     179.6404,
+     39.8009
+    ],
+    "lossyScale": [
+     1.0,
+     0.99999,
+     1.00001
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     2e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingL",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.07385,
+     0.67783,
+     -2.93794
+    ],
+    "rot": [
+     -0.003426,
+     -0.30909,
+     0.212236,
+     0.927042
+    ],
+    "euler": [
+     7.172,
+     324.6153,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     0.02385
+    ],
+    "rot": [
+     -0.204571,
+     0.413382,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.02615,
+     0.67783,
+     -2.93794
+    ],
+    "rot": [
+     -0.212236,
+     -0.927042,
+     0.003426,
+     0.30909
+    ],
+    "euler": [
+     352.828,
+     215.3847,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     -0.02385
+    ],
+    "rot": [
+     0.204571,
+     -0.413381,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/RigRLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.01723,
+     -0.731,
+     -2.89498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Fairy/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     0.515,
+     -2.91
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.246,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96504506843557392
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Targets",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.05,
+     -0.6,
+     -2.91
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Targets/Point_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.87,
+     -0.6,
+     -3.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.18,
+     0.0,
+     -0.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Targets/Point_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.27,
+     -0.6,
+     -2.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     4.32,
+     0.0,
+     0.61
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_3/Targets/Point_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.03,
+     -0.6,
+     -2.94
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     6.08,
+     0.0,
+     -0.03
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.81,
+     0.0,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.81,
+     0.0,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FairyTrap",
+     "fileID": 114450063812975771,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "fairyTransform": "Level_27/Traps/FairyTrap_4/Fairy",
+      "targetPoints": [
+       "Level_27/Traps/FairyTrap_4/Targets/Point_1",
+       "Level_27/Traps/FairyTrap_4/Targets/Point_2",
+       "Level_27/Traps/FairyTrap_4/Targets/Point_3"
+      ],
+      "hitCollider": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/Hitbox#SphereCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     -0.731,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.731,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95003750186790624,
+     "controller": {
+      "asset": "AnimatorController/FairyTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/Butterfly Fairy",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     -0.731,
+     -4.84
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137321515599905260,
+     "materials": [
+      {
+       "asset": "Butterfly Fairy Cute Series/Materials/Butterfly Fairy.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "Butterfly Fairy Cute Series/FBX/Butterfly Fairy.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/MagicMissileSoftPink",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.481,
+     -4.84
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.212,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198356700911858394
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199749950996922467
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/MagicMissileSoftPink/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.481,
+     -4.84
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198246380077148219
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199990702214508331
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/MagicMissileSoftPink/SparkleTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.481,
+     -4.84
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198712091639049384
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199866108357657329
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/Rig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     -0.731,
+     -4.84
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigLLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.77723,
+     -0.731,
+     -4.82498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.592,
+     -4.82134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.323,
+     0.01866
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.592,
+     -4.82134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135539572024531195,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      -0.1,
+      0.0,
+      0.0
+     ],
+     "radius": 0.33
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigLLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.76624,
+     0.56401,
+     -4.82134
+    ],
+    "rot": [
+     0.480338,
+     0.522017,
+     0.491476,
+     0.505199
+    ],
+    "euler": [
+     358.4078,
+     90.3698,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     -0.00284,
+     -0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigLLeg1/RigLLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.77014,
+     0.42565,
+     -4.81368
+    ],
+    "rot": [
+     0.507991,
+     0.487907,
+     0.543795,
+     0.456267
+    ],
+    "euler": [
+     356.1535,
+     89.553,
+     96.1873
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.006601,
+     0.019851,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigLLeg1/RigLLeg2/RigLLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.77723,
+     0.3215,
+     -4.82494
+    ],
+    "rot": [
+     0.500276,
+     0.499724,
+     0.500322,
+     0.499678
+    ],
+    "euler": [
+     359.9947,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.002064,
+     -0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigRLeg1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85376,
+     0.56401,
+     -4.82134
+    ],
+    "rot": [
+     0.491476,
+     0.505199,
+     0.480338,
+     0.522017
+    ],
+    "euler": [
+     1.5922,
+     89.6302,
+     86.8198
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02799,
+     0.0,
+     -0.04376
+    ],
+    "rot": [
+     -0.027701,
+     0.999514,
+     0.00284,
+     0.013978
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigRLeg1/RigRLeg2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84986,
+     0.42565,
+     -4.81368
+    ],
+    "rot": [
+     0.543794,
+     0.456267,
+     0.507991,
+     0.487907
+    ],
+    "euler": [
+     3.8465,
+     90.447,
+     96.1872
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13863,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.006601,
+     -0.01985,
+     0.0813,
+     0.99647
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigRLeg1/RigRLeg2/RigRLegAnkle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84277,
+     0.3215,
+     -4.82494
+    ],
+    "rot": [
+     0.500322,
+     0.499678,
+     0.500276,
+     0.499724
+    ],
+    "euler": [
+     0.0053,
+     90.0,
+     90.0685
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.10499,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.002064,
+     0.033677,
+     -0.053209,
+     0.998013
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.63265,
+     -4.82134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04065,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.66202,
+     -4.82134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02937,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.70287,
+     -4.82134
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.04085,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.78943,
+     0.70658,
+     -4.81902
+    ],
+    "rot": [
+     0.70969,
+     0.249669,
+     0.223599,
+     0.619685
+    ],
+    "euler": [
+     50.1672,
+     101.8913,
+     99.6443
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.901321,
+     -0.058037,
+     0.428054
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.73786,
+     0.66458,
+     -4.81955
+    ],
+    "rot": [
+     0.612547,
+     0.242062,
+     0.243226,
+     0.712063
+    ],
+    "euler": [
+     48.9898,
+     78.3609,
+     78.4616
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.132359,
+     0.007872,
+     -0.027348,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.69399,
+     0.62768,
+     -4.81686
+    ],
+    "rot": [
+     0.001618,
+     0.002742,
+     0.340377,
+     0.940284
+    ],
+    "euler": [
+     0.0673,
+     0.3586,
+     39.8001
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.656541,
+     -0.017551,
+     0.01238,
+     0.753984
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigLArm1/RigLArm2/RigLArmPalm/RigLArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.66642,
+     0.60471,
+     -4.81672
+    ],
+    "rot": [
+     0.001619,
+     0.002742,
+     0.340374,
+     0.940285
+    ],
+    "euler": [
+     0.0676,
+     0.3586,
+     39.7998
+    ],
+    "lossyScale": [
+     1.0,
+     1.00001,
+     0.99999
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     -3e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.72483,
+     -4.82134
+    ],
+    "rot": [
+     0.467713,
+     -0.530325,
+     -0.467712,
+     0.530325
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     277.1796
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02196,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.062613,
+     0.998038
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.74542,
+     -4.82394
+    ],
+    "rot": [
+     0.434407,
+     -0.557934,
+     -0.434407,
+     0.557934
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     284.1913
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02075,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.061151,
+     0.998129
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.80013,
+     0.90064,
+     -4.84123
+    ],
+    "rot": [
+     0.586983,
+     -0.399571,
+     -0.40927,
+     0.572967
+    ],
+    "euler": [
+     20.2171,
+     269.4863,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     0.00987
+    ],
+    "rot": [
+     0.023827,
+     0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.77762,
+     0.96174,
+     -4.83976
+    ],
+    "rot": [
+     0.673843,
+     -0.228305,
+     -0.484157,
+     0.509318
+    ],
+    "euler": [
+     27.7316,
+     269.1989,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.012888,
+     0.06429,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.75325,
+     1.00746,
+     -4.81579
+    ],
+    "rot": [
+     0.843251,
+     -0.134429,
+     -0.457743,
+     0.247644
+    ],
+    "euler": [
+     17.1326,
+     241.3428,
+     208.3258
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.22319,
+     0.08789,
+     -0.215173,
+     0.946658
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerL1/RigFeelerL2/RigFeelerL3/RigFeelerL4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.71014,
+     1.04334,
+     -4.75997
+    ],
+    "rot": [
+     0.832586,
+     0.053452,
+     -0.530043,
+     -0.151649
+    ],
+    "euler": [
+     348.7051,
+     246.4307,
+     165.2441
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.238343,
+     -0.072998,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81987,
+     0.90064,
+     -4.84123
+    ],
+    "rot": [
+     0.409271,
+     -0.572967,
+     -0.586983,
+     0.399571
+    ],
+    "euler": [
+     339.7829,
+     270.5137,
+     268.5282
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.15473,
+     0.02129,
+     -0.00987
+    ],
+    "rot": [
+     -0.023828,
+     -0.173943,
+     -0.133366,
+     0.975392
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84238,
+     0.96174,
+     -4.83976
+    ],
+    "rot": [
+     0.484157,
+     -0.509318,
+     -0.673843,
+     0.228305
+    ],
+    "euler": [
+     332.2684,
+     270.801,
+     244.795
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06512,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.012888,
+     -0.064289,
+     -0.204194,
+     0.976732
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.86675,
+     1.00746,
+     -4.81579
+    ],
+    "rot": [
+     0.457743,
+     -0.247644,
+     -0.843251,
+     0.134429
+    ],
+    "euler": [
+     342.8674,
+     298.6571,
+     208.3259
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05709,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.223189,
+     -0.08789,
+     -0.215173,
+     0.946659
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigNeck/RigHead/RigFeelerR1/RigFeelerR2/RigFeelerR3/RigFeelerR4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.90986,
+     1.04334,
+     -4.75997
+    ],
+    "rot": [
+     0.530046,
+     0.151649,
+     -0.832584,
+     -0.053452
+    ],
+    "euler": [
+     11.2948,
+     293.5689,
+     165.2442
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.07914,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.238342,
+     0.073001,
+     -0.357676,
+     0.899962
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.83057,
+     0.70658,
+     -4.81902
+    ],
+    "rot": [
+     0.223598,
+     0.619685,
+     0.709691,
+     0.249667
+    ],
+    "euler": [
+     309.8326,
+     78.1086,
+     99.6445
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.00371,
+     0.00233,
+     -0.02057
+    ],
+    "rot": [
+     0.031968,
+     0.90132,
+     0.058038,
+     -0.428055
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.88214,
+     0.66458,
+     -4.81955
+    ],
+    "rot": [
+     0.243224,
+     0.712061,
+     0.612549,
+     0.242064
+    ],
+    "euler": [
+     311.0101,
+     101.6386,
+     78.4618
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.06651,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.132356,
+     -0.007874,
+     -0.02735,
+     0.990793
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.92601,
+     0.62768,
+     -4.81686
+    ],
+    "rot": [
+     0.340381,
+     0.940282,
+     0.001623,
+     0.00275
+    ],
+    "euler": [
+     359.9324,
+     179.6404,
+     39.8007
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.05739,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.656538,
+     0.017544,
+     0.012382,
+     0.753987
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigRArm1/RigRArm2/RigRArmPalm/RigRArmFinger1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.95358,
+     0.60471,
+     -4.81672
+    ],
+    "rot": [
+     0.340384,
+     0.940281,
+     0.001621,
+     0.002751
+    ],
+    "euler": [
+     359.9326,
+     179.6404,
+     39.8009
+    ],
+    "lossyScale": [
+     1.0,
+     0.99999,
+     1.00001
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.03588,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     2e-06,
+     -1e-06,
+     2e-06,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingL",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.78615,
+     0.67783,
+     -4.86794
+    ],
+    "rot": [
+     -0.003426,
+     -0.30909,
+     0.212236,
+     0.927042
+    ],
+    "euler": [
+     7.172,
+     324.6153,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     0.02385
+    ],
+    "rot": [
+     -0.204571,
+     0.413382,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigPelvis/RigSpine1/RigSpine2/RigRibcage/RigWingR",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.83385,
+     0.67783,
+     -4.86794
+    ],
+    "rot": [
+     -0.212236,
+     -0.927042,
+     0.003426,
+     0.30909
+    ],
+    "euler": [
+     352.828,
+     215.3847,
+     23.4995
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02504,
+     -0.0466,
+     -0.02385
+    ],
+    "rot": [
+     0.204571,
+     -0.413381,
+     0.725897,
+     0.510235
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/RigRLegPlatform",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84277,
+     -0.731,
+     -4.82498
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.03277,
+     0.0,
+     0.01502
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     -0.5,
+     0.5
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Fairy/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     0.515,
+     -4.84
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.246,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96384533402719018
+    }
+   ]
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Targets",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.81,
+     -0.6,
+     -4.84
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Targets/Point_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.05,
+     -0.6,
+     -5.05
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.24,
+     0.0,
+     -0.21
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Targets/Point_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.19,
+     -0.6,
+     -3.6
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.0,
+     0.0,
+     1.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/Traps/FairyTrap_4/Targets/Point_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.75,
+     -0.6,
+     -4.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.56,
+     0.0,
+     0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/floor_mushroom",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33486456068359781,
+     "mesh": {
+      "asset": "Mesh/floor_mushroom.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23514281252195623,
+     "materials": [
+      {
+       "asset": "Material/Ground 20.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64022536984984998,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "Mesh/floor_mushroom.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_005",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.893,
+     -0.816,
+     7.01
+    ],
+    "rot": [
+     0.201345,
+     -0.677835,
+     -0.677835,
+     0.201344
+    ],
+    "euler": [
+     303.0872,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.893,
+     -1.316,
+     7.01
+    ],
+    "rot": [
+     0.201345,
+     -0.677835,
+     -0.677835,
+     0.201344
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33891103352497787,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_005.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23797698078144085,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_005/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.93503,
+     -0.75149,
+     7.01
+    ],
+    "rot": [
+     0.201345,
+     -0.677835,
+     -0.677835,
+     0.201344
+    ],
+    "euler": [
+     303.0872,
+     270.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212733197508254210,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_006",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.66,
+     -1.436,
+     7.0
+    ],
+    "rot": [
+     -0.698286,
+     -0.111343,
+     0.111343,
+     0.698286
+    ],
+    "euler": [
+     288.1194,
+     270.0,
+     90.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.66,
+     -1.936,
+     7.0
+    ],
+    "rot": [
+     -0.698286,
+     -0.111343,
+     0.111343,
+     0.698286
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33391381606989912,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23327995293081625,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_006/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.68395,
+     -1.36282,
+     7.0
+    ],
+    "rot": [
+     -0.698286,
+     -0.111343,
+     0.111343,
+     0.698286
+    ],
+    "euler": [
+     288.1194,
+     270.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212717369901526261,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_006/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.68395,
+     -1.36282,
+     7.0
+    ],
+    "rot": [
+     -0.698286,
+     -0.111343,
+     0.111343,
+     0.698286
+    ],
+    "euler": [
+     288.1194,
+     270.0,
+     90.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212070205081729383,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_007",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.08,
+     -0.846,
+     3.61
+    ],
+    "rot": [
+     -0.301717,
+     -0.639505,
+     -0.449996,
+     0.545439
+    ],
+    "euler": [
+     295.2189,
+     270.0,
+     345.7346
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -5.08,
+     -1.346,
+     3.61
+    ],
+    "rot": [
+     -0.301717,
+     -0.639505,
+     -0.449996,
+     0.545439
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33075734428016886,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23942066236133985,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_007/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.13922,
+     -0.72025,
+     3.61
+    ],
+    "rot": [
+     -0.301717,
+     -0.639505,
+     -0.449996,
+     0.545439
+    ],
+    "euler": [
+     295.2189,
+     270.0,
+     345.7346
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212440584996359664,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_008",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.51,
+     -2.021,
+     4.999
+    ],
+    "rot": [
+     0.097972,
+     -0.718303,
+     -0.674975,
+     0.137301
+    ],
+    "euler": [
+     289.4781,
+     261.1823,
+     282.0515
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.51,
+     -2.521,
+     4.999
+    ],
+    "rot": [
+     0.097972,
+     -0.718303,
+     -0.674975,
+     0.137301
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33434512891515560,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23622690832225648,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_008/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.5558,
+     -1.88996,
+     4.9919
+    ],
+    "rot": [
+     0.097972,
+     -0.718303,
+     -0.674975,
+     0.137301
+    ],
+    "euler": [
+     289.4781,
+     261.1823,
+     282.0515
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212153987626271592,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_009",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.56,
+     -2.386,
+     8.08
+    ],
+    "rot": [
+     -0.505396,
+     -0.494545,
+     -0.312844,
+     0.634136
+    ],
+    "euler": [
+     288.1194,
+     270.0,
+     19.3629
+    ],
+    "lossyScale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -9.56,
+     -2.886,
+     8.08
+    ],
+    "rot": [
+     -0.505396,
+     -0.494545,
+     -0.312844,
+     0.634136
+    ],
+    "scale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33135074601103973,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23701834863348643,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_009/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -9.58993,
+     -2.29452,
+     8.08
+    ],
+    "rot": [
+     -0.505396,
+     -0.494545,
+     -0.312844,
+     0.634136
+    ],
+    "euler": [
+     288.1194,
+     270.0,
+     19.3629
+    ],
+    "lossyScale": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212536873717977885,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_010",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.8,
+     -1.806,
+     10.5
+    ],
+    "rot": [
+     -0.370342,
+     -0.602368,
+     -0.38716,
+     0.591699
+    ],
+    "euler": [
+     295.2189,
+     270.0,
+     358.3862
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.8,
+     -2.306,
+     10.5
+    ],
+    "rot": [
+     -0.370342,
+     -0.602368,
+     -0.38716,
+     0.591699
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703169052324433,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23290433801961070,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_010/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.85922,
+     -1.68025,
+     10.5
+    ],
+    "rot": [
+     -0.370342,
+     -0.602368,
+     -0.38716,
+     0.591699
+    ],
+    "euler": [
+     295.2189,
+     270.0,
+     358.3862
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212904893950787255,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_011",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     5.05,
+     0.134,
+     -5.95
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     5.05,
+     -0.366,
+     -5.95
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33419535952149204,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23789711717377307,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_011/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     5.05,
+     0.273,
+     -5.95
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212840984386464735,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_012",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.63,
+     0.024,
+     -2.33
+    ],
+    "rot": [
+     -0.376269,
+     0.598683,
+     0.598683,
+     0.376269
+    ],
+    "euler": [
+     270.0,
+     115.7017,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.63,
+     -0.476,
+     -2.33
+    ],
+    "rot": [
+     -0.376269,
+     0.598683,
+     0.598683,
+     0.376269
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33163714622165790,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23718195959491730,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn_Purple.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/CaveColums_A_012/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.63,
+     0.163,
+     -2.33
+    ],
+    "rot": [
+     -0.376269,
+     0.598683,
+     0.598683,
+     0.376269
+    ],
+    "euler": [
+     270.0,
+     115.7017,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212416982030819627,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.575,
+     0.142,
+     -1.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.575,
+     -0.358,
+     -1.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33161523128174384,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23654237306987836,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.575,
+     0.161,
+     -1.263
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212472485487776518,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.395,
+     0.142,
+     0.226
+    ],
+    "rot": [
+     0.0,
+     -0.647706,
+     0.0,
+     0.76189
+    ],
+    "euler": [
+     0.0,
+     279.2622,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.395,
+     -0.358,
+     0.226
+    ],
+    "rot": [
+     0.0,
+     -0.647706,
+     0.0,
+     0.76189
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33412746682036199,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23432223214076560,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.395,
+     0.1705,
+     0.226
+    ],
+    "rot": [
+     -0.538738,
+     -0.457998,
+     -0.457998,
+     0.538738
+    ],
+    "euler": [
+     270.0,
+     279.2622,
+     0.0
+    ],
+    "lossyScale": [
+     0.2625,
+     0.2625,
+     0.2625
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212335036306139620,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.84,
+     0.142,
+     2.96
+    ],
+    "rot": [
+     0.0,
+     -0.997354,
+     0.0,
+     -0.072698
+    ],
+    "euler": [
+     0.0,
+     171.6621,
+     0.0
+    ],
+    "lossyScale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.84,
+     -0.358,
+     2.96
+    ],
+    "rot": [
+     0.0,
+     -0.997354,
+     0.0,
+     -0.072698
+    ],
+    "scale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33728442554800362,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23274088443893264,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_5/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.84,
+     0.16575,
+     2.96
+    ],
+    "rot": [
+     0.051405,
+     -0.705236,
+     -0.705236,
+     -0.051405
+    ],
+    "euler": [
+     270.0,
+     171.6621,
+     0.0
+    ],
+    "lossyScale": [
+     0.21875,
+     0.21875,
+     0.21875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212693528703414765,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.77,
+     0.142,
+     4.22
+    ],
+    "rot": [
+     0.0,
+     -0.365802,
+     0.0,
+     -0.930693
+    ],
+    "euler": [
+     0.0,
+     42.9139,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.77,
+     -0.358,
+     4.22
+    ],
+    "rot": [
+     0.0,
+     -0.365802,
+     0.0,
+     -0.930693
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33295988352646080,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23008770253507523,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_6/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.77,
+     0.18,
+     4.22
+    ],
+    "rot": [
+     0.658099,
+     -0.258661,
+     -0.258661,
+     -0.658099
+    ],
+    "euler": [
+     270.0,
+     42.9139,
+     0.0
+    ],
+    "lossyScale": [
+     0.35,
+     0.35,
+     0.35
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212045549052472940,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.42,
+     0.142,
+     6.38
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.42,
+     -0.358,
+     6.38
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33288309231489556,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23752314372542589,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_7/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.42,
+     0.16575,
+     6.38
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.21875,
+     0.21875,
+     0.21875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212858286384160668,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.16,
+     0.142,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.982803,
+     0.0,
+     -0.184659
+    ],
+    "euler": [
+     0.0,
+     158.7175,
+     0.0
+    ],
+    "lossyScale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "local": {
+    "pos": [
+     4.16,
+     -0.358,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.982803,
+     0.0,
+     -0.184659
+    ],
+    "scale": [
+     1.25,
+     1.25,
+     1.25
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222115391670268,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomC_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23236825115137097,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MushroomC_8/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.16,
+     0.16575,
+     -4.57
+    ],
+    "rot": [
+     0.130574,
+     -0.694946,
+     -0.694946,
+     -0.130574
+    ],
+    "euler": [
+     270.0,
+     158.7175,
+     0.0
+    ],
+    "lossyScale": [
+     0.21875,
+     0.21875,
+     0.21875
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.019,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212079961849258352,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_27/floor_mushroom/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/floor_mushroom/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     0.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     0.3
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_27/floor_mushroom/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -1.97
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -1.97
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  }
+ ]
+}

@@ -1,0 +1,5830 @@
+{
+ "level": 28,
+ "sources": {
+  "asset": "Resources/levels/Level_28.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_28.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Dark Cemetery",
+ "trapClass": [
+  "ScytheTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 1000000.0,
+  "goldReward": 250.0,
+  "bricksReward": 2500,
+  "TrapOffset": 12,
+  "EnemiesOffset": 12,
+  "SpeedOffset": 9,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 350,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[28] over asset",
+  "blobRewardsOfGoals": [
+   25000,
+   25000,
+   100000,
+   50000,
+   50000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_9.asset",
+  "targetMoney": 1000000000.0,
+  "goldReward": 800.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_4.png",
+  "backgroundFogColor": {
+   "r": 0.828,
+   "g": 0.059,
+   "b": 0.024,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_28.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "fb081101b15ad6d49984d87afd22515d",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 350,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_28#LevelView",
+  "trapViews": [
+   "Level_28/Traps/ScytheTrap_1#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_2#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_3#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_4#ScytheTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [
+   "Level_28/Traps/ScytheTrap_1#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_3#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_4#ScytheTrap",
+   "Level_28/Traps/ScytheTrap_2#ScytheTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_28/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.39,
+      0.54,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.39,
+      0.54,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_28/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.36,
+      0.54,
+      -2.61
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.36,
+      0.54,
+      -2.61
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_28/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_28/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_28/Traps/ScytheTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_28/Traps/ScytheTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/ScytheSwing.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_28/Traps/ScytheTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_28/Traps/ScytheTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/ScytheSwing.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     -0.04,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_28/Traps/ScytheTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_28/Traps/ScytheTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/ScytheSwing.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_28/Traps/ScytheTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_28/Traps/ScytheTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/ScytheSwing.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     -0.04,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_28/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65649986673806370,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_28/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65630643969539439,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_28/Traps/ScytheTrap_1/Scythe",
+    "world": {
+     "pos": [
+      -1.5,
+      0.77,
+      -0.5
+     ],
+     "rot": [
+      0.488886,
+      0.510872,
+      -0.510872,
+      0.488886
+     ],
+     "euler": [
+      90.0,
+      92.5196,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65651560128206891,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.57128,
+       0.70118,
+       0.0
+      ],
+      "size": [
+       2.71653,
+       5.07151,
+       0.33212
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_28/Traps/ScytheTrap_2/Scythe",
+    "world": {
+     "pos": [
+      1.5,
+      0.77,
+      -1.5
+     ],
+     "rot": [
+      -0.510872,
+      0.488886,
+      -0.488886,
+      -0.510872
+     ],
+     "euler": [
+      90.0,
+      272.5196,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65085275382694935,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.57128,
+       0.70118,
+       0.0
+      ],
+      "size": [
+       2.71653,
+       5.07151,
+       0.33212
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_28/Traps/ScytheTrap_3/Scythe",
+    "world": {
+     "pos": [
+      -1.5,
+      0.77,
+      -3.75
+     ],
+     "rot": [
+      0.488886,
+      0.510872,
+      -0.510872,
+      0.488886
+     ],
+     "euler": [
+      90.0,
+      92.5196,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65785330607447594,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.57128,
+       0.70118,
+       0.0
+      ],
+      "size": [
+       2.71653,
+       5.07151,
+       0.33212
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_28/Traps/ScytheTrap_4/Scythe",
+    "world": {
+     "pos": [
+      1.5,
+      0.77,
+      -4.75
+     ],
+     "rot": [
+      -0.510872,
+      0.488886,
+      -0.488886,
+      -0.510872
+     ],
+     "euler": [
+      90.0,
+      272.5196,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65450391854282655,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.57128,
+       0.70118,
+       0.0
+      ],
+      "size": [
+       2.71653,
+       5.07151,
+       0.33212
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Models/Scythe.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence_broken.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_A.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_C.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_D.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/shrine.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_dead_large.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_pine_orange_medium.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_pine_yellow_small.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/arch.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/bone_B.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/grave_B.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/path_B.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/tree_pine_orange_large.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_28",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114743393880019028,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_28/Traps/ScytheTrap_1#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_2#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_3#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_4#ScytheTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": [
+         "Level_28/Traps/ScytheTrap_1#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_3#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_4#ScytheTrap",
+         "Level_28/Traps/ScytheTrap_2#ScytheTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_28/MysteryBoxPositions/Position_1",
+        "Level_28/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_28/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_28/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/AmbientEffect",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/AmbientEffect/FogCalmGrey",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.64,
+     1.17,
+     1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.64,
+     1.17,
+     1.5
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198572839542275309
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199279359913592680
+    }
+   ]
+  },
+  {
+   "path": "Level_28/AmbientEffect/FogCalmGrey_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.84,
+     1.17,
+     -2.07
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.84,
+     1.17,
+     -2.07
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198149520701623706
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199292246286975720
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33187454977326620,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23091882994760266,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65232094423628703,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33771092198208730,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23570723408815475,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65011164340880974,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33992816746925483,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23695600491528212,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65358105479016104,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.32
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65649986673806370,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.22,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.22,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33038333544927157,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23146109142143575,
+     "materials": [
+      {
+       "asset": "Material/Ground 15.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.07333,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.4,
+     0.231,
+     0.24
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.499999,
+     0.500002
+    ],
+    "euler": [
+     90.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.4,
+     0.231,
+     0.24
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.499999,
+     0.500002
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212133854062310043,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.9,
+     0.231,
+     4.51
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.9,
+     0.231,
+     4.51
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212228214996573471,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.357,
+     0.231,
+     1.852
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.357,
+     0.231,
+     1.852
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212562080017223558,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.70980394
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.035,
+     0.231,
+     1.998
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.035,
+     0.231,
+     1.998
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212521597976012101,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.035,
+     0.231,
+     1.998
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     1.035,
+     0.231,
+     1.998
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212329075794784248,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.38,
+     0.231,
+     2.563
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.38,
+     0.231,
+     2.563
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212067212629291419,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.157,
+     0.231,
+     1.934
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.157,
+     0.231,
+     1.934
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212208269818966246,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.1566,
+     0.231,
+     -2.9876
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.499999,
+     0.500002
+    ],
+    "euler": [
+     90.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1566,
+     0.231,
+     -2.9876
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.499999,
+     0.500002
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212729821067651183,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.46666667
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.65,
+     0.231,
+     -3.16
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     1.65,
+     0.231,
+     -3.16
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212998495239010246,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5254902
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.65,
+     0.231,
+     -1.74
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.65,
+     0.231,
+     -1.74
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212415925016355036,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.5254902
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/Shadows/Shadow_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.77,
+     0.231,
+     6.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.38952,
+     0.38952,
+     0.38952
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.77,
+     0.231,
+     6.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.38952,
+     0.38952,
+     0.38952
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212000342987746139,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7882353
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/arch",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.22,
+     2.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -0.66667
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33484755779879834,
+     "mesh": {
+      "asset": "Mesh/arch.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23697715728111791,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/bone_B",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.464,
+     0.274,
+     1.995
+    ],
+    "rot": [
+     0.0,
+     0.987159,
+     0.0,
+     -0.159743
+    ],
+    "euler": [
+     0.0,
+     198.3839,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.488,
+     0.018,
+     -0.665
+    ],
+    "rot": [
+     0.0,
+     0.159742,
+     0.0,
+     0.987159
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33446691751160785,
+     "mesh": {
+      "asset": "Mesh/bone_B.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904079258986964,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/bone_B_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.3743,
+     0.3124,
+     1.806
+    ],
+    "rot": [
+     0.705766,
+     -0.077733,
+     -0.701943,
+     0.055929
+    ],
+    "euler": [
+     358.2704,
+     269.5245,
+     190.8551
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4581,
+     0.0308,
+     -0.602
+    ],
+    "rot": [
+     0.701943,
+     -0.055929,
+     0.705766,
+     -0.077733
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33845025230388998,
+     "mesh": {
+      "asset": "Mesh/bone_B.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23527248355756736,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.423,
+     0.22,
+     -2.889
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.141,
+     0.0,
+     0.963
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33156371104904051,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23083739296819378,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.423,
+     0.22,
+     3.432
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.141,
+     0.0,
+     -1.144
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33181586030114204,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23321827775029018,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.423,
+     0.22,
+     1.323
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.141,
+     0.0,
+     -0.441
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33325787665662832,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23066338149260220,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.518,
+     0.22,
+     4.473
+    ],
+    "rot": [
+     0.0,
+     3e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0004,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.506,
+     0.0,
+     -1.491
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     3e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703247130969877,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23258471659221418,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.621,
+     0.22,
+     4.473
+    ],
+    "rot": [
+     0.0,
+     3e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0004,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     2.207,
+     0.0,
+     -1.491
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     3e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33842968619709538,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23995682140751655,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.754,
+     0.22,
+     4.47301
+    ],
+    "rot": [
+     0.0,
+     3e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0004,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     2.918,
+     0.0,
+     -1.491
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     3e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33603576887721950,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23784622213810434,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/fence_broken",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.426,
+     0.22,
+     -0.801
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.142,
+     0.0,
+     0.267
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33148353818683595,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/fence_broken.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23016852445014956,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/grave_B",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.434,
+     0.22,
+     2.625
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.478,
+     0.0,
+     -0.875
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33832474124979885,
+     "mesh": {
+      "asset": "Mesh/grave_B.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23195931274935818,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_A",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.081,
+     0.223,
+     -0.312
+    ],
+    "rot": [
+     0.0,
+     0.996093,
+     0.0,
+     0.088307
+    ],
+    "euler": [
+     0.0,
+     169.8676,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.027,
+     0.001,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     -0.088307,
+     0.0,
+     0.996093
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33896002537488308,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_A.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23592664909728774,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_A_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.06,
+     0.223,
+     -2.658
+    ],
+    "rot": [
+     0.0,
+     0.724976,
+     0.0,
+     0.688775
+    ],
+    "euler": [
+     0.0,
+     92.9336,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.02,
+     0.001,
+     0.886
+    ],
+    "rot": [
+     0.0,
+     -0.688775,
+     0.0,
+     0.724975
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33709890794832471,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_A.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23092105871539913,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_B",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.153,
+     0.223,
+     -1.524
+    ],
+    "rot": [
+     0.0,
+     0.999442,
+     0.0,
+     -0.033413
+    ],
+    "euler": [
+     0.0,
+     183.8295,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.051,
+     0.001,
+     0.508
+    ],
+    "rot": [
+     0.0,
+     0.033412,
+     0.0,
+     0.999442
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33589652054545887,
+     "mesh": {
+      "asset": "Mesh/path_B.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23220697728379336,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_C",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.036,
+     0.223,
+     -3.792
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.012,
+     0.001,
+     1.264
+    ],
+    "rot": [
+     0.0,
+     -0.707108,
+     0.0,
+     -0.707106
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33831874417830518,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_C.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23177930474251431,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_C_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.087,
+     0.223,
+     0.888
+    ],
+    "rot": [
+     0.0,
+     0.664769,
+     0.0,
+     0.747049
+    ],
+    "euler": [
+     0.0,
+     83.3293,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.029,
+     0.001,
+     -0.296
+    ],
+    "rot": [
+     0.0,
+     -0.747049,
+     0.0,
+     0.664769
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33271925019662038,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_C.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23499517081926786,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_D",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.108,
+     0.223,
+     -5.061
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.036,
+     0.001,
+     1.687
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33320592835458227,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_D.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23911997548769506,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_D_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.584,
+     0.223,
+     -3.147
+    ],
+    "rot": [
+     0.0,
+     0.136966,
+     0.0,
+     0.990576
+    ],
+    "euler": [
+     0.0,
+     15.7447,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.528,
+     0.001,
+     1.049
+    ],
+    "rot": [
+     0.0,
+     -0.990576,
+     0.0,
+     0.136966
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33901155395665742,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_D.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23955215445487071,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/path_D_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.653,
+     0.223,
+     -1.704
+    ],
+    "rot": [
+     0.0,
+     -0.822553,
+     0.0,
+     0.568688
+    ],
+    "euler": [
+     0.0,
+     249.3176,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.3,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.551,
+     0.001,
+     0.568
+    ],
+    "rot": [
+     0.0,
+     -0.568688,
+     0.0,
+     -0.822553
+    ],
+    "scale": [
+     0.2,
+     0.1,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33941304181978548,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/path_D.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23056905764334025,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/tree_dead_large",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.476,
+     0.22,
+     -1.701
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.492,
+     0.0,
+     0.567
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33887312969816373,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_dead_large.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23024252914577434,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/tree_pine_orange_large",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.108,
+     0.457,
+     1.884
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.45,
+     0.45,
+     0.45
+    ]
+   },
+   "local": {
+    "pos": [
+     2.036,
+     0.079,
+     -0.628
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.15,
+     0.15,
+     0.15
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33112815651697755,
+     "mesh": {
+      "asset": "Mesh/tree_pine_orange_large.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23201141531394087,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits_Grass.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/tree_pine_orange_medium",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.697,
+     0.508,
+     6.054
+    ],
+    "rot": [
+     0.0,
+     0.923043,
+     0.0,
+     0.384697
+    ],
+    "euler": [
+     0.0,
+     134.7501,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.899,
+     0.096,
+     -2.018
+    ],
+    "rot": [
+     0.0,
+     -0.384697,
+     0.0,
+     0.923043
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33719897623072781,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_pine_orange_medium.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23689224686120706,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits_Grass.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/GraveyardBackground/tree_pine_yellow_small",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.863,
+     0.445,
+     5.703
+    ],
+    "rot": [
+     0.0,
+     0.96964,
+     0.0,
+     0.244536
+    ],
+    "euler": [
+     0.0,
+     151.6911,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     1.621,
+     0.075,
+     -1.901
+    ],
+    "rot": [
+     0.0,
+     -0.244537,
+     0.0,
+     0.96964
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33965908813272002,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/tree_pine_yellow_small.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23429401810989285,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits_Grass.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65630643969539439,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.39,
+     0.54,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.39,
+     0.54,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.36,
+     0.54,
+     -2.61
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.36,
+     0.54,
+     -2.61
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95009931292380359,
+     "controller": {
+      "asset": "AnimatorController/ScytheTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+     "fileID": 114393105877652414,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_28/Traps/ScytheTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/ScytheSwing.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_1/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -0.5
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33829625606037309,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/shrine.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23574190619683098,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_1/Scythe",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     0.77,
+     -0.5
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "euler": [
+     90.0,
+     92.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.81,
+     0.0
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33571878917323452,
+     "mesh": {
+      "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Models/Scythe.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23534704304255049,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Materials/ScytheSpearClub.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65651560128206891,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.57128,
+      0.70118,
+      0.0
+     ],
+     "size": [
+      2.71653,
+      5.07151,
+      0.33212
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_1/Scythe/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.00993,
+     0.77,
+     -0.25827
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "euler": [
+     90.0,
+     92.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.614,
+     2.956,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96208575754630950
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_1/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.471,
+     0.231,
+     -0.53
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.029,
+     0.271,
+     -0.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212356319167443197,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     -0.04,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95699617135816954,
+     "controller": {
+      "asset": "AnimatorController/ScytheTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+     "fileID": 114264357844037074,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_28/Traps/ScytheTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/ScytheSwing.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_2/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -1.5
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     -0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33658330495870062,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/shrine.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23703931505913403,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_2/Scythe",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.77,
+     -1.5
+    ],
+    "rot": [
+     -0.510872,
+     0.488886,
+     -0.488886,
+     -0.510872
+    ],
+    "euler": [
+     90.0,
+     272.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.81,
+     0.0
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33806657225351454,
+     "mesh": {
+      "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Models/Scythe.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23704330047573733,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Materials/ScytheSpearClub.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65085275382694935,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.57128,
+      0.70118,
+      0.0
+     ],
+     "size": [
+      2.71653,
+      5.07151,
+      0.33212
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_2/Scythe/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.00993,
+     0.77,
+     -1.74173
+    ],
+    "rot": [
+     -0.510872,
+     0.488886,
+     -0.488886,
+     -0.510872
+    ],
+    "euler": [
+     90.0,
+     272.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.614,
+     2.956,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96194081240383615
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_2/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.471,
+     0.231,
+     -1.47
+    ],
+    "rot": [
+     0.707106,
+     2e-06,
+     -2e-06,
+     0.707108
+    ],
+    "euler": [
+     90.0,
+     0.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.029,
+     0.271,
+     -0.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212770005084341472,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95855482821919830,
+     "controller": {
+      "asset": "AnimatorController/ScytheTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+     "fileID": 114492842699383957,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_28/Traps/ScytheTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/ScytheSwing.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_3/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     -0.04,
+     -3.75
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "euler": [
+     0.0,
+     90.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33880619614767448,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/shrine.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23167524263268962,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_3/Scythe",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.5,
+     0.77,
+     -3.75
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "euler": [
+     90.0,
+     92.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.81,
+     0.0
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33533803739292891,
+     "mesh": {
+      "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Models/Scythe.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23601984538237284,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Materials/ScytheSpearClub.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65785330607447594,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.57128,
+      0.70118,
+      0.0
+     ],
+     "size": [
+      2.71653,
+      5.07151,
+      0.33212
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_3/Scythe/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.00993,
+     0.77,
+     -3.50827
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "euler": [
+     90.0,
+     92.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.614,
+     2.956,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96690175861776792
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_3/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.471,
+     0.231,
+     -3.78
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "euler": [
+     90.0,
+     180.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.029,
+     0.271,
+     -0.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212190181876552715,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     -0.04,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95617365563186364,
+     "controller": {
+      "asset": "AnimatorController/ScytheTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.ScytheTrap",
+     "fileID": 114998874197659892,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_28/Traps/ScytheTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/ScytheSwing.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_4/Base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     -0.04,
+     -4.75
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     -0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707108,
+     0.0,
+     0.707106
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33611579644537198,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Models/shrine.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23328299215684997,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - Halloween Bits (For Unity)/Materials/HalloweenBits.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_4/Scythe",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.77,
+     -4.75
+    ],
+    "rot": [
+     -0.510872,
+     0.488886,
+     -0.488886,
+     -0.510872
+    ],
+    "euler": [
+     90.0,
+     272.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.81,
+     0.0
+    ],
+    "rot": [
+     0.488886,
+     0.510872,
+     -0.510872,
+     0.488886
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33132862189046193,
+     "mesh": {
+      "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Models/Scythe.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23295428814336086,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Hand_Painted_Weapon_set/Materials/ScytheSpearClub.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65450391854282655,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.57128,
+      0.70118,
+      0.0
+     ],
+     "size": [
+      2.71653,
+      5.07151,
+      0.33212
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_4/Scythe/Trail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.00993,
+     0.77,
+     -4.99173
+    ],
+    "rot": [
+     -0.510872,
+     0.488886,
+     -0.488886,
+     -0.510872
+    ],
+    "euler": [
+     90.0,
+     272.5196,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.614,
+     2.956,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrailRenderer",
+     "fileID": 96066778049879928
+    }
+   ]
+  },
+  {
+   "path": "Level_28/Traps/ScytheTrap_4/Shadow_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.471,
+     0.231,
+     -4.72
+    ],
+    "rot": [
+     0.707106,
+     2e-06,
+     -2e-06,
+     0.707108
+    ],
+    "euler": [
+     90.0,
+     0.0003,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.029,
+     0.271,
+     -0.03
+    ],
+    "rot": [
+     2e-06,
+     -0.707108,
+     0.707106,
+     2e-06
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212561126880652180,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.64705884
+     }
+    }
+   ]
+  }
+ ]
+}

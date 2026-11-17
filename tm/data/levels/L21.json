@@ -1,0 +1,7925 @@
+{
+ "level": 21,
+ "sources": {
+  "asset": "Resources/levels/Level_21.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_21.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Molten Peak",
+ "trapClass": [
+  "LavaGeyserTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 600000.0,
+  "goldReward": 200.0,
+  "bricksReward": 1000,
+  "TrapOffset": 12,
+  "EnemiesOffset": 9,
+  "SpeedOffset": 8,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 15,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 300,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[21] over asset",
+  "blobRewardsOfGoals": [
+   30000,
+   60000,
+   45000,
+   60000,
+   60000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_4.asset",
+  "targetMoney": 200000000.0,
+  "goldReward": 400.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_4.png",
+  "backgroundFogColor": {
+   "r": 0.828,
+   "g": 0.059,
+   "b": 0.024,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 1,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_21.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "26d79d9fd86b3b54b96282d8a39df5e6",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 40,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 50,
+    "param1": 0,
+    "goalType": 4,
+    "blobRewardPercentage": 0.075,
+    "goldReward": 0,
+    "goalName": "EnemiesLevel"
+   },
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 300,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.1,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_21#LevelView",
+  "trapViews": [
+   "Level_21/Traps/Pool/LavaGeyserTrap_1#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_2#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_3#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_4#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_5#LavaGeyserTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_21/Traps/Pool/LavaGeyserTrap_4#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_2#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_1#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_3#LavaGeyserTrap",
+   "Level_21/Traps/Pool/LavaGeyserTrap_5#LavaGeyserTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_21/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.709,
+      0.54,
+      -1.006
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.709,
+      0.54,
+      -1.006
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_21/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -2.905
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -2.905
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_21/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_21/DoubleGate",
+   "world": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_21/Traps/Pool/LavaGeyserTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.1,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/LavaGeyserExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.179,
+     0.668,
+     -2.215
+    ],
+    "rot": [
+     -0.399533,
+     -0.470264,
+     -0.454599,
+     0.642312
+    ],
+    "euler": [
+     289.8115,
+     314.7123,
+     322.0957
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.179,
+     0.668,
+     -2.215
+    ],
+    "rot": [
+     -0.399533,
+     -0.470264,
+     -0.454599,
+     0.642312
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_21/Traps/Pool/LavaGeyserTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.1,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/LavaGeyserExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.109,
+     0.655,
+     -0.882
+    ],
+    "rot": [
+     -0.443205,
+     0.642251,
+     0.358592,
+     0.512342
+    ],
+    "euler": [
+     293.8287,
+     122.6287,
+     330.024
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.109,
+     0.655,
+     -0.882
+    ],
+    "rot": [
+     -0.443205,
+     0.642251,
+     0.358592,
+     0.512342
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_21/Traps/Pool/LavaGeyserTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.1,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/LavaGeyserExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     0.905,
+     0.39,
+     -3.561
+    ],
+    "rot": [
+     -0.553674,
+     0.824952,
+     0.087027,
+     0.072982
+    ],
+    "euler": [
+     347.0323,
+     178.5862,
+     292.4249
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.905,
+     0.39,
+     -3.561
+    ],
+    "rot": [
+     -0.553674,
+     0.824952,
+     0.087027,
+     0.072982
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_21/Traps/Pool/LavaGeyserTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.1,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/LavaGeyserExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.092,
+     0.668,
+     0.322
+    ],
+    "rot": [
+     -0.176165,
+     -0.122006,
+     -0.571374,
+     0.79222
+    ],
+    "euler": [
+     335.2572,
+     0.5048,
+     288.2886
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.092,
+     0.668,
+     0.322
+    ],
+    "rot": [
+     -0.176165,
+     -0.122006,
+     -0.571374,
+     0.79222
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_21/Traps/Pool/LavaGeyserTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.1,
+     "speedPerLevel": 0.05,
+     "timeOffsetBetweenTraps": 0.1,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/LavaGeyserExplosion.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -0.27,
+     0.346,
+     -4.43
+    ],
+    "rot": [
+     0.038322,
+     0.813442,
+     -0.097568,
+     0.572122
+    ],
+    "euler": [
+     11.688,
+     109.4645,
+     357.1144
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.27,
+     0.346,
+     -4.43
+    ],
+    "rot": [
+     0.038322,
+     0.813442,
+     -0.097568,
+     0.572122
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_21/FinishLine",
+    "world": {
+     "pos": [
+      -0.25,
+      0.0,
+      -10.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65077469347768860,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_21/Ground",
+    "world": {
+     "pos": [
+      -0.5,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65770005084341472,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/Hitbox_1",
+    "world": {
+     "pos": [
+      -0.83423,
+      0.29673,
+      -2.34637
+     ],
+     "rot": [
+      -0.736696,
+      -0.011076,
+      -0.653977,
+      0.171671
+     ],
+     "euler": [
+      344.4889,
+      95.1018,
+      192.4793
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135038333544927157,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/Hitbox_2",
+    "world": {
+     "pos": [
+      -0.75592,
+      -0.00912,
+      -2.42389
+     ],
+     "rot": [
+      -0.736696,
+      -0.011076,
+      -0.653977,
+      0.171671
+     ],
+     "euler": [
+      344.4889,
+      95.1018,
+      192.4793
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136168775426067361,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.85732,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 5,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/Hitbox_1",
+    "world": {
+     "pos": [
+      0.72373,
+      0.31586,
+      -0.77943
+     ],
+     "rot": [
+      -0.675674,
+      0.200577,
+      0.707703,
+      0.048887
+     ],
+     "euler": [
+      339.515,
+      270.3955,
+      192.4438
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135132299442727904,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/Hitbox_2",
+    "world": {
+     "pos": [
+      0.61312,
+      0.01847,
+      -0.70861
+     ],
+     "rot": [
+      -0.675674,
+      0.200577,
+      0.707703,
+      0.048887
+     ],
+     "euler": [
+      339.515,
+      270.3955,
+      192.4438
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136066338149260220,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.85732,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 5,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/Hitbox_1",
+    "world": {
+     "pos": [
+      0.6689,
+      0.37624,
+      -3.09406
+     ],
+     "rot": [
+      -0.443112,
+      0.521792,
+      0.644866,
+      -0.3399
+     ],
+     "euler": [
+      338.1768,
+      273.877,
+      256.0116
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135401429660297866,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/Hitbox_2",
+    "world": {
+     "pos": [
+      0.66109,
+      0.30329,
+      -2.77735
+     ],
+     "rot": [
+      -0.443112,
+      0.521792,
+      0.644866,
+      -0.3399
+     ],
+     "euler": [
+      338.1768,
+      273.877,
+      256.0116
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136545683990359770,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.85732,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 5,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/Hitbox_1",
+    "world": {
+     "pos": [
+      -0.8654,
+      0.54315,
+      -0.13301
+     ],
+     "rot": [
+      -0.684752,
+      0.317751,
+      -0.490294,
+      0.435616
+     ],
+     "euler": [
+      343.4415,
+      98.3804,
+      244.1094
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135500050402096248,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/Hitbox_2",
+    "world": {
+     "pos": [
+      -0.868,
+      0.40709,
+      -0.42825
+     ],
+     "rot": [
+      -0.684752,
+      0.317751,
+      -0.490294,
+      0.435616
+     ],
+     "euler": [
+      343.4415,
+      98.3804,
+      244.1094
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136117307842306080,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.85732,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 5,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/Hitbox_1",
+    "world": {
+     "pos": [
+      -0.65584,
+      0.67746,
+      -4.3066
+     ],
+     "rot": [
+      -0.377454,
+      0.644182,
+      0.506199,
+      0.431649
+     ],
+     "euler": [
+      282.0341,
+      123.4367,
+      346.3231
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135691570808825369,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 1.5
+     }
+    ]
+   },
+   {
+    "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/Hitbox_2",
+    "world": {
+     "pos": [
+      -0.956,
+      0.74332,
+      -4.20052
+     ],
+     "rot": [
+      -0.377454,
+      0.644182,
+      0.506199,
+      0.431649
+     ],
+     "euler": [
+      282.0341,
+      123.4367,
+      346.3231
+     ],
+     "lossyScale": [
+      0.53295,
+      0.53295,
+      0.53295
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136502609866597578,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       0.85732,
+       0.0
+      ],
+      "radius": 1.5,
+      "height": 5,
+      "direction": 1
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10207
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Volcano/Volcano_1.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Volcano/Volcano_2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/VolcanoRoad.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_21",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114194081240383615,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_21/Traps/Pool/LavaGeyserTrap_1#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_2#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_3#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_4#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_5#LavaGeyserTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_21/Traps/Pool/LavaGeyserTrap_4#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_2#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_1#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_3#LavaGeyserTrap",
+         "Level_21/Traps/Pool/LavaGeyserTrap_5#LavaGeyserTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_21/MysteryBoxPositions/Position_1",
+        "Level_21/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_21/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_21/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.28,
+     0.0,
+     -0.02
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.28,
+     0.0,
+     -0.02
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33372353275341440,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23556043395114336,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65096597530611644,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.49,
+     0.0,
+     0.27
+    ],
+    "rot": [
+     0.0,
+     0.027727,
+     0.0,
+     0.999616
+    ],
+    "euler": [
+     0.0,
+     3.1777,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.49,
+     0.0,
+     0.27
+    ],
+    "rot": [
+     0.0,
+     0.027727,
+     0.0,
+     0.999616
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33799881864385010,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904400124545405,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65405989028062321,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33722550256369544,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370081907136253,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65751888446361502,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_21/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.02,
+     0.2,
+     1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.25,
+     0.0,
+     -10.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.25,
+     0.0,
+     -10.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65077469347768860,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.5,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.5,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65770005084341472,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_21/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.709,
+     0.54,
+     -1.006
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.709,
+     0.54,
+     -1.006
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -2.905
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -2.905
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/Traps/Pool",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruptionInstaller",
+     "fileID": 114492842699383957,
+     "enabled": 1,
+     "fields": {
+      "projectilePrefab": {
+       "asset": "GameObject/LavaEruption.prefab",
+       "fileID": 114025901758691103
+      },
+      "initialSize": 10
+     }
+    },
+    {
+     "type": "Plugins/Zenject.dll",
+     "fileID": 114150646884989824,
+     "enabled": 1,
+     "fields": {
+      "_scriptableObjectInstallers": [],
+      "_monoInstallers": [
+       "Level_21/Traps/Pool#LavaGeyserEruptionInstaller"
+      ],
+      "_installerPrefabs": [],
+      "_autoRun": 1,
+      "_kernel": null
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.179,
+     0.668,
+     -2.215
+    ],
+    "rot": [
+     -0.399533,
+     -0.470264,
+     -0.454599,
+     0.642312
+    ],
+    "euler": [
+     289.8115,
+     314.7123,
+     322.0957
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.179,
+     0.668,
+     -2.215
+    ],
+    "rot": [
+     -0.399533,
+     -0.470264,
+     -0.454599,
+     0.642312
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95167524263268962,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+     "fileID": 114641631609468814,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_21/Traps/Pool/LavaGeyserTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.1,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/LavaGeyserExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.17362,
+     0.66301,
+     -2.20586
+    ],
+    "rot": [
+     0.171671,
+     -0.653977,
+     0.011076,
+     0.736696
+    ],
+    "euler": [
+     15.5111,
+     275.1018,
+     347.5207
+    ],
+    "lossyScale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01066,
+     0.00305,
+     -0.00381
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33969505138979683,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10207
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23190181876552715,
+     "materials": [
+      {
+       "asset": "App/Art/Shaders/StylisedLavaSmall.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.9459,
+     0.73295,
+     -2.23581
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.24287,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95617365563186364,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruption",
+     "fileID": 114998874197659892,
+     "enabled": 1,
+     "fields": {}
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/Hitbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.83423,
+     0.29673,
+     -2.34637
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.87,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135038333544927157,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/Hitbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.75592,
+     -0.00912,
+     -2.42389
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.48,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136168775426067361,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.85732,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 5,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.84566,
+     0.3414,
+     -2.33505
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.78091,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198611579644537198
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199328299215684997
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.90984,
+     0.5921,
+     -2.27151
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1886,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.42857,
+     1.42857,
+     1.42857
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198187454977326620
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199091882994760266
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/FlameFx_1/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.96465,
+     0.57683,
+     -2.26662
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1886,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.075,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198433013960508438
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199649986673806370
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/FlameFx_1/Long",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.89077,
+     0.51761,
+     -2.29039
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1886,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198592460329389196
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199771092198208730
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/FlameFx_1/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.88435,
+     0.49254,
+     -2.29674
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1886,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.70001,
+     0.70001,
+     0.70001
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198695600491528212
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199358105479016104
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/FlameFx_1/Sparkles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.90984,
+     0.5921,
+     -2.27151
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1886,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198011164340880974
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199056248600188076
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.84566,
+     0.3414,
+     -2.33505
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198386943702330414
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199066778049879928
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.84566,
+     0.3414,
+     -2.33505
+    ],
+    "rot": [
+     -0.642312,
+     0.454599,
+     -0.470264,
+     -0.399533
+    ],
+    "euler": [
+     70.1885,
+     134.7123,
+     217.9043
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198561126880652180
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199275549183895104
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/LavaEruption/VFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.84566,
+     0.3414,
+     -2.33505
+    ],
+    "rot": [
+     -0.736696,
+     -0.011076,
+     -0.653977,
+     0.171671
+    ],
+    "euler": [
+     344.4889,
+     95.1018,
+     192.4793
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198132862189046193
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199295428814336086
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_1/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.179,
+     0.668,
+     -2.215
+    ],
+    "rot": [
+     -0.399533,
+     -0.470264,
+     -0.454599,
+     0.642312
+    ],
+    "euler": [
+     289.8115,
+     314.7123,
+     322.0957
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33601984538237284,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23785330607447594,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135007513189690300,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -0.1,
+      0.0
+     ],
+     "radius": 0.6120245
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.109,
+     0.655,
+     -0.882
+    ],
+    "rot": [
+     -0.443205,
+     0.642251,
+     0.358592,
+     0.512342
+    ],
+    "euler": [
+     293.8287,
+     122.6287,
+     330.024
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.109,
+     0.655,
+     -0.882
+    ],
+    "rot": [
+     -0.443205,
+     0.642251,
+     0.358592,
+     0.512342
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95592664909728774,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+     "fileID": 114017892387517381,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_21/Traps/Pool/LavaGeyserTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.1,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/LavaGeyserExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.10398,
+     0.65043,
+     -0.89155
+    ],
+    "rot": [
+     0.048887,
+     0.707703,
+     -0.200577,
+     0.675674
+    ],
+    "euler": [
+     20.485,
+     90.3956,
+     347.5562
+    ],
+    "lossyScale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01066,
+     0.00305,
+     -0.00381
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33817325062191328,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10207
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23831874417830518,
+     "materials": [
+      {
+       "asset": "App/Art/Shaders/StylisedLavaSmall.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.88149,
+     0.74,
+     -0.88043
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.24287,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95294885792020211,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruption",
+     "fileID": 114271925019662038,
+     "enabled": 1,
+     "fields": {}
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/Hitbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.72373,
+     0.31586,
+     -0.77943
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.87,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135132299442727904,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/Hitbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.61312,
+     0.01847,
+     -0.70861
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.48,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136066338149260220,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.85732,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 5,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.73989,
+     0.35929,
+     -0.78977
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.78091,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198948132087033897
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199320592835458227
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.83056,
+     0.60305,
+     -0.84782
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1714,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.42857,
+     1.42857,
+     1.42857
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198295926465608920
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199156371104904051
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/FlameFx_1/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.88404,
+     0.58306,
+     -0.84819
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1714,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.075,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198293198502218400
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199603576887721950
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/FlameFx_1/Long",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.80361,
+     0.53062,
+     -0.83057
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1714,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198095816830470745
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199181586030114204
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/FlameFx_1/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.79455,
+     0.50624,
+     -0.82476
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1714,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.70001,
+     0.70001,
+     0.70001
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198477794280538272
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199842968619709538
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/FlameFx_1/Sparkles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.83056,
+     0.60305,
+     -0.84782
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1714,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198012617856089587
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199703247130969877
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.73989,
+     0.35929,
+     -0.78977
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198738892719839630
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199941304181978548
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.73989,
+     0.35929,
+     -0.78977
+    ],
+    "rot": [
+     -0.512342,
+     -0.358592,
+     0.642251,
+     -0.443205
+    ],
+    "euler": [
+     66.1713,
+     302.6287,
+     209.976
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198274303670636188
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199887312969816373
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/LavaEruption/VFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.73989,
+     0.35929,
+     -0.78977
+    ],
+    "rot": [
+     -0.675674,
+     0.200577,
+     0.707703,
+     0.048887
+    ],
+    "euler": [
+     339.515,
+     270.3955,
+     192.4438
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198689010887986514
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199901155395665742
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_2/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.109,
+     0.655,
+     -0.882
+    ],
+    "rot": [
+     -0.443205,
+     0.642251,
+     0.358592,
+     0.512342
+    ],
+    "euler": [
+     293.8287,
+     122.6287,
+     330.024
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33092105871539913,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23708180620337799,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135589652054545887,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -0.1,
+      0.0
+     ],
+     "radius": 0.6120245
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.905,
+     0.39,
+     -3.561
+    ],
+    "rot": [
+     -0.553674,
+     0.824952,
+     0.087027,
+     0.072982
+    ],
+    "euler": [
+     347.0323,
+     178.5862,
+     292.4249
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.905,
+     0.39,
+     -3.561
+    ],
+    "rot": [
+     -0.553674,
+     0.824952,
+     0.087027,
+     0.072982
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95148353818683595,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+     "fileID": 114016852445014956,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_21/Traps/Pool/LavaGeyserTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.1,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/LavaGeyserExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.89808,
+     0.38068,
+     -3.55941
+    ],
+    "rot": [
+     -0.3399,
+     0.644866,
+     -0.521792,
+     0.443112
+    ],
+    "euler": [
+     21.8232,
+     93.877,
+     283.9884
+    ],
+    "lossyScale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01066,
+     0.00305,
+     -0.00381
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33201141531394087,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10207
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23416529295595857,
+     "materials": [
+      {
+       "asset": "App/Art/Shaders/StylisedLavaSmall.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.68005,
+     0.48029,
+     -3.54576
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.24287,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95904079258986964,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruption",
+     "fileID": 114578716238308850,
+     "enabled": 1,
+     "fields": {}
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/Hitbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.6689,
+     0.37624,
+     -3.09406
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.87,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135401429660297866,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/Hitbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.66109,
+     0.30329,
+     -2.77735
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.48,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136545683990359770,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.85732,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 5,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67004,
+     0.38689,
+     -3.14031
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.78091,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198527248355756736
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199657558218238974
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67645,
+     0.44669,
+     -3.39991
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553674
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.42857,
+     1.42857,
+     1.42857
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198133854062310043
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199947810564538834
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/FlameFx_1/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.72934,
+     0.42546,
+     -3.40349
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553674
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.075,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198562080017223558
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199129116114662800
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/FlameFx_1/Long",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.67455,
+     0.42892,
+     -3.32277
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553674
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198041320612064254
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199228214996573471
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/FlameFx_1/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67391,
+     0.42294,
+     -3.29681
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553674
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.70001,
+     0.70001,
+     0.70001
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198422702022971346
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199067212629291419
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/FlameFx_1/Sparkles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.67645,
+     0.44669,
+     -3.39991
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553674
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198521597976012101
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199989434536655964
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67004,
+     0.38689,
+     -3.14031
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198689224686120706
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199696919880513765
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67004,
+     0.38689,
+     -3.14031
+    ],
+    "rot": [
+     -0.072982,
+     -0.087027,
+     0.824952,
+     -0.553673
+    ],
+    "euler": [
+     12.9678,
+     358.5862,
+     247.575
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198429401810989285
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199450889307774998
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/LavaEruption/VFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.67004,
+     0.38689,
+     -3.14031
+    ],
+    "rot": [
+     -0.443112,
+     0.521792,
+     0.644866,
+     -0.3399
+    ],
+    "euler": [
+     338.1768,
+     273.877,
+     256.0116
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198697715728111791
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199353891062718048
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_3/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.905,
+     0.39,
+     -3.561
+    ],
+    "rot": [
+     -0.553674,
+     0.824952,
+     0.087027,
+     0.072982
+    ],
+    "euler": [
+     347.0323,
+     178.5862,
+     292.4249
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33832474124979885,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23195931274935818,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135197515695889172,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -0.1,
+      0.0
+     ],
+     "radius": 0.6120245
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.092,
+     0.668,
+     0.322
+    ],
+    "rot": [
+     -0.176165,
+     -0.122006,
+     -0.571374,
+     0.79222
+    ],
+    "euler": [
+     335.2572,
+     0.5048,
+     288.2886
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.092,
+     0.668,
+     0.322
+    ],
+    "rot": [
+     -0.176165,
+     -0.122006,
+     -0.571374,
+     0.79222
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95960577952585462,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+     "fileID": 114415925016355036,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_21/Traps/Pool/LavaGeyserTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.1,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/LavaGeyserExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.08576,
+     0.65808,
+     0.32232
+    ],
+    "rot": [
+     0.435616,
+     -0.490294,
+     -0.317751,
+     0.684752
+    ],
+    "euler": [
+     16.5585,
+     278.3804,
+     295.8906
+    ],
+    "lossyScale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01066,
+     0.00305,
+     -0.00381
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33433881075115309,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10207
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23838352681112328,
+     "materials": [
+      {
+       "asset": "App/Art/Shaders/StylisedLavaSmall.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.86169,
+     0.73722,
+     0.28807
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.24287,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95911451331743778,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruption",
+     "fileID": 114105912343260855,
+     "enabled": 1,
+     "fields": {}
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/Hitbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.8654,
+     0.54315,
+     -0.13301
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.87,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135500050402096248,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/Hitbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.868,
+     0.40709,
+     -0.42825
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.48,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136117307842306080,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.85732,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 5,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86502,
+     0.56303,
+     -0.08989
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.78091,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198952854571839949
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199573076885614623
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86289,
+     0.67456,
+     0.15211
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.42857,
+     1.42857,
+     1.42857
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198291547872775986
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199704877758540679
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/FlameFx_1/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.91703,
+     0.65828,
+     0.16009
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.075,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198173334745350128
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199364392939154294
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/FlameFx_1/Long",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.86352,
+     0.64142,
+     0.0802
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198036828218548272
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199777414246829702
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/FlameFx_1/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86373,
+     0.63026,
+     0.056
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.70001,
+     0.70001,
+     0.70001
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198349979204078785
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199559203567323380
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/FlameFx_1/Sparkles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.86289,
+     0.67456,
+     0.15211
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198387228018655110
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199766709239876273
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86502,
+     0.56303,
+     -0.08989
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198126508818681447
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199231676679060417
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86502,
+     0.56303,
+     -0.08989
+    ],
+    "rot": [
+     -0.79222,
+     0.571374,
+     -0.122006,
+     -0.176165
+    ],
+    "euler": [
+     24.7428,
+     180.5048,
+     251.7114
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198616761771223058
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199870947366518887
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/LavaEruption/VFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.86502,
+     0.56303,
+     -0.08989
+    ],
+    "rot": [
+     -0.684752,
+     0.317751,
+     -0.490294,
+     0.435616
+    ],
+    "euler": [
+     343.4415,
+     98.3804,
+     244.1094
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198964675957374274
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199350408777337066
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_4/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.092,
+     0.668,
+     0.322
+    ],
+    "rot": [
+     -0.176165,
+     -0.122006,
+     -0.571374,
+     0.79222
+    ],
+    "euler": [
+     335.2572,
+     0.5048,
+     288.2886
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33729442808604298,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23055535033279528,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135094283985748868,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -0.1,
+      0.0
+     ],
+     "radius": 0.6120245
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.27,
+     0.346,
+     -4.43
+    ],
+    "rot": [
+     0.038322,
+     0.813442,
+     -0.097568,
+     0.572122
+    ],
+    "euler": [
+     11.688,
+     109.4645,
+     357.1144
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.27,
+     0.346,
+     -4.43
+    ],
+    "rot": [
+     0.038322,
+     0.813442,
+     -0.097568,
+     0.572122
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95085134620244786,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.LavaGeyserTrap",
+     "fileID": 114044586276341600,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_21/Traps/Pool/LavaGeyserTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.1,
+       "speedPerLevel": 0.05,
+       "timeOffsetBetweenTraps": 0.1,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/LavaGeyserExplosion.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.27663,
+     0.34922,
+     -4.43911
+    ],
+    "rot": [
+     0.431649,
+     0.506199,
+     -0.644182,
+     0.377454
+    ],
+    "euler": [
+     77.9659,
+     303.4367,
+     193.6769
+    ],
+    "lossyScale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "local": {
+    "pos": [
+     0.01066,
+     0.00305,
+     -0.00381
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.59984,
+     0.59984,
+     0.12038
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33851449666512103,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10207
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23827586244175853,
+     "materials": [
+      {
+       "asset": "App/Art/Shaders/StylisedLavaSmall.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.22774,
+     0.58353,
+     -4.4579
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.24287,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95510800835404288,
+     "controller": {
+      "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Projectiles.LavaGeyserEruption",
+     "fileID": 114173644300073267,
+     "enabled": 1,
+     "fields": {}
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/Hitbox_1",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.65584,
+     0.67746,
+     -4.3066
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.87,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135691570808825369,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 1.5
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/Hitbox_2",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.956,
+     0.74332,
+     -4.20052
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     1.48,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136502609866597578,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      0.85732,
+      0.0
+     ],
+     "radius": 1.5,
+     "height": 5,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.612,
+     0.66784,
+     -4.3221
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.78091,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198544837802452058
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199964822413698908
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.36597,
+     0.61386,
+     -4.40905
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038322
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.42857,
+     1.42857,
+     1.42857
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198894225446638996
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199041608817324026
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/FlameFx_1/FlameFx_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.3759,
+     0.55802,
+     -4.40249
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038322
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.075,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198250083484182041
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199754026925822528
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/FlameFx_1/Long",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.43908,
+     0.6299,
+     -4.38321
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038322
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.104
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198949593803130734
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199785416887765914
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/FlameFx_1/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.46368,
+     0.6353,
+     -4.37452
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038322
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.70001,
+     0.70001,
+     0.70001
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198083485975560739
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199543023241981873
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/FlameFx_1/Sparkles",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.36597,
+     0.61386,
+     -4.40905
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038322
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198290791091168379
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199996317296757491
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.612,
+     0.66784,
+     -4.3221
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198519819979147140
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199644357204029367
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.612,
+     0.66784,
+     -4.3221
+    ],
+    "rot": [
+     -0.572122,
+     0.097568,
+     0.813442,
+     0.038321
+    ],
+    "euler": [
+     348.312,
+     289.4645,
+     182.8856
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198071519224935516
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199410049401584812
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/LavaEruption/VFX/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.612,
+     0.66784,
+     -4.3221
+    ],
+    "rot": [
+     -0.377454,
+     0.644182,
+     0.506199,
+     0.431649
+    ],
+    "euler": [
+     282.0341,
+     123.4367,
+     346.3231
+    ],
+    "lossyScale": [
+     0.53295,
+     0.53295,
+     0.53295
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198329446674688094
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199958492976087124
+    }
+   ]
+  },
+  {
+   "path": "Level_21/Traps/Pool/LavaGeyserTrap_5/Mesh",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.27,
+     0.346,
+     -4.43
+    ],
+    "rot": [
+     0.038322,
+     0.813442,
+     -0.097568,
+     0.572122
+    ],
+    "euler": [
+     11.688,
+     109.4645,
+     357.1144
+    ],
+    "lossyScale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.76135,
+     0.76135,
+     0.76135
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33825818419884204,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/LavaHole.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23403529848822963,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "SphereCollider",
+     "fileID": 135507522976744791,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -0.1,
+      0.0
+     ],
+     "radius": 0.6120245
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_21/VolcanoBackground/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.7,
+     -0.05,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.7,
+     -0.66,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33249237965167194,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23739268104783211,
+     "materials": [
+      {
+       "asset": "Material/StylisedLava2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64391225667286877,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.1,
+     -1.5,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114782439640980787,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 12
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198102543447223915
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199493949256727870
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198134286944189183
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199045646810609841
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198844361126439134
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199663898806329775
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198910201747455131
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199985908891298522
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.322,
+     -0.89,
+     -1.984
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198124577934639600
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199081920422494107
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198518639523470932
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199033903555039309
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.95,
+     -1.5,
+     -1.29
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114510073901028830,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 10
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198566389953100910
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199536148047902537
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198171308771648913
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199505490946690937
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198432271528610696
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199003750186790624
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198321515599905260
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199151117949762783
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.728,
+     -0.89,
+     -2.024
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198299931057912216
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199075864462779534
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.95,
+     -0.89,
+     -1.29
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198891995844532801
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199330820015962899
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/Mountain_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.5,
+     0.91,
+     4.38
+    ],
+    "rot": [
+     0.0,
+     0.009693,
+     0.0,
+     0.999953
+    ],
+    "euler": [
+     0.0,
+     1.1107,
+     0.0
+    ],
+    "lossyScale": [
+     0.27207,
+     0.27207,
+     0.27207
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.5,
+     0.3,
+     4.38
+    ],
+    "rot": [
+     0.0,
+     0.009693,
+     0.0,
+     0.999953
+    ],
+    "scale": [
+     0.27207,
+     0.27207,
+     0.27207
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33239265225482239,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/Volcano_1.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23386568470988373,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/Mountain_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.88,
+     1.16697,
+     0.8
+    ],
+    "rot": [
+     0.0,
+     -0.312477,
+     0.0,
+     0.949925
+    ],
+    "euler": [
+     0.0,
+     323.5829,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.88,
+     0.55697,
+     0.8
+    ],
+    "rot": [
+     0.0,
+     -0.312477,
+     0.0,
+     0.949925
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33743905223825669,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/Volcano_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23360591974699550,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_21/VolcanoBackground/VolcanoRoad",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.27,
+     0.18,
+     -1.22
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.41565,
+     0.81151
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.27,
+     -0.43,
+     -1.22
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.85,
+     0.41565,
+     0.81151
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33384784573714692,
+     "mesh": {
+      "asset": "Mesh/VolcanoRoad.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23463395028392447,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

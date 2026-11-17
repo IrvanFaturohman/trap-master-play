@@ -1,0 +1,230 @@
+{
+ "controllers": [
+  {
+   "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/LavaEruption.controller",
+   "parameters": [],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Default",
+     "states": [
+      {
+       "name": "Default",
+       "speed": 1,
+       "motion": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/Default.anim",
+       "timeParameterActive": 0,
+       "timeParameter": null,
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "asset": "App/Art/Animations/Traps/LavaGeyserTrap/LavaGeyserTrap.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Default",
+     "states": [
+      {
+       "name": "Default",
+       "speed": 1,
+       "motion": "App/Art/Animations/Traps/LavaGeyserTrap/Default.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Eruption/Default.anim",
+   "name": "Default",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 1.416667,
+   "loopTime": 0,
+   "events": [],
+   "curves": [
+    {
+     "path": "Hitbox_2",
+     "property": "m_Enabled",
+     "classID": 136,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       0,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.733333,
+       1,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       1.416667,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    },
+    {
+     "path": "Hitbox_1",
+     "property": "m_Enabled",
+     "classID": 135,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       1,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.166667,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "asset": "App/Art/Animations/Traps/LavaGeyserTrap/Default.anim",
+   "name": "Default",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 7.133333,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 0.25,
+     "function": "Erupt",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": "Hitbox",
+     "property": "m_Enabled",
+     "classID": 135,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       0,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.25,
+       1,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.366667,
+       0,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       0.5,
+       1,
+       0,
+       "inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       1.166667,
+       0,
+       0,
+       "-inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       7.133333,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

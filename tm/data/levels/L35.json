@@ -1,0 +1,7947 @@
+{
+ "level": 35,
+ "sources": {
+  "asset": "Resources/levels/Level_35.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_35.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "City Center",
+ "trapClass": [
+  "VehicleTrapView"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 2500000.0,
+  "goldReward": 300.0,
+  "bricksReward": 5000,
+  "TrapOffset": 13,
+  "EnemiesOffset": 14,
+  "SpeedOffset": 11,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 20,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.005,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 400,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 1
+  },
+  "source": "LevelSettings.txt[35] over asset",
+  "blobRewardsOfGoals": [
+   12500,
+   62500,
+   125000,
+   125000,
+   125000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_6.asset",
+  "targetMoney": 10000000000.0,
+  "goldReward": 300.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 3,
+   "legendaryPacks": 1
+  },
+  "background": "Texture2D/Background_6.png",
+  "backgroundFogColor": {
+   "r": 0.016,
+   "g": 0.129,
+   "b": 0.243,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_35.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "778490c916568ce4db8e1cdd8b64d6de",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.005,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 20000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 400,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_35#LevelView",
+  "trapViews": [
+   "Level_35/Traps/VehicleTrap_1#VehicleTrapView",
+   "Level_35/Traps/VehicleTrap_2#VehicleTrapView",
+   "Level_35/Traps/VehicleTurningTrap_1#VehicleTrapView",
+   "Level_35/Traps/VehicleTurningTrap_2#VehicleTrapView"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_35/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.44,
+      0.54,
+      -0.24
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.44,
+      0.54,
+      -0.24
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_35/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.57,
+      0.54,
+      -1.04
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.57,
+      0.54,
+      -1.04
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_35/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      1e-06,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_35/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_35/Traps/VehicleTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_35/Traps/VehicleTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.35,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_35/Traps/VehicleTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_35/Traps/VehicleTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.35,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_35/Traps/VehicleTurningTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_35/Traps/VehicleTurningTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.35,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_35/Traps/VehicleTurningTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_35/Traps/VehicleTurningTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.15,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.35,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    }
+   },
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_35/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65580109562975512,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_35/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65704330047573733,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_35/Traps/VehicleTrap_1/Vehicle",
+    "world": {
+     "pos": [
+      -7.426,
+      0.364,
+      -2.135
+     ],
+     "rot": [
+      0.0,
+      0.707106,
+      0.0,
+      0.707108
+     ],
+     "euler": [
+      0.0,
+      89.9998,
+      0.0
+     ],
+     "lossyScale": [
+      2.0,
+      2.0,
+      2.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65492842699383957,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.13886,
+       -0.0033
+      ],
+      "size": [
+       0.41896,
+       0.33772,
+       0.93807
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_35/Traps/VehicleTrap_2/Vehicle",
+    "world": {
+     "pos": [
+      -7.426,
+      0.364,
+      -3.385
+     ],
+     "rot": [
+      0.0,
+      0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      90.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.0,
+      2.0,
+      2.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65771092198208730,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.13886,
+       -0.0033
+      ],
+      "size": [
+       0.41896,
+       0.33772,
+       0.93807
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle",
+    "world": {
+     "pos": [
+      0.574,
+      0.364,
+      -11.885
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65271925019662038,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.69065,
+       0.0
+      ],
+      "size": [
+       1.80761,
+       1.24397,
+       4.51838
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea",
+    "world": {
+     "pos": [
+      0.574,
+      0.364,
+      -11.885
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.0,
+      2.0,
+      2.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65784622213810434,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.13886,
+       -0.0033
+      ],
+      "size": [
+       0.41896,
+       0.33772,
+       0.93807
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle",
+    "world": {
+     "pos": [
+      -0.676,
+      0.364,
+      -11.885
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65719897623072781,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.69065,
+       0.0
+      ],
+      "size": [
+       1.80761,
+       1.24397,
+       4.51838
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea",
+    "world": {
+     "pos": [
+      -0.676,
+      0.364,
+      -11.885
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      2.0,
+      2.0,
+      2.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65346445019804701,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.13886,
+       -0.0033
+      ],
+      "size": [
+       0.41896,
+       0.33772,
+       0.93807
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10210
+  },
+  {
+   "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Body.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontLeft.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontRight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearLeft.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearRight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_junction.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/trafficlight_C.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/base.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_F.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/building_G.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_sedan.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_sedan_wheel_front_left.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_sedan_wheel_front_right.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_sedan_wheel_rear_left.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_sedan_wheel_rear_right.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_stationwagon.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_stationwagon_wheel_front_left.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_stationwagon_wheel_front_right.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_stationwagon_wheel_rear_left.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/car_stationwagon_wheel_rear_right.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_35",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114658330495870062,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_35/Traps/VehicleTrap_1#VehicleTrapView",
+         "Level_35/Traps/VehicleTrap_2#VehicleTrapView",
+         "Level_35/Traps/VehicleTurningTrap_1#VehicleTrapView",
+         "Level_35/Traps/VehicleTurningTrap_2#VehicleTrapView"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_35/MysteryBoxPositions/Position_1",
+        "Level_35/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_35/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_35/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33870947366518887,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23505682267929073,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65291547872775986,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33632179142322292,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23036828218548272,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65777414246829702,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33387228018655110,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23766709239876273,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65260713349338959,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.13,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/City/base",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.009,
+     0.13,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.009,
+     0.0,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33543023241981873,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23616352195932608,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.009,
+     0.13,
+     -7.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.009,
+     0.0,
+     -7.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33463395028392447,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23962713294667487,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     5.009,
+     0.13,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     5.009,
+     0.0,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232720755092366,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23401109917237556,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.991,
+     0.13,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.991,
+     0.0,
+     -5.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33096597530611644,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23583788928901705,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.009,
+     0.13,
+     0.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.009,
+     0.0,
+     0.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33754026925822528,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23020314340478216,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.991,
+     0.13,
+     0.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.991,
+     0.0,
+     0.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33688331903957256,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23502609866597578,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.991,
+     0.13,
+     2.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.991,
+     0.0,
+     2.257
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33975779338151784,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23372353275341440,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.991,
+     0.13,
+     -7.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.991,
+     0.0,
+     -7.743
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33894352506636257,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23817105377731967,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.991,
+     0.13,
+     8.396
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.991,
+     0.0,
+     8.396
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33904400124545405,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23405989028062321,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/base_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.991,
+     0.13,
+     10.396
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.991,
+     0.0,
+     10.396
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33722550256369544,
+     "mesh": {
+      "asset": "Mesh/base.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370081907136253,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/building_F",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.04,
+     0.13,
+     5.39
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.04,
+     0.0,
+     5.39
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33785416887765914,
+     "mesh": {
+      "asset": "Mesh/building_F.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23041287186795109,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/building_G",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.03,
+     0.13,
+     1.35
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.03,
+     0.0,
+     1.35
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33996317296757491,
+     "mesh": {
+      "asset": "Mesh/building_G.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23322008579206753,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_junction",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33344618938641724,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_junction.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085134620244786,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_10",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     13.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     13.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041608817324026,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370485308309611,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     -6.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     -6.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33413603344295461,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23825818419884204,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     -10.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     -10.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33507522976744791,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23951712121405908,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33827586244175853,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23246887588868771,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     5.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33644357204029367,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23869737159367836,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.08,
+     9.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.05,
+     9.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33410049401584812,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23458735412797113,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_7",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.0,
+     0.08,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.0,
+     -0.05,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33173644300073267,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23543584136297381,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.0,
+     0.08,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.0,
+     -0.05,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33958492976087124,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23222568209840903,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/road_straight_9",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.0,
+     0.08,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     4.0,
+     -0.05,
+     -2.75
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33964822413698908,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/road_straight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23952320105404285,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/City/trafficlight_C",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.252,
+     0.283,
+     -5.097
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.252,
+     0.153,
+     -5.097
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33386568470988373,
+     "mesh": {
+      "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Models/trafficlight_C.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23494345407022765,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.2,
+     1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65580109562975512,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65704330047573733,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.44,
+     0.54,
+     -0.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.44,
+     0.54,
+     -0.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.57,
+     0.54,
+     -1.04
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.57,
+     0.54,
+     -1.04
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     1e-06,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Plane",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33364392939154294,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23696792502030561,
+     "materials": [
+      {
+       "asset": "Material/Ground 14.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64500050402096248,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/RoadShadingDecal_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.221,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     30.0,
+     2.75,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.221,
+     0.0
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     30.0,
+     2.75,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33731059169969419,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10210
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23844361126439134,
+     "materials": [
+      {
+       "asset": "Material/GroundGradientQuad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/RoadShadingDecal_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.224,
+     -2.8
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "euler": [
+     89.9759,
+     180.0001,
+     0.0
+    ],
+    "lossyScale": [
+     30.0,
+     2.75,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.224,
+     -2.8
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "scale": [
+     30.0,
+     2.75,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33428560594236482,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10210
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23910201747455131,
+     "materials": [
+      {
+       "asset": "Material/GroundGradientQuad.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.3411,
+     0.34,
+     3.1622
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.3411,
+     0.34,
+     3.1622
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "scale": [
+     0.3,
+     0.3,
+     0.3
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212121005239445321,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.57254905
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95194081240383615,
+     "controller": {
+      "asset": "AnimatorController/VehicleTrapStraight.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+     "fileID": 114354824845356902,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_35/Traps/VehicleTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.35,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33123703392571528,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23855482821919830,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65492842699383957,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.13886,
+      -0.0033
+     ],
+     "size": [
+      0.41896,
+      0.33772,
+      0.93807
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.426,
+     0.224,
+     -2.135
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.07,
+     0.0
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212633296557590524,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/SmokeTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -2.135
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/SmokeTrail/Trail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.068,
+     0.38,
+     -2.53
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     -0.395
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198450391854282655
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199386943702330414
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/SmokeTrail/Trail_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.068,
+     0.38,
+     -1.78
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     0.355
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198824317463469755
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199561126880652180
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/car_stationwagon_wheel_front_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.93516,
+     0.38651,
+     -1.783
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33880619614767448,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23167524263268962,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114641631609468814,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/car_stationwagon_wheel_front_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.93516,
+     0.38651,
+     -2.487
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33601984538237284,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23785330607447594,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114007513189690300,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/car_stationwagon_wheel_rear_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.93833,
+     0.38651,
+     -1.783
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33969505138979683,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23190181876552715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114240571728440943,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_1/Vehicle/car_stationwagon_wheel_rear_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.93833,
+     0.38651,
+     -2.48701
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     89.9998,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33998874197659892,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23408345039935966,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114611579644537198,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95528911807818478,
+     "controller": {
+      "asset": "AnimatorController/VehicleTrapStraight.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+     "fileID": 114187454977326620,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_35/Traps/VehicleTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.35,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232094423628703,
+     "mesh": {
+      "asset": "Mesh/car_sedan.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23592460329389196,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65771092198208730,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.13886,
+      -0.0033
+     ],
+     "size": [
+      0.41896,
+      0.33772,
+      0.93807
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.426,
+     0.224,
+     -3.385
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.07,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.707107,
+     0.0
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212896002537488308,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/SmokeTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -7.426,
+     0.364,
+     -3.385
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/SmokeTrail/Trail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.068,
+     0.38,
+     -3.78
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     -0.395
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198709890794832471
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199092105871539913
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/SmokeTrail/Trail_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -8.068,
+     0.38,
+     -3.03
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     0.355
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198589652054545887
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199220697728379336
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/car_sedan_wheel_front_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.93516,
+     0.38651,
+     -3.033
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33011164340880974,
+     "mesh": {
+      "asset": "Mesh/car_sedan_wheel_front_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23056248600188076,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/car_sedan_wheel_front_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.93516,
+     0.38651,
+     -3.73701
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33695600491528212,
+     "mesh": {
+      "asset": "Mesh/car_sedan_wheel_front_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23358105479016104,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/car_sedan_wheel_rear_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.93833,
+     0.38651,
+     -3.033
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33433013960508438,
+     "mesh": {
+      "asset": "Mesh/car_sedan_wheel_rear_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23649986673806370,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTrap_2/Vehicle/car_sedan_wheel_rear_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.93833,
+     0.38651,
+     -3.73701
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33038333544927157,
+     "mesh": {
+      "asset": "Mesh/car_sedan_wheel_rear_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23146109142143575,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95831874417830518,
+     "controller": {
+      "asset": "AnimatorController/VehicleTrapTurning.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+     "fileID": 114177930474251431,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_35/Traps/VehicleTurningTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.35,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65271925019662038,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.69065,
+      0.0
+     ],
+     "size": [
+      1.80761,
+      1.24397,
+      4.51838
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33941304181978548,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Body.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23056905764334025,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212842968619709538,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/SmokeTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/SmokeTrail/Trail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.969,
+     0.38,
+     -12.527
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     2e-06
+    ],
+    "euler": [
+     0.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     -0.395
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198320592835458227
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199911997548769506
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/SmokeTrail/Trail_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.219,
+     0.38,
+     -12.527
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     2e-06
+    ],
+    "euler": [
+     0.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     0.355
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198901155395665742
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199955215445487071
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Wheel_FrontLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.22558,
+     0.5307,
+     -11.25918
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33887312969816373,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23024252914577434,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Wheel_FrontRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.9208,
+     0.5307,
+     -11.25918
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33156371104904051,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23083739296819378,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Wheel_RearLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.22558,
+     0.5307,
+     -12.45723
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33181586030114204,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23321827775029018,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehicle/Wheel_RearRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.9208,
+     0.5307,
+     -12.45723
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703247130969877,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23258471659221418,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.574,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33293198502218400,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23603576887721950,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65784622213810434,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.13886,
+      -0.0033
+     ],
+     "size": [
+      0.41896,
+      0.33772,
+      0.93807
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.574,
+     0.224,
+     -11.885
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "euler": [
+     90.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.07,
+     0.0
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212527248355756736,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea/car_stationwagon_wheel_front_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.222,
+     0.38651,
+     -11.39416
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33325787665662832,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23066338149260220,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114407886329842316,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea/car_stationwagon_wheel_front_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.926,
+     0.38651,
+     -11.39416
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33016852445014956,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23932862749439555,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114832474124979885,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea/car_stationwagon_wheel_rear_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.222,
+     0.38651,
+     -12.39733
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33197515695889172,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23112815651697755,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114201141531394087,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_1/Vehiclea/car_stationwagon_wheel_rear_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.92601,
+     0.38651,
+     -12.39733
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33446691751160785,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904079258986964,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114578716238308850,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95484755779879834,
+     "controller": {
+      "asset": "AnimatorController/VehicleTrapTurning.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.VehicleTrapView",
+     "fileID": 114697715728111791,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_35/Traps/VehicleTurningTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.15,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.35,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65719897623072781,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.69065,
+      0.0
+     ],
+     "size": [
+      1.80761,
+      1.24397,
+      4.51838
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33729821067651183,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Body.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23041320612064254,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A2.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212545683990359770,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/SmokeTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     0.0,
+     270.0002,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     -0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/SmokeTrail/Trail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.281,
+     0.38,
+     -12.527
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     2e-06
+    ],
+    "euler": [
+     0.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     -0.395
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198965908813272002
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199429401810989285
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/SmokeTrail/Trail_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.031,
+     0.38,
+     -12.527
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     2e-06
+    ],
+    "euler": [
+     0.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.642,
+     0.016,
+     0.355
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198007271993718322
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199133854062310043
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Wheel_FrontLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.02442,
+     0.5307,
+     -11.25918
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33641204913154593,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23521597976012101,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Wheel_FrontRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.3292,
+     0.5307,
+     -11.25918
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33329075794784248,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23422702022971346,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Wheel_RearLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.02442,
+     0.5307,
+     -12.45723
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33119337346424409,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23562080017223558,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehicle/Wheel_RearRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.3292,
+     0.5307,
+     -12.45723
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33208269818966246,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23401429660297866,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.676,
+     0.364,
+     -11.885
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.707106,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33960577952585462,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23415925016355036,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65346445019804701,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.13886,
+      -0.0033
+     ],
+     "size": [
+      0.41896,
+      0.33772,
+      0.93807
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.676,
+     0.224,
+     -11.885
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "euler": [
+     90.0,
+     180.0002,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.07,
+     0.0
+    ],
+    "rot": [
+     1e-06,
+     -0.707107,
+     0.707107,
+     1e-06
+    ],
+    "scale": [
+     0.1,
+     0.1,
+     0.1
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212231676679060417,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.7176471
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea/car_stationwagon_wheel_front_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.028,
+     0.38651,
+     -11.39416
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33055535033279528,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23094283985748868,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114878983242975409,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea/car_stationwagon_wheel_front_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.324,
+     0.38651,
+     -11.39416
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     0.24542
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33838352681112328,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_front_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23993076962757715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114911451331743778,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea/car_stationwagon_wheel_rear_left",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.028,
+     0.38651,
+     -12.39733
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33350143044813081,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_left.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23952854571839949,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114573076885614623,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Traps/VehicleTurningTrap_2/Vehiclea/car_stationwagon_wheel_rear_right",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.32399,
+     0.38651,
+     -12.39733
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.176,
+     0.01126,
+     -0.25616
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33964675957374274,
+     "mesh": {
+      "asset": "Mesh/car_stationwagon_wheel_rear_right.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23350408777337066,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/KayKit/Packs/Bits/KayKit - City Builder Bits (for Unity)/Materials/citybits_texture.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "AutoRotate",
+     "fileID": 114016782227057731,
+     "enabled": 1,
+     "fields": {
+      "axis": {
+       "x": -1,
+       "y": 0,
+       "z": 0
+      },
+      "speed": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Vehicle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -0.21812,
+     0.26,
+     -2.9772
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.21812,
+     0.26,
+     -2.9772
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_35/Vehicle/Body",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.21812,
+     0.26,
+     -2.9772
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232415838589296,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Body.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23249237965167194,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Classic A/Classic_Mat_01_A1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Vehicle/Wheel_FrontLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.56655,
+     0.4267,
+     -2.35138
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33391225667286877,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23517377532936435,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Vehicle/Wheel_FrontRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.12868,
+     0.4267,
+     -2.35138
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     1.25165
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33578880696632637,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_FrontRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23102543447223915,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Vehicle/Wheel_RearLeft",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.56655,
+     0.4267,
+     -3.54943
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69684,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33081524457781149,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearLeft.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23134286944189183,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_35/Vehicle/Wheel_RearRight",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.12868,
+     0.4267,
+     -3.54943
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     360.0
+    ],
+    "lossyScale": [
+     0.5,
+     0.5,
+     0.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.6936,
+     0.3334,
+     -1.14446
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33337165658744233,
+     "mesh": {
+      "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Meshes/Wheel_RearRight.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23518639523470932,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/ICONIC - Sports Car FREE Vol.01/Materials/Wheels/WheelsVariant_01.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

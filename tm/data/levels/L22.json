@@ -1,0 +1,8203 @@
+{
+ "level": 22,
+ "sources": {
+  "asset": "Resources/levels/Level_22.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_22.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Molten Peak",
+ "trapClass": [
+  "FierySawTrap"
+ ],
+ "trapCount": 6,
+ "config_effective": {
+  "targetMoney": 600000.0,
+  "goldReward": 200.0,
+  "bricksReward": 1500,
+  "TrapOffset": 12,
+  "EnemiesOffset": 9,
+  "SpeedOffset": 7,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 15,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 75,
+    "param1": 0,
+    "goalType": 9,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "GoldenEnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[22] over asset",
+  "blobRewardsOfGoals": [
+   30000,
+   30000,
+   30000,
+   30000,
+   30000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_4.asset",
+  "targetMoney": 300000000.0,
+  "goldReward": 400.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_4.png",
+  "backgroundFogColor": {
+   "r": 0.828,
+   "g": 0.059,
+   "b": 0.024,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 3,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 2,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_22.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "10325dd0a9c897c4b894b695077d889d",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 60,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 4,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 10000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 75,
+    "param1": 0,
+    "goalType": 9,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "GoldenEnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_22#LevelView",
+  "trapViews": [
+   "Level_22/Traps/FierySawTrap_1#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_2#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_3#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_4#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_5#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_6#FierySawTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_22/Traps/FierySawTrap_4#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_2#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_3#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_1#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_5#FierySawTrap",
+   "Level_22/Traps/FierySawTrap_6#FierySawTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_22/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.27,
+      0.54,
+      -0.13
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.27,
+      0.54,
+      -0.13
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_22/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      -3.67,
+      0.54,
+      0.96
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -3.67,
+      0.54,
+      0.96
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null,
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_22/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.7,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      -0.041246,
+      0.0,
+      0.999149
+     ],
+     "euler": [
+      0.0,
+      355.2723,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.7,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      -0.041246,
+      0.0,
+      0.999149
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_22/PipePoint",
+    "world": {
+     "pos": [
+      -6.193,
+      0.878,
+      4.517
+     ],
+     "rot": [
+      0.0,
+      -0.298439,
+      0.0,
+      0.954429
+     ],
+     "euler": [
+      0.0,
+      325.2723,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -6.193,
+      0.878,
+      4.517
+     ],
+     "rot": [
+      0.0,
+      -0.298439,
+      0.0,
+      0.954429
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_22/DoubleGate",
+   "world": {
+    "pos": [
+     0.079,
+     0.2,
+     1.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.079,
+     0.2,
+     1.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_22/Traps/FierySawTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_1/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_1/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -2.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -2.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_22/Traps/FierySawTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_2/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_2/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     -4.12,
+     0.308,
+     1.92
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.12,
+     0.308,
+     1.92
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_22/Traps/FierySawTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_3/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_3/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_22/Traps/FierySawTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_4/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_4/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     -4.69,
+     0.308,
+     2.64
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "euler": [
+     0.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.69,
+     0.308,
+     2.64
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_22/Traps/FierySawTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_5/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_5/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -3.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -3.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "path": "Level_22/Traps/FierySawTrap_6",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_22/Traps/FierySawTrap_6/Sawblade#MovingObject",
+    "fieryEffects": [
+     "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1#ParticleSystem",
+     "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+    ],
+    "fieryCollider": "Level_22/Traps/FierySawTrap_6/Sawblade/FlameCollider#MeshCollider"
+   },
+   "world": {
+    "pos": [
+     0.324,
+     0.369,
+     -4.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.324,
+     0.369,
+     -4.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "EnemyDirection": [
+   {
+    "path": "Level_22/Directions/Collider_1",
+    "world": {
+     "pos": [
+      -4.16,
+      0.0,
+      2.41
+     ],
+     "rot": [
+      0.0,
+      0.951798,
+      0.0,
+      0.306725
+     ],
+     "euler": [
+      0.0,
+      144.276,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136891995844532801,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.27216,
+       0.0,
+       -1.68468
+      ],
+      "radius": 1.8087683,
+      "height": 10.401101,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Directions/Collider_2",
+    "world": {
+     "pos": [
+      0.66,
+      0.0,
+      -3.33
+     ],
+     "rot": [
+      0.0,
+      0.999963,
+      0.0,
+      0.008625
+     ],
+     "euler": [
+      0.0,
+      179.0116,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136450063812975771,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.27217,
+       0.0,
+       0.0
+      ],
+      "radius": 0.7956931,
+      "height": 13.852053,
+      "direction": 2
+     }
+    ]
+   }
+  ],
+  "Finish": [
+   {
+    "path": "Level_22/FinishLine",
+    "world": {
+     "pos": [
+      -0.14,
+      0.0,
+      -9.51
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65096597530611644,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_22/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65085275382694935,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Ground_1",
+    "world": {
+     "pos": [
+      -4.87,
+      -0.321,
+      3.13
+     ],
+     "rot": [
+      0.0,
+      -0.336593,
+      0.0,
+      0.94165
+     ],
+     "euler": [
+      0.0,
+      320.6611,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65194081240383615,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       -0.29077,
+       -7.5,
+       -2.57321
+      ],
+      "size": [
+       2.61845,
+       17.0,
+       8.42854
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_22/Traps/FierySawTrap_1/Sawblade",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -2.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64601984538237284,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_1/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -2.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64187454977326620,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_2/Sawblade",
+    "world": {
+     "pos": [
+      -4.11818,
+      0.317,
+      1.91685
+     ],
+     "rot": [
+      0.0,
+      -0.258819,
+      0.0,
+      0.965926
+     ],
+     "euler": [
+      0.0,
+      330.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64649986673806370,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_2/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      -4.11818,
+      0.317,
+      1.91685
+     ],
+     "rot": [
+      0.0,
+      -0.258819,
+      0.0,
+      0.965926
+     ],
+     "euler": [
+      0.0,
+      330.0001,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64689010887986514,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_3/Sawblade",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -1.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64181586030114204,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_3/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -1.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64201141531394087,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_4/Sawblade",
+    "world": {
+     "pos": [
+      -4.68785,
+      0.317,
+      2.63707
+     ],
+     "rot": [
+      0.0,
+      -0.311423,
+      0.0,
+      0.950271
+     ],
+     "euler": [
+      0.0,
+      323.71,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64696919880513765,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_4/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      -4.68785,
+      0.317,
+      2.63707
+     ],
+     "rot": [
+      0.0,
+      -0.311423,
+      0.0,
+      0.950271
+     ],
+     "euler": [
+      0.0,
+      323.71,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64545683990359770,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_5/Sawblade",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -3.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64105912343260855,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_5/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      0.41,
+      0.317,
+      -3.16364
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64260713349338959,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_6/Sawblade",
+    "world": {
+     "pos": [
+      0.324,
+      0.378,
+      -4.31064
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64413603344295461,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_22/Traps/FierySawTrap_6/Sawblade/FlameCollider",
+    "world": {
+     "pos": [
+      0.324,
+      0.378,
+      -4.31064
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64458735412797113,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/Sawblade.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Cube.002.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Cube.003.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_22",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114806657225351454,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_22/Traps/FierySawTrap_1#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_2#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_3#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_4#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_5#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_6#FierySawTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_22/Traps/FierySawTrap_4#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_2#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_3#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_1#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_5#FierySawTrap",
+         "Level_22/Traps/FierySawTrap_6#FierySawTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_22/MysteryBoxPositions/Position_1",
+        "Level_22/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null,
+       null
+      ],
+      "pipeParents": [
+       "Level_22/PipePoint",
+       "Level_22/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_22/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.5,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041287186795109,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23290791091168379,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65996317296757491,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.5,
+     0.0,
+     7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     12.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.5,
+     0.0,
+     7.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     12.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33083485975560739,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23543023241981873,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65616352195932608,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33754026925822528,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23020314340478216,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65691570808825369,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Boundaries/Cube_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.54,
+     0.0,
+     1.83
+    ],
+    "rot": [
+     0.0,
+     -0.364675,
+     0.0,
+     0.931135
+    ],
+    "euler": [
+     0.0,
+     317.2249,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     15.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.54,
+     0.0,
+     1.83
+    ],
+    "rot": [
+     0.0,
+     -0.364675,
+     0.0,
+     0.931135
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     15.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33502609866597578,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23365773988297632,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65975779338151784,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Directions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/Directions/Collider_1",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.16,
+     0.0,
+     2.41
+    ],
+    "rot": [
+     0.0,
+     0.951798,
+     0.0,
+     0.306725
+    ],
+    "euler": [
+     0.0,
+     144.276,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.16,
+     0.0,
+     2.41
+    ],
+    "rot": [
+     0.0,
+     0.951798,
+     0.0,
+     0.306725
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136891995844532801,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.27216,
+      0.0,
+      -1.68468
+     ],
+     "radius": 1.8087683,
+     "height": 10.401101,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Directions/Collider_2",
+   "tag": "EnemyDirection",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.66,
+     0.0,
+     -3.33
+    ],
+    "rot": [
+     0.0,
+     0.999963,
+     0.0,
+     0.008625
+    ],
+    "euler": [
+     0.0,
+     179.0116,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.66,
+     0.0,
+     -3.33
+    ],
+    "rot": [
+     0.0,
+     0.999963,
+     0.0,
+     0.008625
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136450063812975771,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.27217,
+      0.0,
+      0.0
+     ],
+     "radius": 0.7956931,
+     "height": 13.852053,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_22/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.079,
+     0.2,
+     1.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.079,
+     0.2,
+     1.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.0,
+     -9.51
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.14,
+     0.0,
+     -9.51
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65096597530611644,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65085275382694935,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Ground_1",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.87,
+     -0.321,
+     3.13
+    ],
+    "rot": [
+     0.0,
+     -0.336593,
+     0.0,
+     0.94165
+    ],
+    "euler": [
+     0.0,
+     320.6611,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.87,
+     -0.321,
+     3.13
+    ],
+    "rot": [
+     0.0,
+     -0.336593,
+     0.0,
+     0.94165
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65194081240383615,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      -0.29077,
+      -7.5,
+      -2.57321
+     ],
+     "size": [
+      2.61845,
+      17.0,
+      8.42854
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_22/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.27,
+     0.54,
+     -0.13
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.27,
+     0.54,
+     -0.13
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.67,
+     0.54,
+     0.96
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -3.67,
+     0.54,
+     0.96
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.7,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     -0.041246,
+     0.0,
+     0.999149
+    ],
+    "euler": [
+     0.0,
+     355.2723,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.7,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     -0.041246,
+     0.0,
+     0.999149
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -6.193,
+     0.878,
+     4.517
+    ],
+    "rot": [
+     0.0,
+     -0.298439,
+     0.0,
+     0.954429
+    ],
+    "euler": [
+     0.0,
+     325.2723,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -6.193,
+     0.878,
+     4.517
+    ],
+    "rot": [
+     0.0,
+     -0.298439,
+     0.0,
+     0.954429
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -2.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -2.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114123703392571528,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_1/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_1/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -2.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33232094423628703,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23592460329389196,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33167524263268962,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23641631609468814,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54533803739292891,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64601984538237284,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114785330607447594,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_1/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114007513189690300,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_1/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64187454977326620,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198969505138979683
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199190181876552715
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198611579644537198
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199328299215684997
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198617365563186364
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199998874197659892
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198132862189046193
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199295428814336086
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198561126880652180
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199275549183895104
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -2.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198386943702330414
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199066778049879928
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.311,
+     -2.16
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212492842699383957,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114150646884989824,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_1/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -4.12,
+     0.308,
+     1.92
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.12,
+     0.308,
+     1.92
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114570723408815475,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_2/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_2/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.12,
+     0.308,
+     1.92
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33955215445487071,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23738892719839630,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.11818,
+     0.317,
+     1.91685
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33358105479016104,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291632710222552,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54433013960508438,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64649986673806370,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114168105826085154,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_2/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114038333544927157,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_2/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.11818,
+     0.317,
+     1.91685
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64689010887986514,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.5945,
+     0.317,
+     1.64185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198168775426067361
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199896002537488308
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.5945,
+     0.317,
+     1.64185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198708180620337799
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199589652054545887
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.5945,
+     0.317,
+     1.64185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198017892387517381
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199709890794832471
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.64187,
+     0.317,
+     2.19185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198817325062191328
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199831874417830518
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.64187,
+     0.317,
+     2.19185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198948132087033897
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199320592835458227
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.64187,
+     0.317,
+     2.19185
+    ],
+    "rot": [
+     -0.683013,
+     -0.183012,
+     -0.183012,
+     0.683013
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198294885792020211
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199271925019662038
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.12,
+     0.311,
+     1.92
+    ],
+    "rot": [
+     -0.683012,
+     -0.183013,
+     -0.183012,
+     0.683014
+    ],
+    "euler": [
+     270.0,
+     330.0001,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212056248600188076,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114992816746925483,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_2/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114056905764334025,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_3/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_3/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -1.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33446691751160785,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23904079258986964,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33156371104904051,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23083739296819378,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54095816830470745,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64181586030114204,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114321827775029018,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_3/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114012617856089587,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_3/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64201141531394087,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198258471659221418
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199477794280538272
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198784622213810434
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199132299442727904
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198995682140751655
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199293198502218400
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198066338149260220
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199407886329842316
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198195931274935818
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199197515695889172
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -1.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198016852445014956
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199932862749439555
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.311,
+     -1.16
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212887312969816373,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114024252914577434,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_3/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -4.69,
+     0.308,
+     2.64
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "euler": [
+     0.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -4.69,
+     0.308,
+     2.64
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114845025230388998,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_4/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_4/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.69,
+     0.308,
+     2.64
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "euler": [
+     0.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33960577952585462,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23415925016355036,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.68785,
+     0.317,
+     2.63707
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "euler": [
+     0.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33353891062718048,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23719897623072781,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54689224686120706,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64696919880513765,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114965908813272002,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_4/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114429401810989285,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_4/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.68785,
+     0.317,
+     2.63707
+    ],
+    "rot": [
+     0.0,
+     -0.311423,
+     0.0,
+     0.950271
+    ],
+    "euler": [
+     0.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64545683990359770,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.13116,
+     0.317,
+     2.31154
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198007271993718322
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199133854062310043
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.13116,
+     0.317,
+     2.31154
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198641204913154593
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199521597976012101
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.13116,
+     0.317,
+     2.31154
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198729821067651183
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199041320612064254
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.24453,
+     0.317,
+     2.9626
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198329075794784248
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199422702022971346
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.24453,
+     0.317,
+     2.9626
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198208269818966246
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199401429660297866
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.24453,
+     0.317,
+     2.9626
+    ],
+    "rot": [
+     -0.671943,
+     -0.220209,
+     -0.220209,
+     0.671943
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198119337346424409
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199562080017223558
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.69,
+     0.311,
+     2.64
+    ],
+    "rot": [
+     -0.671942,
+     -0.22021,
+     -0.220209,
+     0.671944
+    ],
+    "euler": [
+     270.0,
+     323.71,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212657558218238974,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114484755779879834,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_4/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -3.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.41,
+     0.308,
+     -3.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114729442808604298,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_5/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_5/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.308,
+     -3.16
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33559203567323380,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23580109562975512,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33838352681112328,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23993076962757715,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54911451331743778,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64105912343260855,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114350143044813081,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_5/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114952854571839949,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_5/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64260713349338959,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198681721672847880
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199964675957374274
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198934287144746640
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199616761771223058
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.14,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198016782227057731
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199126508818681447
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198505682267929073
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199291547872775986
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198463579974499585
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199387228018655110
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.96,
+     0.317,
+     -3.16364
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198632179142322292
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199036828218548272
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_5/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.41,
+     0.311,
+     -3.16
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212094283985748868,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114878983242975409,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_5/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.324,
+     0.369,
+     -4.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.324,
+     0.369,
+     -4.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.FierySawTrap",
+     "fileID": 114364392939154294,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_22/Traps/FierySawTrap_6/Sawblade#MovingObject",
+      "fieryEffects": [
+       "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail/GlowTrail#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1#ParticleSystem",
+       "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1/GlowTrail#ParticleSystem"
+      ],
+      "fieryCollider": "Level_22/Traps/FierySawTrap_6/Sawblade/FlameCollider#MeshCollider"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.324,
+     0.369,
+     -4.307
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.148,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33041608817324026,
+     "mesh": {
+      "asset": "App/Art/Models/LevelDesign/Volcano/FierySawbladeRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370485308309611,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.324,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33344618938641724,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085134620244786,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade_Fiery.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54044586276341600,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64413603344295461,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114825818419884204,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_22/Traps/FierySawTrap_6/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114403529848822963,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 475,
+      "rb": "Level_22/Traps/FierySawTrap_6/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/FlameCollider",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.324,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.5,
+     1.5,
+     1.5
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshCollider",
+     "fileID": 64458735412797113,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.226,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198951712121405908
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199851449666512103
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.226,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198543584136297381
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199544837802452058
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.226,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198246887588868771
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199510800835404288
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.874,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.55,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198952320105404285
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199329446674688094
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1/GlowTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.874,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198869737159367836
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199071519224935516
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Sawblade/SoftFireTrail_1/SparkTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.874,
+     0.378,
+     -4.31064
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198222568209840903
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199519819979147140
+    }
+   ]
+  },
+  {
+   "path": "Level_22/Traps/FierySawTrap_6/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.324,
+     0.372,
+     -4.307
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212500050402096248,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114382656168358062,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_22/Traps/FierySawTrap_6/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/VolcanoBackground/Lava",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.7,
+     -0.05,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.7,
+     -0.66,
+     1.1
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33817105377731967,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23077469347768860,
+     "materials": [
+      {
+       "asset": "Material/StylisedLava2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64232720755092366,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     3.1,
+     -1.5,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114384784573714692,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 12
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198962713294667487
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199239265225482239
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198494345407022765
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199743905223825669
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198391225667286877
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199517377532936435
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198578880696632637
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199102543447223915
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.322,
+     -0.89,
+     -1.984
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198081524457781149
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199134286944189183
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.1,
+     -0.89,
+     -1.25
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198232415838589296
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199249237965167194
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.98,
+     -1.5,
+     7.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LavaParticleGenerator",
+     "fileID": 114337165658744233,
+     "enabled": 1,
+     "fields": {
+      "range": {
+       "x": 2,
+       "y": 0.5,
+       "z": 4
+      },
+      "emitParticles": 1,
+      "particleSystem": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx#ParticleSystem"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198033903555039309
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199731059169969419
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198663898806329775
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199428560594236482
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/InnerSplash",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198081920422494107
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199760480127920944
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198548862692844868
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199566389953100910
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Liquid/LiquidTrail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.758,
+     -0.89,
+     6.506
+    ],
+    "rot": [
+     -1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     180.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.555,
+     0.0,
+     1.835
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198504506843557392
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199171308771648913
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/LavaParticleGenerator_1/ParentFx/LiquidExplosionLavaBig/Smoke",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.98,
+     -0.89,
+     7.24
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198985908891298522
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199023566878023198
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/Volcano_Road_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.13,
+     0.03,
+     -1.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.13,
+     -0.58,
+     -1.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_22/VolcanoBackground/Volcano_Road_2/Cube.002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -7.015,
+     0.03,
+     5.661
+    ],
+    "rot": [
+     0.0,
+     -0.401009,
+     0.0,
+     0.916074
+    ],
+    "euler": [
+     0.0,
+     312.7174,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     -8.1,
+     0.0,
+     8.66
+    ],
+    "rot": [
+     0.0,
+     -0.401009,
+     0.0,
+     0.916074
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33405989028062321,
+     "mesh": {
+      "asset": "Mesh/Cube.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23202048797312955,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_22/VolcanoBackground/Volcano_Road_2/Cube.003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.13,
+     0.03,
+     -1.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33370081907136253,
+     "mesh": {
+      "asset": "Mesh/Cube.003.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23751888446361502,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground 10.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

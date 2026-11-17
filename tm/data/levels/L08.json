@@ -1,0 +1,4639 @@
+{
+ "level": 8,
+ "sources": {
+  "asset": "Resources/levels/Level_8.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_8.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "HammerTrap"
+ ],
+ "trapCount": 6,
+ "config_effective": {
+  "targetMoney": 100000.0,
+  "goldReward": 25.0,
+  "bricksReward": 0,
+  "TrapOffset": 6,
+  "EnemiesOffset": 10,
+  "SpeedOffset": 6,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "goals": [
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.02,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.03,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 10,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[8] over asset",
+  "blobRewardsOfGoals": [
+   2000,
+   4000,
+   3000,
+   4000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 3000000.0,
+  "goldReward": 500.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 2,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 2,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 0,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_8.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "69b42e84393930f45832d6514a1558f5",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 10,
+    "param1": 0,
+    "goalType": 6,
+    "blobRewardPercentage": 0.02,
+    "goldReward": 0,
+    "goalName": "AbilityUses"
+   },
+   {
+    "target": 3,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.03,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 7500,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.04,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 10,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_8#LevelView",
+  "trapViews": [
+   "Level_8/Traps/HammerTrap_1#HammerTrap",
+   "Level_8/Traps/HammerTrap_2#HammerTrap",
+   "Level_8/Traps/HammerTrap_3#HammerTrap",
+   "Level_8/Traps/HammerTrap_3#HammerTrap",
+   "Level_8/Traps/HammerTrap_4#HammerTrap",
+   "Level_8/Traps/HammerTrap_5#HammerTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_8/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.69,
+      0.54,
+      0.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.69,
+      0.54,
+      0.12
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_8/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.75,
+      0.54,
+      -4.03
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.75,
+      0.54,
+      -4.03
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_8/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      0.0,
+      0.54,
+      -3.99
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.54,
+      -3.99
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_8/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_8/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.17,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.17,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_8/Traps/HammerTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.85,
+     0.48,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.85,
+     0.48,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_8/Traps/HammerTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.825,
+     0.48,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.825,
+     0.48,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_8/Traps/HammerTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_8/Traps/HammerTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     -1.825,
+     0.48,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.825,
+     0.48,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_8/Traps/HammerTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "index": 5,
+   "path": "Level_8/Traps/HammerTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 15,
+    "maxTime": 0,
+    "components": {
+     "animator": "Level_8/Traps/HammerTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.25,
+     "speedPerLevel": 0.1,
+     "timeOffsetBetweenTraps": 0.02,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 0
+    },
+    "audioClip": {
+     "asset": "AudioClip/Hammer.wav",
+     "fileID": 8300000
+    }
+   },
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_8/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65592664909728774,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_8/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65833703512093738,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_8/Traps/HammerTrap_1/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      -1.246,
+      2.1704,
+      -3.17
+     ],
+     "rot": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ],
+     "euler": [
+      0.0,
+      180.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135581786255902400,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   },
+   {
+    "path": "Level_8/Traps/HammerTrap_2/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      -1.221,
+      2.1704,
+      -1.92
+     ],
+     "rot": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ],
+     "euler": [
+      0.0,
+      180.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135630643969539439,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   },
+   {
+    "path": "Level_8/Traps/HammerTrap_3/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      1.246,
+      2.1704,
+      -2.92
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135699617135816954,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   },
+   {
+    "path": "Level_8/Traps/HammerTrap_3/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      -1.221,
+      2.1704,
+      -0.67
+     ],
+     "rot": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+     ],
+     "euler": [
+      0.0,
+      180.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135880619614767448,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   },
+   {
+    "path": "Level_8/Traps/HammerTrap_4/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      1.246,
+      2.1704,
+      -1.67
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135132862189046193,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   },
+   {
+    "path": "Level_8/Traps/HammerTrap_5/hammer middle/Hitbox",
+    "world": {
+     "pos": [
+      1.246,
+      2.1704,
+      -0.42
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      0.96968,
+      0.96968,
+      0.96968
+     ]
+    },
+    "colliders": [
+     {
+      "type": "SphereCollider",
+      "fileID": 135992816746925483,
+      "isTrigger": 1,
+      "enabled": 0,
+      "center": [
+       0.0,
+       -0.15307,
+       0.0
+      ],
+      "radius": 0.75306726
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10208
+  },
+  {
+   "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ground.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_8",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114291844617409189,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_8/Traps/HammerTrap_1#HammerTrap",
+         "Level_8/Traps/HammerTrap_2#HammerTrap",
+         "Level_8/Traps/HammerTrap_3#HammerTrap",
+         "Level_8/Traps/HammerTrap_3#HammerTrap",
+         "Level_8/Traps/HammerTrap_4#HammerTrap",
+         "Level_8/Traps/HammerTrap_5#HammerTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_8/MysteryBoxPositions/Position_1",
+        "Level_8/MysteryBoxPositions/Position_2",
+        "Level_8/MysteryBoxPositions/Position_3"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_8/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_8/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33092105871539913,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23708180620337799,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65589652054545887,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.2,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33817325062191328,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23831874417830518,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65177930474251431,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.2,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33271925019662038,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23499517081926786,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65948132087033897,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_8/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.17,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.17,
+     0.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65592664909728774,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33919942235722503,
+     "mesh": {
+      "asset": "Mesh/Ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23107629493147155,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65833703512093738,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_8/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.69,
+     0.54,
+     0.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.69,
+     0.54,
+     0.12
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.75,
+     0.54,
+     -4.03
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.75,
+     0.54,
+     -4.03
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.54,
+     -3.99
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.54,
+     -3.99
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.85,
+     0.48,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.85,
+     0.48,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95726790013014859,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114436073260064126,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.94664,
+     0.30088,
+     -3.3804
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33924050743934937,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23215879266689626,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.94664,
+     0.30088,
+     -2.9804
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33043919389829319,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23743393880019028,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.57,
+     0.3048,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     -0.707107,
+     0.0
+    ],
+    "euler": [
+     90.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212045458335737618,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.85,
+     0.88,
+     -3.17
+    ],
+    "rot": [
+     -0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33801075752484240,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23000955326284023,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64397768327470545,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_1/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.246,
+     2.1704,
+     -3.17
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135581786255902400,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.825,
+     0.48,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.825,
+     0.48,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95026196548002408,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114572839542275309,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.92164,
+     0.30088,
+     -2.1304
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33393105877652414,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23799762105739359,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.92164,
+     0.30088,
+     -1.7304
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33574190619683098,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23552309709192268,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.545,
+     0.3048,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     -0.707107,
+     0.0
+    ],
+    "euler": [
+     90.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212574304967836189,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.825,
+     0.88,
+     -1.92
+    ],
+    "rot": [
+     -0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33384403120170545,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23149520701623706,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64292246286975720,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_2/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.221,
+     2.1704,
+     -1.92
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135630643969539439,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95534704304255049,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114651560128206891,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.825,
+     0.48,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.825,
+     0.48,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95194081240383615,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114354824845356902,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -2.7096
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33703931505913403,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23121005239445321,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.92164,
+     0.30088,
+     -0.8804
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33601984538237284,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23785330607447594,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -3.1096
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704330047573733,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085275382694935,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.92164,
+     0.30088,
+     -0.4804
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33690175861776792,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23969505138979683,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.57,
+     0.3048,
+     -2.92
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212499726237547504,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.545,
+     0.3048,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     -0.707107,
+     0.0
+    ],
+    "euler": [
+     90.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212641631609468814,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.88,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33208575754630950,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23431740505123533,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64356319167443197,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.825,
+     0.88,
+     -0.67
+    ],
+    "rot": [
+     -0.707107,
+     0.707107,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33123703392571528,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23855482821919830,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64492842699383957,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.246,
+     2.1704,
+     -2.92
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135699617135816954,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_3/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.221,
+     2.1704,
+     -0.67
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135880619614767448,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95240571728440943,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114617365563186364,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -1.4596
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33066778049879928,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23824317463469755,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -1.8596
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33275549183895104,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23528911807818478,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.57,
+     0.3048,
+     -1.67
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212450391854282655,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.88,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33408345039935966,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23611579644537198,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64328299215684997,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_4/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.246,
+     2.1704,
+     -1.67
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135132862189046193,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.48,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     1.85,
+     0.48,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "components": [
+    {
+     "type": "Animator",
+     "fileID": 95091882994760266,
+     "controller": {
+      "asset": "AnimatorController/Obstacle-5_0.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.HammerTrap",
+     "fileID": 114232094423628703,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 15,
+      "maxTime": 0,
+      "components": {
+       "animator": "Level_8/Traps/HammerTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.25,
+       "speedPerLevel": 0.1,
+       "timeOffsetBetweenTraps": 0.02,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 0
+      },
+      "audioClip": {
+       "asset": "AudioClip/Hammer.wav",
+       "fileID": 8300000
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5/Capsule",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -0.2096
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     0.263
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33433013960508438,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23649986673806370,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5/Capsule_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.94664,
+     0.30088,
+     -0.6096
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.69873,
+     0.83547,
+     0.4356
+    ]
+   },
+   "local": {
+    "pos": [
+     0.1208,
+     -0.2239,
+     -0.237
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87341,
+     1.04433,
+     0.5445
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33038333544927157,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10208
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23146109142143575,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5/Circle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.57,
+     0.3048,
+     -0.42
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     90.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.32,
+     0.32,
+     0.32
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.6,
+     -0.219,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212358105479016104,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7264151,
+      "g": 0,
+      "b": 0,
+      "a": 0
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5/hammer middle",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.85,
+     0.88,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     270.0
+    ],
+    "lossyScale": [
+     0.8,
+     0.8,
+     0.8
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     -0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33771092198208730,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23570723408815475,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color5.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color6.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64011164340880974,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "AssetStore/3D/Mega Hyper Casual Obstacles Pack/FBX/hammer middle.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_8/Traps/HammerTrap_5/hammer middle/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.246,
+     2.1704,
+     -0.42
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.96968,
+     0.96968,
+     0.96968
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.613,
+     -0.755,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.707107,
+     0.707107
+    ],
+    "scale": [
+     1.2121,
+     1.2121,
+     1.2121
+    ]
+   },
+   "components": [
+    {
+     "type": "SphereCollider",
+     "fileID": 135992816746925483,
+     "isTrigger": 1,
+     "enabled": 0,
+     "center": [
+      0.0,
+      -0.15307,
+      0.0
+     ],
+     "radius": 0.75306726
+    }
+   ]
+  }
+ ]
+}

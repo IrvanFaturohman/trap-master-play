@@ -1,0 +1,2866 @@
+{
+ "level": 1,
+ "sources": {
+  "asset": "Resources/levels/Level_1.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_1.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "SawBladeTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 5000.0,
+  "goldReward": 10.0,
+  "bricksReward": 0,
+  "TrapOffset": 0,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 0,
+  "MaxTrapRV": 0,
+  "TrapStartLevel": 0,
+  "goals": [],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[1] over asset",
+  "blobRewardsOfGoals": []
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 10000.0,
+  "goldReward": 10.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 0,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 0,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_1.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "0e784e261046a4145a939628b3e28841",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_1#LevelView",
+  "trapViews": [
+   "Level_1/Traps/SawTrap_1#SawBladeTrap",
+   "Level_1/Traps/SawTrap_2#SawBladeTrap",
+   "Level_1/Traps/SawTrap_3#SawBladeTrap",
+   "Level_1/Traps/SawTrap_4#SawBladeTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_1/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.99,
+      0.54,
+      0.35
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.99,
+      0.54,
+      0.35
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_1/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      1.02,
+      0.54,
+      -1.26
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      1.02,
+      0.54,
+      -1.26
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_1/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_1/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_1/Traps/SawTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_1/Traps/SawTrap_1/Sawblade#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -3.358
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -3.358
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_1/Traps/SawTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_1/Traps/SawTrap_2/Sawblade#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -2.608
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -2.608
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_1/Traps/SawTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_1/Traps/SawTrap_3/Sawblade#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.858
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.858
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_1/Traps/SawTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+   "activeSelf": 0,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "sawBlade": "Level_1/Traps/SawTrap_4/Sawblade#MovingObject"
+   },
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.108
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.108
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_1/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65499726237547504,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_1/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65320256170494724,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_1/Traps/SawTrap_1/Sawblade",
+    "world": {
+     "pos": [
+      0.0,
+      0.264,
+      -3.36164
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64220653531496868,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_1/Traps/SawTrap_2/Sawblade",
+    "world": {
+     "pos": [
+      0.0,
+      0.264,
+      -2.61164
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64397768327470545,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_1/Traps/SawTrap_3/Sawblade",
+    "world": {
+     "pos": [
+      0.0,
+      0.264,
+      -1.86164
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64384403120170545,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   },
+   {
+    "path": "Level_1/Traps/SawTrap_4/Sawblade",
+    "world": {
+     "pos": [
+      0.0,
+      0.264,
+      -1.11164
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "MeshCollider",
+      "fileID": 64651560128206891,
+      "isTrigger": 1,
+      "enabled": 1,
+      "convex": 1,
+      "mesh": {
+       "asset": "App/Art/Models/Sawblade.asset",
+       "fileID": 4300000
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "App/Art/Models/Saw.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/SawRail.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "App/Art/Models/Sawblade.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ground.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114946936116752871,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_1/Traps/SawTrap_1#SawBladeTrap",
+         "Level_1/Traps/SawTrap_2#SawBladeTrap",
+         "Level_1/Traps/SawTrap_3#SawBladeTrap",
+         "Level_1/Traps/SawTrap_4#SawBladeTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_1/MysteryBoxPositions/Position_1",
+        "Level_1/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_1/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_1/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/Boundaries/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33121005239445321,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23806657225351454,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65704330047573733,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Boundaries/Collider_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33231814100211528,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23194081240383615,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65354824845356902,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Boundaries/Collider_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33123703392571528,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23855482821919830,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65492842699383957,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_1/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65499726237547504,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33371939378208658,
+     "mesh": {
+      "asset": "Mesh/Ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23694121525821480,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65320256170494724,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_1/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.99,
+     0.54,
+     0.35
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.99,
+     0.54,
+     0.35
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.02,
+     0.54,
+     -1.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.02,
+     0.54,
+     -1.26
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -3.358
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -3.358
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+     "fileID": 114217368724061974,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_1/Traps/SawTrap_1/Sawblade#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_1/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -3.358
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33344419225485095,
+     "mesh": {
+      "asset": "App/Art/Models/SawRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23919942235722503,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_1/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.264,
+     -3.36164
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33900271049623953,
+     "mesh": {
+      "asset": "App/Art/Models/Saw.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23472185465350827,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54518489005915545,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64220653531496868,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114841364053301648,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_1/Traps/SawTrap_1/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114967328832014496,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 500,
+      "rb": "Level_1/Traps/SawTrap_1/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.258,
+     -3.358
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212672306508523268,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114808113985169905,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_1/Traps/SawTrap_1/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -2.608
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -2.608
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+     "fileID": 114833703512093738,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_1/Traps/SawTrap_2/Sawblade#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_2/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -2.608
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33045458335737618,
+     "mesh": {
+      "asset": "App/Art/Models/SawRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23722951815217645,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_2/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.264,
+     -2.61164
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33693329660128220,
+     "mesh": {
+      "asset": "App/Art/Models/Saw.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23801075752484240,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54000955326284023,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64397768327470545,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114571718729274231,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_1/Traps/SawTrap_2/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114581786255902400,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 500,
+      "rb": "Level_1/Traps/SawTrap_2/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.258,
+     -2.608
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212719342369648492,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114726790013014859,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_1/Traps/SawTrap_2/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.858
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.858
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+     "fileID": 114215879266689626,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_1/Traps/SawTrap_3/Sawblade#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_3/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.858
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33630643969539439,
+     "mesh": {
+      "asset": "App/Art/Models/SawRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370222726513266,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_3/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.264,
+     -1.86164
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33026196548002408,
+     "mesh": {
+      "asset": "App/Art/Models/Saw.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23572839542275309,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54279359913592680,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64384403120170545,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114149520701623706,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_1/Traps/SawTrap_3/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114292246286975720,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 500,
+      "rb": "Level_1/Traps/SawTrap_3/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.258,
+     -1.858
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212043919389829319,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114743393880019028,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_1/Traps/SawTrap_3/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.108
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.108
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.SawBladeTrap",
+     "fileID": 114009931292380359,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "sawBlade": "Level_1/Traps/SawTrap_4/Sawblade#MovingObject"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_4/SawRail",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.255,
+     -1.108
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.87731,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33356319167443197,
+     "mesh": {
+      "asset": "App/Art/Models/SawRail.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23976365255789935,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_4/Sawblade",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.264,
+     -1.11164
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.009,
+     -0.00364
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33552309709192268,
+     "mesh": {
+      "asset": "App/Art/Models/Saw.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23571878917323452,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Sawblade.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "Rigidbody",
+     "fileID": 54534704304255049,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64651560128206891,
+     "isTrigger": 1,
+     "enabled": 1,
+     "convex": 1,
+     "mesh": {
+      "asset": "App/Art/Models/Sawblade.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MovingObject",
+     "fileID": 114964469411310401,
+     "enabled": 1,
+     "fields": {
+      "rb": "Level_1/Traps/SawTrap_4/Sawblade#Rigidbody",
+      "moveRange": 0.7,
+      "moveTime": 3,
+      "startInvert": 0,
+      "moveOnCurve": 0,
+      "pathSystem": null
+     }
+    },
+    {
+     "type": "AutoRotateRigidbody",
+     "fileID": 114208575754630950,
+     "enabled": 1,
+     "fields": {
+      "rotationAxis": {
+       "x": 0,
+       "y": 0,
+       "z": 1
+      },
+      "rotationSpeed": 500,
+      "rb": "Level_1/Traps/SawTrap_4/Sawblade#Rigidbody"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_1/Traps/SawTrap_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.258,
+     -1.108
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.003,
+     0.0
+    ],
+    "rot": [
+     -0.707106,
+     0.0,
+     0.0,
+     0.707108
+    ],
+    "scale": [
+     0.23784,
+     0.04652,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212799762105739359,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0.8862745
+     }
+    },
+    {
+     "type": "FollowObject",
+     "fileID": 114829625606037309,
+     "enabled": 1,
+     "fields": {
+      "target": "Level_1/Traps/SawTrap_4/Sawblade",
+      "offset": {
+       "x": 0,
+       "y": -0.006000012,
+       "z": 0
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

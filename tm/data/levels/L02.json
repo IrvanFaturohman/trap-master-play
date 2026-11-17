@@ -1,0 +1,3274 @@
+{
+ "level": 2,
+ "sources": {
+  "asset": "Resources/levels/Level_2.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_2.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "The Cleanpath",
+ "trapClass": [
+  "RotatingSpikeTrap"
+ ],
+ "trapCount": 4,
+ "config_effective": {
+  "targetMoney": 25000.0,
+  "goldReward": 10.0,
+  "bricksReward": 0,
+  "TrapOffset": 0,
+  "EnemiesOffset": 1,
+  "SpeedOffset": 1,
+  "MaxTrapRV": 0,
+  "TrapStartLevel": 0,
+  "goals": [],
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[2] over asset",
+  "blobRewardsOfGoals": []
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_1.asset",
+  "targetMoney": 50000.0,
+  "goldReward": 10.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 0,
+   "epicPacks": 0,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_1.png",
+  "backgroundFogColor": {
+   "r": 0.161,
+   "g": 0.757,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 1,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 0,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 0,
+  "levelVanityPrefab": "GameObject/Level_Vanity_2.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "6cb53fd10aea6a84fb2456fd561aabb6",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_2#LevelView",
+  "trapViews": [
+   "Level_2/Traps/RotatingSpike_1#RotatingSpikeTrap",
+   "Level_2/Traps/RotatingSpike_2#RotatingSpikeTrap",
+   "Level_2/Traps/RotatingSpike_3#RotatingSpikeTrap",
+   "Level_2/Traps/RotatingSpike_4#RotatingSpikeTrap"
+  ],
+  "overrideSyncOrder": 0,
+  "trapSyncList": [],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_2/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      -0.83,
+      0.54,
+      0.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -0.83,
+      0.54,
+      0.09
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_2/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.92,
+      0.54,
+      -1.89
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.92,
+      0.54,
+      -1.89
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_2/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_2/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_2/Traps/RotatingSpike_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "settings": {
+     "rigidBody": "Level_2/Traps/RotatingSpike_1/Sticks#Rigidbody",
+     "direction": -1,
+     "baseRotationSpeed": 0.75
+    }
+   },
+   "world": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_2/Traps/RotatingSpike_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "settings": {
+     "rigidBody": "Level_2/Traps/RotatingSpike_2/Sticks#Rigidbody",
+     "direction": 1,
+     "baseRotationSpeed": 0.75
+    }
+   },
+   "world": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_2/Traps/RotatingSpike_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "settings": {
+     "rigidBody": "Level_2/Traps/RotatingSpike_3/Sticks#Rigidbody",
+     "direction": -1,
+     "baseRotationSpeed": 0.75
+    }
+   },
+   "world": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_2/Traps/RotatingSpike_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "settings": {
+     "rigidBody": "Level_2/Traps/RotatingSpike_4/Sticks#Rigidbody",
+     "direction": 1,
+     "baseRotationSpeed": 0.75
+    }
+   },
+   "world": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_2/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65855482821919830,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_2/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.0
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.15,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65900271049623953,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_2/Traps/RotatingSpike_1/Sticks",
+    "world": {
+     "pos": [
+      -1.35,
+      0.246,
+      -2.28
+     ],
+     "rot": [
+      0.0,
+      -0.608761,
+      0.0,
+      0.793353
+     ],
+     "euler": [
+      0.0,
+      285.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136632746491512912,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.3,
+       0.68596
+      ],
+      "radius": 0.125,
+      "height": 1.4280846,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_2/Traps/RotatingSpike_2/Sticks",
+    "world": {
+     "pos": [
+      1.4,
+      0.246,
+      -0.54
+     ],
+     "rot": [
+      0.0,
+      -0.707107,
+      0.0,
+      0.707107
+     ],
+     "euler": [
+      0.0,
+      270.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136043919389829319,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.3,
+       0.68596
+      ],
+      "radius": 0.125,
+      "height": 1.4280846,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_2/Traps/RotatingSpike_3/Sticks",
+    "world": {
+     "pos": [
+      -1.25,
+      0.246,
+      -4.57
+     ],
+     "rot": [
+      0.0,
+      -0.130526,
+      0.0,
+      0.991445
+     ],
+     "euler": [
+      0.0,
+      345.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136829625606037309,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.3,
+       0.68596
+      ],
+      "radius": 0.125,
+      "height": 1.4280846,
+      "direction": 2
+     }
+    ]
+   },
+   {
+    "path": "Level_2/Traps/RotatingSpike_4/Sticks",
+    "world": {
+     "pos": [
+      1.3,
+      0.246,
+      -3.63
+     ],
+     "rot": [
+      0.0,
+      -0.258819,
+      0.0,
+      0.965926
+     ],
+     "euler": [
+      0.0,
+      330.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136121005239445321,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.3,
+       0.68596
+      ],
+      "radius": 0.125,
+      "height": 1.4280846,
+      "direction": 2
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.000.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Ground.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114017697238300914,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_2/Traps/RotatingSpike_1#RotatingSpikeTrap",
+         "Level_2/Traps/RotatingSpike_2#RotatingSpikeTrap",
+         "Level_2/Traps/RotatingSpike_3#RotatingSpikeTrap",
+         "Level_2/Traps/RotatingSpike_4#RotatingSpikeTrap"
+        ],
+        "overrideSyncOrder": 0,
+        "trapSyncList": []
+       },
+       "mysteryBoxPositions": [
+        "Level_2/MysteryBoxPositions/Position_1",
+        "Level_2/MysteryBoxPositions/Position_2"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_2/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_2/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/Boundaries/Collider_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33880619614767448,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23167524263268962,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65641631609468814,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Boundaries/Collider_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33601984538237284,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23785330607447594,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65007513189690300,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Boundaries/Collider_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33969505138979683,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23190181876552715,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65240571728440943,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_2/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.33
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65855482821919830,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.15,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.15,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33808113985169905,
+     "mesh": {
+      "asset": "Mesh/Ground.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23060945828524476,
+     "materials": [
+      {
+       "asset": "App/Art/Materials/Ground.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65900271049623953,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_2/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.83,
+     0.54,
+     0.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.83,
+     0.54,
+     0.09
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.92,
+     0.54,
+     -1.89
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.92,
+     0.54,
+     -1.89
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+     "fileID": 114220653531496868,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "settings": {
+       "rigidBody": "Level_2/Traps/RotatingSpike_1/Sticks#Rigidbody",
+       "direction": -1,
+       "baseRotationSpeed": 0.75
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1/Obstacle-1.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33967328832014496,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23291844617409189,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.35,
+     0.254,
+     -2.28
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212919942235722503,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7735849,
+      "g": 0,
+      "b": 0,
+      "a": 0.70980394
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1/Sticks",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.35,
+     0.246,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.608761,
+     0.0,
+     0.793353
+    ],
+    "euler": [
+     0.0,
+     285.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.130526,
+     0.0,
+     0.991445
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Rigidbody",
+     "fileID": 54833703512093738,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136632746491512912,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.3,
+      0.68596
+     ],
+     "radius": 0.125,
+     "height": 1.4280846,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1/Sticks/Stick_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.35,
+     0.5575,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     -0.608761,
+     0.0,
+     0.793353
+    ],
+    "euler": [
+     0.0,
+     285.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33726790013014859,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23436073260064126,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_1/Sticks/Stick_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.35,
+     0.5575,
+     -2.28
+    ],
+    "rot": [
+     0.0,
+     0.793353,
+     0.0,
+     0.608761
+    ],
+    "euler": [
+     0.0,
+     105.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33801075752484240,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23000955326284023,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+     "fileID": 114571718729274231,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "settings": {
+       "rigidBody": "Level_2/Traps/RotatingSpike_2/Sticks#Rigidbody",
+       "direction": 1,
+       "baseRotationSpeed": 0.75
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2/Obstacle-1.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33477046003934300,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23045458335737618,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4,
+     0.254,
+     -0.54
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212924050743934937,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7735849,
+      "g": 0,
+      "b": 0,
+      "a": 0.70980394
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2/Sticks",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4,
+     0.246,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Rigidbody",
+     "fileID": 54689364072382846,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136043919389829319,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.3,
+      0.68596
+     ],
+     "radius": 0.125,
+     "height": 1.4280846,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2/Sticks/Stick_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.4,
+     0.5575,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33094320201520353,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23026196548002408,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_2/Sticks/Stick_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.4,
+     0.5575,
+     -0.54
+    ],
+    "rot": [
+     0.0,
+     0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     90.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33279359913592680,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23384403120170545,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+     "fileID": 114292246286975720,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "settings": {
+       "rigidBody": "Level_2/Traps/RotatingSpike_3/Sticks#Rigidbody",
+       "direction": -1,
+       "baseRotationSpeed": 0.75
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3/Obstacle-1.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33630643969539439,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23370222726513266,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.25,
+     0.254,
+     -4.57
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212009931292380359,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7735849,
+      "g": 0,
+      "b": 0,
+      "a": 0.70980394
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3/Sticks",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.25,
+     0.246,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.130526,
+     0.0,
+     0.991445
+    ],
+    "euler": [
+     0.0,
+     345.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.608761,
+     0.0,
+     0.793353
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Rigidbody",
+     "fileID": 54799762105739359,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136829625606037309,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.3,
+      0.68596
+     ],
+     "radius": 0.125,
+     "height": 1.4280846,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3/Sticks/Stick_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.25,
+     0.5575,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     -0.130526,
+     0.0,
+     0.991445
+    ],
+    "euler": [
+     0.0,
+     345.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33552309709192268,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23571878917323452,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_3/Sticks/Stick_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     -1.25,
+     0.5575,
+     -4.57
+    ],
+    "rot": [
+     0.0,
+     0.991445,
+     0.0,
+     0.130526
+    ],
+    "euler": [
+     0.0,
+     165.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33651560128206891,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23964469411310401,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.RotatingSpikeTrap",
+     "fileID": 114431740505123533,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "settings": {
+       "rigidBody": "Level_2/Traps/RotatingSpike_4/Sticks#Rigidbody",
+       "direction": 1,
+       "baseRotationSpeed": 0.75
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4/Obstacle-1.000",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     0.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33976365255789935,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.000.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23699617135816954,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Black.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.254,
+     -3.63
+    ],
+    "rot": [
+     0.5,
+     -0.5,
+     0.5,
+     0.5
+    ],
+    "euler": [
+     90.0,
+     270.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.008,
+     0.0
+    ],
+    "rot": [
+     0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.2,
+     0.2,
+     0.2
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212499726237547504,
+     "materials": [
+      {
+       "asset": "0000000000000000f000000000000000",
+       "fileID": 10754
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0.7735849,
+      "g": 0,
+      "b": 0,
+      "a": 0.70980394
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4/Sticks",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.246,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.5,
+     0.0,
+     0.866025
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "Rigidbody",
+     "fileID": 54703931505913403,
+     "mass": 1,
+     "useGravity": 0,
+     "isKinematic": 1,
+     "constraints": 0
+    },
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136121005239445321,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.3,
+      0.68596
+     ],
+     "radius": 0.125,
+     "height": 1.4280846,
+     "direction": 2
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4/Sticks/Stick_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.3,
+     0.5575,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     -0.258819,
+     0.0,
+     0.965926
+    ],
+    "euler": [
+     0.0,
+     330.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33704330047573733,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085275382694935,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_2/Traps/RotatingSpike_4/Sticks/Stick_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 0,
+   "world": {
+    "pos": [
+     1.3,
+     0.5575,
+     -3.63
+    ],
+    "rot": [
+     0.0,
+     0.965926,
+     0.0,
+     0.258819
+    ],
+    "euler": [
+     0.0,
+     150.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.3115,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33194081240383615,
+     "mesh": {
+      "asset": "AssetStore/3D/Traps-Obstacles/Models/Obstacle-1.002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23354824845356902,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color1.mat",
+       "fileID": 2100000
+      },
+      {
+       "asset": "AssetStore/3D/Traps-Obstacles/Materials/Color2.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  }
+ ]
+}

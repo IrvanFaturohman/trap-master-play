@@ -1,0 +1,85 @@
+{
+ "controllers": [
+  {
+   "asset": "AnimatorController/Wall.controller",
+   "parameters": [
+    {
+     "name": "Time",
+     "type": 1,
+     "default": 0
+    }
+   ],
+   "layers": [
+    {
+     "name": "Base Layer",
+     "default": "Wall",
+     "states": [
+      {
+       "name": "Wall",
+       "speed": 1,
+       "motion": "AnimationClip/Wall.anim",
+       "timeParameterActive": 1,
+       "timeParameter": "Time",
+       "speedParameterActive": 0,
+       "speedParameter": null,
+       "cycleOffset": 0,
+       "transitions": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "clips": [
+  {
+   "asset": "AnimationClip/Wall.anim",
+   "name": "Wall",
+   "sampleRate": 60,
+   "wrapMode": 0,
+   "startTime": 0,
+   "stopTime": 3,
+   "loopTime": 1,
+   "events": [
+    {
+     "time": 0.166667,
+     "function": "Shoot",
+     "data": null,
+     "float": 0,
+     "int": 0
+    }
+   ],
+   "curves": [
+    {
+     "path": null,
+     "property": "m_Enabled",
+     "classID": 23,
+     "script": {
+      "fileID": 0
+     },
+     "keys": [
+      [
+       0,
+       1,
+       0,
+       "-inf",
+       1,
+       0,
+       0.333333,
+       0.333333
+      ],
+      [
+       3,
+       1,
+       0,
+       0,
+       1,
+       0,
+       0.333333,
+       0.333333
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

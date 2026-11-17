@@ -1,0 +1,9557 @@
+{
+ "level": 25,
+ "sources": {
+  "asset": "Resources/levels/Level_25.asset",
+  "prefab": "App/Prefabs/Levels/Gameplay/Level_25.prefab",
+  "remote_default": "Resources/LevelSettings.txt (key 'level_settings')"
+ },
+ "groupName": "Twilight Grove",
+ "trapClass": [
+  "CrystalTrap"
+ ],
+ "trapCount": 5,
+ "config_effective": {
+  "targetMoney": 700000.0,
+  "goldReward": 250.0,
+  "bricksReward": 2000,
+  "TrapOffset": 12,
+  "EnemiesOffset": 11,
+  "SpeedOffset": 8,
+  "MaxTrapRV": 2,
+  "TrapStartLevel": 2,
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 350,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "source": "LevelSettings.txt[25] over asset",
+  "blobRewardsOfGoals": [
+   35000,
+   17500,
+   35000,
+   35000,
+   35000,
+   0
+  ]
+ },
+ "config_asset": {
+  "levelGroup": "Resources/levelgroups/LevelGroup_5.asset",
+  "targetMoney": 1000000000.0,
+  "goldReward": 500.0,
+  "bricksReward": 0,
+  "packRewards": {
+   "commonPacks": 4,
+   "epicPacks": 4,
+   "legendaryPacks": 0
+  },
+  "background": "Texture2D/Background_2.png",
+  "backgroundFogColor": {
+   "r": 0.706,
+   "g": 0.078,
+   "b": 0.996,
+   "a": 1
+  },
+  "eliteEnemyPrefab": "GameObject/Elite_1.prefab",
+  "TrapOffset": 7,
+  "EnemiesOffset": 0,
+  "SpeedOffset": 10,
+  "MaxTrapRV": 1,
+  "TrapStartLevel": 2,
+  "levelVanityPrefab": "GameObject/Level_Vanity_25.prefab",
+  "levelGameplayReference": {
+   "m_AssetGUID": "52885d67ff7414699843a1ba6521e15c",
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "levelVanityReference": {
+   "m_AssetGUID": null,
+   "m_SubObjectName": null,
+   "m_SubObjectType": null
+  },
+  "goals": [
+   {
+    "target": 8,
+    "param1": 0,
+    "goalType": 8,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "MysteryBoxOpen"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 3,
+    "blobRewardPercentage": 0.025,
+    "goldReward": 0,
+    "goalName": "TrapLevel"
+   },
+   {
+    "target": 5,
+    "param1": 0,
+    "goalType": 5,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "SpeedLevel"
+   },
+   {
+    "target": 15000,
+    "param1": 0,
+    "goalType": 1,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKills"
+   },
+   {
+    "target": 350,
+    "param1": 5,
+    "goalType": 7,
+    "blobRewardPercentage": 0.05,
+    "goldReward": 0,
+    "goalName": "EnemyKillsInSeconds"
+   },
+   {
+    "target": 0,
+    "param1": 0,
+    "goalType": 0,
+    "blobRewardPercentage": 0,
+    "goldReward": 50,
+    "goalName": "CompleteAll"
+   }
+  ],
+  "isZombieEvent": 0,
+  "baseThreatLevel": 0,
+  "highestThreatLevel": 0,
+  "threatIncreaseRate": 0.003,
+  "trapCosts": null
+ },
+ "levelView": {
+  "component": "Level_25#LevelView",
+  "trapViews": [
+   "Level_25/Traps/CrystalTrap_1#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_5#CrystalTrap"
+  ],
+  "overrideSyncOrder": 1,
+  "trapSyncList": [
+   "Level_25/Traps/CrystalTrap_5#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+   "Level_25/Traps/CrystalTrap_1#CrystalTrap"
+  ],
+  "mysteryBoxPositions": [
+   {
+    "path": "Level_25/MysteryBoxPositions/Position_1",
+    "world": {
+     "pos": [
+      0.155,
+      0.54,
+      0.7
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.155,
+      0.54,
+      0.7
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_25/MysteryBoxPositions/Position_2",
+    "world": {
+     "pos": [
+      0.533,
+      0.54,
+      -1.748
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.533,
+      0.54,
+      -1.748
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   },
+   {
+    "path": "Level_25/MysteryBoxPositions/Position_3",
+    "world": {
+     "pos": [
+      -1.15,
+      0.54,
+      -2.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      -1.15,
+      0.54,
+      -2.39
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "spawnPoints": [
+   null
+  ],
+  "pipeParents": [
+   {
+    "path": "Level_25/PipePoint",
+    "world": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      360.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "local": {
+     "pos": [
+      0.0,
+      0.61,
+      2.07
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "scale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   }
+  ],
+  "tubeViews": [],
+  "doubleGateSpawnPoint": {
+   "path": "Level_25/DoubleGate",
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "traps": [
+  {
+   "index": 0,
+   "path": "Level_25/Traps/CrystalTrap_1",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_25/Traps/CrystalTrap_1#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.175,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/CrystalTrap.ogg",
+     "fileID": 8300000
+    },
+    "connectedCrystal": "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+    "beamLines": [
+     "Level_25/Traps/CrystalTrap_1/CenterLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_1/CenterLine/InnerLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_1/CenterLine/OuterLine#CrystalBeamLine"
+    ],
+    "hitCollider": "Level_25/Traps/CrystalTrap_1/Hitbox#CapsuleCollider",
+    "magicParticle": "Level_25/Traps/CrystalTrap_1/MagicChargeBlue#ParticleSystem"
+   },
+   "world": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "path": "Level_25/Traps/CrystalTrap_2",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_25/Traps/CrystalTrap_2#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.175,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/CrystalTrap.ogg",
+     "fileID": 8300000
+    },
+    "connectedCrystal": "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+    "beamLines": [
+     "Level_25/Traps/CrystalTrap_2/CenterLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_2/CenterLine/InnerLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_2/CenterLine/OuterLine#CrystalBeamLine"
+    ],
+    "hitCollider": "Level_25/Traps/CrystalTrap_2/Hitbox#CapsuleCollider",
+    "magicParticle": "Level_25/Traps/CrystalTrap_2/MagicChargeBlue#ParticleSystem"
+   },
+   "world": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "index": 2,
+   "path": "Level_25/Traps/CrystalTrap_3",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_25/Traps/CrystalTrap_3#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.175,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/CrystalTrap.ogg",
+     "fileID": 8300000
+    },
+    "connectedCrystal": "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+    "beamLines": [
+     "Level_25/Traps/CrystalTrap_3/CenterLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_3/CenterLine/InnerLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_3/CenterLine/OuterLine#CrystalBeamLine"
+    ],
+    "hitCollider": "Level_25/Traps/CrystalTrap_3/Hitbox#CapsuleCollider",
+    "magicParticle": "Level_25/Traps/CrystalTrap_3/MagicChargeBlue#ParticleSystem"
+   },
+   "world": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "scale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   }
+  },
+  {
+   "index": 3,
+   "path": "Level_25/Traps/CrystalTrap_4",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_25/Traps/CrystalTrap_4#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.175,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/CrystalTrap.ogg",
+     "fileID": 8300000
+    },
+    "connectedCrystal": "Level_25/Traps/CrystalTrap_5#CrystalTrap",
+    "beamLines": [
+     "Level_25/Traps/CrystalTrap_4/CenterLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_4/CenterLine/InnerLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_4/CenterLine/OuterLine#CrystalBeamLine"
+    ],
+    "hitCollider": "Level_25/Traps/CrystalTrap_4/Hitbox#CapsuleCollider",
+    "magicParticle": "Level_25/Traps/CrystalTrap_4/MagicChargeBlue#ParticleSystem"
+   },
+   "world": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "scale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   }
+  },
+  {
+   "index": 4,
+   "path": "Level_25/Traps/CrystalTrap_5",
+   "class": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+   "activeSelf": 1,
+   "fields": {
+    "<MaxSpeedLevel>k__BackingField": 10,
+    "maxTime": 4,
+    "components": {
+     "animator": "Level_25/Traps/CrystalTrap_5#Animator"
+    },
+    "settings": {
+     "baseSpeed": 0.175,
+     "speedPerLevel": 0.03,
+     "timeOffsetBetweenTraps": 0.05,
+     "maxMotionTime": 4,
+     "timeOffset": 0,
+     "updateMode": 1
+    },
+    "audioClip": {
+     "asset": "AudioClip/CrystalTrap.ogg",
+     "fileID": 8300000
+    },
+    "connectedCrystal": null,
+    "beamLines": [
+     "Level_25/Traps/CrystalTrap_5/CenterLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_5/CenterLine/InnerLine#CrystalBeamLine",
+     "Level_25/Traps/CrystalTrap_5/CenterLine/OuterLine#CrystalBeamLine"
+    ],
+    "hitCollider": "Level_25/Traps/CrystalTrap_5/Hitbox#CapsuleCollider",
+    "magicParticle": "Level_25/Traps/CrystalTrap_5/MagicChargeBlue#ParticleSystem"
+   },
+   "world": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   }
+  }
+ ],
+ "tagged": {
+  "Finish": [
+   {
+    "path": "Level_25/FinishLine",
+    "world": {
+     "pos": [
+      0.0,
+      0.0,
+      -11.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65346445019804701,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "size": [
+       4.0,
+       5.0,
+       1.0
+      ]
+     }
+    ]
+   }
+  ],
+  "Ground": [
+   {
+    "path": "Level_25/Ground",
+    "world": {
+     "pos": [
+      0.0,
+      -0.321,
+      0.5
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      0.5744,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "BoxCollider",
+      "fileID": 65699617135816954,
+      "isTrigger": 0,
+      "enabled": 1,
+      "center": [
+       0.0,
+       -7.5,
+       -7.5206
+      ],
+      "size": [
+       3.2,
+       17.0,
+       16.95881
+      ]
+     }
+    ]
+   }
+  ],
+  "Axe": [
+   {
+    "path": "Level_25/Traps/CrystalTrap_1/Hitbox",
+    "world": {
+     "pos": [
+      -2.07,
+      0.176,
+      0.66
+     ],
+     "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+     ],
+     "euler": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136641631609468814,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0,
+      "height": 0,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_25/Traps/CrystalTrap_2/Hitbox",
+    "world": {
+     "pos": [
+      1.24,
+      0.176,
+      -0.79
+     ],
+     "rot": [
+      0.0,
+      0.540118,
+      0.0,
+      0.841589
+     ],
+     "euler": [
+      0.0,
+      65.3834,
+      0.0
+     ],
+     "lossyScale": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136592460329389196,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0,
+      "height": 0,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_25/Traps/CrystalTrap_3/Hitbox",
+    "world": {
+     "pos": [
+      -2.28,
+      0.176,
+      -1.48
+     ],
+     "rot": [
+      0.0,
+      -0.242134,
+      0.0,
+      0.970243
+     ],
+     "euler": [
+      0.0,
+      331.975,
+      0.0
+     ],
+     "lossyScale": [
+      1.05,
+      1.05,
+      1.05
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136271925019662038,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0,
+      "height": 0,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_25/Traps/CrystalTrap_4/Hitbox",
+    "world": {
+     "pos": [
+      1.27,
+      0.176,
+      -2.69
+     ],
+     "rot": [
+      0.0,
+      -0.286814,
+      0.0,
+      0.957986
+     ],
+     "euler": [
+      0.0,
+      326.6654,
+      0.0
+     ],
+     "lossyScale": [
+      0.85,
+      0.85,
+      0.85
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136603576887721950,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0,
+      "height": 0,
+      "direction": 1
+     }
+    ]
+   },
+   {
+    "path": "Level_25/Traps/CrystalTrap_5/Hitbox",
+    "world": {
+     "pos": [
+      -2.22,
+      0.176,
+      -3.25
+     ],
+     "rot": [
+      0.0,
+      -0.759273,
+      0.0,
+      0.650772
+     ],
+     "euler": [
+      0.0,
+      261.1997,
+      0.0
+     ],
+     "lossyScale": [
+      0.9,
+      0.9,
+      0.9
+     ]
+    },
+    "colliders": [
+     {
+      "type": "CapsuleCollider",
+      "fileID": 136965908813272002,
+      "isTrigger": 1,
+      "enabled": 1,
+      "center": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "radius": 0,
+      "height": 0,
+      "direction": 1
+     }
+    ]
+   }
+  ]
+ },
+ "meshes": [
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10202
+  },
+  {
+   "asset": "0000000000000000e000000000000000",
+   "fileID": 10209
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_002.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_005.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_2.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_3.asset",
+   "fileID": 4300000
+  },
+  {
+   "asset": "Mesh/Crystal_01.asset",
+   "fileID": 4300000
+  }
+ ],
+ "objects": [
+  {
+   "path": "Level_25",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.LevelView",
+     "fileID": 114356319167443197,
+     "enabled": 1,
+     "fields": {
+      "<Settings>k__BackingField": {
+       "trapSettings": {
+        "trapViews": [
+         "Level_25/Traps/CrystalTrap_1#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_5#CrystalTrap"
+        ],
+        "overrideSyncOrder": 1,
+        "trapSyncList": [
+         "Level_25/Traps/CrystalTrap_5#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+         "Level_25/Traps/CrystalTrap_1#CrystalTrap"
+        ]
+       },
+       "mysteryBoxPositions": [
+        "Level_25/MysteryBoxPositions/Position_1",
+        "Level_25/MysteryBoxPositions/Position_2",
+        "Level_25/MysteryBoxPositions/Position_3"
+       ]
+      },
+      "spawnPoints": [
+       null
+      ],
+      "pipeParents": [
+       "Level_25/PipePoint"
+      ],
+      "tubeViews": [],
+      "doubleGateSpawnPoint": "Level_25/DoubleGate"
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Boundaries",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/Boundaries/Cube",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33329075794784248,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23422702022971346,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65067212629291419,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Boundaries/Cube_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     5.0,
+     50.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33562080017223558,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23129116114662800,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65208269818966246,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Boundaries/Cube_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.0,
+     0.0,
+     7.25
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     20.0,
+     5.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33000342987746139,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10202
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23545683990359770,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 0
+    },
+    {
+     "type": "BoxCollider",
+     "fileID": 65998495239010246,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_25/DoubleGate",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.25,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.25,
+     0.75
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/FinishLine",
+   "tag": "Finish",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     -11.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65346445019804701,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "size": [
+      4.0,
+      5.0,
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Ground",
+   "tag": "Ground",
+   "layer": 9,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     -0.321,
+     0.5
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     0.5744,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "BoxCollider",
+     "fileID": 65699617135816954,
+     "isTrigger": 0,
+     "enabled": 1,
+     "center": [
+      0.0,
+      -7.5,
+      -7.5206
+     ],
+     "size": [
+      3.2,
+      17.0,
+      16.95881
+     ]
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.55,
+     0.22,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "euler": [
+     0.0,
+     180.0,
+     0.0
+    ],
+    "lossyScale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.55,
+     0.22,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     3.0,
+     3.0,
+     3.0
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33055535033279528,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23094283985748868,
+     "materials": [
+      {
+       "asset": "Material/Ground_MagicForestBlue.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    },
+    {
+     "type": "MeshCollider",
+     "fileID": 64878983242975409,
+     "isTrigger": 0,
+     "enabled": 1,
+     "convex": 0,
+     "mesh": {
+      "asset": "0000000000000000e000000000000000",
+      "fileID": 10209
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_001",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.915,
+     0.11,
+     -0.123
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.12167,
+     -0.03667,
+     0.041
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     -0.707107,
+     0.0
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33222568209840903,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23519819979147140,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_001/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.915,
+     0.249,
+     -0.123
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212869737159367836,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_001/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.915,
+     0.249,
+     -0.123
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212410049401584812,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_002",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.6,
+     0.11,
+     -3.48
+    ],
+    "rot": [
+     -0.489751,
+     0.510044,
+     0.510043,
+     0.489751
+    ],
+    "euler": [
+     270.0137,
+     92.3256,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.05,
+     -0.03667,
+     1.16
+    ],
+    "rot": [
+     -0.510043,
+     -0.489751,
+     -0.489751,
+     0.510043
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33996317296757491,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23322008579206753,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_002/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.6,
+     0.249,
+     -3.48
+    ],
+    "rot": [
+     -0.489751,
+     0.510044,
+     0.510043,
+     0.489751
+    ],
+    "euler": [
+     270.0137,
+     92.3256,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212543023241981873,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_002/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.6,
+     0.249,
+     -3.48
+    ],
+    "rot": [
+     -0.489751,
+     0.510044,
+     0.510043,
+     0.489751
+    ],
+    "euler": [
+     270.0137,
+     92.3256,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212250083484182041,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_003",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.12,
+     0.06,
+     -6.21
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.55667,
+     -0.05333,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     -0.707107,
+     0.0
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33344618938641724,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_002.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23085134620244786,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_003/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.12,
+     0.236,
+     -6.21
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.176
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212413603344295461,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_003/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     4.12,
+     0.236,
+     -6.21
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.176
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212403529848822963,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_004",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.67,
+     0.15,
+     2.1
+    ],
+    "rot": [
+     0.001767,
+     -0.707105,
+     -0.707105,
+     -0.001767
+    ],
+    "euler": [
+     270.0,
+     179.7137,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.37333,
+     -0.02333,
+     -0.7
+    ],
+    "rot": [
+     0.707105,
+     0.001767,
+     0.001767,
+     -0.707105
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33173644300073267,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_004.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23543584136297381,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_004/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.67,
+     0.227,
+     2.1
+    ],
+    "rot": [
+     0.001767,
+     -0.707105,
+     -0.707105,
+     -0.001767
+    ],
+    "euler": [
+     270.0,
+     179.7137,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212964822413698908,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_004/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.67,
+     0.227,
+     2.1
+    ],
+    "rot": [
+     0.001767,
+     -0.707105,
+     -0.707105,
+     -0.001767
+    ],
+    "euler": [
+     270.0,
+     179.7137,
+     0.0
+    ],
+    "lossyScale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212329446674688094,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_005",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.4,
+     0.16,
+     4.77
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.28333,
+     -0.02,
+     -1.59
+    ],
+    "rot": [
+     0.0,
+     -0.707107,
+     -0.707107,
+     0.0
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33951712121405908,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_005.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23851449666512103,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_005/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.4,
+     0.237,
+     4.77
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.077
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212246887588868771,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_006",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.09,
+     0.11,
+     6.89
+    ],
+    "rot": [
+     -0.558214,
+     0.434047,
+     0.434047,
+     0.558214
+    ],
+    "euler": [
+     270.0,
+     75.7346,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.51334,
+     -0.03667,
+     -2.29667
+    ],
+    "rot": [
+     -0.434047,
+     -0.558215,
+     -0.558215,
+     0.434047
+    ],
+    "scale": [
+     0.33333,
+     0.33333,
+     0.33333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33894225446638996,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/CaveColumn/CaveColums_A_001.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23041608817324026,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/CaveColumn.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_006/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.09,
+     0.249,
+     6.89
+    ],
+    "rot": [
+     -0.558214,
+     0.434047,
+     0.434047,
+     0.558214
+    ],
+    "euler": [
+     270.0,
+     75.7346,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212949593803130734,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/CaveColums_A_006/Shadow_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.09,
+     0.249,
+     6.89
+    ],
+    "rot": [
+     -0.558214,
+     0.434047,
+     0.434047,
+     0.558214
+    ],
+    "euler": [
+     270.0,
+     75.7346,
+     0.0
+    ],
+    "lossyScale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.139
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     0.4,
+     0.4,
+     0.4
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212041287186795109,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_00",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.27,
+     0.26,
+     1.09
+    ],
+    "rot": [
+     0.0,
+     -0.974168,
+     0.0,
+     -0.225822
+    ],
+    "euler": [
+     0.0,
+     153.8975,
+     0.0
+    ],
+    "lossyScale": [
+     0.7,
+     0.7,
+     0.7
+    ]
+   },
+   "local": {
+    "pos": [
+     1.24,
+     0.01333,
+     -0.36333
+    ],
+    "rot": [
+     0.0,
+     0.225823,
+     0.0,
+     -0.974168
+    ],
+    "scale": [
+     0.23333,
+     0.23333,
+     0.23333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33036828218548272,
+     "mesh": {
+      "asset": "Mesh/Crystal_01.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23777414246829702,
+     "materials": [
+      {
+       "asset": "Material/Crystall_OG1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_00/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.20237,
+     0.26,
+     1.0522
+    ],
+    "rot": [
+     0.159681,
+     -0.688841,
+     -0.688841,
+     -0.159681
+    ],
+    "euler": [
+     270.0,
+     153.8975,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.063,
+     0.0,
+     0.091
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212387228018655110,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_01",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.246,
+     0.26,
+     -0.696
+    ],
+    "rot": [
+     0.0,
+     -0.958761,
+     0.0,
+     0.284215
+    ],
+    "euler": [
+     0.0,
+     213.0239,
+     0.0
+    ],
+    "lossyScale": [
+     0.55,
+     0.55,
+     0.55
+    ]
+   },
+   "local": {
+    "pos": [
+     1.232,
+     0.01333,
+     0.232
+    ],
+    "rot": [
+     0.0,
+     -0.284215,
+     0.0,
+     -0.958761
+    ],
+    "scale": [
+     0.18333,
+     0.18333,
+     0.18333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33364392939154294,
+     "mesh": {
+      "asset": "Mesh/Crystal_01.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23696792502030561,
+     "materials": [
+      {
+       "asset": "Material/Crystall_OG1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_01/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -4.24422,
+     0.26,
+     -0.75685
+    ],
+    "rot": [
+     -0.20097,
+     -0.677946,
+     -0.677946,
+     0.20097
+    ],
+    "euler": [
+     270.0,
+     213.0239,
+     0.0
+    ],
+    "lossyScale": [
+     0.1375,
+     0.1375,
+     0.1375
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.063,
+     0.0,
+     0.091
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212382656168358062,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_02",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.25,
+     0.26,
+     -5.83
+    ],
+    "rot": [
+     0.0,
+     -0.872307,
+     0.0,
+     -0.488959
+    ],
+    "euler": [
+     0.0,
+     121.4557,
+     0.0
+    ],
+    "lossyScale": [
+     0.7,
+     0.7,
+     0.7
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.26667,
+     0.01333,
+     1.94333
+    ],
+    "rot": [
+     0.0,
+     0.488959,
+     0.0,
+     -0.872307
+    ],
+    "scale": [
+     0.23333,
+     0.23333,
+     0.23333
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33260713349338959,
+     "mesh": {
+      "asset": "Mesh/Crystal_01.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23349979204078785,
+     "materials": [
+      {
+       "asset": "Material/Crystall_OG1.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/Drusa_02/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     3.32735,
+     0.26,
+     -5.82562
+    ],
+    "rot": [
+     0.345746,
+     -0.616814,
+     -0.616814,
+     -0.345746
+    ],
+    "euler": [
+     270.0,
+     121.4557,
+     0.0
+    ],
+    "lossyScale": [
+     0.175,
+     0.175,
+     0.175
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.063,
+     0.0,
+     0.091
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212580109562975512,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.508,
+     0.195,
+     -1.47
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.66,
+     0.66,
+     0.66
+    ]
+   },
+   "local": {
+    "pos": [
+     0.986,
+     -0.00833,
+     0.49
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.22,
+     0.22,
+     0.22
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33838352681112328,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23993076962757715,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack7.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_2/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.57268,
+     0.2247,
+     -1.54656
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.165,
+     0.165,
+     0.165
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.098,
+     0.045,
+     -0.116
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212105912343260855,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.93,
+     0.195,
+     -1.56
+    ],
+    "rot": [
+     0.0,
+     -0.671628,
+     0.0,
+     0.740889
+    ],
+    "euler": [
+     0.0,
+     275.6143,
+     0.0
+    ],
+    "lossyScale": [
+     0.66,
+     0.66,
+     0.66
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.82667,
+     -0.00833,
+     0.52
+    ],
+    "rot": [
+     0.0,
+     -0.740888,
+     0.0,
+     -0.671628
+    ],
+    "scale": [
+     0.22,
+     0.22,
+     0.22
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33952854571839949,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_2.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23573076885614623,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack7.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3 (Cyan)",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.282,
+     0.198,
+     1.277
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.66,
+     0.66,
+     0.66
+    ]
+   },
+   "local": {
+    "pos": [
+     1.57733,
+     -0.00733,
+     -0.42567
+    ],
+    "rot": [
+     0.0,
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     0.22,
+     0.22,
+     0.22
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33016782227057731,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23126508818681447,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack8.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3 (Cyan)/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -5.34668,
+     0.2277,
+     1.20044
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.165,
+     0.165,
+     0.165
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.098,
+     0.045,
+     -0.116
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212934287144746640,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3 (Cyan)_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.951,
+     0.198,
+     -4.409
+    ],
+    "rot": [
+     0.0,
+     0.495817,
+     0.0,
+     0.868427
+    ],
+    "euler": [
+     0.0,
+     59.4473,
+     0.0
+    ],
+    "lossyScale": [
+     0.66,
+     0.66,
+     0.66
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.167,
+     -0.00733,
+     1.46967
+    ],
+    "rot": [
+     0.0,
+     -0.868427,
+     0.0,
+     0.495817
+    ],
+    "scale": [
+     0.22,
+     0.22,
+     0.22
+    ]
+   },
+   "components": [
+    {
+     "type": "MeshFilter",
+     "fileID": 33870947366518887,
+     "mesh": {
+      "asset": "AssetStore/3D/StylizedMushrooms/Art/Meshes/MushroomD_3.asset",
+      "fileID": 4300000
+     }
+    },
+    {
+     "type": "MeshRenderer",
+     "fileID": 23505682267929073,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/StylizedMushrooms/Art/Materials/MushroomPack8.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3 (Cyan)_1/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.85219,
+     0.2277,
+     -4.39222
+    ],
+    "rot": [
+     -0.614071,
+     0.350596,
+     0.350596,
+     0.614071
+    ],
+    "euler": [
+     270.0,
+     59.4473,
+     0.0
+    ],
+    "lossyScale": [
+     0.165,
+     0.165,
+     0.165
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.098,
+     0.045,
+     -0.116
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212704877758540679,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MushroomBackground/MushroomD_3/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.99987,
+     0.2247,
+     -1.63186
+    ],
+    "rot": [
+     -0.523887,
+     -0.474913,
+     -0.474913,
+     0.523887
+    ],
+    "euler": [
+     270.0,
+     275.6143,
+     0.0
+    ],
+    "lossyScale": [
+     0.165,
+     0.165,
+     0.165
+    ]
+   },
+   "local": {
+    "pos": [
+     -0.098,
+     0.045,
+     -0.116
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.25,
+     0.25,
+     0.25
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212964675957374274,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/MysteryBoxPositions",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/MysteryBoxPositions/Position_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.155,
+     0.54,
+     0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.155,
+     0.54,
+     0.7
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/MysteryBoxPositions/Position_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.533,
+     0.54,
+     -1.748
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.533,
+     0.54,
+     -1.748
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/MysteryBoxPositions/Position_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.15,
+     0.54,
+     -2.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -1.15,
+     0.54,
+     -2.39
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/PipePoint",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     360.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.61,
+     2.07
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/Traps",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": []
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+     "fileID": 114658330495870062,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_25/Traps/CrystalTrap_1#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.175,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/CrystalTrap.ogg",
+       "fileID": 8300000
+      },
+      "connectedCrystal": "Level_25/Traps/CrystalTrap_2#CrystalTrap",
+      "beamLines": [
+       "Level_25/Traps/CrystalTrap_1/CenterLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_1/CenterLine/InnerLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_1/CenterLine/OuterLine#CrystalBeamLine"
+      ],
+      "hitCollider": "Level_25/Traps/CrystalTrap_1/Hitbox#CapsuleCollider",
+      "magicParticle": "Level_25/Traps/CrystalTrap_1/MagicChargeBlue#ParticleSystem"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95703931505913403,
+     "controller": {
+      "asset": "AnimatorController/CrystalTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/CenterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.327,
+     1.824,
+     -0.338
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.743,
+     1.648,
+     -0.998
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120194081240383615
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114354824845356902,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_1/CenterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/CenterLine/InnerLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.414,
+     3.648,
+     -0.836
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120123703392571528
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114855482821919830,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_1/CenterLine/InnerLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/CenterLine/OuterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -3.414,
+     3.648,
+     -0.836
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120150646884989824
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114880619614767448,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_1/CenterLine/OuterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/Crystal",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137806657225351454,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/Crystall_OG.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/Crystal/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.231,
+     0.66
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.055,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212085275382694935,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.176,
+     0.66
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136641631609468814,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0,
+     "height": 0,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/MagicChargeBlue",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.636,
+     0.66
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.46,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198601984538237284
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199785330607447594
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/MagicChargeBlue/Dust",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.636,
+     0.66
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198690175861776792
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199969505138979683
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_1/MagicChargeBlue/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.07,
+     0.636,
+     0.66
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "euler": [
+     270.0,
+     0.0,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198240571728440943
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199617365563186364
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+     "fileID": 114408345039935966,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_25/Traps/CrystalTrap_2#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.175,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/CrystalTrap.ogg",
+       "fileID": 8300000
+      },
+      "connectedCrystal": "Level_25/Traps/CrystalTrap_3#CrystalTrap",
+      "beamLines": [
+       "Level_25/Traps/CrystalTrap_2/CenterLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_2/CenterLine/InnerLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_2/CenterLine/OuterLine#CrystalBeamLine"
+      ],
+      "hitCollider": "Level_25/Traps/CrystalTrap_2/Hitbox#CapsuleCollider",
+      "magicParticle": "Level_25/Traps/CrystalTrap_2/MagicChargeBlue#ParticleSystem"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95611579644537198,
+     "controller": {
+      "asset": "AnimatorController/CrystalTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/CenterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     0.64219,
+     1.824,
+     -1.88118
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.743,
+     1.648,
+     -0.998
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120386943702330414
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114066778049879928,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_2/CenterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/CenterLine/InnerLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.67987,
+     3.648,
+     -0.1913
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120561126880652180
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114275549183895104,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_2/CenterLine/InnerLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/CenterLine/OuterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.67987,
+     3.648,
+     -0.1913
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120187454977326620
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114091882994760266,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_2/CenterLine/OuterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/Crystal",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137633296557590524,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/Crystall_OG.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/Crystal/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.231,
+     -0.79
+    ],
+    "rot": [
+     -0.595093,
+     0.381921,
+     0.381921,
+     0.595093
+    ],
+    "euler": [
+     270.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.055,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212295428814336086,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.176,
+     -0.79
+    ],
+    "rot": [
+     0.0,
+     0.540118,
+     0.0,
+     0.841589
+    ],
+    "euler": [
+     0.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136592460329389196,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0,
+     "height": 0,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/MagicChargeBlue",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.636,
+     -0.79
+    ],
+    "rot": [
+     -0.595093,
+     0.381921,
+     0.381921,
+     0.595093
+    ],
+    "euler": [
+     270.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.46,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198570723408815475
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199011164340880974
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/MagicChargeBlue/Dust",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.636,
+     -0.79
+    ],
+    "rot": [
+     -0.595093,
+     0.381921,
+     0.381921,
+     0.595093
+    ],
+    "euler": [
+     270.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198992816746925483
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199695600491528212
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_2/MagicChargeBlue/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.24,
+     0.636,
+     -0.79
+    ],
+    "rot": [
+     -0.595093,
+     0.381921,
+     0.381921,
+     0.595093
+    ],
+    "euler": [
+     270.0,
+     65.3834,
+     0.0
+    ],
+    "lossyScale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198291632710222552
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199433013960508438
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "scale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+     "fileID": 114168105826085154,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_25/Traps/CrystalTrap_3#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.175,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/CrystalTrap.ogg",
+       "fileID": 8300000
+      },
+      "connectedCrystal": "Level_25/Traps/CrystalTrap_4#CrystalTrap",
+      "beamLines": [
+       "Level_25/Traps/CrystalTrap_3/CenterLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_3/CenterLine/InnerLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_3/CenterLine/OuterLine#CrystalBeamLine"
+      ],
+      "hitCollider": "Level_25/Traps/CrystalTrap_3/Hitbox#CapsuleCollider",
+      "magicParticle": "Level_25/Traps/CrystalTrap_3/MagicChargeBlue#ParticleSystem"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95038333544927157,
+     "controller": {
+      "asset": "AnimatorController/CrystalTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/CenterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.09897,
+     1.9064,
+     -2.03847
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     0.743,
+     1.648,
+     -0.998
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120709890794832471
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114092105871539913,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_3/CenterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/CenterLine/InnerLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.78768,
+     3.8216,
+     -3.52967
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120589652054545887
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114220697728379336,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_3/CenterLine/InnerLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/CenterLine/OuterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.78768,
+     3.8216,
+     -3.52967
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120831874417830518
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114177930474251431,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_3/CenterLine/OuterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/Crystal",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137168775426067361,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/Crystall_OG.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/Crystal/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.23375,
+     -1.48
+    ],
+    "rot": [
+     -0.686065,
+     -0.171214,
+     -0.171214,
+     0.686065
+    ],
+    "euler": [
+     270.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     0.3465,
+     0.3465,
+     0.3465
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.055,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212592664909728774,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.176,
+     -1.48
+    ],
+    "rot": [
+     0.0,
+     -0.242134,
+     0.0,
+     0.970243
+    ],
+    "euler": [
+     0.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     1.05,
+     1.05,
+     1.05
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136271925019662038,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0,
+     "height": 0,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/MagicChargeBlue",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.659,
+     -1.48
+    ],
+    "rot": [
+     -0.686065,
+     -0.171214,
+     -0.171214,
+     0.686065
+    ],
+    "euler": [
+     270.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     0.3465,
+     0.3465,
+     0.3465
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.46,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198948132087033897
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199320592835458227
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/MagicChargeBlue/Dust",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.659,
+     -1.48
+    ],
+    "rot": [
+     -0.686065,
+     -0.171214,
+     -0.171214,
+     0.686065
+    ],
+    "euler": [
+     270.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     0.3465,
+     0.3465,
+     0.3465
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198689010887986514
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199901155395665742
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_3/MagicChargeBlue/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.28,
+     0.659,
+     -1.48
+    ],
+    "rot": [
+     -0.686065,
+     -0.171214,
+     -0.171214,
+     0.686065
+    ],
+    "euler": [
+     270.0,
+     331.975,
+     0.0
+    ],
+    "lossyScale": [
+     0.3465,
+     0.3465,
+     0.3465
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198738892719839630
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199941304181978548
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "scale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+     "fileID": 114274303670636188,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_25/Traps/CrystalTrap_4#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.175,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/CrystalTrap.ogg",
+       "fileID": 8300000
+      },
+      "connectedCrystal": "Level_25/Traps/CrystalTrap_5#CrystalTrap",
+      "beamLines": [
+       "Level_25/Traps/CrystalTrap_4/CenterLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_4/CenterLine/InnerLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_4/CenterLine/OuterLine#CrystalBeamLine"
+      ],
+      "hitCollider": "Level_25/Traps/CrystalTrap_4/Hitbox#CapsuleCollider",
+      "magicParticle": "Level_25/Traps/CrystalTrap_4/MagicChargeBlue#ParticleSystem"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95887312969816373,
+     "controller": {
+      "asset": "AnimatorController/CrystalTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/CenterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     2.26381,
+     1.5768,
+     -3.05168
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     0.743,
+     1.648,
+     -0.998
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120181586030114204
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114321827775029018,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_4/CenterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/CenterLine/InnerLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.01433,
+     3.1272,
+     -4.38017
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120703247130969877
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114258471659221418,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_4/CenterLine/InnerLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/CenterLine/OuterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.01433,
+     3.1272,
+     -4.38017
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120842968619709538
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114995682140751655,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_4/CenterLine/OuterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/Crystal",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137295926465608920,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/Crystall_OG.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/Crystal/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.22275,
+     -2.69
+    ],
+    "rot": [
+     -0.677399,
+     -0.202808,
+     -0.202808,
+     0.677399
+    ],
+    "euler": [
+     270.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.2805,
+     0.2805,
+     0.2805
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.055,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212083739296819378,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.176,
+     -2.69
+    ],
+    "rot": [
+     0.0,
+     -0.286814,
+     0.0,
+     0.957986
+    ],
+    "euler": [
+     0.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.85,
+     0.85,
+     0.85
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136603576887721950,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0,
+     "height": 0,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/MagicChargeBlue",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.567,
+     -2.69
+    ],
+    "rot": [
+     -0.677399,
+     -0.202808,
+     -0.202808,
+     0.677399
+    ],
+    "euler": [
+     270.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.2805,
+     0.2805,
+     0.2805
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.46,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198132299442727904
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199325787665662832
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/MagicChargeBlue/Dust",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.567,
+     -2.69
+    ],
+    "rot": [
+     -0.677399,
+     -0.202808,
+     -0.202808,
+     0.677399
+    ],
+    "euler": [
+     270.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.2805,
+     0.2805,
+     0.2805
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198407886329842316
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199148353818683595
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_4/MagicChargeBlue/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     1.27,
+     0.567,
+     -2.69
+    ],
+    "rot": [
+     -0.677399,
+     -0.202808,
+     -0.202808,
+     0.677399
+    ],
+    "euler": [
+     270.0,
+     326.6654,
+     0.0
+    ],
+    "lossyScale": [
+     0.2805,
+     0.2805,
+     0.2805
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198932862749439555
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199832474124979885
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "scale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "components": [
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalTrap",
+     "fileID": 114197515695889172,
+     "enabled": 1,
+     "fields": {
+      "<MaxSpeedLevel>k__BackingField": 10,
+      "maxTime": 4,
+      "components": {
+       "animator": "Level_25/Traps/CrystalTrap_5#Animator"
+      },
+      "settings": {
+       "baseSpeed": 0.175,
+       "speedPerLevel": 0.03,
+       "timeOffsetBetweenTraps": 0.05,
+       "maxMotionTime": 4,
+       "timeOffset": 0,
+       "updateMode": 1
+      },
+      "audioClip": {
+       "asset": "AudioClip/CrystalTrap.ogg",
+       "fileID": 8300000
+      },
+      "connectedCrystal": null,
+      "beamLines": [
+       "Level_25/Traps/CrystalTrap_5/CenterLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_5/CenterLine/InnerLine#CrystalBeamLine",
+       "Level_25/Traps/CrystalTrap_5/CenterLine/OuterLine#CrystalBeamLine"
+      ],
+      "hitCollider": "Level_25/Traps/CrystalTrap_5/Hitbox#CapsuleCollider",
+      "magicParticle": "Level_25/Traps/CrystalTrap_5/MagicChargeBlue#ParticleSystem"
+     }
+    },
+    {
+     "type": "Animator",
+     "fileID": 95112815651697755,
+     "controller": {
+      "asset": "AnimatorController/CrystalTrap.controller",
+      "fileID": 9100000
+     },
+     "avatar": null
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/CenterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -1.43468,
+     1.6592,
+     -2.45176
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.743,
+     1.648,
+     -0.998
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120845025230388998
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114527248355756736,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_5/CenterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0.25098038,
+        "g": 0.64399683,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/CenterLine/InnerLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.70439,
+     3.3008,
+     -4.23937
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120484755779879834
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114697715728111791,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_5/CenterLine/InnerLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/CenterLine/OuterLine",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -0.70439,
+     3.3008,
+     -4.23937
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     -2.087,
+     1.824,
+     -0.498
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "LineRenderer",
+     "fileID": 120719897623072781
+    },
+    {
+     "type": "TrapMaster.Gameplay.LevelSystem.Traps.CrystalBeamLine",
+     "fileID": 114689224686120706,
+     "enabled": 1,
+     "fields": {
+      "lineRenderer": "Level_25/Traps/CrystalTrap_5/CenterLine/OuterLine#LineRenderer",
+      "activeColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key1": {
+        "r": 0,
+        "g": 0.42676473,
+        "b": 1,
+        "a": 1
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": -1,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      },
+      "inactiveColor": {
+       "serializedVersion": 2,
+       "key0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key1": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 0
+       },
+       "key2": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key3": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key4": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key5": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key6": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "key7": {
+        "r": 0,
+        "g": 0,
+        "b": 0,
+        "a": 0
+       },
+       "ctime0": 0,
+       "ctime1": 65535,
+       "ctime2": 0,
+       "ctime3": 0,
+       "ctime4": 0,
+       "ctime5": 0,
+       "ctime6": 0,
+       "ctime7": 0,
+       "atime0": 0,
+       "atime1": 65535,
+       "atime2": 0,
+       "atime3": 0,
+       "atime4": 0,
+       "atime5": 0,
+       "atime6": 0,
+       "atime7": 0,
+       "m_Mode": 0,
+       "m_ColorSpace": 0,
+       "m_NumColorKeys": 2,
+       "m_NumAlphaKeys": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/Crystal",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "SkinnedMeshRenderer",
+     "fileID": 137416529295595857,
+     "materials": [
+      {
+       "asset": "AssetStore/3D/Stylized Cave Pack/Materials/Crystall_OG.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "mesh": {
+      "asset": "AssetStore/3D/Stylized Cave Pack/Meshes/Crystals/Crystal_02.asset",
+      "fileID": 4300000
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/Crystal/Shadow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.2255,
+     -3.25
+    ],
+    "rot": [
+     -0.460165,
+     -0.536887,
+     -0.536887,
+     0.460165
+    ],
+    "euler": [
+     270.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.297,
+     0.297,
+     0.297
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.055,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "SpriteRenderer",
+     "fileID": 212904079258986964,
+     "materials": [
+      {
+       "asset": "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat",
+       "fileID": 2100000
+      }
+     ],
+     "enabled": 1,
+     "sprite": {
+      "asset": "App/Art/Sprites/Glow.asset",
+      "fileID": 21300000
+     },
+     "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+     }
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/Hitbox",
+   "tag": "Axe",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.176,
+     -3.25
+    ],
+    "rot": [
+     0.0,
+     -0.759273,
+     0.0,
+     0.650772
+    ],
+    "euler": [
+     0.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.9,
+     0.9,
+     0.9
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "CapsuleCollider",
+     "fileID": 136965908813272002,
+     "isTrigger": 1,
+     "enabled": 1,
+     "center": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "radius": 0,
+     "height": 0,
+     "direction": 1
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/MagicChargeBlue",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.59,
+     -3.25
+    ],
+    "rot": [
+     -0.460165,
+     -0.536887,
+     -0.536887,
+     0.460165
+    ],
+    "euler": [
+     270.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.297,
+     0.297,
+     0.297
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.46,
+     0.0
+    ],
+    "rot": [
+     -0.707107,
+     0.0,
+     0.0,
+     0.707107
+    ],
+    "scale": [
+     0.33,
+     0.33,
+     0.33
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198450889307774998
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199007271993718322
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/MagicChargeBlue/Dust",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.59,
+     -3.25
+    ],
+    "rot": [
+     -0.460165,
+     -0.536887,
+     -0.536887,
+     0.460165
+    ],
+    "euler": [
+     270.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.297,
+     0.297,
+     0.297
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198947810564538834
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199729821067651183
+    }
+   ]
+  },
+  {
+   "path": "Level_25/Traps/CrystalTrap_5/MagicChargeBlue/Glow",
+   "tag": "Untagged",
+   "layer": 0,
+   "active": 1,
+   "world": {
+    "pos": [
+     -2.22,
+     0.59,
+     -3.25
+    ],
+    "rot": [
+     -0.460165,
+     -0.536887,
+     -0.536887,
+     0.460165
+    ],
+    "euler": [
+     270.0,
+     261.1997,
+     0.0
+    ],
+    "lossyScale": [
+     0.297,
+     0.297,
+     0.297
+    ]
+   },
+   "local": {
+    "pos": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "rot": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "scale": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "components": [
+    {
+     "type": "ParticleSystem",
+     "fileID": 198228214996573471
+    },
+    {
+     "type": "ParticleSystemRenderer",
+     "fileID": 199641204913154593
+    }
+   ]
+  }
+ ]
+}

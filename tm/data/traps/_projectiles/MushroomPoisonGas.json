@@ -1,0 +1,155 @@
+[
+ {
+  "name": "MushroomPoisonGas",
+  "tag": "Untagged",
+  "layer": 0,
+  "active": 1,
+  "pos": [
+   0,
+   0.38,
+   0
+  ],
+  "rotQ": [
+   0,
+   0,
+   0,
+   1
+  ],
+  "euler": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.5,
+   1.5,
+   1.5
+  ],
+  "components": [
+   {
+    "type": "MushroomPoisonGas",
+    "enabled": 1,
+    "fields": {}
+   }
+  ],
+  "children": [
+   {
+    "name": "VFX",
+    "tag": "Untagged",
+    "layer": 0,
+    "active": 1,
+    "pos": [
+     0,
+     1,
+     0
+    ],
+    "rotQ": [
+     0,
+     0,
+     0,
+     1
+    ],
+    "euler": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "scale": [
+     1,
+     1,
+     1
+    ],
+    "components": [
+     {
+      "type": "ParticleSystem",
+      "duration": 1.5,
+      "looping": 0,
+      "playOnAwake": 1,
+      "startLifetime": 2.5,
+      "startSpeed": 4,
+      "startSize": 1.8,
+      "startColor": {
+       "r": 0.74509585,
+       "g": 0.23137254,
+       "b": 1,
+       "a": 1
+      },
+      "emissionEnabled": 1,
+      "rateOverTime": 15
+     },
+     {
+      "type": "ParticleSystemRenderer",
+      "m_Materials": [
+       "AssetStore/VFX/Epic Toon FX/Materials/Basics/cloud_2x2_soft_AB.mat#2100000"
+      ],
+      "m_CastShadows": 1,
+      "m_ReceiveShadows": 1,
+      "m_Enabled": 1,
+      "m_Mesh": null,
+      "m_RenderMode": 0
+     }
+    ],
+    "children": [
+     {
+      "name": "Droplets",
+      "tag": "Untagged",
+      "layer": 0,
+      "active": 1,
+      "pos": [
+       0,
+       0,
+       0
+      ],
+      "rotQ": [
+       0,
+       0,
+       0,
+       1
+      ],
+      "euler": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1,
+       1,
+       1
+      ],
+      "components": [
+       {
+        "type": "ParticleSystem",
+        "duration": 1.5,
+        "looping": 0,
+        "playOnAwake": 1,
+        "startLifetime": 1.2,
+        "startSpeed": 3,
+        "startSize": 0.05,
+        "startColor": {
+         "r": 0.8644085,
+         "g": 0.6556604,
+         "b": 1,
+         "a": 1
+        },
+        "emissionEnabled": 1,
+        "rateOverTime": 25
+       },
+       {
+        "type": "ParticleSystemRenderer",
+        "m_Materials": [
+         "AssetStore/VFX/Epic Toon FX/Materials/Basics/circle_AB.mat#2100000"
+        ],
+        "m_CastShadows": 0,
+        "m_ReceiveShadows": 1,
+        "m_Enabled": 1,
+        "m_Mesh": null,
+        "m_RenderMode": 0
+       }
+      ],
+      "children": []
+     }
+    ]
+   }
+  ]
+ }
+]
